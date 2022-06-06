@@ -125,7 +125,7 @@ App As appinfo:
         ClearCollect(OfflineSalesHeader, First('Sales Order'));
         Clear(OfflineSalesHeader);
         
-        //To get Sales Order Schema in "OfflineSalesOrderLines" collection
+        //To get Sales Orderline Schema in "OfflineSalesOrderLines" collection
         ClearCollect(OfflineSalesOrderLines, First('Order Line'));
         Clear(OfflineSalesOrderLines);
     StartScreen: ='Start Screen'
