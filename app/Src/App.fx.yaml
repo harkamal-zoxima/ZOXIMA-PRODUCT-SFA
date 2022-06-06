@@ -120,7 +120,13 @@ App As appinfo:
             "My Offline Price List"
         );
         
+        
+        //To get Sales Order Schema in "OfflineSalesHeader" collection
         ClearCollect(OfflineSalesHeader, First('Sales Order'));
         Clear(OfflineSalesHeader);
+        
+        //To get Sales Order Schema in "OfflineSalesOrderLines" collection
+        ClearCollect(OfflineSalesOrderLines, First('Order Line'));
+        Clear(OfflineSalesOrderLines);
     StartScreen: ='Start Screen'
 
