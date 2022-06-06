@@ -53,7 +53,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =70
         HoverBorderColor: =
-        HoverColor: =RGBA(54, 176, 75, 1)
+        HoverColor: =RGBA(237, 237, 237, 1)
         HoverFill: =
         OnSelect: |-
             =Navigate(
