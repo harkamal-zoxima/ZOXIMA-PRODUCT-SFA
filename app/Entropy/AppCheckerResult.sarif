@@ -1583,7 +1583,7 @@
                 },
                 "region": {
                   "charLength": 8,
-                  "charOffset": 170,
+                  "charOffset": 169,
                   "snippet": {
                     "text": ".Account"
                   }
@@ -1623,7 +1623,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 144,
+                  "charOffset": 143,
                   "snippet": {
                     "text": "="
                   }
@@ -1663,7 +1663,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 762,
+                  "charOffset": 761,
                   "snippet": {
                     "text": ".User"
                   }
@@ -1703,7 +1703,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 669,
+                  "charOffset": 668,
                   "snippet": {
                     "text": "="
                   }
