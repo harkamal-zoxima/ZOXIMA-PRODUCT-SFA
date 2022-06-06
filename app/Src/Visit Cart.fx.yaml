@@ -406,23 +406,23 @@
                             )
                         }
                     )
-                );,
-            
+                );
+                ,
                 Patch(
-                        OfflineSalesHeader,
-                        Defaults(OfflineSalesHeader),
-                        {
-                            'Order Date': Today(),
-                            'Order Status': 'Order Status (Sales Order)'.Open,
-                            Name: Round(
-                                RandBetween(
-                                    10,
-                                    9999
-                                ),
-                                2
-                            )
-                        }
-                    )
+                    OfflineSalesHeader,
+                    Defaults(OfflineSalesHeader),
+                    {
+                        'Order Date': Today(),
+                        'Order Status': 'Order Status (Sales Order)'.Open,
+                        Name: Round(
+                            RandBetween(
+                                10,
+                                9999
+                            ),
+                            2
+                        )
+                    }
+                )
             );
             If(
                 !IsBlank(CreateOrderRecord),
@@ -868,4 +868,66 @@
                 X: =473
                 Y: =146
                 ZIndex: =10
+
+    Timer1_1 As timer:
+        AutoStart: =true
+        BorderColor: =RGBA(73, 130, 5, 1)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =5000
+        Fill: =RGBA(73, 130, 5, 1)
+        Font: =Font.'Segoe UI'
+        Height: =41
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnTimerEnd: |
+            =If(
+                Connection.Connected && varOfflineSales,
+                Notify("You are online. Adding your Sales order in backend.");
+                Patch(
+                    'Sales Order',
+                    Defaults('Sales Order'),
+                    {
+                        'Order Date': Today(),
+                        'Order Status': 'Order Status (Sales Order)'.Open,
+                        Name: Round(
+                            RandBetween(
+                                10,
+                                9999
+                            ),
+                            2
+                        )
+                    }
+                );
+                Refresh('Sales Order');
+                ClearCollect(
+                    OfflineSalesHeader,
+                    Filter(
+                        Visits_1,
+                        'Created By'.User = LookUp(
+                            Users,
+                            'Primary Email' = User().Email
+                        ).User
+                    )
+                );
+                Set(
+                    VarVisit,
+                    true
+                );
+                
+            );
+            Refresh(Visits_1);
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        Repeat: =true
+        Size: =14
+        Visible: =false
+        Width: =101
+        X: =401
+        Y: =35
+        ZIndex: =30
 

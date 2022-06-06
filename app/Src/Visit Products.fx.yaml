@@ -219,6 +219,14 @@
                             item: ThisItem.'Product Item'
                         }
                     );
+                    
+                );
+                If(
+                    !Connection.Connected,
+                    Set(
+                        varOfflineSales,
+                        true
+                    )
                 );
                 Notify(
                     "Item added to cart",
