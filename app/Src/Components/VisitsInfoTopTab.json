@@ -842,12 +842,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637900858023291253",
+    "LastModifiedTimestamp": "637900862758643193",
     "Name": "VisitsInfoTopTab",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "Table(\n    {\n        Title: \"Visit Info\",\n        Screen: 'Start visit',\n        Active: true\n    },\n    {\n        Title: \"Book Order\",\n        Screen: 'Visit Products',\n        Active: false\n    },\n    {\n        Title: Concatenate(\n            \"Cart \",\n            \"(\",\n            CountRows(PrimaryCart),\n            \")\"\n        ),\n        Screen: 'Visit Cart',\n        Active: false\n    },\n    {\n        Title: \"Inventory\",\n        Screen: App.ActiveScreen,\n        Active: false\n    },\n    {\n        Title: \"Complaints\",\n        Screen: Complaints,\n        Active: false\n    },\n    {\n        Title: \"Visit History\",\n        Screen: 'Visit History',\n        Active: false\n    },\n    {\n        Title: \"Retailer Info\",\n        Screen: App.ActiveScreen,\n        Active: false\n    }\n)",
+        "InvariantScript": "Table(\r\n    {\r\n        Title: \"Visit Info\",\r\n        Screen: 'Start visit',\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Book Order\",\r\n        Screen: 'Visit Products',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: Concatenate(\r\n            \"Cart \",\r\n            \"(\",\r\n            CountRows(PrimaryCart),\r\n            \")\"\r\n        ),\r\n        Screen: 'Visit Cart',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Inventory\",\r\n        Screen: App.ActiveScreen,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Visit History\",\r\n        Screen: 'Visit History',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Retailer Info\",\r\n        Screen: App.ActiveScreen,\r\n        Active: false\r\n    }\r\n)",
         "Property": "TabItems",
         "RuleProviderType": "System"
       },
@@ -917,7 +917,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637900858023291253",
+  "LastModifiedTimestamp": "637900862758643193",
   "Name": "c24c8cdda8aa4592a2c19c5f7e216f34",
   "OverridableProperties": {},
   "TemplateOriginalName": "af2011479e5e4ab5a2ebb1d6efd457c3",

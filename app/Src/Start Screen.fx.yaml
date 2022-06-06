@@ -1,0 +1,112 @@
+"'Start Screen' As screen":
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Label2_38 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =21
+        Text: =User().Email
+        Width: =560
+        X: =40
+        Y: =662
+        ZIndex: =1
+
+    Label3_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =141
+        Size: =30
+        Text: =Concatenate("Welcome Back,"," ", User().FullName)
+        Width: =560
+        X: =40
+        Y: =359
+        ZIndex: =2
+
+    Label2_45 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =70
+        Size: =21
+        Text: |-
+            ="Your Email:"
+        Width: =560
+        X: =40
+        Y: =592
+        ZIndex: =3
+
+    Button1_2 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(230, 230, 230, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(200, 200, 200, 1), -20%)
+        OnSelect: |-
+            =Navigate(
+                Home,
+                ScreenTransition.Cover
+            )
+        Size: =24
+        Text: ="Get into App"
+        Width: =280
+        X: =180
+        Y: =896
+        ZIndex: =4
+
+    Label6_3 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(152, 208, 70, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =26
+        Text: ="WELCOME"
+        Width: =560
+        X: =40
+        Y: =80
+        ZIndex: =6
+
+    Label2_46 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =21
+        Text: =LookUp(Users, 'Primary Email'= User().Email).User
+        Visible: =false
+        Width: =560
+        X: =79
+        Y: =1066
+        ZIndex: =7
+
+    Label2_47 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.View
+        Height: =70
+        Size: =21
+        Text: |-
+            ="Office 365 Users Id:"
+        Visible: =false
+        Width: =560
+        X: =79
+        Y: =1042
+        ZIndex: =8
+

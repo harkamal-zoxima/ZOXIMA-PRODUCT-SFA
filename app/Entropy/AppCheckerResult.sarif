@@ -24,7 +24,7 @@
                 },
                 "region": {
                   "charLength": 26,
-                  "charOffset": 216,
+                  "charOffset": 221,
                   "snippet": {
                     "text": "IsToday('Attendance Date')"
                   }
@@ -64,7 +64,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 243,
+                  "charOffset": 248,
                   "snippet": {
                     "text": "&&"
                   }
@@ -104,7 +104,7 @@
                 },
                 "region": {
                   "charLength": 26,
-                  "charOffset": 501,
+                  "charOffset": 519,
                   "snippet": {
                     "text": "IsToday('Attendance Date')"
                   }
@@ -144,7 +144,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 528,
+                  "charOffset": 546,
                   "snippet": {
                     "text": "&&"
                   }
@@ -184,7 +184,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 1124,
+                  "charOffset": 1170,
                   "snippet": {
                     "text": ".User"
                   }
@@ -224,7 +224,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1043,
+                  "charOffset": 1086,
                   "snippet": {
                     "text": "="
                   }
@@ -494,646 +494,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'total hours'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 77,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'total hours'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 281,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'total hours'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 308,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'total hours'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 71,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.Type"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 98,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.Type"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 299,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.Type"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 326,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.Type"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 71,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day started'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 98,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day started'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 311,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day started'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 338,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day started'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 51,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day ended'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 78,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day ended'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 262,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day ended'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 289,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'day ended'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Visits.Timer1.OnTimerEnd"
                 }
               ],
@@ -1144,7 +504,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 603,
+                  "charOffset": 624,
                   "snippet": {
                     "text": ".User"
                   }
@@ -1184,7 +544,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 522,
+                  "charOffset": 540,
                   "snippet": {
                     "text": "="
                   }
@@ -2182,7 +1542,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 241,
+                  "charOffset": 250,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -2222,7 +1582,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 212,
+                  "charOffset": 221,
                   "snippet": {
                     "text": "="
                   }
@@ -2262,7 +1622,7 @@
                 },
                 "region": {
                   "charLength": 26,
-                  "charOffset": 47,
+                  "charOffset": 50,
                   "snippet": {
                     "text": "IsToday('Attendance Date')"
                   }
@@ -2302,7 +1662,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 74,
+                  "charOffset": 77,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2342,7 +1702,7 @@
                 },
                 "region": {
                   "charLength": 26,
-                  "charOffset": 65,
+                  "charOffset": 69,
                   "snippet": {
                     "text": "IsToday('Attendance Date')"
                   }
@@ -2382,7 +1742,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 92,
+                  "charOffset": 96,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2422,7 +1782,7 @@
                 },
                 "region": {
                   "charLength": 26,
-                  "charOffset": 65,
+                  "charOffset": 69,
                   "snippet": {
                     "text": "IsToday('Attendance Date')"
                   }
@@ -2462,7 +1822,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 92,
+                  "charOffset": 96,
                   "snippet": {
                     "text": "&&"
                   }
@@ -3060,7 +2420,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 112,
+                  "charOffset": 116,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -3100,7 +2460,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 85,
+                  "charOffset": 89,
                   "snippet": {
                     "text": "="
                   }
@@ -3140,7 +2500,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 122,
+                  "charOffset": 126,
                   "snippet": {
                     "text": "&&"
                   }
@@ -3180,7 +2540,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 340,
+                  "charOffset": 352,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -3220,7 +2580,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 313,
+                  "charOffset": 325,
                   "snippet": {
                     "text": "="
                   }
@@ -3260,7 +2620,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 712,
+                  "charOffset": 739,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -3300,7 +2660,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 685,
+                  "charOffset": 712,
                   "snippet": {
                     "text": "="
                   }
@@ -3810,120 +3170,640 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Side Bar'.Icon1.AccessibleLabel"
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Side Bar'.Icon1.AccessibleLabel",
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 50,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Side Bar",
-                "type": "'Side Bar'.Icon1"
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'total hours'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "LookUp"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Side Bar'.Icon1.TabIndex"
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Side Bar'.Icon1.TabIndex",
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 77,
+                  "snippet": {
+                    "text": "&&"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Side Bar",
-                "type": "'Side Bar'.Icon1"
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'total hours'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "LookUp"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.AccessibleLabel"
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.AccessibleLabel",
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 281,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Side Bar",
-                "type": "'Side Bar'.Gallery1_1"
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'total hours'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "LookUp"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.TabIndex"
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.TabIndex",
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'total hours'.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 308,
+                  "snippet": {
+                    "text": "&&"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Side Bar",
-                "type": "'Side Bar'.Gallery1_1"
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'total hours'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "LookUp"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 75,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.Type"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 102,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.Type"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 311,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.Type"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.Type.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 338,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.Type"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 75,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day started'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 102,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day started'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 324,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day started'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day started'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 351,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day started'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 51,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day ended'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 78,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day ended'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 262,
+                  "snippet": {
+                    "text": "IsToday('Attendance Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day ended'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'day ended'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 289,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Home",
+                "type": "Home.Canvas1.DataCard1.'day ended'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -4393,6 +4273,126 @@
                 "member": "TabIndex",
                 "module": "Bottom Navigation_7",
                 "type": "'Bottom Navigation_7'.Gallery2.Label2_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Side Bar'.Icon1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Side Bar'.Icon1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Side Bar",
+                "type": "'Side Bar'.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Side Bar'.Icon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Side Bar'.Icon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Side Bar",
+                "type": "'Side Bar'.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Side Bar",
+                "type": "'Side Bar'.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Side Bar'.Gallery1_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Side Bar",
+                "type": "'Side Bar'.Gallery1_1"
               }
             }
           ],
@@ -4993,156 +4993,6 @@
                 "member": "TabIndex",
                 "module": "Primary Order Top Tab_2",
                 "type": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Products.Gallery1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Products.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Products",
-                "type": "Products.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Products.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Products.Gallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Products",
-                "type": "Products.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Products.Gallery1.TextInput1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Products.Gallery1.TextInput1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Products",
-                "type": "Products.Gallery1.TextInput1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Products.Icon6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Products.Icon6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Products",
-                "type": "Products.Icon6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Products.Icon6.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Products.Icon6.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Products",
-                "type": "Products.Icon6"
               }
             }
           ],
@@ -7963,6 +7813,156 @@
                 "member": "TabIndex",
                 "module": "Visit Cart",
                 "type": "'Visit Cart'.Gallery5_1.Label4_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Products.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Products.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Products",
+                "type": "Products.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Products.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Products.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Products",
+                "type": "Products.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Products.Gallery1.TextInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Products.Gallery1.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Products",
+                "type": "Products.Gallery1.TextInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Products.Icon6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Products.Icon6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Products",
+                "type": "Products.Icon6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Products.Icon6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Products.Icon6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Products",
+                "type": "Products.Icon6"
               }
             }
           ],
