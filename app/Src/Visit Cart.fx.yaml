@@ -903,23 +903,13 @@
                     }
                 );
                 Refresh('Sales Order');
-                ClearCollect(
-                    OfflineSalesHeader,
-                    Filter(
-                        Visits_1,
-                        'Created By'.User = LookUp(
-                            Users,
-                            'Primary Email' = User().Email
-                        ).User
-                    )
-                );
                 Set(
-                    VarVisit,
-                    true
+                    varOfflineSales,
+                    false
                 );
                 
             );
-            Refresh(Visits_1);
+            Refresh('Sales Order');
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
