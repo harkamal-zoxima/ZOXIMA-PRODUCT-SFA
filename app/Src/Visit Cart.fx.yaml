@@ -386,18 +386,43 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: |-
-            =ClearCollect(
-                CreateOrderRecord,
+        OnSelect: |
+            =If(
+                Connection.Connected,
+                ClearCollect(
+                    CreateOrderRecord,
+                    Patch(
+                        'Sales Order',
+                        Defaults('Sales Order'),
+                        {
+                            'Order Date': Today(),
+                            'Order Status': 'Order Status (Sales Order)'.Open,
+                            Name: Round(
+                                RandBetween(
+                                    10,
+                                    9999
+                                ),
+                                2
+                            )
+                        }
+                    )
+                );,
+            
                 Patch(
-                    'Sales Order',
-                    Defaults('Sales Order'),
-                    {
-                       'Order Date':Today(),
-                       'Order Status': 'Order Status (Sales Order)'.Open,
-                       Name: Round(RandBetween(10,9999),2)
-                    }
-                )
+                        OfflineSalesHeader,
+                        Defaults(OfflineSalesHeader),
+                        {
+                            'Order Date': Today(),
+                            'Order Status': 'Order Status (Sales Order)'.Open,
+                            Name: Round(
+                                RandBetween(
+                                    10,
+                                    9999
+                                ),
+                                2
+                            )
+                        }
+                    )
             );
             If(
                 !IsBlank(CreateOrderRecord),
@@ -409,10 +434,13 @@
                             'Order Line',
                             Defaults('Order Line'),
                             {
-                               Quantity:Value(ThisRecord.qty),
-                               Name: ThisRecord.name,
-                               'Bill Amoount':ThisRecord.price,
-                               'Order No':  LookUp('Sales Order', Name =  First(CreateOrderRecord.Name).Name)
+                                Quantity: Value(ThisRecord.qty),
+                                Name: ThisRecord.name,
+                                'Bill Amoount': ThisRecord.price,
+                                'Order No': LookUp(
+                                    'Sales Order',
+                                    Name = First(CreateOrderRecord.Name).Name
+                                )
                             }
                         )
                     )

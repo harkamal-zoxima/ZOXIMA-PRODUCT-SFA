@@ -1503,7 +1503,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 766,
+                  "charOffset": 1422,
                   "snippet": {
                     "text": ".Name"
                   }
@@ -1543,7 +1543,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 734,
+                  "charOffset": 1391,
                   "snippet": {
                     "text": "="
                   }
@@ -9383,6 +9383,36 @@
                 "member": "OnVisible",
                 "module": "Visits",
                 "type": "Visits"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-CollectDelegatableDataSource",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.OnStart"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.OnStart",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "OnStart",
+                "module": "App",
+                "type": "App"
               }
             }
           ],

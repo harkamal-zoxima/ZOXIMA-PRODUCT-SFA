@@ -191,12 +191,12 @@
                             name: ThisItem.'Product Name',
                             qty: Bag.Text,
                             price: LookUp(
-                                'Product Price List',
+                                OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price * Bag.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
-                                'Product Price List',
+                                OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price,
                             item: ThisItem.'Product Item'
@@ -208,18 +208,17 @@
                             name: ThisItem.'Product Name',
                             qty: Bag.Text,
                             price: LookUp(
-                                'Product Price List',
+                                OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price * Bag.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
-                                'Product Price List',
+                                OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price,
                             item: ThisItem.'Product Item'
                         }
                     );
-                    
                 );
                 Notify(
                     "Item added to cart",
