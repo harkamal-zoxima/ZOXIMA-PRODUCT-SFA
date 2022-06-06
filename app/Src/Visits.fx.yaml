@@ -1180,7 +1180,7 @@
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnTimerEnd: |
             =If(
-                Connection.Connected && !VarVisit && !IsBlank(NewVisit),
+                Connection.Connected && !VarVisit && !IsBlank(NewVisit) && !IsBlank(LookUp(Visits_1, Customer.Account = First(NewVisit).Customer.Account)),
                 Notify("You are online. Adding your visit in backend.");
                 Patch(
                     Visits_1,
@@ -1194,19 +1194,20 @@
                 );
                 Refresh(Visits_1);
                 ClearCollect(
-                OfflineVisits,
-                Filter(
-                    Visits_1,
-                    'Created By'.User = LookUp(
-                        Users,
-                        'Primary Email' = User().Email
-                    ).User
-                )
-            );
+                    OfflineVisits,
+                    Filter(
+                        Visits_1,
+                        'Created By'.User = LookUp(
+                            Users,
+                            'Primary Email' = User().Email
+                        ).User
+                    )
+                );
                 Set(
                     VarVisit,
                     true
                 );
+                
             );
             Refresh(Visits_1);
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
