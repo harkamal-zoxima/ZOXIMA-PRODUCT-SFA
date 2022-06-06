@@ -468,15 +468,34 @@
                                         true
                                     );
                                 ),
-                                Patch(
-                                    OfflineVisits,
-                                    Last(OfflineVisits),
-                                    {
-                                        'Visit Date': Today(),
-                                        Customer: First(SingleVisit).Account,
-                                        'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
-                                        status: 'status (Visits_1)'.Started
-                                    }
+                                If(
+                                    IsBlank(
+                                        LookUp(
+                                            Visits_1,
+                                            Customer.Account = First(SingleVisit).Account.Account
+                                        )
+                                    ),
+                                    Patch(
+                                        OfflineVisits,
+                                        Last(OfflineVisits),
+                                        {
+                                            'Visit Date': Today(),
+                                            Customer: First(SingleVisit).Account,
+                                            'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
+                                            status: 'status (Visits_1)'.Started
+                                        }
+                                    );
+                                    ,
+                                    Update(
+                                        OfflineVisits,
+                                        Last(OfflineVisits),
+                                        {
+                                            'Visit Date': Today(),
+                                            Customer: First(SingleVisit).Account,
+                                            'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
+                                            status: 'status (Visits_1)'.Started
+                                        }
+                                    )
                                 );
                                 ClearCollect(
                                     OfflineVisitStatus,
