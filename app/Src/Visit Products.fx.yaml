@@ -81,7 +81,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =37
-            Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price + 55)
+            Text: =Concatenate("₹", LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item').Price + 55)
             Width: =109
             X: =33
             Y: =335
@@ -132,7 +132,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =37
-            Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price)
+            Text: =Concatenate("₹", LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item').Price)
             Width: =109
             X: =172
             Y: =335
