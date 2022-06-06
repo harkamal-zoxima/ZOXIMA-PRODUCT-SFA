@@ -1,0 +1,489 @@
+"'Home Targets' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    OnVisible: =Set(varOpen, false)
+
+    Canvas1_2 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =1041
+        Width: =Parent.Width
+        Y: =
+        ZIndex: =3
+
+        DataCard1_2 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =2337
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            HtmlText1_40 As htmlViewer:
+                Color: =RGBA(103, 204, 107, 1)
+                Height: =334
+                HtmlText: |-
+                    ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Width: =640
+                ZIndex: =7
+
+            Icon2_3 As icon.Bell:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =35
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Bell
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =33
+                X: =586
+                Y: =26
+                ZIndex: =20
+
+            PowerBI3_2 As powerbi:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderThickness: =0
+                DashboardId: ="bd1c9d9b-b8fb-4677-bde5-33da4b1af069"
+                Height: =353
+                TileUrl: |-
+                    ="https://app.powerbi.com/embed?dashboardId=bd1c9d9b-b8fb-4677-bde5-33da4b1af069&tileId=cb7fda63-1a08-44ec-989e-c22edf8131dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
+                Width: =620
+                WorkspaceId: ="__my-workspace"
+                X: =20
+                Y: =471
+                ZIndex: =33
+
+            Image1_4 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderThickness: =4
+                Height: =38
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: ='zoxima logo only'
+                PaddingTop: =2
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Width: =123
+                X: =259
+                Y: =23
+                ZIndex: =34
+
+            PowerBI1_2 As powerbi:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderThickness: =0
+                DashboardId: ="987c3cd0-0395-498f-bec3-262a13366bb2"
+                Height: =976
+                TileUrl: |-
+                    ="https://app.powerbi.com/embed?dashboardId=987c3cd0-0395-498f-bec3-262a13366bb2&tileId=e2480394-994c-4073-81ee-9d112bff64dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
+                Width: =588
+                WorkspaceId: ="__my-workspace"
+                X: =20
+                Y: =824
+                ZIndex: =35
+
+            "'Dashboard Top Bar_3' As 'Dashboard Top Bar'":
+                NavItems: |-
+                    =Table(
+                        {
+                            Title: "Daily Reports",
+                            Screen: Home,
+                            Active: false
+                        },
+                        {
+                            Title: "My Details",
+                            Screen: 'Home My Details',
+                            Active: false
+                        },
+                        {
+                            Title: "Targets",
+                            Screen: 'Home Targets',
+                            Active: true
+                        }
+                    )
+                Width: =625
+                X: =15
+                Y: =406
+                ZIndex: =51
+
+            Group9_3 As group:
+                Height: =5
+                Width: =5
+                X: =-17
+                Y: =-32
+                ZIndex: =68
+
+                HtmlText1_31 As htmlViewer:
+                    BorderThickness: =1
+                    Height: =326
+                    HtmlText: |-
+                        ="<div style='border-radius:10px; background-color:#FFF; width:500px; height:300px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    PaddingBottom: =0
+                    PaddingLeft: =10
+                    PaddingRight: =0
+                    PaddingTop: =10
+                    Width: =514
+                    X: =57
+                    Y: =70
+                    ZIndex: =52
+
+                Image1_5 As image:
+                    BorderColor: =RGBA(204, 204, 204, 1)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =1
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =59
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =User().Image
+                    ImagePosition: =ImagePosition.Fill
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    RadiusBottomLeft: =50
+                    RadiusBottomRight: =50
+                    RadiusTopLeft: =50
+                    RadiusTopRight: =50
+                    Width: =59
+                    X: =106
+                    Y: =110
+                    ZIndex: =53
+
+                Label3_8 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(116, 116, 116, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =49
+                    Size: =18
+                    Text: =User().FullName
+                    Width: =349
+                    X: =182
+                    Y: =104
+                    ZIndex: =54
+
+                Label3_10 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(242, 123, 68, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =25
+                    Size: =13
+                    Text: ="Sales Person"
+                    Width: =278
+                    X: =182
+                    Y: =144
+                    ZIndex: =55
+
+                Label4_16 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    Height: =36
+                    Size: =13
+                    Text: ="Attendance Type"
+                    X: =119
+                    Y: =196
+                    ZIndex: =56
+
+                Label4_17 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    Height: =36
+                    Size: =13
+                    Text: ="Total Hours Worked"
+                    Width: =180
+                    X: =369
+                    Y: =196
+                    ZIndex: =57
+
+                "'total hours_2' As label":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(53, 166, 57, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =36
+                    Size: =17
+                    Text: |-
+                        =Text(
+                            LookUp(
+                                Attendences,
+                                IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                                    Users,
+                                    'Primary Email' = User().Email
+                                ).User
+                            ).'End Time',
+                            "hh:mm AM/PM"
+                        ) - Text(
+                            LookUp(
+                                Attendences,
+                                IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                                    Users,
+                                    'Primary Email' = User().Email
+                                ).User
+                            ).'Start Time',
+                            "hh:mm AM/PM"
+                        )
+                    Width: =180
+                    X: =369
+                    Y: =225
+                    ZIndex: =58
+
+                Label4_18 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    Height: =36
+                    Size: =13
+                    Text: ="Day Started At"
+                    X: =119
+                    Y: =280
+                    ZIndex: =59
+
+                "'day started_2' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(53, 166, 57, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =36
+                    Size: =17
+                    Text: |-
+                        =If(!IsBlank(LookUp(
+                                Attendences,
+                                IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                                    Users,
+                                    'Primary Email' = User().Email
+                                ).User
+                            ).'Start Time'),
+                        
+                        Text(
+                            LookUp(
+                                Attendences,
+                                IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                                    Users,
+                                    'Primary Email' = User().Email
+                                ).User
+                            ).'Start Time',
+                            "hh:mm AM/PM"
+                        ), 
+                        "No Record")
+                    Width: =126
+                    X: =119
+                    Y: =313
+                    ZIndex: =60
+
+                Label4_19 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    Height: =36
+                    Size: =13
+                    Text: ="Day Ended At"
+                    X: =369
+                    Y: =280
+                    ZIndex: =61
+
+                "'day ended_2' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(53, 166, 57, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =32
+                    Size: =17
+                    Text: |-
+                        =If(!IsBlank(LookUp(
+                                Attendences,
+                                IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                                    Users,
+                                    'Primary Email' = User().Email
+                                ).User
+                            ).'End Time'),
+                        
+                        Text(
+                            LookUp(
+                                Attendences,
+                                IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                                    Users,
+                                    'Primary Email' = User().Email
+                                ).User
+                            ).'End Time',
+                            "hh:mm AM/PM"
+                        ), "No Record")
+                    Width: =124
+                    X: =369
+                    Y: =316
+                    ZIndex: =62
+
+                Label3_9 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(242, 123, 68, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
+                    Height: =25
+                    Size: =13
+                    Text: =Text(Today(), "dd mmm yyyy")
+                    Width: =143
+                    X: =408
+                    Y: =121
+                    ZIndex: =63
+
+                HtmlText1_32 As htmlViewer:
+                    DisplayMode: =DisplayMode.View
+                    Height: =51
+                    HtmlText: |-
+                        ="<div style='border-radius:10px; background-color:#F27B44; opacity: 0.2; width:140px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    Width: =155
+                    X: =403
+                    Y: =111
+                    ZIndex: =64
+
+                Type_2 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(53, 166, 57, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =36
+                    Size: =17
+                    Text: ="Present"
+                    Width: =126
+                    X: =119
+                    Y: =229
+                    ZIndex: =65
+
+                HtmlText1_34 As htmlViewer:
+                    DisplayMode: =DisplayMode.View
+                    Height: =61
+                    HtmlText: |-
+                        ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:120px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    Width: =142
+                    X: =117
+                    Y: =310
+                    ZIndex: =66
+
+                HtmlText1_33 As htmlViewer:
+                    DisplayMode: =DisplayMode.View
+                    Height: =61
+                    HtmlText: |-
+                        ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:120px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    Width: =142
+                    X: =369
+                    Y: =309
+                    ZIndex: =67
+
+    "'Side Bar_6' As 'Side Bar'":
+        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+        ZIndex: =5
+
+    "'Bottom Navigation_6' As 'Bottom Navigation'":
+        NavItems: |-
+            =Table( {
+                    Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
+                    //Title: Start,
+                    Screen: If(varAttendance= "start" , StartDay, varAttendance= "end" , 'End day', varAttendance= "done" , 'Day Ended' ),
+                
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Visits",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Orders",
+                    Screen: 'All Orders',
+                    Icon: ShoppingCart,
+                    Active: true
+                }
+                )
+        Y: =1056
+        ZIndex: =6
+

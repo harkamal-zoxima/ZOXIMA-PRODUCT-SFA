@@ -1,0 +1,63 @@
+"'Dashboard Top Bar' As CanvasComponent":
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =60
+    NavItems: |-
+        =Table(
+            {
+                Title: "Daily Reports",
+                Screen: Home,
+                Active: true
+            },
+            {
+                Title: "My Details",
+                Screen: 'Home My Details',
+                Active: false
+            },
+            {
+                Title: "Targets",
+                Screen: 'Home Targets',
+                Active: false
+            }
+        )
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Gallery2_2 As gallery.galleryHorizontal:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Height: =56
+        Items: ='Dashboard Top Bar'.NavItems
+        OnSelect: =Navigate(ThisItem.Screen,ScreenTransition.Fade)
+        ShowScrollbar: =false
+        TemplateSize: =195
+        ZIndex: =1
+
+        Rectangle3_1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =If(ThisItem.Active, RGBA(103, 204, 107, 0.26), RGBA(103, 204, 107, 0.1))
+            FocusedBorderThickness: =4
+            Height: =46
+            HoverFill: =RGBA(103, 204, 107, 0.28)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(103, 204, 107, 0.25)
+            Width: =195
+            ZIndex: =1
+
+        Label2_37 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =If(ThisItem.Active, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            OnSelect: |
+                =Navigate(ThisItem.Screen,ScreenTransition.Cover)
+            Size: =18
+            Text: =ThisItem.Title
+            Width: =184
+            ZIndex: =3
+
