@@ -44,15 +44,17 @@
         ZIndex: =3
 
     Button1_2 As button:
-        Color: =RGBA(0, 0, 0, 1)
+        BorderColor: =RGBA(54, 176, 75, 1)
+        Color: =RGBA(54, 176, 75, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(230, 230, 230, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Semibold
         Height: =70
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(200, 200, 200, 1), -20%)
+        HoverBorderColor: =
+        HoverColor: =RGBA(54, 176, 75, 1)
+        HoverFill: =
         OnSelect: |-
             =Navigate(
                 Home,
