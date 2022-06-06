@@ -386,7 +386,7 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: |
+        OnSelect: |-
             =If(
                 Connection.Connected,
                 ClearCollect(
@@ -422,28 +422,6 @@
                             2
                         )
                     }
-                )
-            );
-            If(
-                !IsBlank(CreateOrderRecord),
-                ClearCollect(
-                    CreateItemsRecord,
-                    ForAll(
-                        PrimaryCart,
-                        Patch(
-                            'Order Line',
-                            Defaults('Order Line'),
-                            {
-                                Quantity: Value(ThisRecord.qty),
-                                Name: ThisRecord.name,
-                                'Bill Amoount': ThisRecord.price,
-                                'Order No': LookUp(
-                                    'Sales Order',
-                                    Name = First(CreateOrderRecord.Name).Name
-                                )
-                            }
-                        )
-                    )
                 )
             );
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
