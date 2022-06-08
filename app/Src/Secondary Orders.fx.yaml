@@ -492,7 +492,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =46
         Size: =21
-        Text: ="Primary Orders"
+        Text: ="Secondary Orders"
         Width: =560
         X: =80
         Y: =12
