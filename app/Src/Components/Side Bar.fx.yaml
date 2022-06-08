@@ -41,12 +41,14 @@
         Label5 As label:
             BorderColor: =RGBA(0, 18, 107, 1)
             Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(237, 237, 237, 1)
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =57
             OnSelect: =Select(Parent)
             PaddingLeft: =20
+            PressedBorderColor: =Black
+            PressedFill: =RGBA(237,237,237,1)
             Size: =18
             Text: =ThisItem.Value
             Width: =310

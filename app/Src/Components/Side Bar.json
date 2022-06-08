@@ -58,7 +58,7 @@
         "Name": "Rectangle1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 710,
+        "PublishOrderIndex": 659,
         "Rules": [
           {
             "Category": "Design",
@@ -230,7 +230,7 @@
         "Name": "Icon1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 711,
+        "PublishOrderIndex": 660,
         "Rules": [
           {
             "Category": "Design",
@@ -448,7 +448,7 @@
         "Name": "Image3",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 712,
+        "PublishOrderIndex": 661,
         "Rules": [
           {
             "Category": "Data",
@@ -669,7 +669,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 714,
+            "PublishOrderIndex": 663,
             "Rules": [
               {
                 "Category": "Design",
@@ -703,18 +703,39 @@
               "Text",
               "Role",
               "Color",
-              "DisabledColor",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "DisabledColor",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "PressedColor",
               "HoverColor",
               "BorderColor",
               "DisabledBorderColor",
-              "PressedBorderColor",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "Self.BorderColor",
+                "InvariantPropertyName": "PressedBorderColor",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "HoverBorderColor",
               "BorderStyle",
               "FocusedBorderColor",
               "Fill",
               "DisabledFill",
-              "PressedFill",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "Self.Fill",
+                "InvariantPropertyName": "PressedFill",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "HoverFill",
               {
                 "AFDDataSourceName": "",
@@ -787,7 +808,7 @@
             "Name": "Label5",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 715,
+            "PublishOrderIndex": 664,
             "Rules": [
               {
                 "Category": "Data",
@@ -821,7 +842,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(166, 166, 166, 1)",
+                "InvariantScript": "RGBA(237, 237, 237, 1)",
                 "Property": "DisabledColor",
                 "RuleProviderType": "Unknown"
               },
@@ -851,7 +872,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Self.BorderColor",
+                "InvariantScript": "Black",
                 "Property": "PressedBorderColor",
                 "RuleProviderType": "Unknown"
               },
@@ -887,7 +908,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Self.Fill",
+                "InvariantScript": "RGBA(237,237,237,1)",
                 "Property": "PressedFill",
                 "RuleProviderType": "Unknown"
               },
@@ -1094,7 +1115,7 @@
             "Name": "Rectangle2",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 716,
+            "PublishOrderIndex": 665,
             "Rules": [
               {
                 "Category": "Design",
@@ -1271,7 +1292,7 @@
         "Name": "Gallery1_1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 713,
+        "PublishOrderIndex": 662,
         "Rules": [
           {
             "Category": "Data",
@@ -1470,7 +1491,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "637902597549495946",
+    "LastModifiedTimestamp": "637902701128089021",
     "Name": "Side Bar",
     "Rules": [
       {
@@ -1529,7 +1550,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637902597549495946",
+  "LastModifiedTimestamp": "637902701128089021",
   "Name": "69894502ba10475d874bab19096f81b6",
   "OverridableProperties": {},
   "TemplateOriginalName": "44296e90674643d98cbafda09bd9f5fa",
