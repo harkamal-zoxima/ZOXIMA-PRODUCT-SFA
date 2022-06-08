@@ -1296,7 +1296,7 @@
         "Rules": [
           {
             "Category": "Data",
-            "InvariantScript": "[\"Profile\", \"Distributor KYC\", \"Ledger Report\", \"Payments\", \"Primary Orders\",\"Secondary Orders\",\"Schemes\", \"Events\" ]",
+            "InvariantScript": "[\n    {\n        title: \"Profile\",\n        screen: Profile\n    },\n    {\n        title: \"Distributor KYC\",\n        screen: Profile\n    },\n    {\n        title: \"Ledger Report\",\n        screen: Profile\n    },\n    {\n        title: \"Primary Orders\",\n        screen: Profile\n    },\n    {\n        title: \"Secondary Orders\",\n        screen: Profile\n    },\n    {\n        title: \"Schemes\",\n        screen: Profile\n    },\n    {\n        title: \"Events\",\n        screen: Profile\n    }\n]",
             "Property": "Items",
             "RuleProviderType": "Unknown"
           },
@@ -1491,7 +1491,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "637902701128089021",
+    "LastModifiedTimestamp": "637902702823739525",
     "Name": "Side Bar",
     "Rules": [
       {
@@ -1550,7 +1550,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637902701128089021",
+  "LastModifiedTimestamp": "637902702823739525",
   "Name": "69894502ba10475d874bab19096f81b6",
   "OverridableProperties": {},
   "TemplateOriginalName": "44296e90674643d98cbafda09bd9f5fa",

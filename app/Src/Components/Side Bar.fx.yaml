@@ -30,7 +30,37 @@
     Gallery1_1 As gallery.galleryVertical:
         BorderColor: =RGBA(0, 18, 107, 1)
         Height: =982
-        Items: =["Profile", "Distributor KYC", "Ledger Report", "Payments", "Primary Orders","Secondary Orders","Schemes", "Events" ]
+        Items: |-
+            =[
+                {
+                    title: "Profile",
+                    screen: Profile
+                },
+                {
+                    title: "Distributor KYC",
+                    screen: Profile
+                },
+                {
+                    title: "Ledger Report",
+                    screen: Profile
+                },
+                {
+                    title: "Primary Orders",
+                    screen: Profile
+                },
+                {
+                    title: "Secondary Orders",
+                    screen: Profile
+                },
+                {
+                    title: "Schemes",
+                    screen: Profile
+                },
+                {
+                    title: "Events",
+                    screen: Profile
+                }
+            ]
         Layout: =Layout.Vertical
         TemplateSize: =61
         Visible: =varOpen
