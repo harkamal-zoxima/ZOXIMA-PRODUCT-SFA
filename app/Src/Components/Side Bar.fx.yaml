@@ -17,11 +17,11 @@
             },
             {
                 title: "Primary Orders",
-                screen: Profile
+                screen: 'All Orders'
             },
             {
                 title: "Secondary Orders",
-                screen: Profile
+                screen: 'Secondary Orders'
             },
             {
                 title: "Schemes",
