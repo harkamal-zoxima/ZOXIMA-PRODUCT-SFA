@@ -1,6 +1,37 @@
 "'Side Bar' As CanvasComponent":
     Fill: =If(varOpen, RGBA(255, 255 ,255, 1), Transparent)
     Height: =If(varOpen, App.Height, 70)
+    NavItems: |-
+        =[
+            {
+                title: "Profile",
+                screen: Profile
+            },
+            {
+                title: "Distributor KYC",
+                screen: Profile
+            },
+            {
+                title: "Ledger Report",
+                screen: Profile
+            },
+            {
+                title: "Primary Orders",
+                screen: Profile
+            },
+            {
+                title: "Secondary Orders",
+                screen: Profile
+            },
+            {
+                title: "Schemes",
+                screen: Profile
+            },
+            {
+                title: "Events",
+                screen: Profile
+            }
+        ]
     Width: =If(varOpen, 320, 70)
     X: =0
     Y: =0
@@ -30,37 +61,7 @@
     Gallery1_1 As gallery.galleryVertical:
         BorderColor: =RGBA(0, 18, 107, 1)
         Height: =982
-        Items: |-
-            =[
-                {
-                    title: "Profile",
-                    screen: Profile
-                },
-                {
-                    title: "Distributor KYC",
-                    screen: Profile
-                },
-                {
-                    title: "Ledger Report",
-                    screen: Profile
-                },
-                {
-                    title: "Primary Orders",
-                    screen: Profile
-                },
-                {
-                    title: "Secondary Orders",
-                    screen: Profile
-                },
-                {
-                    title: "Schemes",
-                    screen: Profile
-                },
-                {
-                    title: "Events",
-                    screen: Profile
-                }
-            ]
+        Items: ='Side Bar'.NavItems
         Layout: =Layout.Vertical
         TemplateSize: =61
         Visible: =varOpen
@@ -80,7 +81,7 @@
             PressedBorderColor: =Black
             PressedFill: =RGBA(237,237,237,1)
             Size: =18
-            Text: =ThisItem.title
+            Text: =ThisItem.Value.title
             Width: =310
             ZIndex: =1
 
