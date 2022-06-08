@@ -995,19 +995,13 @@
                 Items: |-
                     =Table(
                         {
-                            Title: "Daily Reports",
-                            Screen: Home,
-                            Active: true
+                            Title: "Daily Reports"
                         },
                         {
-                            Title: "My Details",
-                            Screen: 'Home My Details',
-                            Active: false
+                            Title: "My Details"
                         },
                         {
-                            Title: "Targets",
-                            Screen: 'Home Targets',
-                            Active: false
+                            Title: "Targets"
                         }
                     )
                 OnSelect: =
