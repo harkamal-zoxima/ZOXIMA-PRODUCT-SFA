@@ -1,4 +1,4 @@
-Order_info As screen:
+"'Order Info' As screen":
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
     OnVisible: =Set(varOpen, false)
 
@@ -895,7 +895,7 @@ Order_info As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(146, 180, 105, 0.92)
+        Fill: =RGBA(103, 204, 107, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
@@ -946,7 +946,7 @@ Order_info As screen:
 
     Icon3 As icon.ArrowLeft:
         BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(73, 130, 5, 1)
+        Color: =RGBA(103, 204, 107, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)

@@ -64,6 +64,8 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =51
+            OnSelect: |-
+                =Navigate('Order Info', ScreenTransition.Fade, {order: ThisItem})
             Size: =20
             Text: =ThisItem.Name
             Width: =289
