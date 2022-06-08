@@ -1011,7 +1011,7 @@
                             Active: false
                         }
                     )
-                OnSelect: =Navigate(ThisItem.Screen,ScreenTransition.Fade)
+                OnSelect: =
                 ShowScrollbar: =false
                 TemplateSize: =195
                 Width: =624
@@ -1023,7 +1023,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =If(ThisItem.Active, RGBA(103, 204, 107, 0.26), RGBA(103, 204, 107, 0.1))
+                    Fill: =If(ThisItem.IsSelected, RGBA(103, 204, 107, 0.26), RGBA(103, 204, 107, 0.1))
                     FocusedBorderThickness: =4
                     Height: =46
                     HoverFill: =RGBA(103, 204, 107, 0.28)
@@ -1035,13 +1035,12 @@
                 Label2_48 As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =If(ThisItem.Active, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))
+                    Color: =If(ThisItem.IsSelected, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Semibold
                     Height: =46
-                    OnSelect: |
-                        =Navigate(ThisItem.Screen,ScreenTransition.Cover)
+                    OnSelect: =
                     Size: =18
                     Text: =ThisItem.Title
                     Width: =184

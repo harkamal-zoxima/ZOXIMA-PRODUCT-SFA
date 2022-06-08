@@ -9360,66 +9360,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'Dashboard Toptab'.Label2_48.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'Dashboard Toptab'.Label2_48.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'Dashboard Toptab'.Label2_48"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'Dashboard Toptab'.Label2_48.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Canvas1.DataCard1.'Dashboard Toptab'.Label2_48.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Home",
-                "type": "Home.Canvas1.DataCard1.'Dashboard Toptab'.Label2_48"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.VisitStarted"
                 }
               ],
