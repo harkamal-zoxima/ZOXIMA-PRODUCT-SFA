@@ -218,7 +218,7 @@
             OnSelect: =Select(Parent)
             Width: =172
             X: =434
-            Y: =8
+            Y: =12
             ZIndex: =13
 
         Label2_13 As label:
@@ -248,7 +248,7 @@
             Text: =ThisItem.'Order Status'
             Width: =160
             X: =434
-            Y: =19
+            Y: =23
             ZIndex: =14
 
         Button6 As button:
@@ -278,8 +278,8 @@
             Size: =18
             Text: =ThisItem.Name
             Width: =229
-            X: =60
-            Y: =15
+            X: =56
+            Y: =11
             ZIndex: =24
 
         Group4 As group:
