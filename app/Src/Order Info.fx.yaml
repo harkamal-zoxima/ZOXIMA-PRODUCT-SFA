@@ -21,7 +21,7 @@
         Text: ="Order No."
         Width: =130
         X: =37
-        Y: =196
+        Y: =226
         ZIndex: =5
 
     Label5_25 As label:
@@ -39,7 +39,7 @@
         Text: ="Nav Order No."
         Width: =186
         X: =338
-        Y: =196
+        Y: =226
         ZIndex: =8
 
     Label5_52 As label:
@@ -58,7 +58,7 @@
         Text: =
         Width: =235
         X: =56
-        Y: =868
+        Y: =898
         ZIndex: =48
 
     Label5_54 As label:
@@ -77,7 +77,7 @@
         Text: =
         Width: =235
         X: =356
-        Y: =866
+        Y: =896
         ZIndex: =51
 
     Label5_56 As label:
@@ -96,7 +96,7 @@
         Text: =
         Width: =235
         X: =56
-        Y: =893
+        Y: =923
         ZIndex: =54
 
     "'Header Component_17' As 'Header Component_11'":
@@ -149,7 +149,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =38
-        Y: =233
+        Y: =263
         ZIndex: =58
 
     TextInput2_5 As text:
@@ -176,7 +176,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =343
-        Y: =233
+        Y: =263
         ZIndex: =59
 
     Label5_24 As label:
@@ -194,7 +194,7 @@
         Text: ="Order Type"
         Width: =183
         X: =38
-        Y: =297
+        Y: =327
         ZIndex: =60
 
     Label5_26 As label:
@@ -212,7 +212,7 @@
         Text: ="Order Date"
         Width: =186
         X: =339
-        Y: =297
+        Y: =327
         ZIndex: =61
 
     TextInput2_6 As text:
@@ -239,7 +239,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =39
-        Y: =334
+        Y: =364
         ZIndex: =62
 
     TextInput2_7 As text:
@@ -266,7 +266,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =344
-        Y: =334
+        Y: =364
         ZIndex: =63
 
     Label5_27 As label:
@@ -284,7 +284,7 @@
         Text: ="Status"
         Width: =230
         X: =39
-        Y: =398
+        Y: =428
         ZIndex: =64
 
     Label5_28 As label:
@@ -302,7 +302,7 @@
         Text: ="Order From"
         Width: =186
         X: =340
-        Y: =398
+        Y: =428
         ZIndex: =65
 
     TextInput2_8 As text:
@@ -329,7 +329,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =40
-        Y: =435
+        Y: =465
         ZIndex: =66
 
     TextInput2_9 As text:
@@ -356,7 +356,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =345
-        Y: =435
+        Y: =465
         ZIndex: =67
 
     Label5_29 As label:
@@ -374,7 +374,7 @@
         Text: ="Order To"
         Width: =130
         X: =40
-        Y: =499
+        Y: =529
         ZIndex: =68
 
     Label5_30 As label:
@@ -392,7 +392,7 @@
         Text: ="Bill Amount (Without GST)"
         Width: =299
         X: =341
-        Y: =499
+        Y: =529
         ZIndex: =69
 
     TextInput2_10 As text:
@@ -419,7 +419,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =41
-        Y: =536
+        Y: =566
         ZIndex: =70
 
     TextInput2_11 As text:
@@ -446,7 +446,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =346
-        Y: =536
+        Y: =566
         ZIndex: =71
 
     Label5_31 As label:
@@ -464,7 +464,7 @@
         Text: ="CGST"
         Width: =183
         X: =41
-        Y: =602
+        Y: =632
         ZIndex: =72
 
     Label5_32 As label:
@@ -482,7 +482,7 @@
         Text: ="SGST"
         Width: =186
         X: =342
-        Y: =602
+        Y: =632
         ZIndex: =73
 
     TextInput2_12 As text:
@@ -509,7 +509,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =42
-        Y: =639
+        Y: =669
         ZIndex: =74
 
     TextInput2_13 As text:
@@ -536,7 +536,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =347
-        Y: =639
+        Y: =669
         ZIndex: =75
 
     Label5_33 As label:
@@ -554,7 +554,7 @@
         Text: ="IGST"
         Width: =230
         X: =42
-        Y: =703
+        Y: =733
         ZIndex: =76
 
     Label5_34 As label:
@@ -572,7 +572,7 @@
         Text: ="Remarks"
         Width: =186
         X: =343
-        Y: =703
+        Y: =733
         ZIndex: =77
 
     TextInput2_14 As text:
@@ -599,7 +599,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =43
-        Y: =740
+        Y: =770
         ZIndex: =78
 
     TextInput2_15 As text:
@@ -626,7 +626,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =348
-        Y: =740
+        Y: =770
         ZIndex: =79
 
     Label5_35 As label:
@@ -644,7 +644,7 @@
         Text: ="LOB"
         Width: =130
         X: =43
-        Y: =804
+        Y: =834
         ZIndex: =80
 
     Label5_36 As label:
@@ -662,7 +662,7 @@
         Text: ="Division"
         Width: =186
         X: =344
-        Y: =804
+        Y: =834
         ZIndex: =81
 
     TextInput2_16 As text:
@@ -689,7 +689,7 @@
         RadiusTopRight: =0
         Width: =265
         X: =44
-        Y: =841
+        Y: =871
         ZIndex: =82
 
     TextInput2_17 As text:
@@ -716,6 +716,53 @@
         RadiusTopRight: =0
         Width: =265
         X: =349
-        Y: =841
+        Y: =871
         ZIndex: =83
+
+    "'Dashboard Toptab_1' As gallery.galleryHorizontal":
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Height: =56
+        Items: |-
+            =Table(
+                {
+                    Title: "Order Info"
+                },
+                {
+                    Title: "Order Lines"
+                }
+            )
+        OnSelect: =
+        ShowScrollbar: =false
+        TemplateSize: =195
+        Width: =405
+        X: =117
+        Y: =113
+        ZIndex: =84
+
+        Rectangle3_3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =If(ThisItem.IsSelected, RGBA(103, 204, 107, 0.26), RGBA(103, 204, 107, 0.1))
+            FocusedBorderThickness: =4
+            Height: =46
+            HoverFill: =RGBA(103, 204, 107, 0.28)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(103, 204, 107, 0.25)
+            Width: =195
+            ZIndex: =1
+
+        Label2_49 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =If(ThisItem.IsSelected, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            OnSelect: =
+            Size: =18
+            Text: =ThisItem.Title
+            Width: =184
+            ZIndex: =3
 
