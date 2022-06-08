@@ -3,66 +3,6 @@
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
     OnVisible: =Set(varOpen, false)
 
-    Planned_2 As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderThickness: =0
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(103, 204, 107, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =66
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =
-        OnSelect: =
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Text: ="UNPLANNED VISIT"
-        Visible: =varIconSelected
-        Width: =310
-        X: =290
-        Y: =882
-        ZIndex: =8
-
-    Unplanned_2 As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderThickness: =0
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(103, 204, 107, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =66
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =
-        OnSelect: =
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Text: ="PLAN VISIT"
-        Visible: =varIconSelected
-        Width: =310
-        X: =290
-        Y: =806
-        ZIndex: =9
-
     VisitsInfoTopTab_4 As VisitsInfoTopTab:
         TabItems: |-
             =Table(
@@ -396,14 +336,7 @@
                         Defaults('Sales Order'),
                         {
                             'Order Date': Today(),
-                            'Order Status': 'Order Status (Sales Order)'.Open,
-                            Name: Round(
-                                RandBetween(
-                                    10,
-                                    9999
-                                ),
-                                2
-                            )
+                            'Order Status': 'Order Status (Sales Order)'.Open
                         }
                     )
                 );
