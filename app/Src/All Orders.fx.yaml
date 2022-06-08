@@ -802,7 +802,7 @@
             PressedBorderColor: =
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =
-            Size: =11
+            Size: =12
             Text: =ThisItem.Value
             Width: =179
             X: =7
