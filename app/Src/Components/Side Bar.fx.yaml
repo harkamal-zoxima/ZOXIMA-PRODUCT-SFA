@@ -76,7 +76,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =57
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate(ThisItem.Value.screen, ScreenTransition.Fade)
             PaddingLeft: =20
             PressedBorderColor: =Black
             PressedFill: =RGBA(237,237,237,1)

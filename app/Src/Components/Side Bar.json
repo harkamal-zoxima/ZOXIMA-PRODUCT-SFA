@@ -774,7 +774,14 @@
               "Width",
               "Height",
               "DisplayMode",
-              "OnSelect",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "Select(Parent)",
+                "InvariantPropertyName": "OnSelect",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "ZIndex",
               "LineHeight",
               "BorderThickness",
@@ -1053,7 +1060,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Select(Parent)",
+                "InvariantScript": "Navigate(ThisItem.Value.screen, ScreenTransition.Fade)",
                 "Property": "OnSelect",
                 "RuleProviderType": "Unknown"
               }
@@ -1499,7 +1506,7 @@
       "ZIndex",
       "NavItems"
     ],
-    "LastModifiedTimestamp": "637902706293343484",
+    "LastModifiedTimestamp": "637902707007656037",
     "Name": "Side Bar",
     "Rules": [
       {
@@ -1574,7 +1581,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637902706293343484",
+  "LastModifiedTimestamp": "637902707007656037",
   "Name": "69894502ba10475d874bab19096f81b6",
   "OverridableProperties": {},
   "TemplateOriginalName": "44296e90674643d98cbafda09bd9f5fa",
