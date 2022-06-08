@@ -11,8 +11,8 @@
         Height: =839
         Items: =Filter('Sales Order', 'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value)
         Layout: =Layout.Vertical
-        TemplateSize: =235
-        Y: =188
+        TemplateSize: =226
+        Y: =192
         ZIndex: =2
 
         HtmlText1_2 As htmlViewer:
