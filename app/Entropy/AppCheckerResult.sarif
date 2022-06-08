@@ -946,7 +946,7 @@
                   "charLength": 1,
                   "charOffset": 243,
                   "snippet": {
-                    "text": "<"
+                    "text": ">"
                   }
                 }
               },
@@ -984,7 +984,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 483,
+                  "charOffset": 482,
                   "snippet": {
                     "text": "-"
                   }
@@ -1024,9 +1024,9 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 473,
+                  "charOffset": 472,
                   "snippet": {
-                    "text": "<"
+                    "text": ">"
                   }
                 }
               },
@@ -1064,7 +1064,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 692,
+                  "charOffset": 690,
                   "snippet": {
                     "text": "IsToday('Order Date')"
                   }

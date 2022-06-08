@@ -18,18 +18,18 @@
                         'Sales Order',
                         'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
-                    'Order Date' < Today() - 30
+                    'Order Date' > Today() - 30
                 ),
                 "Last 7 Days",
-                 Filter(
+                Filter(
                     Filter(
                         'Sales Order',
                         'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
-                    'Order Date' < Today() - 7
+                    'Order Date' > Today() - 7
                 ),
                 "Today's Orders",
-                 Filter(
+                Filter(
                     Filter(
                         'Sales Order',
                         'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
