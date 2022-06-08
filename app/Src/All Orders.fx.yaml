@@ -8,11 +8,11 @@
 
     Gallery3 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
-        Height: =892
+        Height: =839
         Items: =Filter('Sales Order', 'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value)
         Layout: =Layout.Vertical
         TemplateSize: =235
-        Y: =136
+        Y: =188
         ZIndex: =2
 
         HtmlText1_2 As htmlViewer:
@@ -736,7 +736,7 @@
         TemplateSize: =143
         Width: =619
         X: =16
-        Y: =82
+        Y: =137
         ZIndex: =21
 
         Button4_4 As button:
@@ -767,4 +767,47 @@
 
     "'Side Bar_16' As 'Side Bar'":
         ZIndex: =22
+
+    filter_2 As gallery.galleryHorizontal:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Height: =64
+        Items: |-
+            =[
+                "Today's Orders",
+                "Last 7 Days",
+                "Last Month"
+            ]
+        OnSelect: =
+        ShowScrollbar: =false
+        TemplateSize: =143
+        Width: =619
+        X: =16
+        Y: =82
+        ZIndex: =23
+
+        Button4_7 As button:
+            BorderColor: =RGBA(53, 166, 57, 1)
+            Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+            FocusedBorderColor: =
+            FocusedBorderThickness: =2
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            HoverBorderColor: =RGBA(53, 166, 57, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Size: =11
+            Text: =ThisItem.Value
+            Width: =130
+            X: =7
+            Y: =6
+            ZIndex: =1
 
