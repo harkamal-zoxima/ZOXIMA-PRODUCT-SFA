@@ -10,7 +10,7 @@ Products As screen:
         ShowScrollbar: =false
         TemplateSize: =416
         WrapCount: =2
-        Y: =54
+        Y: =144
         ZIndex: =1
 
         HtmlText1 As htmlViewer:
@@ -309,4 +309,52 @@ Products As screen:
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
         Height: =1136
         ZIndex: =8
+
+    Button1_3 As button:
+        Align: =Align.Left
+        BorderColor: =RGBA(103, 204, 107, 1)
+        BorderThickness: =1
+        Color: =RGBA(103, 204, 107, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(103, 204, 107, 1)
+        HoverColor: =RGBA(103, 204, 107, 1)
+        HoverFill: =
+        OnSelect: =Navigate(Filter, ScreenTransition.Fade)
+        PaddingLeft: =30
+        PressedBorderColor: =
+        PressedColor: =RGBA(103, 204, 107, 1)
+        PressedFill: =
+        Size: =18
+        Text: ="Filter"
+        Width: =130
+        X: =487
+        Y: =101
+        ZIndex: =9
+
+    Icon2_6 As icon.Filter:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(103, 204, 107, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =23
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(152, 208, 70, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Filter
+        OnSelect: =Navigate(Filter, ScreenTransition.Fade)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =31
+        X: =574
+        Y: =111
+        ZIndex: =10
 
