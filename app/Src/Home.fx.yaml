@@ -83,7 +83,7 @@
                 Y: =389
                 ZIndex: =50
 
-            Container2 As groupContainer.manualLayoutContainer:
+            "'Daily Reports' As groupContainer.manualLayoutContainer":
                 Height: =1114
                 Width: =600
                 X: =19
@@ -627,7 +627,7 @@
                     PaddingTop: =10
                     Width: =514
                     X: =57
-                    Y: =72
+                    Y: =62
                     ZIndex: =22
 
                 Image1_1 As image:
@@ -650,7 +650,7 @@
                     RadiusTopRight: =50
                     Width: =59
                     X: =106
-                    Y: =112
+                    Y: =102
                     ZIndex: =23
 
                 Label3_2 As label:
@@ -668,7 +668,7 @@
                     Text: =User().FullName
                     Width: =349
                     X: =182
-                    Y: =106
+                    Y: =96
                     ZIndex: =24
 
                 Label3_3 As label:
@@ -686,7 +686,7 @@
                     Text: ="Sales Person"
                     Width: =278
                     X: =182
-                    Y: =146
+                    Y: =136
                     ZIndex: =25
 
                 Label4_8 As label:
@@ -702,7 +702,7 @@
                     Size: =13
                     Text: ="Attendance Type"
                     X: =119
-                    Y: =198
+                    Y: =188
                     ZIndex: =26
 
                 Label4_10 As label:
@@ -719,7 +719,7 @@
                     Text: ="Total Hours Worked"
                     Width: =180
                     X: =369
-                    Y: =198
+                    Y: =188
                     ZIndex: =27
 
                 "'total hours' As label":
@@ -756,7 +756,7 @@
                         )
                     Width: =180
                     X: =369
-                    Y: =227
+                    Y: =217
                     ZIndex: =28
 
                 Label4_12 As label:
@@ -772,7 +772,7 @@
                     Size: =13
                     Text: ="Day Started At"
                     X: =119
-                    Y: =282
+                    Y: =272
                     ZIndex: =29
 
                 "'day started' As label":
@@ -813,7 +813,7 @@
                         )
                     Width: =126
                     X: =119
-                    Y: =315
+                    Y: =305
                     ZIndex: =30
 
                 Label4_14 As label:
@@ -829,7 +829,7 @@
                     Size: =13
                     Text: ="Day Ended At"
                     X: =369
-                    Y: =282
+                    Y: =272
                     ZIndex: =31
 
                 "'day ended' As label":
@@ -866,7 +866,7 @@
                         ), "No Record")
                     Width: =124
                     X: =369
-                    Y: =318
+                    Y: =308
                     ZIndex: =32
 
                 Label3_4 As label:
@@ -885,7 +885,7 @@
                     Text: =Text(Today(), "dd mmm yyyy")
                     Width: =143
                     X: =408
-                    Y: =123
+                    Y: =113
                     ZIndex: =45
 
                 HtmlText1_23 As htmlViewer:
@@ -895,7 +895,7 @@
                         ="<div style='border-radius:10px; background-color:#F27B44; opacity: 0.2; width:140px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                     Width: =155
                     X: =403
-                    Y: =113
+                    Y: =103
                     ZIndex: =46
 
                 Type As label:
@@ -932,7 +932,7 @@
                         )
                     Width: =126
                     X: =119
-                    Y: =231
+                    Y: =221
                     ZIndex: =47
 
                 HtmlText1_25 As htmlViewer:
@@ -942,7 +942,7 @@
                         ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:120px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                     Width: =142
                     X: =117
-                    Y: =312
+                    Y: =302
                     ZIndex: =48
 
                 HtmlText1_26 As htmlViewer:
@@ -952,7 +952,7 @@
                         ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:120px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                     Width: =142
                     X: =369
-                    Y: =311
+                    Y: =301
                     ZIndex: =49
 
     "'Side Bar_2' As 'Side Bar'":
