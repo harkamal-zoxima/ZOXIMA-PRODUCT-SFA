@@ -42,114 +42,6 @@
         Y: =148
         ZIndex: =8
 
-    Label5_41 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="Document No."
-        Width: =130
-        X: =54
-        Y: =583
-        ZIndex: =32
-
-    Label5_43 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="Reference No."
-        Width: =130
-        X: =352
-        Y: =581
-        ZIndex: =35
-
-    Label5_45 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="Remarks"
-        Width: =130
-        X: =55
-        Y: =653
-        ZIndex: =38
-
-    Label5_47 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="No. of Bags"
-        Width: =130
-        X: =55
-        Y: =721
-        ZIndex: =41
-
-    Label5_49 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="Total Quantity"
-        Width: =130
-        X: =352
-        Y: =721
-        ZIndex: =44
-
-    Label5_51 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="Order Value(without Discount)"
-        Width: =245
-        X: =55
-        Y: =794
-        ZIndex: =47
-
     Label5_52 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -166,26 +58,8 @@
         Text: =
         Width: =235
         X: =56
-        Y: =826
+        Y: =820
         ZIndex: =48
-
-    Label5_53 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="Total Amount"
-        Width: =130
-        X: =352
-        Y: =792
-        ZIndex: =50
 
     Label5_54 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -203,26 +77,8 @@
         Text: =
         Width: =235
         X: =356
-        Y: =824
+        Y: =818
         ZIndex: =51
-
-    Label5_55 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =12
-        Text: ="Order Value(with Discount)"
-        Width: =236
-        X: =55
-        Y: =861
-        ZIndex: =53
 
     Label5_56 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -539,8 +395,8 @@
         FontWeight: =FontWeight.Bold
         Height: =32
         Size: =16
-        Text: ="Order Date"
-        Width: =186
+        Text: ="Bill Amount (Without GST)"
+        Width: =299
         X: =341
         Y: =451
         ZIndex: =69
@@ -577,7 +433,7 @@
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =2
         Color: =RGBA(51, 51, 51, 1)
-        Default: =order.'Order Date'
+        Default: =order.'Bill Amoount'
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -600,4 +456,280 @@
         X: =346
         Y: =488
         ZIndex: =71
+
+    Label5_31 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =16
+        Text: ="CGST"
+        Width: =183
+        X: =41
+        Y: =554
+        ZIndex: =72
+
+    Label5_32 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =16
+        Text: ="Order Date"
+        Width: =186
+        X: =342
+        Y: =554
+        ZIndex: =73
+
+    TextInput2_12 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =order.'Order Type'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(128, 128, 128, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        HintText: =""
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =12
+        Width: =265
+        X: =42
+        Y: =591
+        ZIndex: =74
+
+    TextInput2_13 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =order.'Order Date'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(128, 128, 128, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        HintText: =""
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =12
+        Width: =265
+        X: =347
+        Y: =591
+        ZIndex: =75
+
+    Label5_33 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =16
+        Text: ="Status"
+        Width: =230
+        X: =42
+        Y: =655
+        ZIndex: =76
+
+    Label5_34 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =16
+        Text: ="Order From"
+        Width: =186
+        X: =343
+        Y: =655
+        ZIndex: =77
+
+    TextInput2_14 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =order.'Order Status'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(128, 128, 128, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        HintText: =""
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =12
+        Width: =265
+        X: =43
+        Y: =692
+        ZIndex: =78
+
+    TextInput2_15 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =order.'Order From'.'Account Name'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(128, 128, 128, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        HintText: =""
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =12
+        Width: =265
+        X: =348
+        Y: =692
+        ZIndex: =79
+
+    Label5_35 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =16
+        Text: ="Order To"
+        Width: =130
+        X: =43
+        Y: =756
+        ZIndex: =80
+
+    Label5_36 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =16
+        Text: ="Bill Amount"
+        Width: =186
+        X: =344
+        Y: =756
+        ZIndex: =81
+
+    TextInput2_16 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =order.'Order To'.'Account Name'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(128, 128, 128, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        HintText: =""
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =12
+        Width: =265
+        X: =44
+        Y: =793
+        ZIndex: =82
+
+    TextInput2_17 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =order.'Bill Amoount'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(128, 128, 128, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        HintText: =""
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =12
+        Width: =265
+        X: =349
+        Y: =793
+        ZIndex: =83
 
