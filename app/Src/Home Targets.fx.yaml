@@ -53,19 +53,6 @@
                 Y: =26
                 ZIndex: =20
 
-            PowerBI3_2 As powerbi:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderThickness: =0
-                DashboardId: ="bd1c9d9b-b8fb-4677-bde5-33da4b1af069"
-                Height: =353
-                TileUrl: |-
-                    ="https://app.powerbi.com/embed?dashboardId=bd1c9d9b-b8fb-4677-bde5-33da4b1af069&tileId=cb7fda63-1a08-44ec-989e-c22edf8131dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
-                Width: =620
-                WorkspaceId: ="__my-workspace"
-                X: =20
-                Y: =471
-                ZIndex: =33
-
             Image1_4 As image:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -89,19 +76,6 @@
                 X: =259
                 Y: =23
                 ZIndex: =34
-
-            PowerBI1_2 As powerbi:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderThickness: =0
-                DashboardId: ="987c3cd0-0395-498f-bec3-262a13366bb2"
-                Height: =976
-                TileUrl: |-
-                    ="https://app.powerbi.com/embed?dashboardId=987c3cd0-0395-498f-bec3-262a13366bb2&tileId=e2480394-994c-4073-81ee-9d112bff64dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
-                Width: =588
-                WorkspaceId: ="__my-workspace"
-                X: =20
-                Y: =824
-                ZIndex: =35
 
             "'Dashboard Top Bar_3' As 'Dashboard Top Bar'":
                 NavItems: |-

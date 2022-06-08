@@ -77,14 +77,9 @@
                 Y: =23
                 ZIndex: =34
 
-            "'Dashboard Top Bar_1' As 'Dashboard Top Bar'":
-                Width: =625
-                X: =15
-                Y: =389
-                ZIndex: =50
-
             "'Daily Reports' As groupContainer.manualLayoutContainer":
                 Height: =1114
+                Visible: =If('Dashboard Toptab'.Selected.Title = "Daily Reports", true, false)
                 Width: =600
                 X: =19
                 Y: =449
@@ -954,6 +949,103 @@
                     X: =369
                     Y: =301
                     ZIndex: =49
+
+            "'My Details' As groupContainer.manualLayoutContainer":
+                Height: =1114
+                Visible: =If('Dashboard Toptab'.Selected.Title = "My Details", true, false)
+                Width: =600
+                X: =21
+                Y: =452
+                ZIndex: =52
+
+            Targets As groupContainer.manualLayoutContainer:
+                Height: =1114
+                Visible: =If('Dashboard Toptab'.Selected.Title = "Targets", true, false)
+                Width: =600
+                X: =19
+                Y: =452
+                ZIndex: =53
+
+                PowerBI3_2 As powerbi:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderThickness: =0
+                    DashboardId: ="bd1c9d9b-b8fb-4677-bde5-33da4b1af069"
+                    Height: =353
+                    TileUrl: |-
+                        ="https://app.powerbi.com/embed?dashboardId=bd1c9d9b-b8fb-4677-bde5-33da4b1af069&tileId=cb7fda63-1a08-44ec-989e-c22edf8131dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
+                    Width: =600
+                    WorkspaceId: ="__my-workspace"
+                    Y: =333
+                    ZIndex: =1
+
+                PowerBI1_2 As powerbi:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderThickness: =0
+                    DashboardId: ="987c3cd0-0395-498f-bec3-262a13366bb2"
+                    Height: =976
+                    TileUrl: |-
+                        ="https://app.powerbi.com/embed?dashboardId=987c3cd0-0395-498f-bec3-262a13366bb2&tileId=e2480394-994c-4073-81ee-9d112bff64dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
+                    Width: =588
+                    WorkspaceId: ="__my-workspace"
+                    X: =6
+                    ZIndex: =2
+
+            "'Dashboard Toptab' As gallery.galleryHorizontal":
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Height: =56
+                Items: |-
+                    =Table(
+                        {
+                            Title: "Daily Reports",
+                            Screen: Home,
+                            Active: true
+                        },
+                        {
+                            Title: "My Details",
+                            Screen: 'Home My Details',
+                            Active: false
+                        },
+                        {
+                            Title: "Targets",
+                            Screen: 'Home Targets',
+                            Active: false
+                        }
+                    )
+                OnSelect: =Navigate(ThisItem.Screen,ScreenTransition.Fade)
+                ShowScrollbar: =false
+                TemplateSize: =195
+                Width: =624
+                X: =16
+                Y: =388
+                ZIndex: =54
+
+                Rectangle3_2 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =If(ThisItem.Active, RGBA(103, 204, 107, 0.26), RGBA(103, 204, 107, 0.1))
+                    FocusedBorderThickness: =4
+                    Height: =46
+                    HoverFill: =RGBA(103, 204, 107, 0.28)
+                    OnSelect: =Select(Parent)
+                    PressedFill: =RGBA(103, 204, 107, 0.25)
+                    Width: =195
+                    ZIndex: =1
+
+                Label2_48 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 18, 107, 1)
+                    Color: =If(ThisItem.Active, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =46
+                    OnSelect: |
+                        =Navigate(ThisItem.Screen,ScreenTransition.Cover)
+                    Size: =18
+                    Text: =ThisItem.Title
+                    Width: =184
+                    ZIndex: =3
 
     "'Side Bar_2' As 'Side Bar'":
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
