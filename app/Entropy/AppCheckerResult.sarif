@@ -894,12 +894,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items"
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items",
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -913,7 +913,7 @@
               "properties": {
                 "member": "Items",
                 "module": "All Orders",
-                "type": "'All Orders'.Gallery3"
+                "type": "'All Orders'.Orders"
               }
             }
           ],
@@ -934,12 +934,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items"
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items",
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -953,7 +953,7 @@
               "properties": {
                 "member": "Items",
                 "module": "All Orders",
-                "type": "'All Orders'.Gallery3"
+                "type": "'All Orders'.Orders"
               }
             }
           ],
@@ -974,12 +974,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items"
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items",
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -993,7 +993,7 @@
               "properties": {
                 "member": "Items",
                 "module": "All Orders",
-                "type": "'All Orders'.Gallery3"
+                "type": "'All Orders'.Orders"
               }
             }
           ],
@@ -1014,12 +1014,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items"
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items",
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1033,7 +1033,7 @@
               "properties": {
                 "member": "Items",
                 "module": "All Orders",
-                "type": "'All Orders'.Gallery3"
+                "type": "'All Orders'.Orders"
               }
             }
           ],
@@ -1054,12 +1054,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items"
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.Items",
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1073,7 +1073,7 @@
               "properties": {
                 "member": "Items",
                 "module": "All Orders",
-                "type": "'All Orders'.Gallery3"
+                "type": "'All Orders'.Orders"
               }
             }
           ],
@@ -6230,19 +6230,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "'All Orders'.Orders.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "'All Orders'.Orders.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "All Orders",
-                "type": "'All Orders'.Gallery3"
+                "type": "'All Orders'.Orders"
               }
             }
           ],
@@ -6260,19 +6260,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.TabIndex"
+                  "fullyQualifiedName": "'All Orders'.Orders.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Orders'.Gallery3.TabIndex",
+                  "fullyQualifiedName": "'All Orders'.Orders.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "All Orders",
-                "type": "'All Orders'.Gallery3"
+                "type": "'All Orders'.Orders"
               }
             }
           ],
