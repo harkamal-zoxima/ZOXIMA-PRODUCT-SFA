@@ -9334,6 +9334,36 @@
           },
           "ruleId": "app-CollectDelegatableDataSource",
           "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Order Info'.order"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Order Info'.order",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "order",
+                "module": "Order Info",
+                "type": "'Order Info'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 10
         }
       ],
       "tool": {

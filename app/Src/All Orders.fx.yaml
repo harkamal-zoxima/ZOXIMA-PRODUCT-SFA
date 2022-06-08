@@ -267,7 +267,8 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(53, 166, 57, 1)
             HoverFill: =
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =Navigate('Order Info', ScreenTransition.Fade, {order: ThisItem})
             PressedBorderColor: =
             PressedColor: =RGBA(53, 166, 57, 1)
             PressedFill: =
