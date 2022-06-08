@@ -14,34 +14,15 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
+        Font: =Font.Lato
         FontWeight: =FontWeight.Bold
         Height: =32
-        Size: =12
+        Size: =16
         Text: ="Order No."
         Width: =130
         X: =61
-        Y: =178
+        Y: =140
         ZIndex: =5
-
-    Label5_24 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(128, 128, 128, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =22
-        Size: =12
-        Text: =
-        Width: =235
-        X: =55
-        Y: =227
-        ZIndex: =6
 
     Rectangle1_10 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -66,34 +47,15 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
+        Font: =Font.Lato
         FontWeight: =FontWeight.Bold
         Height: =32
-        Size: =12
+        Size: =16
         Text: ="Nav Order No."
-        Width: =130
+        Width: =186
         X: =338
-        Y: =176
+        Y: =138
         ZIndex: =8
-
-    Label5_26 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(128, 128, 128, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =22
-        Size: =12
-        Text: =
-        Width: =235
-        X: =339
-        Y: =225
-        ZIndex: =9
 
     Rectangle1_11 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)

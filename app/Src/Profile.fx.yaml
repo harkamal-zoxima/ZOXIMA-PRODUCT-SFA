@@ -97,7 +97,7 @@ Profile As screen:
         Color: =RGBA(51, 51, 51, 1)
         Default: =User().Email
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
@@ -144,7 +144,7 @@ Profile As screen:
         Color: =RGBA(51, 51, 51, 1)
         Default: =User().FullName
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
@@ -191,7 +191,7 @@ Profile As screen:
         Color: =RGBA(51, 51, 51, 1)
         Default: ="05-01-1999"
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =varBirthdateVisibility
         FocusedBorderThickness: =4
@@ -238,7 +238,7 @@ Profile As screen:
         Color: =RGBA(51, 51, 51, 1)
         Default: ="Retail"
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
@@ -285,7 +285,7 @@ Profile As screen:
         Color: =RGBA(51, 51, 51, 1)
         Default: =User().Email
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
