@@ -53,26 +53,6 @@
             X: =15
             ZIndex: =1
 
-        Label1_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Lato
-            FontWeight: =FontWeight.Semibold
-            Height: =51
-            OnSelect: |-
-                =Navigate('Order Info', ScreenTransition.Fade, {order: ThisItem})
-            Size: =20
-            Text: =ThisItem.Name
-            Width: =289
-            X: =36
-            Y: =12
-            ZIndex: =2
-
         HtmlText1_3 As htmlViewer:
             Color: =RGBA(242, 242, 242, 1)
             Height: =52
@@ -270,6 +250,37 @@
             X: =434
             Y: =19
             ZIndex: =14
+
+        Button6 As button:
+            Align: =Align.Left
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(53, 166, 57, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            FocusedBorderThickness: =
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =50
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(53, 166, 57, 1)
+            HoverFill: =
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =
+            PressedColor: =RGBA(53, 166, 57, 1)
+            PressedFill: =
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =18
+            Text: =ThisItem.Name
+            Width: =229
+            X: =60
+            Y: =15
+            ZIndex: =24
 
         Group4 As group:
             Height: =5
