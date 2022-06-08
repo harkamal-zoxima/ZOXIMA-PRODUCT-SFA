@@ -771,13 +771,14 @@
         Height: =64
         Items: |-
             =[
-                "Today's Orders",
+                "Last Month",
                 "Last 7 Days",
-                "Last Month"
+                "Today's Orders"
             ]
         OnSelect: =
         ShowScrollbar: =false
         TemplateSize: =192
+        Transition: =Transition.Pop
         Width: =619
         X: =16
         Y: =82
