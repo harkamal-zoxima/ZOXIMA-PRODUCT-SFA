@@ -790,9 +790,6 @@
             Y: =6
             ZIndex: =1
 
-    "'Side Bar_16' As 'Side Bar'":
-        ZIndex: =22
-
     filter_2 As gallery.galleryHorizontal:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =64
@@ -809,7 +806,7 @@
         Width: =619
         X: =16
         Y: =82
-        ZIndex: =23
+        ZIndex: =22
 
         Button4_7 As button:
             BorderColor: =RGBA(53, 166, 57, 1)
@@ -855,5 +852,8 @@
         Width: =560
         X: =45
         Y: =422
+        ZIndex: =23
+
+    "'Side Bar_16' As 'Side Bar'":
         ZIndex: =24
 
