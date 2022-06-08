@@ -850,7 +850,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =70
         Size: =18
-        Text: ="No Orders Found."
+        Text: ="No Orders Found"
         Visible: =If(CountRows(Orders.AllItems)>0, false, true)
         Width: =560
         X: =45
