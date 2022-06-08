@@ -9,7 +9,7 @@
     Gallery3 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =892
-        Items: =Filter('Sales Order', 'Order Status' = filter.Selected.Value)
+        Items: =Filter('Sales Order', 'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value)
         Layout: =Layout.Vertical
         TemplateSize: =235
         Y: =136
@@ -166,9 +166,9 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: ="Primary"
-            Width: =116
-            X: =239
+            Text: =ThisItem.'Order Type'
+            Width: =151
+            X: =223
             Y: =103
             ZIndex: =11
 
