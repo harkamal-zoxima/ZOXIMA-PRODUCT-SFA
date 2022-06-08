@@ -47,7 +47,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
+                        'Order Type' = [@'Order Type'].'254460001' && 'Order Status' = filter_3.Selected.Value
                     ),
                     'Order Date' > Today() - 30
                 ),
@@ -55,7 +55,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
+                        'Order Type' = [@'Order Type'].'254460001' && 'Order Status' = filter_3.Selected.Value
                     ),
                     'Order Date' > Today() - 7
                 ),
@@ -63,7 +63,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
+                        'Order Type' = [@'Order Type'].'254460001' && 'Order Status' = filter_3.Selected.Value
                     ),
                     IsToday('Order Date')
                 )

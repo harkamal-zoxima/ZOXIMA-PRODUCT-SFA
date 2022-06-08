@@ -131,6 +131,8 @@
       "cr431_cr431_brandingmaterial_cr431_Cutome": "Branding Materials",
       "cr431_cr431_imageurl_cr431_DealerRetailer": "Image Url",
       "cr431_cr431_payment_cr431_Account_account": "Payments",
+      "cr431_cr431_salesorder_OrderFrom_account": "Sales Order (cr431_cr431_salesorder_OrderFrom_account)",
+      "cr431_cr431_salesorder_OrderTo_account": "Sales Order (cr431_cr431_salesorder_OrderTo_account)",
       "cr431_geographicaltown": "Geographical Town",
       "cr431_geolocation": "Geo Location",
       "cr431_gstin": "GST IN",
