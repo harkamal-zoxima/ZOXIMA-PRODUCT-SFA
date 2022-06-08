@@ -15,41 +15,11 @@
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =1111
+            Height: =1566
             Width: =Parent.Width
             X: =0
             Y: =0
             ZIndex: =1
-
-            HtmlText1_11 As htmlViewer:
-                DisplayMode: =DisplayMode.View
-                Height: =144
-                HtmlText: |-
-                    ="<div style='border-radius:10px; background-color:#1A9FE4; width:170px;opacity: 0.3; height:130px;'></div>"
-                Width: =184
-                X: =232
-                Y: =627
-                ZIndex: =2
-
-            HtmlText1_13 As htmlViewer:
-                DisplayMode: =DisplayMode.View
-                Height: =145
-                HtmlText: |-
-                    ="<div style='border-radius:10px; background-color:#95D4E0; width:170px;opacity: 0.3; height:130px;'></div>"
-                Width: =188
-                X: =32
-                Y: =627
-                ZIndex: =4
-
-            HtmlText1_15 As htmlViewer:
-                DisplayMode: =DisplayMode.View
-                Height: =144
-                HtmlText: |-
-                    ="<div style='border-radius:10px; background-color:#EBCD43; width:170px;opacity: 0.3; height:130px;'></div>"
-                Width: =192
-                X: =422
-                Y: =627
-                ZIndex: =6
 
             HtmlText1_16 As htmlViewer:
                 Color: =RGBA(103, 204, 107, 1)
@@ -62,123 +32,6 @@
                 PaddingTop: =0
                 Width: =640
                 ZIndex: =7
-
-            Label2_24 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(107, 179, 194, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Bold
-                Height: =44
-                Size: =18
-                Text: ="₹12,500"
-                Width: =121
-                X: =61
-                Y: =697
-                ZIndex: =14
-
-            Label2_25 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(107, 179, 194, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
-                Height: =44
-                Size: =11
-                Text: ="Today Secondary Sales"
-                Width: =158
-                X: =43
-                Y: =657
-                ZIndex: =15
-
-            Label2_26 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(26, 159, 228, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Bold
-                Height: =44
-                Size: =18
-                Text: ="₹66,000"
-                Width: =121
-                X: =265
-                Y: =696
-                ZIndex: =16
-
-            Label2_27 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(26, 159, 228, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
-                Height: =44
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =11
-                Text: ="Weekly Secondary Sales"
-                Width: =170
-                X: =237
-                Y: =657
-                ZIndex: =17
-
-            Label2_28 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(209, 180, 50, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Bold
-                Height: =44
-                Size: =18
-                Text: ="₹4,50,000"
-                Width: =121
-                X: =457
-                Y: =696
-                ZIndex: =18
-
-            Label2_29 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(209, 180, 50, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
-                Height: =44
-                Size: =11
-                Text: ="MTD Secondary Sales"
-                Width: =158
-                X: =433
-                Y: =657
-                ZIndex: =19
 
             Icon2_1 As icon.Bell:
                 BorderColor: =RGBA(166, 166, 166, 1)
@@ -199,37 +52,6 @@
                 X: =586
                 Y: =26
                 ZIndex: =20
-
-            Label1_4 As label:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 0.6)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
-                Height: =70
-                Size: =22
-                Text: =""
-                Width: =560
-                X: =48
-                Y: =787
-                ZIndex: =21
-
-            PowerBI3 As powerbi:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderThickness: =0
-                DashboardId: ="ca49dd05-569e-416d-922a-3be48ca09ded"
-                Height: =353
-                TileUrl: |-
-                    ="https://app.powerbi.com/embed?dashboardId=ca49dd05-569e-416d-922a-3be48ca09ded&tileId=fc1df8bd-2ec2-46df-8e4e-d8588501514d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
-                Width: =620
-                WorkspaceId: ="__my-workspace"
-                X: =20
-                Y: =947
-                ZIndex: =33
 
             Image1 As image:
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -255,315 +77,50 @@
                 Y: =23
                 ZIndex: =34
 
-            Group1 As group:
-                Height: =5
-                Width: =5
-                X: =40
-                Y: =40
-                ZIndex: =39
-
-                HtmlText1_10 As htmlViewer:
-                    DisplayMode: =DisplayMode.View
-                    Height: =143
-                    HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#1A9FE4; opacity: 0.3; width:170px; height:130px; '></div>"
-                    Width: =181
-                    X: =32
-                    Y: =475
-                    ZIndex: =1
-
-                Label2_18 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(26, 159, 228, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Bold
-                    Height: =44
-                    Size: =18
-                    Text: ="₹44,000"
-                    Width: =121
-                    X: =62
-                    Y: =542
-                    ZIndex: =8
-
-                Label2_19 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(26, 159, 228, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Semibold
-                    Height: =44
-                    Size: =11
-                    Text: ="Today Primary Sales"
-                    Width: =158
-                    X: =44
-                    Y: =502
-                    ZIndex: =9
-
-            Group2 As group:
-                Height: =5
-                Width: =5
-                X: =40
-                Y: =40
-                ZIndex: =39
-
-                HtmlText1_12 As htmlViewer:
-                    DisplayMode: =DisplayMode.View
-                    Height: =142
-                    HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:170px; height:130px;'></div>"
-                    Width: =185
-                    X: =231
-                    Y: =476
-                    ZIndex: =3
-
-                Label2_20 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(88, 173, 91, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Bold
-                    Height: =44
-                    Size: =18
-                    Text: ="₹75,000"
-                    Width: =121
-                    X: =262
-                    Y: =546
-                    ZIndex: =10
-
-                Label2_21 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(88, 173, 91, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Semibold
-                    Height: =44
-                    Size: =11
-                    Text: ="Weekly Primary Sales"
-                    Width: =170
-                    X: =238
-                    Y: =507
-                    ZIndex: =11
-
-            Group3 As group:
-                Height: =5
-                Width: =5
-                X: =40
-                Y: =40
-                ZIndex: =39
-
-                HtmlText1_14 As htmlViewer:
-                    DisplayMode: =DisplayMode.View
-                    Height: =147
-                    HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#95D4E0; width:170px;opacity: 0.3; height:130px;'></div>"
-                    Width: =186
-                    X: =428
-                    Y: =476
-                    ZIndex: =5
-
-                Label2_22 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(107, 179, 194, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Bold
-                    Height: =44
-                    Size: =18
-                    Text: ="₹2,30,000"
-                    Width: =121
-                    X: =462
-                    Y: =546
-                    ZIndex: =12
-
-                Label2_23 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(107, 179, 194, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Semibold
-                    Height: =44
-                    Size: =11
-                    Text: ="MTD Primary Sales"
-                    Width: =158
-                    X: =439
-                    Y: =507
-                    ZIndex: =13
-
-            Group1_1 As group:
-                Height: =5
-                Width: =5
-                X: =8
-                Y: =-440
-                ZIndex: =48
-
-                HtmlText1_20 As htmlViewer:
-                    DisplayMode: =DisplayMode.View
-                    Height: =143
-                    HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#EBCD43; opacity: 0.3; width:170px; height:130px;'></div>"
-                    Width: =181
-                    X: =233
-                    Y: =779
-                    ZIndex: =36
-
-                Label2_32 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(209, 180, 50, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Bold
-                    Height: =44
-                    Size: =18
-                    Text: ="4"
-                    Width: =121
-                    X: =263
-                    Y: =846
-                    ZIndex: =39
-
-                Label2_31 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(209, 180, 50, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Semibold
-                    Height: =44
-                    Size: =12
-                    Text: ="Planned Visits"
-                    Width: =158
-                    X: =245
-                    Y: =806
-                    ZIndex: =40
-
-            Group2_1 As group:
-                Height: =5
-                Width: =5
-                X: =8
-                Y: =-440
-                ZIndex: =49
-
-                HtmlText1_21 As htmlViewer:
-                    DisplayMode: =DisplayMode.View
-                    Height: =142
-                    HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:170px; height:130px;'></div>"
-                    Width: =185
-                    X: =30
-                    Y: =777
-                    ZIndex: =37
-
-                Label2_33 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(88, 173, 91, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Bold
-                    Height: =44
-                    Size: =18
-                    Text: ="6"
-                    Width: =121
-                    X: =61
-                    Y: =847
-                    ZIndex: =41
-
-                Label2_34 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(88, 173, 91, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
-                    FocusedBorderThickness: =4
-                    Font: =Font.Lato
-                    FontWeight: =FontWeight.Semibold
-                    Height: =44
-                    Size: =12
-                    Text: ="Today Visits"
-                    Width: =170
-                    X: =37
-                    Y: =808
-                    ZIndex: =42
-
             "'Dashboard Top Bar_1' As 'Dashboard Top Bar'":
                 Width: =625
                 X: =15
-                Y: =406
+                Y: =389
                 ZIndex: =50
 
-            Group3_1 As group:
-                Height: =5
-                Width: =5
-                X: =8
-                Y: =-440
-                ZIndex: =50
+            Container2 As groupContainer.manualLayoutContainer:
+                Height: =1114
+                Width: =600
+                X: =19
+                Y: =449
+                ZIndex: =51
 
-                HtmlText1_22 As htmlViewer:
+                HtmlText1_11 As htmlViewer:
                     DisplayMode: =DisplayMode.View
-                    Height: =147
+                    Height: =144
                     HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#95D4E0; width:170px;opacity: 0.3; height:130px; '></div>"
-                    Width: =186
-                    X: =422
-                    Y: =777
-                    ZIndex: =38
+                        ="<div style='border-radius:10px; background-color:#1A9FE4; width:170px;opacity: 0.3; height:130px;'></div>"
+                    Width: =184
+                    X: =212
+                    Y: =153
+                    ZIndex: =2
 
-                Label2_36 As label:
+                HtmlText1_13 As htmlViewer:
+                    DisplayMode: =DisplayMode.View
+                    Height: =145
+                    HtmlText: |-
+                        ="<div style='border-radius:10px; background-color:#95D4E0; width:170px;opacity: 0.3; height:130px;'></div>"
+                    Width: =188
+                    X: =12
+                    Y: =153
+                    ZIndex: =4
+
+                HtmlText1_15 As htmlViewer:
+                    DisplayMode: =DisplayMode.View
+                    Height: =144
+                    HtmlText: |-
+                        ="<div style='border-radius:10px; background-color:#EBCD43; width:170px;opacity: 0.3; height:130px;'></div>"
+                    Width: =192
+                    X: =402
+                    Y: =153
+                    ZIndex: =6
+
+                Label2_24 As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
@@ -571,19 +128,18 @@
                     Color: =RGBA(107, 179, 194, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Bold
                     Height: =44
                     Size: =18
-                    Text: ="2"
+                    Text: ="₹12,500"
                     Width: =121
-                    X: =456
-                    Y: =847
-                    ZIndex: =43
+                    X: =41
+                    Y: =223
+                    ZIndex: =13
 
-                Label2_35 As label:
+                Label2_25 As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
@@ -591,17 +147,467 @@
                     Color: =RGBA(107, 179, 194, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Semibold
                     Height: =44
-                    Size: =12
-                    Text: ="Unplanned Visits"
+                    Size: =11
+                    Text: ="Today Secondary Sales"
                     Width: =158
-                    X: =433
-                    Y: =808
-                    ZIndex: =44
+                    X: =23
+                    Y: =183
+                    ZIndex: =14
+
+                Label2_26 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(26, 159, 228, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
+                    Height: =44
+                    Size: =18
+                    Text: ="₹66,000"
+                    Width: =121
+                    X: =245
+                    Y: =222
+                    ZIndex: =15
+
+                Label2_27 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(26, 159, 228, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =44
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =11
+                    Text: ="Weekly Secondary Sales"
+                    Width: =170
+                    X: =217
+                    Y: =183
+                    ZIndex: =16
+
+                Label2_28 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(209, 180, 50, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
+                    Height: =44
+                    Size: =18
+                    Text: ="₹4,50,000"
+                    Width: =121
+                    X: =437
+                    Y: =222
+                    ZIndex: =17
+
+                Label2_29 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(209, 180, 50, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =44
+                    Size: =11
+                    Text: ="MTD Secondary Sales"
+                    Width: =158
+                    X: =413
+                    Y: =183
+                    ZIndex: =18
+
+                Label1_4 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(0, 0, 0, 0.6)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    Height: =70
+                    Size: =22
+                    Text: =""
+                    Width: =560
+                    X: =28
+                    Y: =313
+                    ZIndex: =19
+
+                PowerBI3 As powerbi:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderThickness: =0
+                    DashboardId: ="ca49dd05-569e-416d-922a-3be48ca09ded"
+                    Height: =353
+                    TileUrl: |-
+                        ="https://app.powerbi.com/embed?dashboardId=ca49dd05-569e-416d-922a-3be48ca09ded&tileId=fc1df8bd-2ec2-46df-8e4e-d8588501514d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
+                    Width: =600
+                    WorkspaceId: ="__my-workspace"
+                    Y: =473
+                    ZIndex: =20
+
+                Group1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-20
+                    Y: =-435
+                    ZIndex: =24
+
+                    HtmlText1_10 As htmlViewer:
+                        DisplayMode: =DisplayMode.View
+                        Height: =143
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#1A9FE4; opacity: 0.3; width:170px; height:130px; '></div>"
+                        Width: =181
+                        X: =12
+                        Y: =1
+                        ZIndex: =1
+
+                    Label2_18 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(26, 159, 228, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Bold
+                        Height: =44
+                        Size: =18
+                        Text: ="₹44,000"
+                        Width: =121
+                        X: =42
+                        Y: =68
+                        ZIndex: =7
+
+                    Label2_19 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(26, 159, 228, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =44
+                        Size: =11
+                        Text: ="Today Primary Sales"
+                        Width: =158
+                        X: =24
+                        Y: =28
+                        ZIndex: =8
+
+                Group2 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-20
+                    Y: =-435
+                    ZIndex: =25
+
+                    HtmlText1_12 As htmlViewer:
+                        DisplayMode: =DisplayMode.View
+                        Height: =142
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:170px; height:130px;'></div>"
+                        Width: =185
+                        X: =211
+                        Y: =2
+                        ZIndex: =3
+
+                    Label2_20 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(88, 173, 91, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Bold
+                        Height: =44
+                        Size: =18
+                        Text: ="₹75,000"
+                        Width: =121
+                        X: =242
+                        Y: =72
+                        ZIndex: =9
+
+                    Label2_21 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(88, 173, 91, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =44
+                        Size: =11
+                        Text: ="Weekly Primary Sales"
+                        Width: =170
+                        X: =218
+                        Y: =33
+                        ZIndex: =10
+
+                Group3 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-20
+                    Y: =-435
+                    ZIndex: =26
+
+                    HtmlText1_14 As htmlViewer:
+                        DisplayMode: =DisplayMode.View
+                        Height: =147
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#95D4E0; width:170px;opacity: 0.3; height:130px;'></div>"
+                        Width: =186
+                        X: =408
+                        Y: =2
+                        ZIndex: =5
+
+                    Label2_22 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(107, 179, 194, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Bold
+                        Height: =44
+                        Size: =18
+                        Text: ="₹2,30,000"
+                        Width: =121
+                        X: =442
+                        Y: =72
+                        ZIndex: =11
+
+                    Label2_23 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(107, 179, 194, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =44
+                        Size: =11
+                        Text: ="MTD Primary Sales"
+                        Width: =158
+                        X: =419
+                        Y: =33
+                        ZIndex: =12
+
+                Group1_1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-20
+                    Y: =-435
+                    ZIndex: =33
+
+                    HtmlText1_20 As htmlViewer:
+                        DisplayMode: =DisplayMode.View
+                        Height: =143
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#EBCD43; opacity: 0.3; width:170px; height:130px;'></div>"
+                        Width: =181
+                        X: =213
+                        Y: =305
+                        ZIndex: =21
+
+                    Label2_32 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(209, 180, 50, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Bold
+                        Height: =44
+                        Size: =18
+                        Text: ="4"
+                        Width: =121
+                        X: =243
+                        Y: =372
+                        ZIndex: =27
+
+                    Label2_31 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(209, 180, 50, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =44
+                        Size: =12
+                        Text: ="Planned Visits"
+                        Width: =158
+                        X: =225
+                        Y: =332
+                        ZIndex: =28
+
+                Group2_1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-20
+                    Y: =-435
+                    ZIndex: =34
+
+                    HtmlText1_21 As htmlViewer:
+                        DisplayMode: =DisplayMode.View
+                        Height: =142
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:170px; height:130px;'></div>"
+                        Width: =185
+                        X: =10
+                        Y: =303
+                        ZIndex: =22
+
+                    Label2_33 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(88, 173, 91, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Bold
+                        Height: =44
+                        Size: =18
+                        Text: ="6"
+                        Width: =121
+                        X: =41
+                        Y: =373
+                        ZIndex: =29
+
+                    Label2_34 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(88, 173, 91, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =44
+                        Size: =12
+                        Text: ="Today Visits"
+                        Width: =170
+                        X: =17
+                        Y: =334
+                        ZIndex: =30
+
+                Group3_1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-20
+                    Y: =-435
+                    ZIndex: =35
+
+                    HtmlText1_22 As htmlViewer:
+                        DisplayMode: =DisplayMode.View
+                        Height: =147
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#95D4E0; width:170px;opacity: 0.3; height:130px; '></div>"
+                        Width: =186
+                        X: =402
+                        Y: =303
+                        ZIndex: =23
+
+                    Label2_36 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(107, 179, 194, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Bold
+                        Height: =44
+                        Size: =18
+                        Text: ="2"
+                        Width: =121
+                        X: =436
+                        Y: =373
+                        ZIndex: =31
+
+                    Label2_35 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(107, 179, 194, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =44
+                        Size: =12
+                        Text: ="Unplanned Visits"
+                        Width: =158
+                        X: =413
+                        Y: =334
+                        ZIndex: =32
 
             Group9 As group:
                 Height: =5

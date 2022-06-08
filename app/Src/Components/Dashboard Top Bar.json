@@ -34,7 +34,7 @@
             "Name": "galleryTemplate2_2",
             "Parent": "Gallery2_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 717,
+            "PublishOrderIndex": 718,
             "Rules": [
               {
                 "Category": "Design",
@@ -127,7 +127,7 @@
             "Name": "Rectangle3_1",
             "Parent": "Gallery2_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 718,
+            "PublishOrderIndex": 719,
             "Rules": [
               {
                 "Category": "Design",
@@ -349,7 +349,7 @@
             "Name": "Label2_37",
             "Parent": "Gallery2_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 719,
+            "PublishOrderIndex": 720,
             "Rules": [
               {
                 "Category": "Data",
@@ -670,7 +670,7 @@
         "Name": "Gallery2_2",
         "Parent": "Dashboard Top Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 716,
+        "PublishOrderIndex": 717,
         "Rules": [
           {
             "Category": "Data",
@@ -834,7 +834,7 @@
           "LastModifiedTimestamp": "0",
           "Name": "gallery",
           "OverridableProperties": {},
-          "Version": "2.13.1"
+          "Version": "2.13.2"
         },
         "Type": "ControlInfo",
         "VariantName": "galleryHorizontal"
@@ -863,7 +863,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637900879783790793",
+    "LastModifiedTimestamp": "637902597549759541",
     "Name": "Dashboard Top Bar",
     "Rules": [
       {
@@ -938,7 +938,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637900879783790793",
+  "LastModifiedTimestamp": "637902597549759541",
   "Name": "7ce3d646734448f09dc2693165687b55",
   "OverridableProperties": {},
   "TemplateOriginalName": "b84e901362bb426a9025d47db36cd790",
