@@ -779,7 +779,7 @@
             ]
         OnSelect: =
         ShowScrollbar: =false
-        TemplateSize: =143
+        TemplateSize: =192
         Width: =619
         X: =16
         Y: =82
@@ -796,7 +796,7 @@
             FocusedBorderThickness: =2
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
-            Height: =36
+            Height: =43
             HoverBorderColor: =RGBA(53, 166, 57, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
@@ -806,8 +806,8 @@
             PressedFill: =
             Size: =11
             Text: =ThisItem.Value
-            Width: =130
+            Width: =179
             X: =7
-            Y: =6
+            Y: =2
             ZIndex: =1
 
