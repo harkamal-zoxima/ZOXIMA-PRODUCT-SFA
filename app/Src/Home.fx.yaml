@@ -15,7 +15,7 @@
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =1566
+            Height: =1270
             Width: =Parent.Width
             X: =0
             Y: =0
@@ -78,7 +78,7 @@
                 ZIndex: =34
 
             "'Daily Reports' As groupContainer.manualLayoutContainer":
-                Height: =1114
+                Height: =831
                 Visible: =If('Dashboard Toptab'.Selected.Title = "Daily Reports", true, false)
                 Width: =600
                 X: =19
@@ -959,7 +959,7 @@
                 ZIndex: =52
 
             Targets As groupContainer.manualLayoutContainer:
-                Height: =1114
+                Height: =1480
                 Visible: =If('Dashboard Toptab'.Selected.Title = "Targets", true, false)
                 Width: =600
                 X: =19
@@ -970,12 +970,11 @@
                     BorderColor: =RGBA(166, 166, 166, 1)
                     BorderThickness: =0
                     DashboardId: ="bd1c9d9b-b8fb-4677-bde5-33da4b1af069"
-                    Height: =353
+                    Height: =387
                     TileUrl: |-
                         ="https://app.powerbi.com/embed?dashboardId=bd1c9d9b-b8fb-4677-bde5-33da4b1af069&tileId=cb7fda63-1a08-44ec-989e-c22edf8131dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
                     Width: =600
                     WorkspaceId: ="__my-workspace"
-                    Y: =333
                     ZIndex: =1
 
                 PowerBI1_2 As powerbi:
@@ -987,7 +986,7 @@
                         ="https://app.powerbi.com/embed?dashboardId=987c3cd0-0395-498f-bec3-262a13366bb2&tileId=e2480394-994c-4073-81ee-9d112bff64dc&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6ZmFsc2V9fQ%3d%3d"
                     Width: =588
                     WorkspaceId: ="__my-workspace"
-                    X: =6
+                    Y: =360
                     ZIndex: =2
 
             "'Dashboard Toptab' As gallery.galleryHorizontal":
