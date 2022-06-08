@@ -181,7 +181,7 @@ Profile As screen:
         FontWeight: =FontWeight.Semibold
         Height: =46
         Size: =18
-        Text: ="Email Address"
+        Text: ="Birthdate"
         Width: =560
         X: =40
         Y: =578
@@ -191,7 +191,7 @@ Profile As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =2
         Color: =RGBA(51, 51, 51, 1)
-        Default: =User().Email
+        Default: ="05-01-1999"
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -228,7 +228,7 @@ Profile As screen:
         FontWeight: =FontWeight.Semibold
         Height: =46
         Size: =18
-        Text: ="Username"
+        Text: ="Sale Type"
         Width: =560
         X: =40
         Y: =706
@@ -238,7 +238,7 @@ Profile As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =2
         Color: =RGBA(51, 51, 51, 1)
-        Default: =User().FullName
+        Default: ="Retail"
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
