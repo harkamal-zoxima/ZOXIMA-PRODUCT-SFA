@@ -1,5 +1,6 @@
 Profile As screen:
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    OnVisible: =Set(varBirthdateVisibility, DisplayMode.Disabled)
 
     HtmlText1_86 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
@@ -184,7 +185,7 @@ Profile As screen:
         Y: =578
         ZIndex: =9
 
-    TextInput2_2 As text:
+    Birth As text:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =2
         Color: =RGBA(51, 51, 51, 1)
@@ -192,7 +193,7 @@ Profile As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.Disabled
+        DisplayMode: =varBirthdateVisibility
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =58
@@ -355,4 +356,25 @@ Profile As screen:
 
     "'Side Bar_5' As 'Side Bar'":
         ZIndex: =16
+
+    Icon16 As icon.Edit:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(128, 128, 128, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =32
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Edit
+        OnSelect: =Set(varBirthdateVisibility, DisplayMode.Edit)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =38
+        X: =549
+        Y: =638
+        ZIndex: =17
 
