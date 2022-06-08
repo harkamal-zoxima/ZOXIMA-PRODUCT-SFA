@@ -80,7 +80,7 @@
             PressedBorderColor: =Black
             PressedFill: =RGBA(237,237,237,1)
             Size: =18
-            Text: =ThisItem.Value
+            Text: =ThisItem.title
             Width: =310
             ZIndex: =1
 

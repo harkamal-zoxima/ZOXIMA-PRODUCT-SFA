@@ -700,7 +700,14 @@
             "ControlPropertyState": [
               "Live",
               "Overflow",
-              "Text",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "ThisItem.Value",
+                "InvariantPropertyName": "Text",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "Role",
               "Color",
               {
@@ -818,7 +825,7 @@
               },
               {
                 "Category": "Data",
-                "InvariantScript": "ThisItem.Value",
+                "InvariantScript": "ThisItem.title",
                 "Property": "Text",
                 "RuleProviderType": "Unknown"
               },
@@ -1491,7 +1498,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "637902702823739525",
+    "LastModifiedTimestamp": "637902703479533054",
     "Name": "Side Bar",
     "Rules": [
       {
@@ -1550,7 +1557,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637902702823739525",
+  "LastModifiedTimestamp": "637902703479533054",
   "Name": "69894502ba10475d874bab19096f81b6",
   "OverridableProperties": {},
   "TemplateOriginalName": "44296e90674643d98cbafda09bd9f5fa",
