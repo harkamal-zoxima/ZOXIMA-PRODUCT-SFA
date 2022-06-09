@@ -102,6 +102,8 @@
   "ScreenOrder": [
     "Home",
     "Primary Products",
+    "Primary Cart",
+    "Secondary Cart",
     "Secondary Products",
     "Visit Products",
     "Filter",
