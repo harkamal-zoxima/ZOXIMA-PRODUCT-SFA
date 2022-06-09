@@ -100,7 +100,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =51
             Size: =20
-            Text: =ThisItem.Name
+            Text: =ThisItem.'Order ID'
             Width: =289
             X: =36
             Y: =12

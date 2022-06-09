@@ -277,7 +277,7 @@
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =18
-            Text: =ThisItem.Name
+            Text: =ThisItem.'Order ID'
             Width: =229
             X: =56
             Y: =11

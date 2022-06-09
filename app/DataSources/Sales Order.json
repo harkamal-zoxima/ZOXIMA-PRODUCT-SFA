@@ -26,7 +26,7 @@
       "cr431_igstamount": "IGST Amount",
       "cr431_igstamount_base": "IGST Amount (Base)",
       "cr431_LOB": "LOB",
-      "cr431_name": "Name",
+      "cr431_name": "Order ID",
       "cr431_orderdate": "Order Date",
       "cr431_OrderFrom": "Order From",
       "cr431_orderstatus": "Order Status",
