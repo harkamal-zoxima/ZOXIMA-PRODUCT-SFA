@@ -300,7 +300,7 @@
                                 Accounts,
                                 Account = GUID("7e239ae8-1fe7-ec11-bb3c-000d3ac9a0fa")
                             ),
-                            'Bill Amoount': Sum(
+                            'Before Tax Amount': Sum(
                                 PrimaryCart,
                                 price
                             ),
@@ -311,7 +311,11 @@
                             'SGST Amount': Sum(
                                 PrimaryCart,
                                 price
-                            ) * 0.09
+                            ) * 0.09,
+                            'Bill Amoount': Sum(
+                                PrimaryCart,
+                                price
+                            )
                         }
                     )
                 );
