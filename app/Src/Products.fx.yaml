@@ -430,7 +430,7 @@ Products As screen:
         RadiusTopLeft: =50
         RadiusTopRight: =50
         Size: =12
-        Text: ="1"
+        Text: =CountRows(PrimaryCart)
         Width: =25
         X: =606
         Y: =12
