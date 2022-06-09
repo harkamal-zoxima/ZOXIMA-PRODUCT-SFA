@@ -306,6 +306,8 @@
                             PrimaryCart,
                             price
                         ) * 0.09,
+                        'CGST %': 9,
+                        'SGST %': 9,
                         'Bill Amoount': Sum(
                             PrimaryCart,
                             price
