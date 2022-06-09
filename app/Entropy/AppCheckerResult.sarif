@@ -3660,7 +3660,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 915,
+                  "charOffset": 1464,
                   "snippet": {
                     "text": ".Name"
                   }
@@ -3700,7 +3700,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 884,
+                  "charOffset": 1433,
                   "snippet": {
                     "text": "="
                   }
@@ -3740,7 +3740,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 2136,
+                  "charOffset": 2644,
                   "snippet": {
                     "text": ".Name"
                   }
@@ -3780,7 +3780,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2098,
+                  "charOffset": 2606,
                   "snippet": {
                     "text": "="
                   }

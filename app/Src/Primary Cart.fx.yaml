@@ -1,4 +1,11 @@
 "'Primary Cart' As screen":
+    Fill: |-
+        =RGBA(
+            255,
+            255,
+            255,
+            1
+        )
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
     OnVisible: =Set(varOpen, false)
 
@@ -138,7 +145,6 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
-            Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
             Text: |+
@@ -288,7 +294,24 @@
                         Defaults('Sales Order'),
                         {
                             'Order Date': Today(),
-                            'Order Status': 'Order Status (Sales Order)'.Open
+                            'Order Status': 'Order Status (Sales Order)'.Open,
+                            'Order Type': 'Order Type'.'Primary Order',
+                            'Order To': LookUp(
+                                Accounts,
+                                Account = GUID("7e239ae8-1fe7-ec11-bb3c-000d3ac9a0fa")
+                            ),
+                            'Bill Amoount': Sum(
+                                PrimaryCart,
+                                price
+                            ),
+                            'CGST Amount': Sum(
+                                PrimaryCart,
+                                price
+                            ) * 0.09,
+                            'SGST Amount': Sum(
+                                PrimaryCart,
+                                price
+                            ) * 0.09
                         }
                     )
                 );
