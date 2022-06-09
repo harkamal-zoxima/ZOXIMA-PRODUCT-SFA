@@ -158,7 +158,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: ="12"
+            Text: =ThisItem.'Order ID'
             Width: =116
             X: =60
             Y: =103
@@ -279,7 +279,7 @@
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =18
-            Text: =ThisItem.'Order ID'
+            Text: =Concatenate("OR",ThisItem.'Order ID')
             Width: =229
             X: =56
             Y: =11
@@ -447,7 +447,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: =ThisItem.'Bill Amoount'
+                Text: =Concatenate("₹", ThisItem.'Bill Amoount')
                 Width: =118
                 X: =416
                 Y: =183
