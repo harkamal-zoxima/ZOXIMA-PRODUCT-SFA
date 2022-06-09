@@ -48,7 +48,7 @@
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =43
+        Height: =53
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
@@ -57,9 +57,9 @@
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =43
-        X: =18
-        Y: =21
+        Width: =53
+        X: =24
+        Y: =24
         ZIndex: =24
 
     Image7 As image:
