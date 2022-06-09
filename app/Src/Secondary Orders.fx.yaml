@@ -45,7 +45,7 @@
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =839
         Items: |-
-            =Switch(
+            =Sort(Switch(
                 filter_4.Selected.Value,
                 "Last Month",
                 Filter(
@@ -71,7 +71,7 @@
                     ),
                     IsToday('Order Date')
                 )
-            )
+            ), 'Order ID', Descending)
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =192
