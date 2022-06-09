@@ -95,7 +95,7 @@ Products As screen:
             Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price + 55)
             Width: =109
             X: =33
-            Y: =342
+            Y: =348
             ZIndex: =5
 
         Label2_2 As label:
@@ -112,7 +112,7 @@ Products As screen:
             Text: ="MRP"
             Width: =109
             X: =33
-            Y: =318
+            Y: =324
             ZIndex: =7
 
         Label2_3 As label:
@@ -129,7 +129,7 @@ Products As screen:
             Text: ="Special Price"
             Width: =133
             X: =160
-            Y: =318
+            Y: =324
             ZIndex: =8
 
         Label2_4 As label:
@@ -146,7 +146,7 @@ Products As screen:
             Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price )
             Width: =109
             X: =172
-            Y: =342
+            Y: =348
             ZIndex: =9
 
         Label2_5 As label:
@@ -237,7 +237,7 @@ Products As screen:
         Size: =18
         Text: ="Filter"
         Width: =130
-        X: =500
+        X: =395
         Y: =21
         ZIndex: =4
 
@@ -257,7 +257,7 @@ Products As screen:
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =31
-        X: =587
+        X: =482
         Y: =31
         ZIndex: =5
 
@@ -274,7 +274,7 @@ Products As screen:
         Height: =70
         Size: =20
         Text: ="Products"
-        Width: =420
+        Width: =330
         X: =80
         ZIndex: =7
 
@@ -360,4 +360,30 @@ Products As screen:
         X: =45
         Y: =422
         ZIndex: =11
+
+    Button1_3 As button:
+        Align: =Align.Left
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(103, 204, 107, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =Navigate(Filter, ScreenTransition.Fade)
+        PaddingLeft: =30
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        Size: =18
+        Text: ="Filter"
+        Width: =130
+        X: =510
+        Y: =22
+        ZIndex: =12
 
