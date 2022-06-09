@@ -5770,19 +5770,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "Products.'Product Gallery'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.Gallery1.AccessibleLabel",
+                  "fullyQualifiedName": "Products.'Product Gallery'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Products",
-                "type": "Products.Gallery1"
+                "type": "Products.'Product Gallery'"
               }
             }
           ],
@@ -5800,19 +5800,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.Gallery1.TabIndex"
+                  "fullyQualifiedName": "Products.'Product Gallery'.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.Gallery1.TabIndex",
+                  "fullyQualifiedName": "Products.'Product Gallery'.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Products",
-                "type": "Products.Gallery1"
+                "type": "Products.'Product Gallery'"
               }
             }
           ],
@@ -5830,19 +5830,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.Gallery1.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "Products.'Product Gallery'.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.Gallery1.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Products.'Product Gallery'.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Products",
-                "type": "Products.Gallery1.TextInput1"
+                "type": "Products.'Product Gallery'.TextInput1"
               }
             }
           ],
@@ -9730,19 +9730,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.Gallery4_4.AccessibleLabel"
+                  "fullyQualifiedName": "Products.CategoryFilter.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.Gallery4_4.AccessibleLabel",
+                  "fullyQualifiedName": "Products.CategoryFilter.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Products",
-                "type": "Products.Gallery4_4"
+                "type": "Products.CategoryFilter"
               }
             }
           ],
@@ -9760,19 +9760,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.Gallery4_4.TabIndex"
+                  "fullyQualifiedName": "Products.CategoryFilter.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.Gallery4_4.TabIndex",
+                  "fullyQualifiedName": "Products.CategoryFilter.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Products",
-                "type": "Products.Gallery4_4"
+                "type": "Products.CategoryFilter"
               }
             }
           ],
