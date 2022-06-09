@@ -203,8 +203,8 @@ Filter As screen:
             PaddingLeft: =10
             Size: =16
             Text: =ThisItem.'Category Name'
-            Width: =352
-            X: =30
+            Width: =332
+            X: =50
             ZIndex: =2
 
         Checkbox2 As checkbox:
@@ -212,7 +212,7 @@ Filter As screen:
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
             CheckboxBorderColor: =RGBA(128, 128, 128, 1)
-            CheckboxSize: =25
+            CheckboxSize: =35
             CheckmarkFill: =RGBA(73, 130, 5, 1)
             Color: =RGBA(51, 51, 51, 1)
             Default: =If(ThisItem.Category in FilterList.Category, true, false)
@@ -234,7 +234,7 @@ Filter As screen:
             Size: =21
             Text: =""
             Width: =30
-            X: =9
+            X: =13
             ZIndex: =3
 
     "'Items Gallery' As gallery.galleryVertical":
