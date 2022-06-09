@@ -81,12 +81,12 @@
 
     Gallery5_4 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
-        Height: =791
-        Items: =SecondaryCart
+        Height: =859
+        Items: =Filter('Order Line', 'Order No'.'Order ID'= order.'Order ID')
         Layout: =Layout.Vertical
         TemplateSize: =204
-        Visible: =If(CountRows(PrimaryCart)>0, true, false)
-        Y: =190
+        Visible: ='Dashboard Toptab_1'.Selected.Title = "Order Lines"
+        Y: =181
         ZIndex: =85
 
         Rectangle4_4 As rectangle:
@@ -115,10 +115,9 @@
             Height: =70
             OnSelect: =Select(Parent)
             Size: =19
-            Text: =ThisItem.name
+            Text: =ThisItem.Name
             Width: =377
-            X: =226
-            Y: =8
+            X: =23
             ZIndex: =2
 
         Label19_53 As label:
@@ -136,8 +135,8 @@
             Size: =15
             Text: ="Quantity"
             Width: =104
-            X: =233
-            Y: =93
+            X: =129
+            Y: =100
             ZIndex: =3
 
         Label19_54 As label:
@@ -153,10 +152,10 @@
             Height: =25
             OnSelect: =Select(Parent)
             Size: =15
-            Text: =ThisItem.qty
+            Text: =ThisItem.Quantity
             Width: =72
-            X: =337
-            Y: =93
+            X: =233
+            Y: =100
             ZIndex: =4
 
         Label19_55 As label:
@@ -174,8 +173,8 @@
             Size: =15
             Text: ="Price"
             Width: =68
-            X: =449
-            Y: =93
+            X: =335
+            Y: =100
             ZIndex: =5
 
         Label19_56 As label:
@@ -191,48 +190,18 @@
             Height: =25
             OnSelect: =Select(Parent)
             Size: =15
-            Text: =Concatenate("₹", ThisItem.price)
+            Text: =Concatenate("₹", ThisItem.'Bill Amoount')
             Width: =100
-            X: =514
-            Y: =93
+            X: =400
+            Y: =100
             ZIndex: =6
 
-        HtmlText1_101 As htmlViewer:
-            Color: =RGBA(242, 242, 242, 1)
-            Height: =191
-            HtmlText: |-
-                ="<div style='border-radius:15px 15px 15px 15px; background-color:#F2F2F2; border:2px solid #D3D4D6; width:200px; height:170px'></div>"
-            OnSelect: =Select(Parent)
-            Width: =219
-            X: =8
-            Y: =10
-            ZIndex: =12
-
-        Image2_6 As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =170
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Image: =ThisItem.image
-            OnSelect: =Select(Parent)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =189
-            X: =18
-            Y: =17
-            ZIndex: =13
-
-    "'Info Tab' As group":
+    Group22 As group:
         Height: =5
         Width: =5
         X: =60
         Y: =60
-        ZIndex: =85
+        ZIndex: =86
 
         Label5_23 As label:
             BorderColor: =RGBA(0, 0, 0, 0)

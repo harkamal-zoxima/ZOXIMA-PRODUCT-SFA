@@ -11586,17 +11586,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Order Info'.Gallery5_4.AccessibleLabel"
+                  "fullyQualifiedName": "'Order Info'.Gallery5_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Order Info'.Gallery5_4.AccessibleLabel",
+                  "fullyQualifiedName": "'Order Info'.Gallery5_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "TabIndex",
                 "module": "Order Info",
                 "type": "'Order Info'.Gallery5_4"
               }
@@ -11608,8 +11608,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 10
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -11646,17 +11646,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Order Info'.Gallery5_4.TabIndex"
+                  "fullyQualifiedName": "'Order Info'.Gallery5_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Order Info'.Gallery5_4.TabIndex",
+                  "fullyQualifiedName": "'Order Info'.Gallery5_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "AccessibleLabel",
                 "module": "Order Info",
                 "type": "'Order Info'.Gallery5_4"
               }
@@ -11668,8 +11668,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 11
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 10
         },
         {
           "locations": [
