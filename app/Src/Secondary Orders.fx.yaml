@@ -958,7 +958,7 @@
 
         Icon10_5 As icon.Cancel:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(53, 166, 57, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
@@ -973,9 +973,9 @@
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Visible: =VarRetailerDialog
-            Width: =37
-            X: =539
-            Y: =298
+            Width: =45
+            X: =531
+            Y: =301
             ZIndex: =27
 
         Label7_4 As label:
@@ -1003,7 +1003,7 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
+            Fill: =RGBA(53, 166, 57, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.Lato
             FontWeight: =FontWeight.Bold
