@@ -2,14 +2,14 @@
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
     OnVisible: =Set(varOpen, false)
 
-    Group17_1 As group:
+    Group17_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =18
 
-        HtmlText1_77 As htmlViewer:
+        HtmlText1_91 As htmlViewer:
             BorderThickness: =1
             Height: =326
             HtmlText: |-
@@ -23,7 +23,7 @@
             Y: =87
             ZIndex: =1
 
-        Label4_44 As label:
+        Label4_54 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -41,7 +41,7 @@
             Y: =123
             ZIndex: =2
 
-        Label4_45 As label:
+        Label4_55 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -53,13 +53,13 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
-            Text: =Sum(SecondaryCart, qty)
+            Text: =Sum(PrimaryCart, qty)
             Width: =126
             X: =347
             Y: =122
             ZIndex: =3
 
-        HtmlText1_78 As htmlViewer:
+        HtmlText1_92 As htmlViewer:
             Height: =38
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
@@ -68,7 +68,7 @@
             Y: =122
             ZIndex: =4
 
-        Label4_46 As label:
+        Label4_56 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -85,7 +85,7 @@
             Y: =162
             ZIndex: =5
 
-        Label4_47 As label:
+        Label4_57 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -97,13 +97,13 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
-            Text: =Today()
+            Text: ="16/05/2022"
             Width: =126
             X: =347
             Y: =161
             ZIndex: =6
 
-        HtmlText1_79 As htmlViewer:
+        HtmlText1_93 As htmlViewer:
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             Width: =233
@@ -111,7 +111,7 @@
             Y: =162
             ZIndex: =7
 
-        Label4_48 As label:
+        Label4_58 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -129,7 +129,7 @@
             Y: =198
             ZIndex: =8
 
-        Label4_49 As label:
+        Label4_59 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -142,14 +142,14 @@
             FontWeight: =FontWeight.Semibold
             Height: =36
             Text: |+
-                =Concatenate("₹",Text(Sum(SecondaryCart, price),"[$-en-US]0.00"))
+                =Concatenate("₹",Text(Sum(PrimaryCart, price),"[$-en-US]0.00"))
                 
             Width: =126
             X: =347
             Y: =198
             ZIndex: =9
 
-        HtmlText1_80 As htmlViewer:
+        HtmlText1_98 As htmlViewer:
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             Width: =233
@@ -157,7 +157,7 @@
             Y: =198
             ZIndex: =10
 
-        Label4_50 As label:
+        Label4_60 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -174,7 +174,7 @@
             Y: =246
             ZIndex: =11
 
-        Label4_51 As label:
+        Label4_61 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -186,13 +186,13 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
-            Text: =Concatenate("₹",Text(Sum(SecondaryCart, price)*0.18,"[$-en-US]0.00"))
+            Text: =Concatenate("₹",Text(Sum(PrimaryCart, price)*0.18,"[$-en-US]0.00"))
             Width: =126
             X: =347
             Y: =242
             ZIndex: =12
 
-        HtmlText1_81 As htmlViewer:
+        HtmlText1_99 As htmlViewer:
             Height: =39
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
@@ -201,7 +201,7 @@
             Y: =243
             ZIndex: =13
 
-        Label4_52 As label:
+        Label4_62 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -218,7 +218,7 @@
             Y: =285
             ZIndex: =14
 
-        Label4_53 As label:
+        Label4_63 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -235,11 +235,11 @@
                     "₹",
                     Text(
                         Sum(
-                            SecondaryCart,
+                            PrimaryCart,
                             price
                         ) * 0.18 + Text(
                             Sum(
-                                SecondaryCart,
+                                PrimaryCart,
                                 price
                             )
                         ),
@@ -251,7 +251,7 @@
             Y: =282
             ZIndex: =15
 
-        HtmlText1_87 As htmlViewer:
+        HtmlText1_100 As htmlViewer:
             Height: =36
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
@@ -260,12 +260,12 @@
             Y: =282
             ZIndex: =16
 
-    "'Header Component_18' As 'Header Component_11'":
+    "'Header Component_19' As 'Header Component_11'":
         Height: =108
         ScreenName: ="Primary Cart"
         ZIndex: =19
 
-    Button3_2 As button:
+    Button3_4 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -368,7 +368,7 @@
         Y: =980
         ZIndex: =20
 
-    Label4_1 As label:
+    Label4_4 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -387,7 +387,7 @@
         Y: =631
         ZIndex: =21
 
-    Button3_3 As button:
+    Button3_5 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -400,7 +400,7 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: =Navigate('Primary Products', ScreenTransition.Fade)
+        OnSelect: =Navigate('Secondary Products', ScreenTransition.Fade)
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -412,7 +412,7 @@
         Y: =701
         ZIndex: =22
 
-    "'Bottom Navigation_17' As 'Bottom Navigation'":
+    "'Bottom Navigation_18' As 'Bottom Navigation'":
         NavItems: |-
             =Table( {
                     Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
@@ -444,7 +444,7 @@
         Y: =1056
         ZIndex: =23
 
-    Icon14_6 As icon.BackArrow:
+    Icon14_7 As icon.BackArrow:
         BorderColor: =RGBA(166, 166, 166, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -465,17 +465,17 @@
         Y: =15
         ZIndex: =24
 
-    Gallery5_2 As gallery.galleryVertical:
+    Gallery5_3 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =607
-        Items: =PrimaryCart
+        Items: =SecondaryCart
         Layout: =Layout.Vertical
         TemplateSize: =204
         Visible: =If(CountRows(PrimaryCart)>0, true, false)
         Y: =355
         ZIndex: =25
 
-        Rectangle4_2 As rectangle:
+        Rectangle4_3 As rectangle:
             BorderColor: =RGBA(230, 230, 230, 1)
             BorderThickness: =1
             DisabledFill: =RGBA(166, 166, 166, 1)
@@ -488,7 +488,7 @@
             Width: =630
             ZIndex: =1
 
-        Label13_9 As label:
+        Label13_10 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -507,7 +507,7 @@
             Y: =8
             ZIndex: =2
 
-        Label19_45 As label:
+        Label19_49 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -526,7 +526,7 @@
             Y: =78
             ZIndex: =3
 
-        Label19_46 As label:
+        Label19_50 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -545,7 +545,7 @@
             Y: =78
             ZIndex: =4
 
-        Label19_47 As label:
+        Label19_51 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -564,7 +564,7 @@
             Y: =78
             ZIndex: =5
 
-        Label19_48 As label:
+        Label19_52 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -583,7 +583,7 @@
             Y: =78
             ZIndex: =6
 
-        TextInput5_1 As text:
+        TextInput5_2 As text:
             BorderColor: =RGBA(103, 204, 107, 1)
             Color: =RGBA(51, 51, 51, 1)
             Default: =ThisItem.qty
@@ -611,7 +611,7 @@
             Y: =142
             ZIndex: =11
 
-        HtmlText1_74 As htmlViewer:
+        HtmlText1_88 As htmlViewer:
             Color: =RGBA(242, 242, 242, 1)
             Height: =191
             HtmlText: |-
@@ -622,7 +622,7 @@
             Y: =10
             ZIndex: =12
 
-        Image2_4 As image:
+        Image2_5 As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -641,7 +641,7 @@
             Y: =17
             ZIndex: =13
 
-        Icon9_1 As icon.Trash:
+        Icon9_2 As icon.Trash:
             BorderColor: =RGBA(166, 166, 166, 1)
             Color: =RGBA(103, 204, 107, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -662,14 +662,14 @@
             Y: =10
             ZIndex: =14
 
-        Group15_6 As group:
+        Group15_8 As group:
             Height: =5
             Width: =5
             X: =-135
             Y: =-81
             ZIndex: =22
 
-            HtmlText1_75 As htmlViewer:
+            HtmlText1_89 As htmlViewer:
                 Height: =56
                 HtmlText: |-
                     ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
@@ -690,7 +690,7 @@
                 Y: =137
                 ZIndex: =7
 
-            Label4_9 As label:
+            Label4_13 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -721,14 +721,14 @@
                 Y: =146
                 ZIndex: =8
 
-        Group15_7 As group:
+        Group15_9 As group:
             Height: =5
             Width: =5
             X: =-116
             Y: =-197
             ZIndex: =24
 
-            HtmlText1_76 As htmlViewer:
+            HtmlText1_90 As htmlViewer:
                 Height: =56
                 HtmlText: |-
                     ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
@@ -749,7 +749,7 @@
                 Y: =137
                 ZIndex: =9
 
-            Label4_11 As label:
+            Label4_15 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
