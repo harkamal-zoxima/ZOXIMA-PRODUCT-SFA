@@ -447,7 +447,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: ="34,500"
+                Text: =ThisItem.'Bill Amoount'
                 Width: =118
                 X: =416
                 Y: =183
@@ -673,7 +673,7 @@
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
         Height: =26
-        OnSelect: =Navigate('Primary Products', ScreenTransition.Fade)
+        OnSelect: =Set(VarRetailerDialog, true)
         Text: ="New"
         Width: =95
         X: =520
@@ -949,7 +949,7 @@
             OnSelect: |-
                 =Set(ConfirmButtonClicked, true);
                 Set(SelectedRetailerForPriOrder, Retailer_1.SelectedItems);
-                Navigate('Secondary Products', ScreenTransition.Fade);
+                Navigate('Primary Products', ScreenTransition.Fade)
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
