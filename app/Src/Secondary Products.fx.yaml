@@ -423,7 +423,7 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: =Navigate(Filter, ScreenTransition.Fade)
+        OnSelect: =Navigate('Secondary Cart', ScreenTransition.Fade)
         PaddingLeft: =20
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
@@ -447,6 +447,7 @@
         HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.ShoppingCart
+        OnSelect: =Navigate('Secondary Cart', ScreenTransition.Fade)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -471,6 +472,7 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =Navigate('Secondary Cart', ScreenTransition.Fade)
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
