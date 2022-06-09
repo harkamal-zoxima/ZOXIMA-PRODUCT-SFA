@@ -285,104 +285,55 @@
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: |
-            =If(
-                Connection.Connected,
-                ClearCollect(
-                    CreateOrderRecord,
-                    Patch(
-                        'Sales Order',
-                        Defaults('Sales Order'),
-                        {
-                            'Order Date': Today(),
-                            'Order Status': 'Order Status (Sales Order)'.Open,
-                            'Order Type': 'Order Type'.'Primary Order',
-                            'Order To': LookUp(
-                                Accounts,
-                                Account = GUID("7e239ae8-1fe7-ec11-bb3c-000d3ac9a0fa")
-                            ),
-                            'Before Tax Amount': Sum(
-                                PrimaryCart,
-                                price
-                            ),
-                            'CGST Amount': Sum(
-                                PrimaryCart,
-                                price
-                            ) * 0.09,
-                            'SGST Amount': Sum(
-                                PrimaryCart,
-                                price
-                            ) * 0.09,
-                            'Bill Amoount': Sum(
-                                PrimaryCart,
-                                price
-                            )
-                        }
-                    )
-                );
-                If(
-                    !IsBlank(CreateOrderRecord),
-                    ClearCollect(
-                        CreateItemsRecord,
-                        ForAll(
+            =ClearCollect(
+                CreateOrderRecord,
+                Patch(
+                    'Sales Order',
+                    Defaults('Sales Order'),
+                    {
+                        'Order Date': Today(),
+                        'Order Status': 'Order Status (Sales Order)'.Open,
+                        'Order Type': 'Order Type'.'Primary Order',
+                        'Before Tax Amount': Sum(
                             PrimaryCart,
-                            Patch(
-                                'Order Line',
-                                Defaults('Order Line'),
-                                {
-                                    Quantity: Value(ThisRecord.qty),
-                                    Name: ThisRecord.name,
-                                    'Bill Amoount': ThisRecord.price,
-                                    'Order No': LookUp(
-                                        'Sales Order',
-                                        Name = First(CreateOrderRecord.Name).Name
-                                    )
-                                }
-                            )
+                            price
+                        ),
+                        'CGST Amount': Sum(
+                            PrimaryCart,
+                            price
+                        ) * 0.09,
+                        'SGST Amount': Sum(
+                            PrimaryCart,
+                            price
+                        ) * 0.09,
+                        'Bill Amoount': Sum(
+                            PrimaryCart,
+                            price
+                        )
+                    }
+                )
+            );
+            If(
+                !IsBlank(CreateOrderRecord),
+                ClearCollect(
+                    CreateItemsRecord,
+                    ForAll(
+                        PrimaryCart,
+                        Patch(
+                            'Order Line',
+                            Defaults('Order Line'),
+                            {
+                                Quantity: Value(ThisRecord.qty),
+                                Name: ThisRecord.name,
+                                'Bill Amoount': ThisRecord.price,
+                                'Order No': LookUp(
+                                    'Sales Order',
+                                    Name = First(CreateOrderRecord.Name).Name
+                                )
+                            }
                         )
                     )
-                );
-                ,
-                ClearCollect(
-                    OfflineCreateOrderRecord,
-                    Patch(
-                        OfflineSalesHeader,
-                        Defaults(OfflineSalesHeader),
-                        {
-                            'Order Date': Today(),
-                            'Order Status': 'Order Status (Sales Order)'.Open,
-                            Name: Round(
-                                RandBetween(
-                                    10,
-                                    9999
-                                ),
-                                2
-                            )
-                        }
-                    )
-                );
-                If(
-                    !IsBlank(OfflineCreateOrderRecord),
-                    ClearCollect(
-                        CreateItemsRecord,
-                        ForAll(
-                            PrimaryCart,
-                            Patch(
-                                'Order Line',
-                                Defaults('Order Line'),
-                                {
-                                    Quantity: Value(ThisRecord.qty),
-                                    Name: ThisRecord.name,
-                                    'Bill Amoount': ThisRecord.price,
-                                    'Order No': LookUp(
-                                        'Sales Order',
-                                        Name = First(OfflineCreateOrderRecord.Name).Name
-                                    )
-                                }
-                            )
-                        )
-                    )
-                );
-                
+                )
             );
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
