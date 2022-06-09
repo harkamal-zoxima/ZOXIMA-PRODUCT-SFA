@@ -418,7 +418,7 @@ Products As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
-        Height: =25
+        Height: =26
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
@@ -431,7 +431,7 @@ Products As screen:
         RadiusTopRight: =50
         Size: =12
         Text: =CountRows(PrimaryCart)
-        Width: =25
+        Width: =26
         X: =606
         Y: =12
         ZIndex: =14
