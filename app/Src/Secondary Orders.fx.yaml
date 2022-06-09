@@ -933,12 +933,12 @@
         Width: =640
         ZIndex: =25
 
-    Group25 As group:
+    Group26 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =33
+        ZIndex: =34
 
         Rectangle7_5 As rectangle:
             BorderColor: =RGBA(219, 219, 219, 1)
@@ -948,14 +948,7 @@
             FocusedBorderThickness: =4
             Height: =546
             HoverFill: =RGBA(237, 237, 237, 1)
-            OnSelect: |-
-                =If(VarDialogOpen, Patch(
-                    Visits_1,
-                    Defaults(Visits_1),
-                    {'Visit Type':'Visit Type (Visits_1)'.Unplanned,
-                    Customer: LookUp(Accounts, )}
-                );
-                )
+            OnSelect: =
             PressedFill: =RGBA(237, 237, 237, 1)
             Visible: =VarRetailerDialog
             Width: =550
@@ -1018,19 +1011,22 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            OnSelect: =
+            OnSelect: |-
+                =Set(SelectedDistributorForSecOrder, Distributor.SelectedItems);
+                Set(SelectedRetailerForSecOrder, Retailer.SelectedItems);
+                Navigate(Products, ScreenTransition.Fade);
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Size: =14
+            Size: =16
             Text: ="CONFIRM"
             Visible: =VarRetailerDialog
             Width: =137
             X: =257
-            Y: =696
+            Y: =678
             ZIndex: =29
 
-        ComboBox1 As combobox:
+        Distributor As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
             ChevronBackground: =RGBA(255, 255, 255, 1)
             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -1056,8 +1052,9 @@
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["name"]
-            SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Distributer),ComboBox1.SearchText,"name")
+            SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Distributer),Distributor.SearchText,"name")
             SelectionFill: =RGBA(73, 130, 5, 1)
+            SelectMultiple: =false
             Size: =21
             Visible: =VarRetailerDialog
             Width: =499
@@ -1085,7 +1082,7 @@
             Y: =510
             ZIndex: =31
 
-        ComboBox1_1 As combobox:
+        Retailer As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
             ChevronBackground: =RGBA(255, 255, 255, 1)
             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -1111,12 +1108,32 @@
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["name"]
-            SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer),ComboBox1_1.SearchText,"name")
+            SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer),Retailer.SearchText,"name")
             SelectionFill: =RGBA(73, 130, 5, 1)
+            SelectMultiple: =false
             Size: =21
             Visible: =VarRetailerDialog
             Width: =499
             X: =72
             Y: =570
             ZIndex: =32
+
+        Label12 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            Height: =52
+            Size: =16
+            Text: ="Please Select Distributor and Retailer"
+            Visible: =(CountRows(Distributor.SelectedItems)=0 || CountRows(Retailer.SelectedItems)=0) && VarRetailerDialog
+            Width: =485
+            X: =70
+            Y: =746
+            ZIndex: =33
 
