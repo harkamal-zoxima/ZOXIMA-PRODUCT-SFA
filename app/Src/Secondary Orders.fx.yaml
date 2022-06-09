@@ -688,7 +688,7 @@
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
         Height: =34
-        OnSelect: =Navigate(Products, ScreenTransition.Fade)
+        OnSelect: =Set(VarRetailerDialog, true)
         Text: ="New"
         Width: =113
         X: =510
@@ -919,18 +919,32 @@
             ]
         ZIndex: =24
 
-    Modal As group:
+    Rectangle5_4 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(204, 204, 204, 0.66)
+        FocusedBorderThickness: =4
+        Height: =1136
+        HoverFill: =
+        PressedFill: =RGBA(73, 130, 5, 1)
+        Visible: =VarRetailerDialog
+        Width: =640
+        ZIndex: =25
+
+    Group25 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =34
+        ZIndex: =33
 
         Rectangle7_5 As rectangle:
             BorderColor: =RGBA(219, 219, 219, 1)
             BorderThickness: =2
             DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(237, 237, 237, 1)
+            Fill: =RGBA(242, 242, 242, 1)
             FocusedBorderThickness: =4
             Height: =546
             HoverFill: =RGBA(237, 237, 237, 1)
@@ -943,11 +957,11 @@
                 );
                 )
             PressedFill: =RGBA(237, 237, 237, 1)
-            Visible: =VarDialogOpen
+            Visible: =VarRetailerDialog
             Width: =550
             X: =41
             Y: =280
-            ZIndex: =25
+            ZIndex: =26
 
         Icon10_5 As icon.Cancel:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -961,15 +975,15 @@
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Cancel
-            OnSelect: =Set(VarDialogOpen, false)
+            OnSelect: =Set(VarRetailerDialog, false)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =VarDialogOpen
+            Visible: =VarRetailerDialog
             Width: =37
             X: =539
             Y: =298
-            ZIndex: =26
+            ZIndex: =27
 
         Label7_4 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -985,11 +999,11 @@
             OnSelect: =
             Size: =21
             Text: ="Select Distributor"
-            Visible: =VarDialogOpen
+            Visible: =VarRetailerDialog
             Width: =484
             X: =71
             Y: =366
-            ZIndex: =27
+            ZIndex: =28
 
         Button2_8 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1010,11 +1024,11 @@
             PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             Size: =14
             Text: ="CONFIRM"
-            Visible: =VarDialogOpen
+            Visible: =VarRetailerDialog
             Width: =137
             X: =257
-            Y: =716
-            ZIndex: =28
+            Y: =696
+            ZIndex: =29
 
         ComboBox1 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -1043,10 +1057,11 @@
             SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Distributer),ComboBox1.SearchText,"name")
             SelectionFill: =RGBA(73, 130, 5, 1)
             Size: =21
+            Visible: =VarRetailerDialog
             Width: =499
             X: =70
             Y: =424
-            ZIndex: =31
+            ZIndex: =30
 
         Label7_5 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1061,12 +1076,12 @@
             Height: =62
             OnSelect: =
             Size: =21
-            Text: ="Select Distributor"
-            Visible: =VarDialogOpen
+            Text: ="Select Retailer"
+            Visible: =VarRetailerDialog
             Width: =484
             X: =72
             Y: =510
-            ZIndex: =32
+            ZIndex: =31
 
         ComboBox1_1 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -1080,20 +1095,23 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayFields: =["name"]
             Font: =Font.'Segoe UI'
             Height: =65
             HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(212, 212, 212, 1)
-            Items: =ComboBoxSample
+            InputTextPlaceholder: ="Select Retailer"
+            Items: =Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer)
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
-            SearchItems: =Search(ComboBoxSample,ComboBox1_1.SearchText,"Value1")
+            SearchFields: =["name"]
+            SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer),ComboBox1_1.SearchText,"name")
             SelectionFill: =RGBA(73, 130, 5, 1)
             Size: =21
             Width: =499
-            X: =71
-            Y: =568
-            ZIndex: =33
+            X: =72
+            Y: =570
+            ZIndex: =32
 
