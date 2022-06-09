@@ -468,7 +468,7 @@
     Gallery5_3 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =607
-        Items: =SecondaryCart
+        Items: =PrimaryCart
         Layout: =Layout.Vertical
         TemplateSize: =204
         Visible: =If(CountRows(PrimaryCart)>0, true, false)

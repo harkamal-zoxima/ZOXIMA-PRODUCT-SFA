@@ -199,11 +199,11 @@
                         ),
                         {
                             name: ThisItem.'Product Name',
-                            qty: Bag.Text,
+                            qty: TextInput1.Text,
                             price: LookUp(
                                 OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
-                            ).Price * Bag.Text,
+                            ).Price * TextInput1.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
                                 OfflinePriceList,
@@ -216,11 +216,11 @@
                         PrimaryCart,
                         {
                             name: ThisItem.'Product Name',
-                            qty: Bag.Text,
+                            qty: TextInput1.Text,
                             price: LookUp(
                                 OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
-                            ).Price * Bag.Text,
+                            ).Price * TextInput1.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
                                 OfflinePriceList,
