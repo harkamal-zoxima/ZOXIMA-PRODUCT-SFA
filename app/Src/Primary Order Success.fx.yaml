@@ -77,7 +77,7 @@
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =185
         X: =227
-        Y: =279
+        Y: =258
         ZIndex: =25
 
     Label13 As label:
@@ -96,7 +96,7 @@
         Text: ="ORDER CONFIRMATION"
         Width: =560
         X: =40
-        Y: =461
+        Y: =440
         ZIndex: =26
 
     Label14 As label:
@@ -115,7 +115,7 @@
         Text: =Concatenate("Your order has been successfully placed. Your order ID is ", First(CreateOrderRecord).'Order ID')
         Width: =560
         X: =40
-        Y: =546
+        Y: =525
         ZIndex: =27
 
     Button7 As button:
@@ -143,6 +143,35 @@
         Text: ="Primary orders"
         Width: =305
         X: =167
-        Y: =726
+        Y: =783
         ZIndex: =28
+
+    Button7_1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(75, 174, 79, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: |-
+            =Navigate('Order Info', ScreenTransition.Fade, {order: LookUp('Sales Order', 'Order ID' = First(CreateOrderRecord).'Order ID')})
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =24
+        Text: ="Order Information"
+        Width: =305
+        X: =167
+        Y: =690
+        ZIndex: =29
 
