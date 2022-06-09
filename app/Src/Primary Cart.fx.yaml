@@ -53,7 +53,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
-            Text: =Sum(PrimaryCart, qty)
+            Text: =Sum(SecondaryCart, qty)
             Width: =126
             X: =347
             Y: =122
@@ -97,7 +97,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
-            Text: ="16/05/2022"
+            Text: =Today()
             Width: =126
             X: =347
             Y: =161
@@ -142,7 +142,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =36
             Text: |+
-                =Concatenate("₹",Text(Sum(PrimaryCart, price),"[$-en-US]0.00"))
+                =Concatenate("₹",Text(Sum(SecondaryCart, price),"[$-en-US]0.00"))
                 
             Width: =126
             X: =347
@@ -186,7 +186,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
-            Text: =Concatenate("₹",Text(Sum(PrimaryCart, price)*0.18,"[$-en-US]0.00"))
+            Text: =Concatenate("₹",Text(Sum(SecondaryCart, price)*0.18,"[$-en-US]0.00"))
             Width: =126
             X: =347
             Y: =242
@@ -235,11 +235,11 @@
                     "₹",
                     Text(
                         Sum(
-                            PrimaryCart,
+                            SecondaryCart,
                             price
                         ) * 0.18 + Text(
                             Sum(
-                                PrimaryCart,
+                                SecondaryCart,
                                 price
                             )
                         ),
