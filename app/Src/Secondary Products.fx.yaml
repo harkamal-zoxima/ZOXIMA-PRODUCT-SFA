@@ -167,7 +167,7 @@
             Y: =278
             ZIndex: =10
 
-        TextInput1_1 As text:
+        Bags As text:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(53, 166, 57, 1)
@@ -200,11 +200,11 @@
                         ),
                         {
                             name: ThisItem.'Product Name',
-                            qty: Bag.Text,
+                            qty: Bags.Text,
                             price: LookUp(
                                 OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
-                            ).Price * Bag.Text,
+                            ).Price * Bags.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
                                 OfflinePriceList,
@@ -217,11 +217,11 @@
                         SecondaryCart,
                         {
                             name: ThisItem.'Product Name',
-                            qty: Bag.Text,
+                            qty: Bags.Text,
                             price: LookUp(
                                 OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
-                            ).Price * Bag.Text,
+                            ).Price * Bags.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
                                 OfflinePriceList,

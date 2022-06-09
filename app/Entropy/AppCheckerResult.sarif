@@ -10470,19 +10470,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.TextInput1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.Bags.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.TextInput1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.Bags.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Secondary Products",
-                "type": "'Secondary Products'.'Product Gallery_1'.TextInput1_1"
+                "type": "'Secondary Products'.'Product Gallery_1'.Bags"
               }
             }
           ],

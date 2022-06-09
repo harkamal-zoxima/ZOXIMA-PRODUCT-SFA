@@ -323,12 +323,7 @@
         Text: ="Products"
         Width: =330
         X: =80
-        ZIndex: =7
-
-    "'Side Bar_3' As 'Side Bar'":
-        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
-        Height: =If(varOpen, 1136, 70)
-        ZIndex: =8
+        ZIndex: =6
 
     CategoryFilter As gallery.galleryHorizontal:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -340,7 +335,7 @@
         Width: =565
         X: =62
         Y: =84
-        ZIndex: =9
+        ZIndex: =7
 
         Button4_6 As button:
             BorderColor: =RGBA(53, 166, 57, 1)
@@ -386,7 +381,7 @@
         Width: =54
         X: =8
         Y: =98
-        ZIndex: =10
+        ZIndex: =8
 
     Label10_2 As label:
         Align: =Align.Center
@@ -406,7 +401,7 @@
         Width: =560
         X: =45
         Y: =422
-        ZIndex: =11
+        ZIndex: =9
 
     Button1_3 As button:
         Align: =Align.Left
@@ -432,7 +427,7 @@
         Width: =110
         X: =513
         Y: =22
-        ZIndex: =12
+        ZIndex: =10
 
     Icon6 As icon.ShoppingCart:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -453,7 +448,7 @@
         Width: =31
         X: =579
         Y: =30
-        ZIndex: =13
+        ZIndex: =11
 
     Button5 As button:
         BorderColor: =RGBA(103, 204, 107, 1)
@@ -484,5 +479,10 @@
         Width: =26
         X: =606
         Y: =12
-        ZIndex: =14
+        ZIndex: =12
+
+    "'Side Bar_3' As 'Side Bar'":
+        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+        Height: =If(varOpen, 1136, 70)
+        ZIndex: =13
 
