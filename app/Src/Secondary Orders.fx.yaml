@@ -1,6 +1,9 @@
 "'Secondary Orders' As screen":
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
-    OnVisible: =Set(varOpen, false)
+    OnVisible: |-
+        =Set(varOpen, false);
+        Set(SelectedDistributorForSecOrder, Blank());
+        Set(SelectedRetailerForSecOrder, Blank());
 
     "'Side Bar_13' As 'Side Bar'":
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
@@ -1003,6 +1006,7 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =If(IsBlank(SelectedDistributorForSecOrder) || IsBlank(SelectedRetailerForSecOrder), DisplayMode.Disabled, DisplayMode.Edit)
             Fill: =RGBA(53, 166, 57, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.Lato
@@ -1012,7 +1016,8 @@
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
             OnSelect: |-
-                =Set(SelectedDistributorForSecOrder, Distributor.SelectedItems);
+                =Set(ConfirmButtonClicked, true);
+                Set(SelectedDistributorForSecOrder, Distributor.SelectedItems);
                 Set(SelectedRetailerForSecOrder, Retailer.SelectedItems);
                 Navigate(Products, ScreenTransition.Fade);
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
@@ -1131,7 +1136,7 @@
             Height: =52
             Size: =16
             Text: ="Please Select Distributor and Retailer"
-            Visible: =(CountRows(Distributor.SelectedItems)=0 || CountRows(Retailer.SelectedItems)=0) && VarRetailerDialog
+            Visible: =(CountRows(Distributor.SelectedItems)=0 || CountRows(Retailer.SelectedItems)=0) && VarRetailerDialog && ConfirmButtonClicked
             Width: =485
             X: =70
             Y: =746

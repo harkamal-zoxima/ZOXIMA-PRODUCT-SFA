@@ -9820,66 +9820,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.SelectedRetailerForSecOrder"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.SelectedRetailerForSecOrder",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "SelectedRetailerForSecOrder",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.SelectedDistributorForSecOrder"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.SelectedDistributorForSecOrder",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "SelectedDistributorForSecOrder",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.zoxima logo"
                 }
               ],
