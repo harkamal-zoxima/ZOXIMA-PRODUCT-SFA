@@ -315,7 +315,8 @@
                         'Order To': LookUp(
                             Accounts,
                             Account = GUID("7e239ae8-1fe7-ec11-bb3c-000d3ac9a0fa")
-                        )
+                        ),
+                        'Order From': LookUp(Accounts, Account = First(SelectedRetailerForPriOrder).Account)
                     }
                 )
             );

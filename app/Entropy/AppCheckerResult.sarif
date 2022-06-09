@@ -4372,7 +4372,7 @@
                 },
                 "region": {
                   "charLength": 11,
-                  "charOffset": 1413,
+                  "charOffset": 1511,
                   "snippet": {
                     "text": ".'Order ID'"
                   }
@@ -4412,7 +4412,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1387,
+                  "charOffset": 1485,
                   "snippet": {
                     "text": "="
                   }
@@ -11833,36 +11833,6 @@
               },
               "properties": {
                 "member": "SelectedRetailerForSecOrder",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 13
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.SelectedRetailerForPriOrder"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.SelectedRetailerForPriOrder",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "SelectedRetailerForPriOrder",
                 "module": "App",
                 "type": "App"
               }
