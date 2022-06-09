@@ -104,7 +104,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =51
             Size: =20
-            Text: =ThisItem.'Order ID'
+            Text: =Concatenate("OR",ThisItem.'Order ID')
             Width: =289
             X: =36
             Y: =12
@@ -213,7 +213,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: ="12"
+            Text: =ThisItem.'Order ID'
             Width: =116
             X: =60
             Y: =103
@@ -251,7 +251,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: ="12-04-2022"
+            Text: =ThisItem.'Order Date'
             Width: =127
             X: =418
             Y: =103
@@ -358,7 +358,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =44
                 Size: =13
-                Text: =ThisItem.'Ship To Party'.'Account Name'
+                Text: =ThisItem.'Order To'.'Account Name'
                 Width: =155
                 X: =50
                 Y: =176
@@ -470,7 +470,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: ="34,500"
+                Text: =Concatenate("₹", ThisItem.'Bill Amoount')
                 Width: =118
                 X: =416
                 Y: =183
