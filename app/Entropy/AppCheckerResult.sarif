@@ -3536,7 +3536,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 270,
+                  "charOffset": 299,
                   "snippet": {
                     "text": "-"
                   }
@@ -3576,7 +3576,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 260,
+                  "charOffset": 289,
                   "snippet": {
                     "text": ">"
                   }
@@ -3616,7 +3616,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 511,
+                  "charOffset": 564,
                   "snippet": {
                     "text": "-"
                   }
@@ -3656,7 +3656,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 501,
+                  "charOffset": 554,
                   "snippet": {
                     "text": ">"
                   }
@@ -3696,7 +3696,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 731,
+                  "charOffset": 808,
                   "snippet": {
                     "text": "IsToday('Order Date')"
                   }

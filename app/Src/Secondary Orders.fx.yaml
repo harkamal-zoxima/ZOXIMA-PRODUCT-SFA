@@ -45,33 +45,37 @@
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =839
         Items: |-
-            =Sort(Switch(
-                filter_4.Selected.Value,
-                "Last Month",
-                Filter(
+            =Sort(
+                Switch(
+                    filter_4.Selected.Value,
+                    "Last Month",
                     Filter(
-                        'Sales Order',
-                        'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
+                        Filter(
+                            'Sales Order',
+                            'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
+                        ),
+                        'Order Date' > Today() - 30
                     ),
-                    'Order Date' > Today() - 30
+                    "Last 7 Days",
+                    Filter(
+                        Filter(
+                            'Sales Order',
+                            'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
+                        ),
+                        'Order Date' > Today() - 7
+                    ),
+                    "Today's Orders",
+                    Filter(
+                        Filter(
+                            'Sales Order',
+                            'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
+                        ),
+                        IsToday('Order Date')
+                    )
                 ),
-                "Last 7 Days",
-                Filter(
-                    Filter(
-                        'Sales Order',
-                        'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
-                    ),
-                    'Order Date' > Today() - 7
-                ),
-                "Today's Orders",
-                Filter(
-                    Filter(
-                        'Sales Order',
-                        'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
-                    ),
-                    IsToday('Order Date')
-                )
-            ), 'Order ID', Descending)
+                'Order ID',
+                Descending
+            )
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =192
