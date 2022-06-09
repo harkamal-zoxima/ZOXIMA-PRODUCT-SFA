@@ -101,7 +101,8 @@
   },
   "ScreenOrder": [
     "Home",
-    "Products",
+    "Primary Products",
+    "Secondary Products",
     "Visit Products",
     "Filter",
     "StartDay",

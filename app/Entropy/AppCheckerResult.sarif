@@ -5770,19 +5770,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.Icon3.TabIndex"
+                  "fullyQualifiedName": "'Primary Products'.Icon3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.Icon3.TabIndex",
+                  "fullyQualifiedName": "'Primary Products'.Icon3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Products",
-                "type": "Products.Icon3"
+                "module": "Primary Products",
+                "type": "'Primary Products'.Icon3"
               }
             }
           ],
@@ -5800,19 +5800,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.Icon3.AccessibleLabel"
+                  "fullyQualifiedName": "'Primary Products'.Icon3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.Icon3.AccessibleLabel",
+                  "fullyQualifiedName": "'Primary Products'.Icon3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Products",
-                "type": "Products.Icon3"
+                "module": "Primary Products",
+                "type": "'Primary Products'.Icon3"
               }
             }
           ],
@@ -5830,19 +5830,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.'Product Gallery'.AccessibleLabel"
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.'Product Gallery'.AccessibleLabel",
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Products",
-                "type": "Products.'Product Gallery'"
+                "module": "Primary Products",
+                "type": "'Primary Products'.'Product Gallery'"
               }
             }
           ],
@@ -5860,19 +5860,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.'Product Gallery'.TabIndex"
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.'Product Gallery'.TabIndex",
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Products",
-                "type": "Products.'Product Gallery'"
+                "module": "Primary Products",
+                "type": "'Primary Products'.'Product Gallery'"
               }
             }
           ],
@@ -5890,19 +5890,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.'Product Gallery'.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.'Product Gallery'.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Products",
-                "type": "Products.'Product Gallery'.TextInput1"
+                "module": "Primary Products",
+                "type": "'Primary Products'.'Product Gallery'.TextInput1"
               }
             }
           ],
@@ -9790,19 +9790,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.CategoryFilter.AccessibleLabel"
+                  "fullyQualifiedName": "'Primary Products'.CategoryFilter.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.CategoryFilter.AccessibleLabel",
+                  "fullyQualifiedName": "'Primary Products'.CategoryFilter.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Products",
-                "type": "Products.CategoryFilter"
+                "module": "Primary Products",
+                "type": "'Primary Products'.CategoryFilter"
               }
             }
           ],
@@ -9820,19 +9820,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.CategoryFilter.TabIndex"
+                  "fullyQualifiedName": "'Primary Products'.CategoryFilter.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.CategoryFilter.TabIndex",
+                  "fullyQualifiedName": "'Primary Products'.CategoryFilter.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Products",
-                "type": "Products.CategoryFilter"
+                "module": "Primary Products",
+                "type": "'Primary Products'.CategoryFilter"
               }
             }
           ],
@@ -9844,6 +9844,216 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.CategoryFilter_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.CategoryFilter_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.CategoryFilter_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.CategoryFilter_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.CategoryFilter_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.CategoryFilter_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.Icon3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.Icon3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.Icon3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.Icon3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.'Product Gallery_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.'Product Gallery_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.TextInput1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.TextInput1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.'Product Gallery_1'.TextInput1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -10120,19 +10330,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Products.'Product Gallery'.Items"
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Products.'Product Gallery'.Items",
+                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Items",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Items",
-                "module": "Products",
-                "type": "Products.'Product Gallery'"
+                "module": "Primary Products",
+                "type": "'Primary Products'.'Product Gallery'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Products'.'Product Gallery_1'.Items",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Secondary Products",
+                "type": "'Secondary Products'.'Product Gallery_1'"
               }
             }
           ],

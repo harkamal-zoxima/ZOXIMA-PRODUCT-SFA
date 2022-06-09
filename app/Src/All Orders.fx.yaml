@@ -671,7 +671,7 @@
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
         Height: =26
-        OnSelect: =Navigate(Products, ScreenTransition.Fade)
+        OnSelect: =Navigate('Primary Products', ScreenTransition.Fade)
         Text: ="New"
         Width: =95
         X: =520

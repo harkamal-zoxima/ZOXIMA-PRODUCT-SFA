@@ -1020,7 +1020,7 @@
                 =Set(ConfirmButtonClicked, true);
                 Set(SelectedDistributorForSecOrder, Distributor.SelectedItems);
                 Set(SelectedRetailerForSecOrder, Retailer.SelectedItems);
-                Navigate(Products, ScreenTransition.Fade);
+                Navigate('Primary Products', ScreenTransition.Fade);
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
