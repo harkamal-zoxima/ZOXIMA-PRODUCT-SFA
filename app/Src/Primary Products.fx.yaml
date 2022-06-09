@@ -422,7 +422,7 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: =Navigate('Secondary Cart', ScreenTransition.Fade)
+        OnSelect: =Navigate('Primary Cart', ScreenTransition.Fade)
         PaddingLeft: =20
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
