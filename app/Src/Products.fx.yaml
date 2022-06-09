@@ -203,7 +203,7 @@ Products As screen:
         Color: =RGBA(103, 204, 107, 1)
         Height: =93
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:90px'></div>"
+            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:80px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
@@ -237,7 +237,7 @@ Products As screen:
         Size: =18
         Text: ="Filter"
         Width: =130
-        X: =395
+        X: =367
         Y: =21
         ZIndex: =4
 
@@ -257,7 +257,7 @@ Products As screen:
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =31
-        X: =482
+        X: =454
         Y: =31
         ZIndex: =5
 
@@ -292,7 +292,7 @@ Products As screen:
         TemplateSize: =165
         Width: =565
         X: =62
-        Y: =90
+        Y: =84
         ZIndex: =9
 
         Button4_6 As button:
@@ -338,7 +338,7 @@ Products As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =54
         X: =8
-        Y: =104
+        Y: =98
         ZIndex: =10
 
     Label10_2 As label:
@@ -376,14 +376,63 @@ Products As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: =Navigate(Filter, ScreenTransition.Fade)
-        PaddingLeft: =30
+        PaddingLeft: =20
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         Size: =18
-        Text: ="Filter"
-        Width: =130
-        X: =510
+        Text: ="Cart"
+        Width: =110
+        X: =513
         Y: =22
         ZIndex: =12
+
+    Icon6 As icon.ShoppingCart:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(103, 204, 107, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =23
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ShoppingCart
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =31
+        X: =579
+        Y: =30
+        ZIndex: =13
+
+    Button5 As button:
+        BorderColor: =RGBA(103, 204, 107, 1)
+        BorderThickness: =1
+        Color: =RGBA(103, 204, 107, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =25
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =12
+        Text: ="1"
+        Width: =25
+        X: =606
+        Y: =12
+        ZIndex: =14
 
