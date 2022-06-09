@@ -168,7 +168,6 @@
             ZIndex: =10
 
         TextInput1 As text:
-            Align: =Align.Center
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(53, 166, 57, 1)
@@ -184,8 +183,56 @@
             HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
+            OnChange: |-
+                =If(
+                    !IsBlank(
+                        LookUp(
+                            PrimaryCart,
+                            item = ThisItem.'Product Item'
+                        )
+                    ),
+                    Update(
+                        PrimaryCart,
+                        LookUp(
+                            PrimaryCart,
+                            item = ThisItem.'Product Item'
+                        ),
+                        {
+                            name: ThisItem.'Product Name',
+                            qty: Bag.Text,
+                            price: LookUp(
+                                OfflinePriceList,
+                                Product.'Product Item' = ThisItem.'Product Item'
+                            ).Price * Bag.Text,
+                            image: ThisItem.'Image URL',
+                            itemPrice: LookUp(
+                                OfflinePriceList,
+                                Product.'Product Item' = ThisItem.'Product Item'
+                            ).Price,
+                            item: ThisItem.'Product Item'
+                        }
+                    ),
+                    Collect(
+                        PrimaryCart,
+                        {
+                            name: ThisItem.'Product Name',
+                            qty: Bag.Text,
+                            price: LookUp(
+                                OfflinePriceList,
+                                Product.'Product Item' = ThisItem.'Product Item'
+                            ).Price * Bag.Text,
+                            image: ThisItem.'Image URL',
+                            itemPrice: LookUp(
+                                OfflinePriceList,
+                                Product.'Product Item' = ThisItem.'Product Item'
+                            ).Price,
+                            item: ThisItem.'Product Item'
+                        }
+                    );
+                    
+                );
             OnSelect: =Select(Parent)
-            PaddingLeft: =5
+            PaddingLeft: =10
             PressedBorderColor: =RGBA(73, 130, 5, 1)
             PressedColor: =RGBA(51, 51, 51, 1)
             PressedFill: =RGBA(255, 255, 255, 1)
