@@ -5,7 +5,11 @@ Products As screen:
     "'Product Gallery' As gallery.galleryVertical":
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =888
-        Items: =Filter(OfflineProducts, PG1.Category = CategoryFilter.Selected.Category )
+        Items: |-
+            =Filter(
+                'Product Items',
+                PG1.Category = CategoryFilter.Selected.Category
+            )
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplateSize: =416
@@ -339,6 +343,7 @@ Products As screen:
         HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.BackArrow
+        OnSelect: =Back()
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
