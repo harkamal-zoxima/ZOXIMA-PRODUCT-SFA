@@ -24,24 +24,6 @@
         Y: =210
         ZIndex: =5
 
-    Label5_25 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.Lato
-        FontWeight: =FontWeight.Bold
-        Height: =32
-        Size: =16
-        Text: ="Nav Order No."
-        Width: =186
-        X: =338
-        Y: =210
-        ZIndex: =8
-
     Label5_52 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -147,37 +129,10 @@
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =265
+        Width: =571
         X: =38
         Y: =247
         ZIndex: =58
-
-    TextInput2_5 As text:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        Default: ="NAV-1123"
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(128, 128, 128, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.Disabled
-        FocusedBorderThickness: =4
-        Font: =Font.Lato
-        HintText: =""
-        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        PressedBorderColor: =RGBA(73, 130, 5, 1)
-        PressedColor: =RGBA(51, 51, 51, 1)
-        PressedFill: =RGBA(255, 255, 255, 1)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =265
-        X: =343
-        Y: =247
-        ZIndex: =59
 
     Label5_24 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
