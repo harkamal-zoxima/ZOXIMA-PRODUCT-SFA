@@ -20,7 +20,8 @@
         Set(
             VarVisit,
             false
-        )
+        );
+        Set(VarDialogOpen, false);
 
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
