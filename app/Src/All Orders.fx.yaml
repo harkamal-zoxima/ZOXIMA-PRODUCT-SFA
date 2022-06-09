@@ -335,9 +335,9 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =44
                 Size: =13
-                Text: =
+                Text: =ThisItem.'Order To'.'Account Name'
                 Width: =155
-                X: =50
+                X: =42
                 Y: =176
                 ZIndex: =21
 
