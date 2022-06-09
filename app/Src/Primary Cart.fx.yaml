@@ -426,7 +426,7 @@
                     Title: "Visits",
                     Screen: Visits,
                     Icon: Waypoint,
-                    Active: true
+                    Active: false
                 },
                 {
                     Title: "Dashboard",
@@ -438,7 +438,7 @@
                     Title: "Orders",
                     Screen: 'All Orders',
                     Icon: ShoppingCart,
-                    Active: false
+                    Active: true
                 }
                 )
         Y: =1056
