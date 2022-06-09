@@ -118,6 +118,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -181,6 +182,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -208,6 +210,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -271,6 +274,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -298,6 +302,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -361,6 +366,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -388,6 +394,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -451,6 +458,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -478,6 +486,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -541,6 +550,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -568,6 +578,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -631,6 +642,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
@@ -658,6 +670,7 @@
         DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
         HintText: =""
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
