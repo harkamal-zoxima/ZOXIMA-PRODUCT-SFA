@@ -947,7 +947,7 @@
             Fill: =RGBA(242, 242, 242, 1)
             FocusedBorderThickness: =4
             Height: =546
-            HoverFill: =RGBA(237, 237, 237, 1)
+            HoverFill: =
             OnSelect: =
             PressedFill: =RGBA(237, 237, 237, 1)
             Visible: =VarRetailerDialog
