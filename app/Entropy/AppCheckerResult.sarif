@@ -3975,10 +3975,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 4,
-                  "charOffset": 879,
+                  "charLength": 11,
+                  "charOffset": 1570,
                   "snippet": {
-                    "text": "Name"
+                    "text": ".'Order ID'"
                   }
                 }
               },
@@ -3991,132 +3991,15 @@
           ],
           "message": {
             "arguments": [
-              "Name"
+              "LookUp"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 909,
-                  "snippet": {
-                    "text": ".Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 29,
-                  "charOffset": 886,
-                  "snippet": {
-                    "text": "First(CreateOrderRecord.Name)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "First"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 915,
-                  "snippet": {
-                    "text": ".Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -4133,7 +4016,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 884,
+                  "charOffset": 1544,
                   "snippet": {
                     "text": "="
                   }
@@ -4148,294 +4031,15 @@
           ],
           "message": {
             "arguments": [
-              "Error",
-              "Error"
+              "LookUp"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 420,
-                  "charOffset": 1094,
-                  "snippet": {
-                    "text": "Patch(\r\n            OfflineSalesHeader,\r\n            Defaults(OfflineSalesHeader),\r\n            {\r\n                'Order Date': Today(),\r\n                'Order Status': 'Order Status (Sales Order)'.Open,\r\n                Name: Round(\r\n                    RandBetween(\r\n                        10,\r\n                        9999\r\n                    ),\r\n                    2\r\n                )\r\n            }\r\n        )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 313,
-                  "charOffset": 1190,
-                  "snippet": {
-                    "text": "{\r\n                'Order Date': Today(),\r\n                'Order Status': 'Order Status (Sales Order)'.Open,\r\n                Name: Round(\r\n                    RandBetween(\r\n                        10,\r\n                        9999\r\n                    ),\r\n                    2\r\n                )\r\n            }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrColDNE-Name",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 2093,
-                  "snippet": {
-                    "text": "Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 2130,
-                  "snippet": {
-                    "text": ".Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 36,
-                  "charOffset": 2100,
-                  "snippet": {
-                    "text": "First(OfflineCreateOrderRecord.Name)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "First"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 2136,
-                  "snippet": {
-                    "text": ".Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2098,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 6
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -4502,6 +4106,86 @@
                 "member": "OnSelect",
                 "module": "Primary Cart",
                 "type": "'Primary Cart'.Button3_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 113,
+                  "snippet": {
+                    "text": ".'Order ID'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Secondary Order Success",
+                "type": "'Secondary Order Success'.Button7_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 87,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Secondary Order Success",
+                "type": "'Secondary Order Success'.Button7_2"
               }
             }
           ],
@@ -7685,6 +7369,36 @@
                 "member": "AccessibleLabel",
                 "module": "Order Info",
                 "type": "'Order Info'.TextInput2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Order Success'.Icon14_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Order Success'.Icon14_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Secondary Order Success",
+                "type": "'Secondary Order Success'.Icon14_9"
               }
             }
           ],
@@ -11872,6 +11586,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Secondary Order Success'.Icon14_9.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Order Success'.Icon14_9.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Secondary Order Success",
+                "type": "'Secondary Order Success'.Icon14_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.VisitStarted"
                 }
               ],
@@ -11883,66 +11627,6 @@
               },
               "properties": {
                 "member": "VisitStarted",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 13
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.SelectedDistributorForSecOrder"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.SelectedDistributorForSecOrder",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "SelectedDistributorForSecOrder",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 13
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.SelectedRetailerForSecOrder"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.SelectedRetailerForSecOrder",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "SelectedRetailerForSecOrder",
                 "module": "App",
                 "type": "App"
               }
