@@ -932,7 +932,7 @@
         FocusedBorderThickness: =4
         Height: =1136
         HoverFill: =
-        PressedFill: =RGBA(73, 130, 5, 1)
+        PressedFill: =
         Visible: =VarRetailerDialog
         Width: =640
         ZIndex: =25
