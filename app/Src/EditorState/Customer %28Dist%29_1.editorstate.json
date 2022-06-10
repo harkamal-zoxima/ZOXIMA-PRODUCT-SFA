@@ -1247,7 +1247,14 @@
     "Completed html_16": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "DisplayMode",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "DisplayMode",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledFill",
         {
           "AFDDataSourceName": "",

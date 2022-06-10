@@ -52,6 +52,7 @@
 
         "'Completed html_16' As htmlViewer":
             Color: =RGBA(242, 242, 242, 1)
+            DisplayMode: =DisplayMode.View
             Font: =Font.Lato
             Height: =52
             HtmlText: |-
