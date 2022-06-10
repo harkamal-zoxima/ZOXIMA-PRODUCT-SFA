@@ -619,6 +619,7 @@
         HoverDateFill: =RGBA(200, 200, 200, 1)
         IconBackground: =RGBA(103, 204, 107, 1)
         IconFill: =RGBA(255,255,255,1)
+        OnChange: =Set(SelectedVisitDate, 'Visit DatePicker'.SelectedDate)
         PaddingTop: =5
         SelectedDateFill: =RGBA(73, 130, 5, 1)
         Width: =274
@@ -737,7 +738,7 @@
                 }
                 
             ]
-        OnSelect: =
+        OnSelect: =Set(SelectedVisitDate, ThisItem.Value.date)
         ShowScrollbar: =false
         TemplateSize: =157
         Width: =334
@@ -765,7 +766,7 @@
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =
             Size: =14
-            Text: =ThisItem.Value
+            Text: =ThisItem.Value.title
             Width: =130
             X: =15
             Y: =6
