@@ -469,7 +469,7 @@
                                         'Bill Amoount'
                                     ) > 0,
                                     Sum(
-                                        PrimarySalesDataForDashboardWeekly,
+                                        PrimarySalesDataForDashboardMonthly,
                                         'Bill Amoount'
                                     ),
                                     0
