@@ -70,7 +70,7 @@
             OnSelect: =Select(Parent)
             Width: =172
             X: =430
-            Y: =8
+            Y: =17
             ZIndex: =13
 
         Label2_64 As label:
@@ -100,7 +100,7 @@
             Text: =ThisItem.'Account Type'
             Width: =160
             X: =430
-            Y: =19
+            Y: =28
             ZIndex: =14
 
         Label2_81 As label:
@@ -141,7 +141,7 @@
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =25
             X: =405
-            Y: =21
+            Y: =30
             ZIndex: =22
 
         Group12_3 As group:
