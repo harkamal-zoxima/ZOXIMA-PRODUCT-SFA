@@ -1140,6 +1140,7 @@
                             status: 'status (Visits_1)'.Started,
                             'Check- In Location': Concatenate(
                                 Location.Latitude,
+                                ",",
                                 Location.Longitude
                             )
                         }
