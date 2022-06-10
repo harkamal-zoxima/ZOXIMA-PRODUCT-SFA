@@ -115,7 +115,7 @@
             Height: =70
             OnSelect: =Select(Parent)
             Size: =19
-            Text: =ThisItem.Name
+            Text: =ThisItem.'Order Line ID'
             Width: =377
             X: =23
             ZIndex: =2
