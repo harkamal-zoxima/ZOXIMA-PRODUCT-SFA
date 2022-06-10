@@ -19,6 +19,13 @@
                 'Order Type' = [@'Order Type'].'Primary Order' && 'Order Date' > Today() - 7
             ).'Bill Amoount'
         );
+        Set(
+            PrimarySalesDataForDashboardMonthly,
+            Filter(
+                'Sales Order',
+                'Order Type' = [@'Order Type'].'Primary Order' && 'Order Date' > Today() - 30
+            ).'Bill Amoount'
+        );
 
     Canvas1 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
@@ -311,7 +318,21 @@
                         FontWeight: =FontWeight.Bold
                         Height: =44
                         Size: =18
-                        Text: =Concatenate("₹", Sum(Value(PrimarySalesDataForDashboardWeekly.'Bill Amoount')))
+                        Text: |-
+                            =Concatenate(
+                                "₹",
+                                If(
+                                    Sum(
+                                        PrimarySalesDataForDashboardToday,
+                                        'Bill Amoount'
+                                    ) > 0,
+                                    Sum(
+                                        PrimarySalesDataForDashboardToday,
+                                        'Bill Amoount'
+                                    ),
+                                    0
+                                )
+                            )
                         Width: =121
                         X: =42
                         Y: =68
@@ -368,7 +389,21 @@
                         FontWeight: =FontWeight.Bold
                         Height: =44
                         Size: =18
-                        Text: ="₹75,000"
+                        Text: |-
+                            =Concatenate(
+                                "₹",
+                                If(
+                                    Sum(
+                                        PrimarySalesDataForDashboardWeekly,
+                                        'Bill Amoount'
+                                    ) > 0,
+                                    Sum(
+                                        PrimarySalesDataForDashboardWeekly,
+                                        'Bill Amoount'
+                                    ),
+                                    0
+                                )
+                            )
                         Width: =121
                         X: =242
                         Y: =72
@@ -425,7 +460,21 @@
                         FontWeight: =FontWeight.Bold
                         Height: =44
                         Size: =18
-                        Text: ="₹2,30,000"
+                        Text: |-
+                            =Concatenate(
+                                "₹",
+                                If(
+                                    Sum(
+                                        PrimarySalesDataForDashboardMonthly,
+                                        'Bill Amoount'
+                                    ) > 0,
+                                    Sum(
+                                        PrimarySalesDataForDashboardWeekly,
+                                        'Bill Amoount'
+                                    ),
+                                    0
+                                )
+                            )
                         Width: =121
                         X: =442
                         Y: =72
