@@ -220,6 +220,7 @@
     "Day Ended": 261,
     "day started": 190,
     "DistLabel_12": 327,
+    "DistLabel_13": 940,
     "DistLabel_19": 383,
     "DistLabel_20": 386,
     "DistLabel_21": 388,
@@ -1005,7 +1006,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/10/2022 09:20:06",
+  "HeaderLastSavedDateTimeUTC": "06/10/2022 09:21:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -1772,6 +1773,7 @@
     "Day Ended": 0,
     "day started": 20,
     "DistLabel_12": 472,
+    "DistLabel_13": 472,
     "DistLabel_19": 495,
     "DistLabel_20": 498,
     "DistLabel_21": 500,
@@ -2596,7 +2598,7 @@
       "htmlViewer": 131,
       "icon": 60,
       "image": 25,
-      "label": 308,
+      "label": 309,
       "powerbi": 3,
       "rectangle": 32,
       "screen": 28,
