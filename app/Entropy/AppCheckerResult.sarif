@@ -2260,7 +2260,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 168,
+                  "charOffset": 208,
                   "snippet": {
                     "text": "IsToday('Order Date')"
                   }
@@ -2300,7 +2300,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 165,
+                  "charOffset": 205,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2340,7 +2340,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 375,
+                  "charOffset": 415,
                   "snippet": {
                     "text": "-"
                   }
@@ -2380,7 +2380,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 365,
+                  "charOffset": 405,
                   "snippet": {
                     "text": ">"
                   }
@@ -2420,7 +2420,167 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 349,
+                  "charOffset": 389,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 197,
+                  "charOffset": 582,
+                  "snippet": {
+                    "text": "If(\n            And(\n                Year(DateValue('Order Date')) = Year(Now()),\n                Month(DateValue('Order Date')) = Month(Now())\n            ),\n            1,\n            0\n        )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 579,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 21,
+                  "charOffset": 987,
+                  "snippet": {
+                    "text": "IsToday('Order Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 984,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2460,7 +2620,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 565,
+                  "charOffset": 1198,
                   "snippet": {
                     "text": "-"
                   }
@@ -2500,7 +2660,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 555,
+                  "charOffset": 1188,
                   "snippet": {
                     "text": ">"
                   }
@@ -2540,7 +2700,87 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 539,
+                  "charOffset": 1172,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 197,
+                  "charOffset": 1369,
+                  "snippet": {
+                    "text": "If(\n            And(\n                Year(DateValue('Order Date')) = Year(Now()),\n                Month(DateValue('Order Date')) = Month(Now())\n            ),\n            1,\n            0\n        )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 1366,
                   "snippet": {
                     "text": "&&"
                   }

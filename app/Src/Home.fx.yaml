@@ -5,6 +5,8 @@
             varOpen,
             false
         );
+        
+        //FOR PRIMARY SALES DATA IN DASHBOARDS
         Set(
             PrimarySalesDataForDashboardToday,
             Filter(
@@ -23,7 +25,44 @@
             PrimarySalesDataForDashboardMonthly,
             Filter(
                 'Sales Order',
-                'Order Type' = [@'Order Type'].'Primary Order' && 'Order Date' > Today() - 30
+                'Order Type' = [@'Order Type'].'Primary Order' && If(
+                    And(
+                        Year(DateValue('Order Date')) = Year(Now()),
+                        Month(DateValue('Order Date')) = Month(Now())
+                    ),
+                    1,
+                    0
+                )
+            ).'Bill Amoount'
+        );
+        
+        //FOR SECONDARY SALES DATA IN DASHBOARDS
+        Set(
+            SecondarySalesDataForDashboardToday,
+            Filter(
+                'Sales Order',
+                'Order Type' = [@'Order Type'].'Secondary Order' && IsToday('Order Date')
+            ).'Bill Amoount'
+        );
+        Set(
+            SecondarySalesDataForDashboardWeekly,
+            Filter(
+                'Sales Order',
+                'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Date' > Today() - 7
+            ).'Bill Amoount'
+        );
+        Set(
+            SecondarySalesDataForDashboardMonthly,
+            Filter(
+                'Sales Order',
+                'Order Type' = [@'Order Type'].'Secondary Order' && If(
+                    And(
+                        Year(DateValue('Order Date')) = Year(Now()),
+                        Month(DateValue('Order Date')) = Month(Now())
+                    ),
+                    1,
+                    0
+                )
             ).'Bill Amoount'
         );
 
@@ -153,7 +192,21 @@
                     FontWeight: =FontWeight.Bold
                     Height: =44
                     Size: =18
-                    Text: ="₹12,500"
+                    Text: |-
+                        =Concatenate(
+                            "₹",
+                            If(
+                                Sum(
+                                    SecondarySalesDataForDashboardToday,
+                                    'Bill Amoount'
+                                ) > 0,
+                                Sum(
+                                    SecondarySalesDataForDashboardToday,
+                                    'Bill Amoount'
+                                ),
+                                0
+                            )
+                        )
                     Width: =121
                     X: =41
                     Y: =223
@@ -191,7 +244,21 @@
                     FontWeight: =FontWeight.Bold
                     Height: =44
                     Size: =18
-                    Text: ="₹66,000"
+                    Text: |-
+                        =Concatenate(
+                            "₹",
+                            If(
+                                Sum(
+                                    SecondarySalesDataForDashboardWeekly,
+                                    'Bill Amoount'
+                                ) > 0,
+                                Sum(
+                                    SecondarySalesDataForDashboardWeekly,
+                                    'Bill Amoount'
+                                ),
+                                0
+                            )
+                        )
                     Width: =121
                     X: =245
                     Y: =222
@@ -232,7 +299,21 @@
                     FontWeight: =FontWeight.Bold
                     Height: =44
                     Size: =18
-                    Text: ="₹4,50,000"
+                    Text: |-
+                        =Concatenate(
+                            "₹",
+                            If(
+                                Sum(
+                                    SecondarySalesDataForDashboardMonthly,
+                                    'Bill Amoount'
+                                ) > 0,
+                                Sum(
+                                    SecondarySalesDataForDashboardMonthly,
+                                    'Bill Amoount'
+                                ),
+                                0
+                            )
+                        )
                     Width: =121
                     X: =437
                     Y: =222
