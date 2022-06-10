@@ -896,7 +896,7 @@
                     ),
                     {'Visit Date': DatePicker1.SelectedDate}
                 );
-                Set(VarEditDialogOpen, true);
+                Set(VarEditDialogOpen, false);
                 Notify("Visit has been updated", NotificationType.Success, 2000);
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
