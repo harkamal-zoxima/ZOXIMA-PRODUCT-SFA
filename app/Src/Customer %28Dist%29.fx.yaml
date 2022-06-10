@@ -582,17 +582,30 @@
             OnSelect: |
                 =If(
                     Connection.Connected,
-                    Patch(
-                        Visits_1,
-                        Defaults(Visits_1),
-                        {
-                            'Visit Date': Today(),
-                            Customer: LookUp(
-                                Accounts,
-                                Account = First(SingleVisit.Customer).Customer
-                            ),
-                            'Visit Type': 'Visit Type (Visits_1)'.Unplanned
-                        }
+                    If(
+                        !IsBlank(
+                            LookUp(
+                                Visits_1,
+                                Customer.Account = First(SingleVisit).Customer && IsToday('Visit Date')
+                            )
+                        ),
+                        Notify(
+                            "One visit is already there for this customer",
+                            NotificationType.Warning,
+                            2000
+                        ),
+                        Patch(
+                            Visits_1,
+                            Defaults(Visits_1),
+                            {
+                                'Visit Date': Today(),
+                                Customer: LookUp(
+                                    Accounts,
+                                    Account = First(SingleVisit).Customer
+                                ),
+                                'Visit Type': 'Visit Type (Visits_1)'.Unplanned
+                            }
+                        );
                     );
                     Set(
                         VarVisit,
