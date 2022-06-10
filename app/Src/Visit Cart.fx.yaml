@@ -327,84 +327,64 @@
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: |
-            =If(
-                Connection.Connected,
-                ClearCollect(
-                    CreateOrderRecord,
-                    Patch(
-                        'Sales Order',
-                        Defaults('Sales Order'),
-                        {
-                            'Order Date': Today(),
-                            'Order Status': 'Order Status (Sales Order)'.Open
-                        }
-                    )
-                );
-                If(
-                    !IsBlank(CreateOrderRecord),
-                    ClearCollect(
-                        CreateItemsRecord,
-                        ForAll(
+            =ClearCollect(
+                CreateOrderRecord,
+                Patch(
+                    'Sales Order',
+                    Defaults('Sales Order'),
+                    {
+                        'Order Date': Today(),
+                        'Order Status': 'Order Status (Sales Order)'.Open,
+                        'Order Type': 'Order Type'.'Primary Order',
+                        'Before Tax Amount': Sum(
                             PrimaryCart,
-                            Patch(
-                                'Order Line',
-                                Defaults('Order Line'),
-                                {
-                                    Quantity: Value(ThisRecord.qty),
-                                    Name: ThisRecord.name,
-                                    'Bill Amoount': ThisRecord.price,
-                                    'Order No': LookUp(
-                                        'Sales Order',
-                                        Name = First(CreateOrderRecord.Name).Name
-                                    )
-                                }
-                            )
-                        )
-                    )
-                );
-                ,
-                ClearCollect(
-                    OfflineCreateOrderRecord,
-                    Patch(
-                        OfflineSalesHeader,
-                        Defaults(OfflineSalesHeader),
-                        {
-                            'Order Date': Today(),
-                            'Order Status': 'Order Status (Sales Order)'.Open,
-                            Name: Round(
-                                RandBetween(
-                                    10,
-                                    9999
-                                ),
-                                2
-                            )
-                        }
-                    )
-                );
-                If(
-                    !IsBlank(OfflineCreateOrderRecord),
-                    ClearCollect(
-                        CreateItemsRecord,
-                        ForAll(
+                            price
+                        ),
+                        'CGST Amount': Sum(
                             PrimaryCart,
-                            Patch(
-                                'Order Line',
-                                Defaults('Order Line'),
-                                {
-                                    Quantity: Value(ThisRecord.qty),
-                                    Name: ThisRecord.name,
-                                    'Bill Amoount': ThisRecord.price,
-                                    'Order No': LookUp(
-                                        'Sales Order',
-                                        Name = First(OfflineCreateOrderRecord.Name).Name
-                                    )
-                                }
-                            )
-                        )
-                    )
-                );
-                
+                            price
+                        ) * 0.09,
+                        'SGST Amount': Sum(
+                            PrimaryCart,
+                            price
+                        ) * 0.09,
+                        'CGST %': 9,
+                        'SGST %': 9,
+                        'Bill Amoount': Sum(
+                            PrimaryCart,
+                            price
+                        ),
+                        'Order To': LookUp(
+                            Accounts,
+                            Account = GUID("7e239ae8-1fe7-ec11-bb3c-000d3ac9a0fa")
+                        ),
+                        'Order From': LookUp(Accounts, Account = First(SelectedRetailerForPriOrder).Account)
+                    }
+                )
             );
+            If(
+                !IsBlank(CreateOrderRecord),
+                ClearCollect(
+                    CreateItemsRecord,
+                    ForAll(
+                        PrimaryCart,
+                        Patch(
+                            'Order Line',
+                            Defaults('Order Line'),
+                            {
+                                Quantity: Value(ThisRecord.qty),
+                                Name: ThisRecord.name,
+                                'Bill Amoount': ThisRecord.price,
+                                'Order No': LookUp(
+                                    'Sales Order',
+                                    'Order ID' = First(CreateOrderRecord).'Order ID'
+                                )
+                            }
+                        )
+                    )
+                )
+            );
+            Navigate('Primary Order Success', ScreenTransition.Fade)
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -608,7 +588,7 @@
             Size: =15
             Text: ="Price"
             Width: =68
-            X: =449
+            X: =424
             Y: =78
             ZIndex: =5
 
@@ -625,9 +605,9 @@
             Height: =25
             OnSelect: =Select(Parent)
             Size: =15
-            Text: =Concatenate("₹", ThisItem.price)
-            Width: =100
-            X: =514
+            Text: =Concatenate("₹",Text(ThisItem.price*0.18,"[$-en-US]0.00"))
+            Width: =131
+            X: =483
             Y: =78
             ZIndex: =6
 
@@ -827,56 +807,4 @@
                 X: =473
                 Y: =146
                 ZIndex: =10
-
-    Timer1_1 As timer:
-        AutoStart: =true
-        BorderColor: =RGBA(73, 130, 5, 1)
-        BorderStyle: =BorderStyle.None
-        DisabledBorderColor: =RGBA(244, 244, 244, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =5000
-        Fill: =RGBA(73, 130, 5, 1)
-        Font: =Font.'Segoe UI'
-        Height: =41
-        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnTimerEnd: |
-            =If(
-                Connection.Connected && varOfflineSales,
-                Notify("You are online. Adding your Sales order in backend.");
-                Patch(
-                    'Sales Order',
-                    Defaults('Sales Order'),
-                    {
-                        'Order Date': Today(),
-                        'Order Status': 'Order Status (Sales Order)'.Open,
-                        Name: Round(
-                            RandBetween(
-                                10,
-                                9999
-                            ),
-                            2
-                        )
-                    }
-                );
-                Refresh('Sales Order');
-                Set(
-                    varOfflineSales,
-                    false
-                );
-                
-            );
-            Refresh('Sales Order');
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        Repeat: =true
-        Size: =14
-        Visible: =false
-        Width: =101
-        X: =401
-        Y: =35
-        ZIndex: =30
 

@@ -445,7 +445,7 @@
                             =If(
                                 !IsBlank(
                                     LookUp(
-                                        OfflineVisits,
+                                        Visits_1,
                                         IsToday('Visit Date') && status = 'status (Visits_1)'.Started
                                     )
                                 ) && ThisItem.status = 'status (Visits_1)'.Open || ThisItem.status = 'status (Visits_1)'.Completed,
@@ -561,7 +561,7 @@
                                 )
                             )
                         Size: =15
-                        Text: =ThisItem.status
+                        Text: ="END"
                         Width: =111
                         X: =345
                         Y: =216
