@@ -194,7 +194,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: ="12-04-2022"
+                Text: =Text(DateValue(Today()- RandBetween(4,15)), "dd-mmm-yyyy")
                 Width: =127
                 X: =255
                 Y: =138
