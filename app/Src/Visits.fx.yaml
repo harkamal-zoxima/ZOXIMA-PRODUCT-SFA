@@ -550,12 +550,21 @@
                                         Visits_1,
                                         'Visit ID' = ThisItem.'Visit ID'
                                     ),
-                                    {status: 'status (Visits_1)'.Completed}
+                                    {
+                                        status: 'status (Visits_1)'.Completed,
+                                        'Check-out Location': Concatenate(
+                                            Location.Latitude,
+                                            ",",
+                                            Location.Longitude
+                                        )
+                                    }
                                 );
                                 Notify(
                                     "Your visit has been successfully ended.",
-                                    NotificationType.Success, 2500
-                                );,
+                                    NotificationType.Success,
+                                    2500
+                                );
+                                ,
                                 Notify(
                                     "Your Visit hasn't been started yet",
                                     NotificationType.Warning,
