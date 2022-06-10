@@ -1,11 +1,10 @@
 "Home As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
-    OnVisible: |
+    OnVisible: |-
         =Set(
             varOpen,
             false
         );
-        
         //FOR PRIMARY SALES DATA IN DASHBOARDS
         Set(
             PrimarySalesDataForDashboardToday,
@@ -35,7 +34,6 @@
                 )
             ).'Bill Amoount'
         );
-        
         //FOR SECONDARY SALES DATA IN DASHBOARDS
         Set(
             SecondarySalesDataForDashboardToday,
@@ -64,6 +62,37 @@
                     0
                 )
             ).'Bill Amoount'
+        );
+        //FOR VISITS DATA IN DASHBOARDS
+        Set(
+            TotalVisitsForDashboard,
+            Filter(
+                Visits_1,
+                IsToday('Visit Date') && 'Created By'.User = LookUp(
+                    Users,
+                    'Primary Email' = User().Email
+                ).User
+            )
+        );
+        Set(
+            TotalVisitsForDashboardPlanned,
+            Filter(
+                Visits_1,
+                'Created By'.User = LookUp(
+                    Users,
+                    'Primary Email' = User().Email
+                ).User && IsToday('Visit Date') && 'Visit Type' = 'Visit Type (Visits_1)'.Planned
+            )
+        );
+        Set(
+            TotalVisitsForDashboardUnplanned,
+            Filter(
+                Visits_1,
+                'Created By'.User = LookUp(
+                    Users,
+                    'Primary Email' = User().Email
+                ).User && IsToday('Visit Date') && 'Visit Type' = 'Visit Type (Visits_1)'.Unplanned
+            )
         );
 
     Canvas1 As fluidGrid.fluidGridWithBlankCard:

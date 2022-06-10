@@ -2260,7 +2260,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 208,
+                  "charOffset": 207,
                   "snippet": {
                     "text": "IsToday('Order Date')"
                   }
@@ -2300,7 +2300,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 205,
+                  "charOffset": 204,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2340,7 +2340,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 415,
+                  "charOffset": 414,
                   "snippet": {
                     "text": "-"
                   }
@@ -2380,7 +2380,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 405,
+                  "charOffset": 404,
                   "snippet": {
                     "text": ">"
                   }
@@ -2420,7 +2420,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 389,
+                  "charOffset": 388,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2460,7 +2460,7 @@
                 },
                 "region": {
                   "charLength": 197,
-                  "charOffset": 582,
+                  "charOffset": 581,
                   "snippet": {
                     "text": "If(\n            And(\n                Year(DateValue('Order Date')) = Year(Now()),\n                Month(DateValue('Order Date')) = Month(Now())\n            ),\n            1,\n            0\n        )"
                   }
@@ -2500,7 +2500,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 579,
+                  "charOffset": 578,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2540,7 +2540,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 987,
+                  "charOffset": 985,
                   "snippet": {
                     "text": "IsToday('Order Date')"
                   }
@@ -2580,7 +2580,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 984,
+                  "charOffset": 982,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2620,7 +2620,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1198,
+                  "charOffset": 1196,
                   "snippet": {
                     "text": "-"
                   }
@@ -2660,7 +2660,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1188,
+                  "charOffset": 1186,
                   "snippet": {
                     "text": ">"
                   }
@@ -2700,7 +2700,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1172,
+                  "charOffset": 1170,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2740,7 +2740,7 @@
                 },
                 "region": {
                   "charLength": 197,
-                  "charOffset": 1369,
+                  "charOffset": 1367,
                   "snippet": {
                     "text": "If(\n            And(\n                Year(DateValue('Order Date')) = Year(Now()),\n                Month(DateValue('Order Date')) = Month(Now())\n            ),\n            1,\n            0\n        )"
                   }
@@ -2780,7 +2780,407 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1366,
+                  "charOffset": 1364,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 21,
+                  "charOffset": 1693,
+                  "snippet": {
+                    "text": "IsToday('Visit Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 1715,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 2010,
+                  "snippet": {
+                    "text": ".User"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 1929,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 2016,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 2041,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 2280,
+                  "snippet": {
+                    "text": ".User"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 2199,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 2286,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 2311,
                   "snippet": {
                     "text": "&&"
                   }
@@ -12247,6 +12647,96 @@
               },
               "properties": {
                 "member": "VisitStarted",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.TotalVisitsForDashboard"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.TotalVisitsForDashboard",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TotalVisitsForDashboard",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.TotalVisitsForDashboardUnplanned"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.TotalVisitsForDashboardUnplanned",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TotalVisitsForDashboardUnplanned",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.TotalVisitsForDashboardPlanned"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.TotalVisitsForDashboardPlanned",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TotalVisitsForDashboardPlanned",
                 "module": "App",
                 "type": "App"
               }
