@@ -603,7 +603,8 @@
                                     Accounts,
                                     Account = First(SingleVisit).Customer
                                 ),
-                                'Visit Type': 'Visit Type (Visits_1)'.Unplanned
+                                'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
+                                status: 'status (Visits_1)'.Open
                             }
                         );
                     );
