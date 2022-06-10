@@ -49,16 +49,16 @@
                     =If(
                         Gallery4_1.Selected.Value = "Today",
                         Filter(
-                            OfflineVisits,
+                            Visits_1,
                             IsToday('Visit Date')
                         ),
                         Gallery4_1.Selected.Value = "Yesterday",
                         Filter(
-                            OfflineVisits,
+                            Visits_1,
                             'Visit Date' = Today() - 1
                         ),
                         Filter(
-                            OfflineVisits,
+                            Visits_1,
                             'Visit Date' = DatePicker3.SelectedDate
                         )
                     )
@@ -466,25 +466,7 @@
                                     VisitStarted,
                                     true
                                 );
-                                Patch(
-                                    OfflineVisits,
-                                    Last(OfflineVisits),
-                                    {
-                                        'Visit Date': Today(),
-                                        Customer: First(SingleVisit).Account,
-                                        'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
-                                        status: 'status (Visits_1)'.Started
-                                    }
-                                );
-                                Notify(
-                                    "Your visit has been started!",
-                                    NotificationType.Success,
-                                    2000
-                                );
-                                Navigate(
-                                    'Start visit',
-                                    ScreenTransition.Cover
-                                )
+                                
                             )
                         Size: =15
                         Text: =If(ThisItem.status = 'status (Visits_1)'.Started , "RESUME" , "START")
@@ -547,15 +529,12 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(242, 123, 68, 1)
+                        Color: |-
+                            =
+                            If(ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date'), Black, RGBA(242, 123, 68, 1))
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
-                        DisplayMode: |-
-                            =If(
-                                ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date') || varAttendance="done",
-                                DisplayMode.Disabled,
-                                DisplayMode.Edit
-                            )
+                        DisplayMode: =If(ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date'), DisplayMode.Disabled, DisplayMode.Edit)
                         FocusedBorderThickness: =4
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
@@ -575,7 +554,6 @@
                                     "Your visit has been successfully ended.",
                                     NotificationType.Success, 2500
                                 );,
-                                false;
                                 Notify(
                                     "Your Visit hasn't been started yet",
                                     NotificationType.Warning,
@@ -583,7 +561,7 @@
                                 )
                             )
                         Size: =15
-                        Text: ="END"
+                        Text: =ThisItem.status
                         Width: =111
                         X: =345
                         Y: =216
