@@ -641,7 +641,12 @@
                         FontWeight: =FontWeight.Bold
                         Height: =44
                         Size: =18
-                        Text: ="4"
+                        Text: |-
+                            =If(
+                                CountRows(TotalVisitsForDashboardPlanned) > 0,
+                                CountRows(TotalVisitsForDashboardPlanned),
+                                0
+                            )
                         Width: =121
                         X: =243
                         Y: =372
@@ -698,7 +703,12 @@
                         FontWeight: =FontWeight.Bold
                         Height: =44
                         Size: =18
-                        Text: ="6"
+                        Text: |-
+                            =If(
+                                CountRows(TotalVisitsForDashboard) > 0,
+                                CountRows(TotalVisitsForDashboard),
+                                0
+                            )
                         Width: =121
                         X: =41
                         Y: =373
@@ -755,7 +765,12 @@
                         FontWeight: =FontWeight.Bold
                         Height: =44
                         Size: =18
-                        Text: ="2"
+                        Text: |-
+                            =If(
+                                CountRows(TotalVisitsForDashboardUnplanned) > 0,
+                                CountRows(TotalVisitsForDashboardUnplanned),
+                                0
+                            )
                         Width: =121
                         X: =436
                         Y: =373
