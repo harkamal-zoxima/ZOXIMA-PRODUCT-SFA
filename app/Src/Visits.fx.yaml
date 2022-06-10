@@ -1137,6 +1137,12 @@
                         ),
                         {status: 'status (Visits_1)'.Started}
                     );
+                    Patch(
+                        Accounts, LookUp(Accounts, Account = ClickedVisit.Customer.Account), {
+                            'Last Vist Date': Today(),
+                            'Last Order Date': Today()
+                        }
+                    );
                     Navigate(
                         'Start visit',
                         ScreenTransition.Cover

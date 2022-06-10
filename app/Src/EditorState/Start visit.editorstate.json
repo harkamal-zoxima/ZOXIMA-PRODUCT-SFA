@@ -2488,7 +2488,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DistLabel_13",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6137,7 +6137,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput7_3",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
