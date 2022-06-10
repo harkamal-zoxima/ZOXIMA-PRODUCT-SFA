@@ -607,7 +607,7 @@
             Size: =15
             Text: =Concatenate("₹",Text(ThisItem.price*0.18,"[$-en-US]0.00"))
             Width: =131
-            X: =483
+            X: =486
             Y: =78
             ZIndex: =6
 
