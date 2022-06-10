@@ -443,64 +443,38 @@
                         Height: =26
                         OnSelect: |-
                             =If(
-                                Connection.Connected,
-                                If(
-                                    !IsBlank(
-                                        LookUp(
-                                            OfflineVisits,
-                                            IsToday('Visit Date') && status = 'status (Visits_1)'.Started
-                                        )
-                                    ) && ThisItem.status = 'status (Visits_1)'.Open || ThisItem.status = 'status (Visits_1)'.Completed,
-                                    Notify(
-                                        "One Visit is already started. Please end that visit first!",
-                                        NotificationType.Error,
-                                        2000
-                                    ),
-                                    Set(
-                                        VarDialogOpen,
-                                        !VarDialogOpen
-                                    );
-                                    Set(
-                                        ClickedVisit,
-                                        ThisItem
-                                    );
-                                    Set(
-                                        VisitStarted,
-                                        true
-                                    );
-                                ),
-                                If(
-                                    IsBlank(
-                                        LookUp(
-                                            Visits_1,
-                                            Customer.Account = First(SingleVisit).Account.Account
-                                        )
-                                    ),
-                                    Patch(
+                                !IsBlank(
+                                    LookUp(
                                         OfflineVisits,
-                                        Last(OfflineVisits),
-                                        {
-                                            'Visit Date': Today(),
-                                            Customer: First(SingleVisit).Account,
-                                            'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
-                                            status: 'status (Visits_1)'.Started
-                                        }
-                                    );
-                                    ,
-                                    Update(
-                                        OfflineVisits,
-                                        Last(OfflineVisits),
-                                        {
-                                            'Visit Date': Today(),
-                                            Customer: First(SingleVisit).Account,
-                                            'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
-                                            status: 'status (Visits_1)'.Started
-                                        }
+                                        IsToday('Visit Date') && status = 'status (Visits_1)'.Started
                                     )
+                                ) && ThisItem.status = 'status (Visits_1)'.Open || ThisItem.status = 'status (Visits_1)'.Completed,
+                                Notify(
+                                    "One Visit is already started. Please end that visit first!",
+                                    NotificationType.Error,
+                                    2000
+                                ),
+                                Set(
+                                    VarDialogOpen,
+                                    !VarDialogOpen
                                 );
-                                ClearCollect(
-                                    OfflineVisitStatus,
-                                    'status (Visits_1)'.Started
+                                Set(
+                                    ClickedVisit,
+                                    ThisItem
+                                );
+                                Set(
+                                    VisitStarted,
+                                    true
+                                );
+                                Patch(
+                                    OfflineVisits,
+                                    Last(OfflineVisits),
+                                    {
+                                        'Visit Date': Today(),
+                                        Customer: First(SingleVisit).Account,
+                                        'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
+                                        status: 'status (Visits_1)'.Started
+                                    }
                                 );
                                 Notify(
                                     "Your visit has been started!",

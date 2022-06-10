@@ -1002,7 +1002,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/10/2022 05:18:26",
+  "HeaderLastSavedDateTimeUTC": "06/10/2022 05:24:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -1106,10 +1106,10 @@
     "Categories\\cr431_category_statecode": 78,
     "Categories\\cr431_category_statuscode": 79,
     "Categories\\default.cds_cr431_category_views": 94,
-    "colMyAccounts": 127,
+    "colMyAccounts": 126,
     "ComboBoxSample": 100,
     "CreateItemsRecord": 120,
-    "CreateOrderRecord": 130,
+    "CreateOrderRecord": 129,
     "CustomGallerySample": 98,
     "DropDownSample": 101,
     "FilterList": 117,
@@ -1117,12 +1117,11 @@
     "NewVisit": 123,
     "Office365Users": 0,
     "OfflineCreateOrderRecord": 119,
-    "OfflinePriceList": 128,
+    "OfflinePriceList": 127,
     "OfflineProducts": 125,
-    "OfflineSalesHeader": 131,
-    "OfflineSalesOrderLines": 129,
+    "OfflineSalesHeader": 130,
+    "OfflineSalesOrderLines": 128,
     "OfflineVisits": 122,
-    "OfflineVisitStatus": 126,
     "Order Line": 110,
     "Order Line\\cr431_orderline_cr431_uom": 86,
     "Order Line\\cr431_orderline_statecode": 87,
@@ -1147,7 +1146,7 @@
     "Sales Order\\cr431_salesorder_statecode": 4,
     "Sales Order\\cr431_salesorder_statuscode": 5,
     "Sales Order\\default.cds_cr431_salesorder_views": 89,
-    "SecondaryCart": 132,
+    "SecondaryCart": 131,
     "SelectedVisitForEdit": 121,
     "SingleVisit": 124,
     "subItems": 115,
@@ -2600,7 +2599,7 @@
       "toggleSwitch": 2
     },
     "DeserializationLoadTime": 11.6825652,
-    "ErrorCount": 132
+    "ErrorCount": 130
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
