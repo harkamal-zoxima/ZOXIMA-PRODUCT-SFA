@@ -5342,7 +5342,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 591,
+                  "charOffset": 625,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -5382,7 +5382,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 571,
+                  "charOffset": 605,
                   "snippet": {
                     "text": "="
                   }

@@ -591,9 +591,10 @@
                         ),
                         Notify(
                             "One visit is already there for this customer",
-                            NotificationType.Warning,
+                            NotificationType.Error,
                             2000
-                        ),
+                        );
+                        Set(VarDialogOpen, false);,
                         Patch(
                             Visits_1,
                             Defaults(Visits_1),
