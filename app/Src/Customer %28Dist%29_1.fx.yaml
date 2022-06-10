@@ -280,10 +280,10 @@
             FontWeight: =FontWeight.Semibold
             Height: =23
             Size: =12
-            Text: ="Last Visit Date"
-            Width: =116
-            X: =447
-            Y: =110
+            Text: ="Last Order Value"
+            Width: =143
+            X: =435
+            Y: =111
             ZIndex: =24
 
         Label2_86 As label:
@@ -299,7 +299,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: ="12-04-2022"
+            Text: =Concatenate("₹",RandBetween(12000, 80000))
             Width: =127
             X: =447
             Y: =138
