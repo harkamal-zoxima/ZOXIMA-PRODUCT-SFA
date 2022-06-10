@@ -12462,66 +12462,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Gallery3_2.Icon13_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Gallery3_2.Icon13_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Gallery3_2.Icon13_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Gallery3_2.Icon13_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Gallery3_2.Icon13_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Gallery3_2.Icon13_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Customer (Dist)_1'.Icon10_7.AccessibleLabel"
                 }
               ],

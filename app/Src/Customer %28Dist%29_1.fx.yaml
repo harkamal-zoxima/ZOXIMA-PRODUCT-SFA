@@ -158,7 +158,7 @@
                     ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:150px; height:30px'></div>"
                 OnSelect: =Select(Parent)
                 Width: =164
-                X: =252
+                X: =234
                 Y: =103
                 ZIndex: =8
 
@@ -177,7 +177,7 @@
                 Size: =12
                 Text: ="Last Visit Date"
                 Width: =116
-                X: =273
+                X: =255
                 Y: =110
                 ZIndex: =9
 
@@ -196,7 +196,7 @@
                 Size: =13
                 Text: ="12-04-2022"
                 Width: =127
-                X: =273
+                X: =255
                 Y: =138
                 ZIndex: =12
 
@@ -214,7 +214,7 @@
                     ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
                 OnSelect: =Select(Parent)
                 Width: =164
-                X: =74
+                X: =56
                 Y: =102
                 ZIndex: =4
 
@@ -233,7 +233,7 @@
                 Size: =12
                 Text: ="Account No."
                 Width: =116
-                X: =85
+                X: =67
                 Y: =110
                 ZIndex: =5
 
@@ -252,89 +252,58 @@
                 Size: =13
                 Text: ="112"
                 Width: =116
-                X: =85
+                X: =67
                 Y: =133
                 ZIndex: =10
 
-        Group11_3 As group:
-            Height: =5
-            Width: =5
-            X: =40
-            Y: =40
+        HtmlText1_105 As htmlViewer:
+            Color: =RGBA(242, 242, 242, 1)
+            Height: =52
+            HtmlText: |-
+                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:150px; height:30px'></div>"
+            OnSelect: =Select(Parent)
+            Width: =164
+            X: =426
+            Y: =103
+            ZIndex: =23
+
+        Label2_85 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(53, 166, 57, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =23
+            Size: =12
+            Text: ="Last Visit Date"
+            Width: =116
+            X: =447
+            Y: =110
+            ZIndex: =24
+
+        Label2_86 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 0.83)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =32
+            Size: =13
+            Text: ="12-04-2022"
+            Width: =127
+            X: =447
+            Y: =138
             ZIndex: =25
-
-            Button2_10 As button:
-                Align: =Align.Left
-                BorderColor: =RGBA(0, 0, 0, 0)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(73, 130, 5, 1)
-                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Bold
-                Height: =39
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-                OnSelect: |
-                    =Set(
-                        VarDialogOpen,
-                        !VarDialogOpen
-                    );
-                    ClearCollect(
-                        SingleVisit,
-                        {
-                            Customer: ThisItem.Account,
-                            //visitType: 'Visit Type (Visits_1)'.Unplanned,
-                            Name: ThisItem.'Account Name',
-                            Account: LookUp(colMyAccounts, Account = ThisItem.Account)
-                        }
-                    );
-                PaddingLeft: =45
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                Size: =14
-                Text: ="ADD"
-                Width: =106
-                X: =466
-                Y: =114
-                ZIndex: =23
-
-            Icon13_3 As icon.Add:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(220, 220, 220, 1)
-                DisabledFill: =RGBA(0, 0, 0, 0)
-                FocusedBorderThickness: =4
-                Height: =23
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                HoverFill: =RGBA(0, 0, 0, 0)
-                Icon: =Icon.Add
-                OnSelect: |
-                    =Set(
-                        VarDialogOpen,
-                        !VarDialogOpen
-                    );
-                    ClearCollect(
-                        SingleVisit,
-                        {
-                            Customer: ThisItem.Account,
-                            //visitType: 'Visit Type (Visits_1)'.Unplanned,
-                            Name: ThisItem.'Account Name',
-                            Account: LookUp(colMyAccounts, Account = ThisItem.Account)
-                        }
-                    );
-                PressedBorderColor: =RGBA(0, 0, 0, 0)
-                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                PressedFill: =RGBA(0, 0, 0, 0)
-                Width: =20
-                X: =486
-                Y: =122
-                ZIndex: =24
 
     HtmlText1_101 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
