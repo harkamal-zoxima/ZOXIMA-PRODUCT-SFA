@@ -1127,7 +1127,8 @@
                     Navigate(
                         StartDay,
                         ScreenTransition.Fade
-                    );,
+                    );
+                    ,
                     "end",
                     Patch(
                         Visits_1,
@@ -1135,10 +1136,21 @@
                             Visits_1,
                             'Visit ID' = ClickedVisit.'Visit ID'
                         ),
-                        {status: 'status (Visits_1)'.Started}
+                        {
+                            status: 'status (Visits_1)'.Started,
+                            'Check- In Location': Concatenate(
+                                Location.Latitude,
+                                Location.Longitude
+                            )
+                        }
                     );
                     Patch(
-                        Accounts, LookUp(Accounts, Account = ClickedVisit.Customer.Account), {
+                        Accounts,
+                        LookUp(
+                            Accounts,
+                            Account = ClickedVisit.Customer.Account
+                        ),
+                        {
                             'Last Vist Date': Today(),
                             'Last Order Date': Today()
                         }
