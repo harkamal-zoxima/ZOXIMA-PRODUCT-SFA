@@ -2862,7 +2862,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 173,
+                  "charOffset": 213,
                   "snippet": {
                     "text": ".User"
                   }
@@ -2902,7 +2902,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 92,
+                  "charOffset": 120,
                   "snippet": {
                     "text": "="
                   }
@@ -2942,7 +2942,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 179,
+                  "charOffset": 219,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2982,7 +2982,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 384,
+                  "charOffset": 452,
                   "snippet": {
                     "text": ".User"
                   }
@@ -3022,7 +3022,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 303,
+                  "charOffset": 359,
                   "snippet": {
                     "text": "="
                   }
@@ -3062,7 +3062,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 282,
+                  "charOffset": 338,
                   "snippet": {
                     "text": "&&"
                   }
@@ -9192,19 +9192,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Visits.TextInput3.AccessibleLabel"
+                  "fullyQualifiedName": "Visits.'Visit Search'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Visits.TextInput3.AccessibleLabel",
+                  "fullyQualifiedName": "Visits.'Visit Search'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Visits",
-                "type": "Visits.TextInput3"
+                "type": "Visits.'Visit Search'"
               }
             }
           ],
@@ -9475,36 +9475,6 @@
                 "member": "TabIndex",
                 "module": "Visits",
                 "type": "Visits.Canvas2.DataCard2.Gallery5.Icon1_13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Label4_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Label4_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Visits",
-                "type": "Visits.Canvas2.DataCard2.Gallery5.Label4_3"
               }
             }
           ],
