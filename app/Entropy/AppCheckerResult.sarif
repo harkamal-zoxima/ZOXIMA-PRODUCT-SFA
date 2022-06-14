@@ -5043,46 +5043,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 5,
-                  "charOffset": 229,
-                  "snippet": {
-                    "text": ".User"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnVisible",
-                "module": "Home",
-                "type": "Home"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.OnVisible"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.OnVisible",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 1,
                   "charOffset": 184,
                   "snippet": {
@@ -5099,6 +5059,47 @@
           ],
           "message": {
             "arguments": [
+              "Guid",
+              "Record"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 186,
+                  "snippet": {
+                    "text": "LookUp(Users,'Primary Email' =User().Email)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Home",
+                "type": "Home"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
               "Filter"
             ],
             "id": "issue"
@@ -5124,7 +5125,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 235,
+                  "charOffset": 230,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5164,7 +5165,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 294,
+                  "charOffset": 289,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5204,7 +5205,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 501,
+                  "charOffset": 496,
                   "snippet": {
                     "text": ".User"
                   }
@@ -5244,7 +5245,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 456,
+                  "charOffset": 451,
                   "snippet": {
                     "text": "="
                   }
@@ -5284,7 +5285,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 507,
+                  "charOffset": 502,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5324,7 +5325,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 566,
+                  "charOffset": 561,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5364,7 +5365,7 @@
                 },
                 "region": {
                   "charLength": 204,
-                  "charOffset": 768,
+                  "charOffset": 763,
                   "snippet": {
                     "text": "If(\r\n            And(\r\n                Year(DateValue('Order Date')) = Year(Now()),\r\n                Month(DateValue('Order Date')) = Month(Now())\r\n            ),\r\n            1,\r\n            0\r\n        )"
                   }
@@ -5404,7 +5405,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 765,
+                  "charOffset": 760,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5444,7 +5445,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 1187,
+                  "charOffset": 1182,
                   "snippet": {
                     "text": "IsToday('Order Date')"
                   }
@@ -5484,7 +5485,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1184,
+                  "charOffset": 1179,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5524,7 +5525,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1405,
+                  "charOffset": 1400,
                   "snippet": {
                     "text": "-"
                   }
@@ -5564,7 +5565,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1395,
+                  "charOffset": 1390,
                   "snippet": {
                     "text": ">"
                   }
@@ -5604,7 +5605,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1379,
+                  "charOffset": 1374,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5644,7 +5645,7 @@
                 },
                 "region": {
                   "charLength": 204,
-                  "charOffset": 1583,
+                  "charOffset": 1578,
                   "snippet": {
                     "text": "If(\r\n            And(\r\n                Year(DateValue('Order Date')) = Year(Now()),\r\n                Month(DateValue('Order Date')) = Month(Now())\r\n            ),\r\n            1,\r\n            0\r\n        )"
                   }
@@ -5684,7 +5685,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1580,
+                  "charOffset": 1575,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5724,7 +5725,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 1924,
+                  "charOffset": 1919,
                   "snippet": {
                     "text": "IsToday('Visit Date')"
                   }
@@ -5764,7 +5765,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1946,
+                  "charOffset": 1941,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5804,7 +5805,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 2254,
+                  "charOffset": 2249,
                   "snippet": {
                     "text": ".User"
                   }
@@ -5844,7 +5845,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2170,
+                  "charOffset": 2165,
                   "snippet": {
                     "text": "="
                   }
@@ -5884,7 +5885,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 2260,
+                  "charOffset": 2255,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5924,7 +5925,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 2285,
+                  "charOffset": 2280,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5964,7 +5965,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 2534,
+                  "charOffset": 2529,
                   "snippet": {
                     "text": ".User"
                   }
@@ -6004,7 +6005,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2450,
+                  "charOffset": 2445,
                   "snippet": {
                     "text": "="
                   }
@@ -6044,7 +6045,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 2540,
+                  "charOffset": 2535,
                   "snippet": {
                     "text": "&&"
                   }
@@ -6084,7 +6085,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 2565,
+                  "charOffset": 2560,
                   "snippet": {
                     "text": "&&"
                   }
