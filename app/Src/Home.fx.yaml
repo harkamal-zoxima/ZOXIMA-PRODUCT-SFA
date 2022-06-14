@@ -10,23 +10,24 @@
             PrimarySalesDataForDashboardToday,
             Filter(
                 'Sales Order',
-                'Created By'.User = LookUp(Users,'Primary Email' =User().Email) &&
-                'Order Type' = [@'Order Type'].'Primary Order' && IsToday('Order Date')
+                'Created By'.'Primary Email' = User().Email &&
+                'Order Type' = 'Order Type1'.'Primary Order' && 'Order Date'=Today()
             ).'Bill Amoount'
         );
         Set(
             PrimarySalesDataForDashboardWeekly,
             Filter(
                 'Sales Order',
-                'Created By'.User = LookUp(Users,'Primary Email' =User().Email).User &&
-                'Order Type' = [@'Order Type'].'Primary Order' && 'Order Date' > Today() - 7  
+                'Created By'.'Primary Email' = User().Email &&
+                'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Date' > Today() - 7  
             ).'Bill Amoount'
         );
         Set(
             PrimarySalesDataForDashboardMonthly,
             Filter(
                 'Sales Order',
-                'Order Type' = [@'Order Type'].'Primary Order' && If(
+                 'Created By'.'Primary Email' = User().Email &&
+                'Order Type' = [@'Order Type1'].'Primary Order' && If(
                     And(
                         Year(DateValue('Order Date')) = Year(Now()),
                         Month(DateValue('Order Date')) = Month(Now())
@@ -41,21 +42,24 @@
             SecondarySalesDataForDashboardToday,
             Filter(
                 'Sales Order',
-                'Order Type' = [@'Order Type'].'Secondary Order' && IsToday('Order Date')
+                 'Created By'.'Primary Email' = User().Email &&
+                'Order Type' = [@'Order Type1'].'Secondary Order' && IsToday('Order Date')
             ).'Bill Amoount'
         );
         Set(
             SecondarySalesDataForDashboardWeekly,
             Filter(
                 'Sales Order',
-                'Order Type' = [@'Order Type'].'Secondary Order' && 'Order Date' > Today() - 7
+                 'Created By'.'Primary Email' = User().Email &&
+                'Order Type' = [@'Order Type1'].'Secondary Order' && 'Order Date' > Today() - 7
             ).'Bill Amoount'
         );
         Set(
             SecondarySalesDataForDashboardMonthly,
             Filter(
                 'Sales Order',
-                'Order Type' = [@'Order Type'].'Secondary Order' && If(
+                 'Created By'.'Primary Email' = User().Email &&
+                'Order Type' = [@'Order Type1'].'Secondary Order' && If(
                     And(
                         Year(DateValue('Order Date')) = Year(Now()),
                         Month(DateValue('Order Date')) = Month(Now())

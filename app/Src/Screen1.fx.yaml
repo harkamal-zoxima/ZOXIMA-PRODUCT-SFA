@@ -1,0 +1,64 @@
+Screen1 As screen:
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Label63_1 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(128, 128, 128, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =21
+        Text: |-
+            ="Customer ID:"
+        Width: =190
+        X: =27
+        Y: =157
+        ZIndex: =1
+
+    Button9_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(237, 27, 36, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FontWeight: =FontWeight.Semibold
+        Height: =67
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(255, 0, 0, 1), -20%)
+        RadiusBottomLeft: =40
+        RadiusBottomRight: =40
+        RadiusTopLeft: =40
+        RadiusTopRight: =40
+        Size: =18
+        Text: ="Capture GEO Location"
+        Width: =322
+        X: =27
+        Y: =222
+        ZIndex: =2
+
+    Label65_1 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(39, 67, 125, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =52
+        Size: =21
+        Text: ="Reward Points"
+        Width: =209
+        X: =418
+        Y: =212
+        ZIndex: =3
+
+    Label66_1 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =21
+        Text: ="12"
+        Width: =77
+        X: =520
+        Y: =161
+        ZIndex: =4
+

@@ -335,7 +335,7 @@
                     {
                         'Order Date': Today(),
                         'Order Status': 'Order Status (Sales Order)'.Open,
-                        'Order Type': 'Order Type'.'Primary Order',
+                        'Order Type': 'Order Type1'.'Primary Order',
                         'Before Tax Amount': Sum(
                             PrimaryCart,
                             price

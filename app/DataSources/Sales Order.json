@@ -88,7 +88,7 @@
     }
   },
   {
-    "DisplayName": "Order Type",
+    "DisplayName": "Order Type1",
     "Name": "cr431_ordertype",
     "OptionSetInfoNameMapping": {
       "254460000": "Primary Order",
