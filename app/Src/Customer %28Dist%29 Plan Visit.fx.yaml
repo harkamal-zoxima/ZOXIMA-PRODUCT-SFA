@@ -7,7 +7,7 @@
     Gallery3_3 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =824
-        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_2.Selected.Value), 'Customer Search_1'.Text in 'Account Name') 
+        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_2.Selected.Value), 'Customer Search_1'.Text in 'Account Name (name)') 
         Layout: =Layout.Vertical
         TemplateSize: =179
         Y: =201
@@ -35,7 +35,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =51
             Size: =17
-            Text: =ThisItem.'Account Name'
+            Text: =ThisItem.'Account Name (name)'
             Width: =364
             X: =36
             Y: =12

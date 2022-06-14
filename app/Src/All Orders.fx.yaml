@@ -18,7 +18,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
                     'Order Date' > Today() - 30
                 ),
@@ -26,7 +26,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
                     'Order Date' > Today() - 7
                 ),
@@ -34,7 +34,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
                     IsToday('Order Date')
                 )
@@ -335,7 +335,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =44
                 Size: =13
-                Text: =ThisItem.'Order To'.'Account Name'
+                Text: =ThisItem.'Order To'.'Account Name (name)'
                 Width: =155
                 X: =42
                 Y: =176

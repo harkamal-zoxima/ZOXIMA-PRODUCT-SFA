@@ -68,6 +68,8 @@
       "chat_systemuser_modifiedonbehalfby": "Teams chats (chat_systemuser_modifiedonbehalfby)",
       "chat_systemuser_owninguser": "Teams chats (chat_systemuser_owninguser)",
       "contact_owning_user": "Contacts (contact_owning_user)",
+      "cr431_designation": "Designation (cr431_designation)",
+      "cr431_designation1": "Designation (cr431_designation1)",
       "createdby": "Created By",
       "createdby_connection": "Connections (createdby_connection)",
       "createdby_connection_role": "Connection Roles (createdby_connection_role)",
@@ -254,10 +256,22 @@
       "lk_cr431_daytype_createdonbehalfby": "Day Type (lk_cr431_daytype_createdonbehalfby)",
       "lk_cr431_daytype_modifiedby": "Day Type (lk_cr431_daytype_modifiedby)",
       "lk_cr431_daytype_modifiedonbehalfby": "Day Type (lk_cr431_daytype_modifiedonbehalfby)",
+      "lk_cr431_dealerindent_createdby": "Dealer Indents (lk_cr431_dealerindent_createdby)",
+      "lk_cr431_dealerindent_createdonbehalfby": "Dealer Indents (lk_cr431_dealerindent_createdonbehalfby)",
+      "lk_cr431_dealerindent_modifiedby": "Dealer Indents (lk_cr431_dealerindent_modifiedby)",
+      "lk_cr431_dealerindent_modifiedonbehalfby": "Dealer Indents (lk_cr431_dealerindent_modifiedonbehalfby)",
+      "lk_cr431_dealerindentline_createdby": "Dealer Indent Lines (lk_cr431_dealerindentline_createdby)",
+      "lk_cr431_dealerindentline_createdonbehalfby": "Dealer Indent Lines (lk_cr431_dealerindentline_createdonbehalfby)",
+      "lk_cr431_dealerindentline_modifiedby": "Dealer Indent Lines (lk_cr431_dealerindentline_modifiedby)",
+      "lk_cr431_dealerindentline_modifiedonbehalfby": "Dealer Indent Lines (lk_cr431_dealerindentline_modifiedonbehalfby)",
       "lk_cr431_employeetype_createdby": "Employee Type (lk_cr431_employeetype_createdby)",
       "lk_cr431_employeetype_createdonbehalfby": "Employee Type (lk_cr431_employeetype_createdonbehalfby)",
       "lk_cr431_employeetype_modifiedby": "Employee Type (lk_cr431_employeetype_modifiedby)",
       "lk_cr431_employeetype_modifiedonbehalfby": "Employee Type (lk_cr431_employeetype_modifiedonbehalfby)",
+      "lk_cr431_enquiry_createdby": "Enquiries (lk_cr431_enquiry_createdby)",
+      "lk_cr431_enquiry_createdonbehalfby": "Enquiries (lk_cr431_enquiry_createdonbehalfby)",
+      "lk_cr431_enquiry_modifiedby": "Enquiries (lk_cr431_enquiry_modifiedby)",
+      "lk_cr431_enquiry_modifiedonbehalfby": "Enquiries (lk_cr431_enquiry_modifiedonbehalfby)",
       "lk_cr431_event_createdby": "Events (lk_cr431_event_createdby)",
       "lk_cr431_event_createdonbehalfby": "Events (lk_cr431_event_createdonbehalfby)",
       "lk_cr431_event_modifiedby": "Events (lk_cr431_event_modifiedby)",
@@ -338,6 +352,10 @@
       "lk_cr431_productitem_createdonbehalfby": "Product Items (lk_cr431_productitem_createdonbehalfby)",
       "lk_cr431_productitem_modifiedby": "Product Items (lk_cr431_productitem_modifiedby)",
       "lk_cr431_productitem_modifiedonbehalfby": "Product Items (lk_cr431_productitem_modifiedonbehalfby)",
+      "lk_cr431_productmaster_createdby": "Product Masters (lk_cr431_productmaster_createdby)",
+      "lk_cr431_productmaster_createdonbehalfby": "Product Masters (lk_cr431_productmaster_createdonbehalfby)",
+      "lk_cr431_productmaster_modifiedby": "Product Masters (lk_cr431_productmaster_modifiedby)",
+      "lk_cr431_productmaster_modifiedonbehalfby": "Product Masters (lk_cr431_productmaster_modifiedonbehalfby)",
       "lk_cr431_productpricelist_createdby": "Product Price List (lk_cr431_productpricelist_createdby)",
       "lk_cr431_productpricelist_createdonbehalfby": "Product Price List (lk_cr431_productpricelist_createdonbehalfby)",
       "lk_cr431_productpricelist_modifiedby": "Product Price List (lk_cr431_productpricelist_modifiedby)",
@@ -1297,7 +1315,10 @@
       "user_cr431_category": "Categories (user_cr431_category)",
       "user_cr431_complaints": "Complaints (user_cr431_complaints)",
       "user_cr431_daytype": "Day Type (user_cr431_daytype)",
+      "user_cr431_dealerindent": "Dealer Indents (user_cr431_dealerindent)",
+      "user_cr431_dealerindentline": "Dealer Indent Lines (user_cr431_dealerindentline)",
       "user_cr431_employeetype": "Employee Type (user_cr431_employeetype)",
+      "user_cr431_enquiry": "Enquiries (user_cr431_enquiry)",
       "user_cr431_event": "Events (user_cr431_event)",
       "user_cr431_expectedorder": "Expected Order (user_cr431_expectedorder)",
       "user_cr431_expenseheader": "Expense Header (user_cr431_expenseheader)",
@@ -1318,6 +1339,7 @@
       "user_cr431_pjp": "PJPS (user_cr431_pjp)",
       "user_cr431_pjptown": "PJP Towns (user_cr431_pjptown)",
       "user_cr431_productitem": "Product Items (user_cr431_productitem)",
+      "user_cr431_productmaster": "Product Masters (user_cr431_productmaster)",
       "user_cr431_productpricelist": "Product Price List (user_cr431_productpricelist)",
       "user_cr431_question": "Questions (user_cr431_question)",
       "user_cr431_response": "Responses (user_cr431_response)",
@@ -1478,6 +1500,36 @@
       "f79ad170-ae03-4f4c-8132-d4aa08520a0c": "Associated Record Team Members",
       "fcf02d37-524a-4332-8ac7-497ef6b739f9": "Users: Influenced Deals That We Won"
     }
+  },
+  {
+    "DisplayName": "details",
+    "Name": "cr431_details",
+    "OptionSetInfoNameMapping": {
+      "254460000": "Customer",
+      "254460001": "Dealer",
+      "254460002": "Sales Engineer",
+      "254460003": "ASM",
+      "254460004": "RM",
+      "254460005": "RSM",
+      "254460006": "VH",
+      "254460007": "Director"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr431_designation1",
+        "OptionSetReferenceEntityName": "Users"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "cr431_designation",
+        "OptionSetReferenceEntityName": "Users"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr431_designation1",
+    "RelatedEntityName": "Users",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Access Mode (Users)",

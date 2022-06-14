@@ -65,7 +65,7 @@
                                 ).User
                             )
                         ),
-                       'Visit Search'.Text in Customer.'Account Name' 
+                       'Visit Search'.Text in Customer.'Account Name (name)' 
                     )
                 Layout: =Layout.Vertical
                 ShowScrollbar: =false
@@ -98,7 +98,7 @@
                     Height: =54
                     OnSelect: =Select(Parent)
                     Size: =19
-                    Text: = ThisItem.Customer.'Account Name'
+                    Text: = ThisItem.Customer.'Account Name (name)'
                     Width: =309
                     X: =76
                     ZIndex: =2
@@ -386,7 +386,7 @@
                     Height: =29
                     OnSelect: =Select(Parent)
                     Size: =20
-                    Text: =Left(ThisItem.Customer.'Account Name',1)
+                    Text: =Left(ThisItem.Customer.'Account Name (name)',1)
                     Width: =39
                     X: =21
                     Y: =20
@@ -934,7 +934,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =51
         Size: =18
-        Text: =First(SelectedVisitForEdit).Customer.'Account Name'
+        Text: =First(SelectedVisitForEdit).Customer.'Account Name (name)'
         Visible: =VarEditDialogOpen
         Width: =289
         X: =274
