@@ -10,6 +10,7 @@
             PrimarySalesDataForDashboardToday,
             Filter(
                 'Sales Order',
+                'Created By'.User = LookUp(Users,'Primary Email' =User().Email).User &&
                 'Order Type' = [@'Order Type'].'Primary Order' && IsToday('Order Date')
             ).'Bill Amoount'
         );
@@ -17,7 +18,8 @@
             PrimarySalesDataForDashboardWeekly,
             Filter(
                 'Sales Order',
-                'Order Type' = [@'Order Type'].'Primary Order' && 'Order Date' > Today() - 7
+                'Created By'.User = LookUp(Users,'Primary Email' =User().Email).User &&
+                'Order Type' = [@'Order Type'].'Primary Order' && 'Order Date' > Today() - 7  
             ).'Bill Amoount'
         );
         Set(
