@@ -1002,12 +1002,13 @@
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(212, 212, 212, 1)
             InputTextPlaceholder: ="Select Retailer"
+            IsSearchable: =false
             Items: =Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer)
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["name"]
-            SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer),Retailer_1.SearchText,"name")
+            SearchItems: =[]
             SelectionFill: =RGBA(73, 130, 5, 1)
             SelectMultiple: =false
             Size: =21
