@@ -14,14 +14,14 @@
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =3400
+            Height: =4000
             Width: =Parent.Width
             X: =0
             Y: =0
             ZIndex: =1
 
             Container4 As groupContainer.manualLayoutContainer:
-                Height: =3400
+                Height: =4000
                 Visible: =If(customerinfo.Selected.Title = "Info" ,true,false)
                 Width: =640
                 Y: =19
@@ -2381,6 +2381,144 @@
                         Y: =3080
                         ZIndex: =90
 
+                Group28 As group:
+                    Height: =5
+                    Width: =5
+                    X: =60
+                    Y: =60
+                    ZIndex: =97
+
+                    UploadedImage1_1 As image:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        Height: =AddMediaButton1_1.Height
+                        Image: =If(IsBlank(AddMediaButton1_1.Media), SampleImage, AddMediaButton1_1.Media)
+                        ImagePosition: =ImagePosition.Fill
+                        Width: =AddMediaButton1_1.Width
+                        X: =295
+                        Y: =3170
+                        ZIndex: =91
+
+                    AddMediaButton1_1 As addMedia:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =192
+                        Size: =15
+                        Text: ="Take Picture"
+                        Width: =315
+                        X: =295
+                        Y: =3170
+                        ZIndex: =92
+
+                    Label35_62 As label:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FontWeight: =FontWeight.Semibold
+                        Height: =51
+                        Size: =15
+                        Text: ="GST Image Proof"
+                        Width: =316
+                        X: =40
+                        Y: =3148
+                        ZIndex: =93
+
+                Group29 As group:
+                    Height: =5
+                    Width: =5
+                    X: =60
+                    Y: =60
+                    ZIndex: =98
+
+                    Label35_63 As label:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FontWeight: =FontWeight.Semibold
+                        Height: =51
+                        Size: =15
+                        Text: ="Shop ID Proof"
+                        Width: =316
+                        X: =40
+                        Y: =3389
+                        ZIndex: =94
+
+                    UploadedImage1_2 As image:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        Height: =AddMediaButton1_1.Height
+                        Image: =If(IsBlank(AddMediaButton1_1.Media), SampleImage, AddMediaButton1_1.Media)
+                        ImagePosition: =ImagePosition.Fill
+                        Width: =AddMediaButton1_1.Width
+                        X: =296
+                        Y: =3422
+                        ZIndex: =95
+
+                    AddMediaButton1_2 As addMedia:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =192
+                        Size: =15
+                        Text: ="Take Picture"
+                        Width: =315
+                        X: =296
+                        Y: =3422
+                        ZIndex: =96
+
+                Group28_1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =20
+                    Y: =-3088
+                    ZIndex: =100
+
+                    UploadedImage1_3 As image:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        Height: =AddMediaButton1_3.Height
+                        Image: =If(IsBlank(AddMediaButton1_3.Media), SampleImage, AddMediaButton1_3.Media)
+                        ImagePosition: =ImagePosition.Fill
+                        Width: =AddMediaButton1_3.Width
+                        X: =297
+                        Y: =3658
+                        ZIndex: =97
+
+                    AddMediaButton1_3 As addMedia:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =192
+                        Size: =15
+                        Text: ="Take Picture"
+                        Width: =315
+                        X: =297
+                        Y: =3658
+                        ZIndex: =98
+
+                    Label35_64 As label:
+                        BorderColor: =RGBA(89, 0, 0, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FontWeight: =FontWeight.Semibold
+                        Height: =51
+                        Size: =15
+                        Text: ="Visiting Card Proof"
+                        Width: =316
+                        X: =32
+                        Y: =3640
+                        ZIndex: =99
+
+            Container6 As groupContainer.manualLayoutContainer:
+                Height: =225
+                X: =40
+                Y: =40
+                ZIndex: =2
+
     Label63_2 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(128, 128, 128, 1)
@@ -2534,11 +2672,7 @@
                     Active : true
                  //   Screen: 'Customer Info'
                 },
-                {
-                    Title: "Analytics",
-                     Active : false
-                  //  Screen: 'Customer Analytics'
-                },
+              
                 {
                     Title: "Orders",
                     Active : false
@@ -2555,11 +2689,7 @@
                     Active : false
                    // Screen: 'Customer Complaints'
                 },
-                 {
-                    Title: "Contacts",
-                    Active : false
-                  //  Screen: 'Customer Contact'
-                },
+              
                 {
                     Title: "Visits",
                     Active : false
