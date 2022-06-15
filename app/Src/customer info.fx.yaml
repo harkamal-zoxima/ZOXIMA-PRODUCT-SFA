@@ -1,0 +1,399 @@
+"'customer info' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Canvas3 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =683
+        Width: =Parent.Width
+        Y: =373
+        ZIndex: =3
+
+        DataCard3 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =2440
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Container4 As groupContainer.manualLayoutContainer:
+                Height: =2000
+                Visible: =If(customerinfo.Selected.Title = "Info" ,true,false)
+                Width: =640
+                Y: =9
+                ZIndex: =1
+
+                Label5_25 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
+                    Height: =32
+                    Size: =16
+                    Text: ="Firm Name"
+                    Visible: ='Dashboard Toptab_1'.Selected.Title = "Order Info"
+                    Width: =130
+                    X: =29
+                    Y: =11
+                    ZIndex: =1
+
+                TextInput2_5 As text:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =data2.'Account Name (name)'
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(128, 128, 128, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayMode: =DisplayMode.Disabled
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    HintText: =""
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    PressedBorderColor: =RGBA(73, 130, 5, 1)
+                    PressedColor: =RGBA(51, 51, 51, 1)
+                    PressedFill: =RGBA(255, 255, 255, 1)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Visible: ='Dashboard Toptab_1'.Selected.Title = "Order Info"
+                    Width: =571
+                    X: =29
+                    Y: =43
+                    ZIndex: =2
+
+                Label5_37 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
+                    Height: =32
+                    Size: =16
+                    Text: ="First Name"
+                    Visible: ='Dashboard Toptab_1'.Selected.Title = "Order Info"
+                    Width: =130
+                    X: =29
+                    Y: =93
+                    ZIndex: =3
+
+                TextInput2_18 As text:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(128, 128, 128, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayMode: =DisplayMode.Disabled
+                    FocusedBorderThickness: =4
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    HintText: =""
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    PressedBorderColor: =RGBA(73, 130, 5, 1)
+                    PressedColor: =RGBA(51, 51, 51, 1)
+                    PressedFill: =RGBA(255, 255, 255, 1)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Visible: ='Dashboard Toptab_1'.Selected.Title = "Order Info"
+                    Width: =265
+                    X: =29
+                    Y: =138
+                    ZIndex: =4
+
+    Label63_2 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(128, 128, 128, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =21
+        Text: |-
+            ="Customer ID:"
+        Width: =190
+        X: =27
+        Y: =177
+        ZIndex: =4
+
+    Button9_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(103, 204, 107, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FontWeight: =FontWeight.Semibold
+        Height: =67
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(103, 204, 107, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(103, 204, 107, 1)
+        RadiusBottomLeft: =40
+        RadiusBottomRight: =40
+        RadiusTopLeft: =40
+        RadiusTopRight: =40
+        Size: =18
+        Text: ="Capture GEO Location"
+        Width: =322
+        X: =27
+        Y: =242
+        ZIndex: =5
+
+    Label65_2 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(128, 128, 128, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =52
+        Size: =21
+        Text: ="Reward Points"
+        Width: =209
+        X: =418
+        Y: =258
+        ZIndex: =6
+
+    Label66_3 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(128, 128, 128, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =21
+        Text: ="12"
+        Width: =77
+        X: =520
+        Y: =220
+        ZIndex: =7
+
+    Label15_1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(103, 204, 107, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =30
+        Text: =data2.'Account Name (name)'
+        Width: =560
+        X: =27
+        Y: =108
+        ZIndex: =8
+
+    Label66_4 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(103, 204, 107, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =69
+        Size: =21
+        Text: =data2.'Account Number'
+        Width: =186
+        X: =224
+        Y: =173
+        ZIndex: =9
+
+    HtmlText1_106 As htmlViewer:
+        Color: =RGBA(103, 204, 107, 1)
+        Height: =82
+        HtmlText: |-
+            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:70px'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Width: =640
+        ZIndex: =10
+
+    Label17_1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =34
+        Text: =data2.'Account Type'
+        Width: =560
+        X: =80
+        ZIndex: =11
+
+    Icon14_11 As icon.BackArrow:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =43
+        X: =18
+        ZIndex: =12
+
+    customerinfo As gallery.galleryHorizontal:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Height: =65
+        Items: |-
+            =Table( 
+                {
+                    Title: "Info",
+                    Active : true
+                 //   Screen: 'Customer Info'
+                },
+                {
+                    Title: "Analytics",
+                     Active : false
+                  //  Screen: 'Customer Analytics'
+                },
+                {
+                    Title: "Orders",
+                    Active : false
+                  
+                 
+                },
+                {
+                    Title: "Invoices",
+                    Active : false
+                  //  Screen: 'Customer Invoice'
+                },
+                {
+                    Title: "Complaints",
+                    Active : false
+                   // Screen: 'Customer Complaints'
+                },
+                 {
+                    Title: "Contacts",
+                    Active : false
+                  //  Screen: 'Customer Contact'
+                },
+                {
+                    Title: "Visits",
+                    Active : false
+                 //   Screen: 'Customer Visits'
+                },
+                {
+                    Title: "Payments",
+                    Active : false
+                 //   Screen: 'Customer Payments'
+                },
+                {
+                    Title: "Delievery Address",
+                    Active : false
+                   // Screen: 'Customer Address'
+                }
+            )
+        OnSelect: =
+        ShowScrollbar: =false
+        TemplateSize: =165
+        Width: =622
+        X: =18
+        Y: =308
+        ZIndex: =13
+
+        Button4_12 As button:
+            BorderColor: =RGBA(53, 166, 57, 1)
+            Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+            FocusedBorderColor: =
+            FocusedBorderThickness: =2
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            HoverBorderColor: =RGBA(53, 166, 57, 1)
+            HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            HoverFill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =
+            PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            PressedFill: =
+            Size: =14
+            Text: =ThisItem.Title
+            Width: =153
+            Y: =6
+            ZIndex: =1
+
+    "'Bottom Navigation_28' As 'Bottom Navigation'":
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Visits",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Orders",
+                    Screen: 'All Orders',
+                    Icon: ShoppingCart,
+                    Active: false
+                }
+            )
+        Y: =1056
+        ZIndex: =14
+

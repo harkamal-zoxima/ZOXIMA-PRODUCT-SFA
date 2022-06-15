@@ -7,21 +7,12 @@
     Gallery3_3 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =824
-        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_2.Selected.Value), 'Customer Search_1'.Text in 'Account Name (name)') 
+        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_2.Selected.Value), 'Customer Search_1'.Text in 'Account Name (name)')
         Layout: =Layout.Vertical
+        OnSelect: =
         TemplateSize: =179
         Y: =201
         ZIndex: =1
-
-        HtmlText1_95 As htmlViewer:
-            Color: =RGBA(242, 242, 242, 1)
-            Height: =187
-            HtmlText: |-
-                ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:595px; height:175px'></div>"
-            OnSelect: =Select(Parent)
-            Width: =608
-            X: =15
-            ZIndex: =1
 
         Label1_9 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -34,12 +25,15 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =51
+            OnSelect: |
+                =//Navigate(Screen1);
             Size: =17
-            Text: =ThisItem.'Account Name (name)'
+            Text: |
+                =ThisItem.'Account Name (name)'
             Width: =364
             X: =36
             Y: =12
-            ZIndex: =2
+            ZIndex: =1
 
         "'Completed html_17' As htmlViewer":
             Color: =RGBA(242, 242, 242, 1)
@@ -61,7 +55,7 @@
             Width: =172
             X: =430
             Y: =8
-            ZIndex: =13
+            ZIndex: =8
 
         Label2_111 As label:
             Align: =Align.Center
@@ -91,7 +85,7 @@
             Width: =160
             X: =430
             Y: =19
-            ZIndex: =14
+            ZIndex: =9
 
         Label2_112 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -110,7 +104,7 @@
             Width: =382
             X: =36
             Y: =50
-            ZIndex: =21
+            ZIndex: =10
 
         Icon11_1 As icon.Waypoint:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -131,7 +125,19 @@
             Width: =25
             X: =405
             Y: =21
-            ZIndex: =22
+            ZIndex: =11
+
+        HtmlText1_95 As htmlViewer:
+            Color: =RGBA(242, 242, 242, 1)
+            Height: =187
+            HtmlText: |-
+                ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:595px; height:175px'></div>"
+            OnSelect: |-
+                =Navigate('customer info');
+                Set(data2,ThisItem)
+            Width: =608
+            X: =15
+            ZIndex: =14
 
         Group12_1 As group:
             Height: =5
@@ -149,7 +155,7 @@
                 Width: =164
                 X: =252
                 Y: =103
-                ZIndex: =8
+                ZIndex: =4
 
             Label2_114 As label:
                 Align: =Align.Center
@@ -168,7 +174,7 @@
                 Width: =116
                 X: =273
                 Y: =110
-                ZIndex: =9
+                ZIndex: =5
 
             Label2_116 As label:
                 Align: =Align.Center
@@ -187,7 +193,7 @@
                 Width: =127
                 X: =273
                 Y: =138
-                ZIndex: =12
+                ZIndex: =7
 
         Group13_1 As group:
             Height: =5
@@ -205,7 +211,7 @@
                 Width: =164
                 X: =74
                 Y: =102
-                ZIndex: =4
+                ZIndex: =2
 
             Label2_113 As label:
                 Align: =Align.Center
@@ -224,7 +230,7 @@
                 Width: =116
                 X: =85
                 Y: =110
-                ZIndex: =5
+                ZIndex: =3
 
             Label2_115 As label:
                 Align: =Align.Center
@@ -239,11 +245,11 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: ="112"
+                Text: =ThisItem.'Account Number'
                 Width: =116
                 X: =85
                 Y: =133
-                ZIndex: =10
+                ZIndex: =6
 
         Group11_1 As group:
             Height: =5
@@ -287,7 +293,7 @@
                 Width: =106
                 X: =466
                 Y: =114
-                ZIndex: =23
+                ZIndex: =12
 
             Icon13_1 As icon.Add:
                 BorderColor: =RGBA(166, 166, 166, 1)
@@ -319,7 +325,7 @@
                 Width: =20
                 X: =486
                 Y: =122
-                ZIndex: =24
+                ZIndex: =13
 
     HtmlText1_94 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
@@ -541,14 +547,7 @@
             FocusedBorderThickness: =4
             Height: =395
             HoverFill: =RGBA(237, 237, 237, 1)
-            OnSelect: |-
-                =If(VarDialogOpen, Patch(
-                    Visits_1,
-                    Defaults(Visits_1),
-                    {'Visit Type':'Visit Type (Visits_1)'.Unplanned,
-                    Customer: LookUp(Accounts, )}
-                );
-                )
+            OnSelect: =
             PressedFill: =RGBA(237, 237, 237, 1)
             Visible: =VarDialogOpen
             Width: =550
@@ -568,7 +567,7 @@
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Cancel
-            OnSelect: =Set(VarDialogOpen, false)
+            OnSelect: =
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
@@ -612,17 +611,7 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            OnSelect: |
-                =Patch(
-                    Visits_1,
-                    Defaults(Visits_1),
-                    {
-                        'Visit Date':If(!IsBlank('Date Gallery'.Selected), 'Date Gallery'.Selected.Value, DatePicker3_1.SelectedDate),
-                        Customer: LookUp(Accounts, Account = First(VisitData.Customer).Customer),
-                        'Visit Type': First(VisitData.'Visit Type').'Visit Type'
-                    }
-                );
-                Navigate(Visits, ScreenTransition.Fade);
+            OnSelect: =
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)

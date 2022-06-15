@@ -5,20 +5,20 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Header Component",
-    "TemplateGuid": "c3cb5069657d462d988b819d87f57351"
+    "Name": "KYCFormTopTab_1",
+    "TemplateGuid": "acea202265934356bd58014ba9bbd4bb"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
   "CustomProperties": [
     {
       "Category": 0,
-      "DisplayName": "ScreenName",
+      "DisplayName": "TabItems",
       "Hidden": false,
-      "Name": "ScreenName",
-      "PropertyDataTypeKey": "String",
+      "Name": "TabItems",
+      "PropertyDataTypeKey": "Table",
       "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Title\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
     }
   ],
   "FirstParty": true,
@@ -29,9 +29,9 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637908635251303040",
-  "Name": "c3cb5069657d462d988b819d87f57351",
+  "LastModifiedTimestamp": "637908650689024306",
+  "Name": "acea202265934356bd58014ba9bbd4bb",
   "OverridableProperties": {},
-  "TemplateOriginalName": "a1a2f57c1bd44c1192e960b1f8d49dbf",
-  "Version": "637708494958059309"
+  "TemplateOriginalName": "45a728bf04444425ae2709bcd70ab8ba",
+  "Version": "637708494958059526"
 }

@@ -1,47 +1,53 @@
-VisitsInfoTopTab As CanvasComponent:
+customerInfoTopTab10 As CanvasComponent:
     Fill: =RGBA(255, 255, 255, 1)
     Height: =61
     TabItems: |-
-        =Table(
+        =Table( 
             {
-                Title: "Visit Info",
-               Screen: 'Start visit',
-                Active: true
+                Title: "Info",
+                Active : true
+             //   Screen: 'Customer Info'
             },
             {
-                Title: "Book Order",
-                Screen: 'Visit Products',
-                Active: false
+                Title: "Analytics",
+                 Active : false
+              //  Screen: 'Customer Analytics'
             },
             {
-                Title: Concatenate(
-                    "Cart ",
-                    "(",
-                    CountRows(PrimaryCart),
-                    ")"
-                ),
-             Screen: 'Visit Cart',
-                Active: false
+                Title: "Orders",
+                Active : false
+              
+             
             },
             {
-                Title: "Inventory",
-               Screen: App.ActiveScreen,
-                Active: false
+                Title: "Invoices",
+                Active : false
+              //  Screen: 'Customer Invoice'
             },
             {
                 Title: "Complaints",
-                Screen: Complaints,
-                Active: false
+                Active : false
+               // Screen: 'Customer Complaints'
+            },
+             {
+                Title: "Contacts",
+                Active : false
+              //  Screen: 'Customer Contact'
             },
             {
-                Title: "Visit History",
-                Screen: 'Visit History',
-                Active: false
+                Title: "Visits",
+                Active : false
+             //   Screen: 'Customer Visits'
             },
             {
-                Title: "Retailer Info",
-                Screen: App.ActiveScreen,
-                Active: false
+                Title: "Payments",
+                Active : false
+             //   Screen: 'Customer Payments'
+            },
+            {
+                Title: "Delievery Address",
+                Active : false
+               // Screen: 'Customer Address'
             }
         )
     Width: =640
@@ -49,15 +55,15 @@ VisitsInfoTopTab As CanvasComponent:
     Y: =0
     ZIndex: =1
 
-    Gallery1_10 As gallery.galleryHorizontal:
+    Gallery1_11 As gallery.galleryHorizontal:
         BorderColor: =RGBA(0, 18, 107, 1)
         Height: =61
-        Items: =VisitsInfoTopTab.TabItems
+        Items: =customerInfoTopTab10.TabItems
         ShowScrollbar: =false
         TemplateSize: =163
         ZIndex: =1
 
-        Rectangle6 As rectangle:
+        Rectangle6_1 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -69,20 +75,19 @@ VisitsInfoTopTab As CanvasComponent:
             OnSelect: =Select(Parent)
             PressedFill: =RGBA(73, 130, 5, 1)
             Width: =163
-            X: =9
             ZIndex: =1
 
-        Label8_10 As label:
+        Label8_11 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 18, 107, 1)
             Color: =If(ThisItem.Active, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =50
-            OnSelect: =Navigate(ThisItem.Screen)
+            OnSelect: =//Navigate(ThisItem.Screen)
             Size: =15
             Text: =ThisItem.Title
-            Width: =172
+            Width: =163
             Y: =1
             ZIndex: =2
 

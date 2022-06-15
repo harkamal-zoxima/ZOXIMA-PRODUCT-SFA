@@ -5,20 +5,20 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Header Component",
-    "TemplateGuid": "c3cb5069657d462d988b819d87f57351"
+    "Name": "customerInfoTopTab10",
+    "TemplateGuid": "c630d5cdaa25423da09af6536075933f"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
   "CustomProperties": [
     {
       "Category": 0,
-      "DisplayName": "ScreenName",
+      "DisplayName": "TabItems",
       "Hidden": false,
-      "Name": "ScreenName",
-      "PropertyDataTypeKey": "String",
+      "Name": "TabItems",
+      "PropertyDataTypeKey": "Table",
       "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Active\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Title\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
     }
   ],
   "FirstParty": true,
@@ -29,9 +29,9 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637908635251303040",
-  "Name": "c3cb5069657d462d988b819d87f57351",
+  "LastModifiedTimestamp": "637908657589414198",
+  "Name": "c630d5cdaa25423da09af6536075933f",
   "OverridableProperties": {},
-  "TemplateOriginalName": "a1a2f57c1bd44c1192e960b1f8d49dbf",
-  "Version": "637708494958059309"
+  "TemplateOriginalName": "c24c8cdda8aa4592a2c19c5f7e216f34",
+  "Version": "637708494958059526"
 }

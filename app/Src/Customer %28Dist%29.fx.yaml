@@ -249,7 +249,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: ="112"
+                Text: =ThisItem.'Shipping Address'
                 Width: =116
                 X: =85
                 Y: =133
