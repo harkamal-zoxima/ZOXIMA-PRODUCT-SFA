@@ -15735,6 +15735,1626 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'customer info_1'.Icon14_12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Icon14_12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Icon14_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Icon14_12.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Icon14_12.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Icon14_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.customerinfo_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.customerinfo_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.customerinfo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.customerinfo_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.customerinfo_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "customer info_1",
+                "type": "'customer info_1'.customerinfo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_62.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_62.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_62"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_63.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_63.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_63"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_64.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_64.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_64"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_65.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_65.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_65"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_66.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_66.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_66"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_67.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_67.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_67"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_68.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_68.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_68"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_69.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_69.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_69"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_70.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_70.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_70"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_73.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_73.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_73"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_71.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_71.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_71"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_72.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_72.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_72"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_74.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_74.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_74"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_75.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_75.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_75"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_76.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_76.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_76"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_77.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_77.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_77"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_78.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_78.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_78"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_79.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_79.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_79"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_80.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_80.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_80"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_81.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_81.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_81"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_82.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_82.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_82"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_83.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_83.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_83"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_84.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_84.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_84"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_85.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_85.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_85"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_86.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_86.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_86"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_87.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_87.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_87"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_88.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_88.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_88"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_89.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_89.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_89"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_90.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_90.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_90"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_91.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_91.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_91"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_92.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_92.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_92"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_93.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_93.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_93"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_94.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_94.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_94"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_95.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_95.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_95"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_96.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_96.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_96"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_97.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_97.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_97"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_98.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_98.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_98"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_99.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_99.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_99"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_100.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_100.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_100"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_101.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_101.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_101"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_103.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_103.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_103"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_102.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_102.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_102"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_104.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_104.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_104"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_105.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_105.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_105"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_106.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_106.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_106"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.AddMediaButton1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.customerinfo_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.customerinfo_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "customer info",
+                "type": "'customer info'.Canvas3.DataCard3.Container6.customerinfo_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.customerinfo_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.customerinfo_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "customer info",
+                "type": "'customer info'.Canvas3.DataCard3.Container6.customerinfo_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.VarVisit"
                 }
               ],
@@ -18748,6 +20368,2706 @@
                 "member": "Visible",
                 "module": "customer info",
                 "type": "'customer info'.Canvas3.DataCard3.Container4.TextInput2_61"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_84.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_84.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_84"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_62.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_62.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_62"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_85.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_85.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_85"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_86.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_86.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_86"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_63.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_63.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_63"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_64.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_64.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_64"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_87.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_87.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_87"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_65.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_65.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_65"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_88.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_88.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_88"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_89.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_89.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_89"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_66.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_66.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_66"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_67.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_67.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_67"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_90.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_90.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_90"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_68.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_68.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_68"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_91.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_91.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_91"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_69.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_69.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_69"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_92.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_92.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_92"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_70.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_70.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_70"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_95.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_95.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_95"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_73.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_73.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_73"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_93.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_93.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_93"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_94.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_94.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_94"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_71.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_71.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_71"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_72.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_72.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_72"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_96.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_96.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_96"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_97.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_97.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_97"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_74.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_74.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_74"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_75.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_75.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_75"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_98.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_98.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_98"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_99.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_99.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_99"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_76.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_76.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_76"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_77.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_77.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_77"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_100.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_100.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_100"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_101.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_101.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_101"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_78.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_78.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_78"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_79.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_79.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_79"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_102.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_102.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_102"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_80.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_80.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_80"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_103.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_103.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_103"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_81.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_81.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_81"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_104.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_104.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_104"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_105.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_105.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_105"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_82.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_82.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_82"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_83.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_83.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_83"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_106.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_106.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_106"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_107.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_107.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_107"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_84.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_84.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_84"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_85.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_85.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_85"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_108.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_108.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_108"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_109.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_109.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_109"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_86.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_86.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_86"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_87.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_87.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_87"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_110.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_110.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_110"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_111.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_111.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_111"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_88.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_88.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_88"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_89.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_89.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_89"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_112.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_112.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_112"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_113.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_113.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_113"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_90.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_90.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_90"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_91.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_91.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_91"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_114.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_114.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_114"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_92.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_92.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_92"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_115.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_115.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_115"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_93.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_93.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_93"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_116.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_116.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_116"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_94.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_94.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_94"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_117.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_117.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_117"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_95.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_95.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_95"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_118.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_118.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_118"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_96.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_96.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_96"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_119.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_119.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_119"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_97.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_97.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_97"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_120.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_120.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_120"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_98.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_98.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_98"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_121.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_121.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_121"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_99.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_99.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_99"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_122.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_122.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_122"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_100.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_100.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_100"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_123.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_123.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_123"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_101.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_101.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_101"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_125.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_125.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_125"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_103.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_103.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_103"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_124.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_124.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_124"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_102.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_102.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_102"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_126.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_126.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_126"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_104.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_104.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_104"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_127.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_127.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_127"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_105.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_105.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_105"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_128.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_128.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_128"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 18
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_106.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_106.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "customer info_1",
+                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_106"
               }
             }
           ],
