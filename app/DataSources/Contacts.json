@@ -1,51 +1,19 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "accounts",
+    "EntitySetName": "contacts",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "account",
+    "LogicalName": "contact",
     "MaxGetRowsCount": 500,
-    "Name": "Accounts",
+    "Name": "Contacts",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
+      "_parentcustomerid_value": "Company Name",
       "{Attachments}": "Attachments",
-      "account_actioncard": "Action Cards",
-      "Account_ActivityPointers": "Activities",
-      "Account_Annotation": "Notes",
-      "Account_Appointments": "Appointments",
-      "Account_AsyncOperations": "System Jobs",
-      "Account_BulkDeleteFailures": "Bulk Delete Failures",
-      "account_chats": "Teams chats",
-      "account_connections1": "Connections (account_connections1)",
-      "account_connections2": "Connections (account_connections2)",
-      "Account_CustomerAddress": "Addresses",
-      "Account_DuplicateBaseRecord": "Duplicate Records (Account_DuplicateBaseRecord)",
-      "Account_DuplicateMatchingRecord": "Duplicate Records (Account_DuplicateMatchingRecord)",
-      "Account_Email_EmailSender": "Email Messages (Account_Email_EmailSender)",
-      "Account_Email_SendersAccount": "Email Messages (Account_Email_SendersAccount)",
-      "Account_Emails": "Email Messages (Account_Emails)",
-      "Account_Faxes": "Faxes",
-      "Account_Letters": "Letters",
-      "Account_MailboxTrackingFolder": "Mailbox Auto Tracking Folders",
-      "account_master_account": "Accounts (account_master_account)",
-      "account_parent_account": "Accounts (account_parent_account)",
-      "Account_Phonecalls": "Phone Calls",
-      "account_PostFollows": "Follows",
-      "account_PostRegardings": "Post Regarding",
-      "account_principalobjectattributeaccess": "Field Sharing",
-      "Account_ProcessSessions": "Process Sessions",
-      "Account_RecurringAppointmentMasters": "Recurring Appointments",
-      "account_sample_donations": "Donations",
-      "Account_SharepointDocumentLocation": "Document Locations",
-      "Account_SyncErrors": "Sync Errors",
-      "Account_Tasks": "Tasks (Account_Tasks)",
-      "accountcategorycode": "Category",
-      "accountclassificationcode": "Classification",
-      "accountid": "Account",
-      "accountnumber": "Account Number",
-      "accountratingcode": "Account Rating",
+      "account_primary_contact": "Accounts",
+      "accountrolecode": "Role",
       "address1_addresstypecode": "Address 1: Address Type",
       "address1_city": "Address 1: City",
       "address1_composite": "Address 1",
@@ -64,7 +32,7 @@
       "address1_primarycontactname": "Address 1: Primary Contact Name",
       "address1_shippingmethodcode": "Address 1: Shipping Method",
       "address1_stateorprovince": "Address 1: State/Province",
-      "address1_telephone1": "Address Phone",
+      "address1_telephone1": "Address 1: Phone",
       "address1_telephone2": "Address 1: Telephone 2",
       "address1_telephone3": "Address 1: Telephone 3",
       "address1_upszone": "Address 1: UPS Zone",
@@ -92,65 +60,76 @@
       "address2_telephone3": "Address 2: Telephone 3",
       "address2_upszone": "Address 2: UPS Zone",
       "address2_utcoffset": "Address 2: UTC Offset",
+      "address3_addresstypecode": "Address 3: Address Type",
+      "address3_city": "Address 3: City",
+      "address3_composite": "Address 3",
+      "address3_country": "Address3: Country/Region",
+      "address3_county": "Address 3: County",
+      "address3_fax": "Address 3: Fax",
+      "address3_freighttermscode": "Address 3: Freight Terms",
+      "address3_latitude": "Address 3: Latitude",
+      "address3_line1": "Address3: Street 1",
+      "address3_line2": "Address3: Street 2",
+      "address3_line3": "Address3: Street 3",
+      "address3_longitude": "Address 3: Longitude",
+      "address3_name": "Address 3: Name",
+      "address3_postalcode": "Address3: ZIP/Postal Code",
+      "address3_postofficebox": "Address 3: Post Office Box",
+      "address3_primarycontactname": "Address 3: Primary Contact Name",
+      "address3_shippingmethodcode": "Address 3: Shipping Method",
+      "address3_stateorprovince": "Address3: State/Province",
+      "address3_telephone1": "Address 3: Telephone1",
+      "address3_telephone2": "Address 3: Telephone2",
+      "address3_telephone3": "Address 3: Telephone3",
+      "address3_upszone": "Address 3: UPS Zone",
+      "address3_utcoffset": "Address 3: UTC Offset",
       "aging30": "Aging 30",
       "aging30_base": "Aging 30 (Base)",
       "aging60": "Aging 60",
       "aging60_base": "Aging 60 (Base)",
       "aging90": "Aging 90",
       "aging90_base": "Aging 90 (Base)",
-      "businesstypecode": "Business Type",
-      "contact_customer_accounts": "Contacts",
-      "cr431_0_30days": "0-30 Days",
-      "cr431_0_30days_base": "0-30 Days (Base)",
-      "cr431_3060days": "30-60 Days",
-      "cr431_3060days_base": "30-60 Days (Base)",
-      "cr431_6090days": "60-90 Days",
-      "cr431_6090days_base": "60-90 Days (Base)",
-      "cr431_90days": ">90 Days",
-      "cr431_90days_base": ">90 Days (Base)",
-      "cr431_aadhar_no": "Aadhar No",
-      "cr431_account_cr431_invoice_BillToParty": "Invoices (cr431_account_cr431_invoice_BillToParty)",
-      "cr431_account_cr431_invoice_ShiptoAddress": "Invoices (cr431_account_cr431_invoice_ShiptoAddress)",
-      "cr431_account_cr431_invoice_ShipToParty": "Invoices (cr431_account_cr431_invoice_ShipToParty)",
-      "cr431_account_cr431_lead_SupplierDealer": "Lead",
-      "cr431_account_cr431_salesorder_BillToParty": "Sales Order (cr431_account_cr431_salesorder_BillToParty)",
-      "cr431_account_cr431_salesorder_ShipToParty": "Sales Order (cr431_account_cr431_salesorder_ShipToParty)",
-      "cr431_account_cr431_servicerequest_DealerRetailer": "Service Requests",
-      "cr431_account_cr431_supply_DealerRetailer": "Supply",
-      "cr431_account_cr431_visit_customer": "Visits (cr431_account_cr431_visit_customer)",
-      "cr431_account_cr431_visit_DealerRetailerInfluencerName": "Visits (cr431_account_cr431_visit_DealerRetailerInfluencerName)",
-      "cr431_accountname": "Account Name (cr431_accountname)",
-      "cr431_accounttype": "Account Type",
-      "cr431_acholdername": "A/c Holder Name",
-      "cr431_active": "Active*",
-      "cr431_bankaccountnumber": "Bank Account Number",
-      "cr431_bankname": "Bank Name",
-      "cr431_beat": "Beat",
-      "cr431_billingaddress": "Billing Address",
-      "cr431_branch": "Branch",
-      "cr431_branchcode": "Branch Code",
-      "cr431_cr431_brandingmaterial_cr431_Cutome": "Branding Materials",
-      "cr431_cr431_imageurl_cr431_DealerRetailer": "Image Url",
-      "cr431_cr431_payment_cr431_Account_account": "Payments",
-      "cr431_cr431_salesorder_OrderFrom_account": "Sales Order (cr431_cr431_salesorder_OrderFrom_account)",
-      "cr431_cr431_salesorder_OrderTo_account": "Sales Order (cr431_cr431_salesorder_OrderTo_account)",
-      "cr431_firstname": "First Name",
-      "cr431_geographicaltown": "Geographical Town",
-      "cr431_geolocation": "Geo Location",
-      "cr431_gstin": "GST IN",
-      "cr431_ifsccode": "IFSC Code",
-      "cr431_lastname": "Last Name",
-      "cr431_lastorderdate": "Last Order Date",
-      "cr431_lastvistdate": "Last Vist Date",
-      "cr431_mobile2": "Mobile2",
-      "cr431_nation": "Nation",
-      "cr431_panno": "PAN No.",
-      "cr431_pincode": "Pin Code",
-      "cr431_shippingaddress": "Shipping Address",
-      "cr431_Task_DealerRetailer_Account": "Tasks (cr431_Task_DealerRetailer_Account)",
-      "cr431_territory": "Territory",
-      "cr431_town": "Town",
-      "cr431_zone": "Zone",
+      "anniversary": "Anniversary",
+      "annualincome": "Annual Income",
+      "annualincome_base": "Annual Income (Base)",
+      "assistantname": "Assistant",
+      "assistantphone": "Assistant Phone",
+      "birthdate": "Birthday",
+      "business2": "Business Phone 2",
+      "callback": "Callback Number",
+      "childrensnames": "Children's Names",
+      "company": "Company Phone",
+      "contact_actioncard": "Action Cards",
+      "Contact_ActivityPointers": "Activities",
+      "Contact_Annotation": "Notes",
+      "Contact_Appointments": "Appointments",
+      "Contact_AsyncOperations": "System Jobs",
+      "Contact_BulkDeleteFailures": "Bulk Delete Failures",
+      "contact_chats": "Teams chats",
+      "contact_connections1": "Connections (contact_connections1)",
+      "contact_connections2": "Connections (contact_connections2)",
+      "contact_customer_contacts": "Contacts (contact_customer_contacts)",
+      "Contact_CustomerAddress": "Addresses",
+      "Contact_DuplicateBaseRecord": "Duplicate Records (Contact_DuplicateBaseRecord)",
+      "Contact_DuplicateMatchingRecord": "Duplicate Records (Contact_DuplicateMatchingRecord)",
+      "Contact_Email_EmailSender": "Email Messages (Contact_Email_EmailSender)",
+      "Contact_Emails": "Email Messages (Contact_Emails)",
+      "Contact_Faxes": "Faxes",
+      "Contact_Feedback": "Feedback (Contact_Feedback)",
+      "Contact_Letters": "Letters",
+      "Contact_MailboxTrackingFolder": "Mailbox Auto Tracking Folders",
+      "contact_master_contact": "Contacts (contact_master_contact)",
+      "Contact_Phonecalls": "Phone Calls",
+      "contact_PostFollows": "Follows",
+      "contact_PostRegardings": "Post Regarding",
+      "contact_principalobjectattributeaccess": "Field Sharing",
+      "Contact_ProcessSessions": "Process Sessions",
+      "Contact_RecurringAppointmentMasters": "Recurring Appointments",
+      "contact_sample_donations": "Donations",
+      "Contact_SyncErrors": "Sync Errors",
+      "Contact_Tasks": "Tasks",
+      "contactid": "Contact",
+      "cr431_cr431_response_cr431_ContactId_cont": "Responses",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -159,6 +138,7 @@
       "creditonhold": "Credit Hold",
       "customersizecode": "Customer Size",
       "customertypecode": "Relationship Type",
+      "department": "Department",
       "description": "Description",
       "donotbulkemail": "Do not allow Bulk Emails",
       "donotbulkpostalmail": "Do not allow Bulk Mails",
@@ -167,60 +147,71 @@
       "donotphone": "Do not allow Phone Calls",
       "donotpostalmail": "Do not allow Mails",
       "donotsendmm": "Send Marketing Materials",
+      "educationcode": "Education",
       "emailaddress1": "Email",
       "emailaddress2": "Email Address 2",
       "emailaddress3": "Email Address 3",
-      "entityimage": "Default Image",
+      "employeeid": "Employee",
+      "entityimage": "Entity Image",
       "entityimageid": "Entity Image Id",
       "exchangerate": "Exchange Rate",
+      "externaluseridentifier": "External User Identifier",
+      "familystatuscode": "Marital Status",
       "fax": "Fax",
+      "firstname": "First Name",
       "followemail": "Follow Email Activity",
       "ftpsiteurl": "FTP Site",
+      "fullname": "Full Name",
+      "gendercode": "Gender",
+      "governmentid": "Government",
+      "haschildrencode": "Has Children",
+      "home2": "Home Phone 2",
       "importsequencenumber": "Import Sequence Number",
-      "industrycode": "Industry",
+      "isbackofficecustomer": "Back Office Customer",
+      "jobtitle": "Job Title",
+      "lastname": "Last Name",
       "lastonholdtime": "Last On Hold Time",
       "lastusedincampaign": "Last Date Included in Campaign",
-      "marketcap": "Market Capitalization",
-      "marketcap_base": "Market Capitalization (Base)",
+      "leadsourcecode": "Lead Source",
+      "lk_contact_feedback_createdby": "Feedback (lk_contact_feedback_createdby)",
+      "lk_contact_feedback_createdonbehalfby": "Feedback (lk_contact_feedback_createdonbehalfby)",
+      "managername": "Manager",
+      "managerphone": "Manager Phone",
       "marketingonly": "Marketing Only",
       "masterid": "Master ID",
       "merged": "Merged",
+      "middlename": "Middle Name",
+      "mobilephone": "Mobile Phone",
       "modifiedby": "Modified By",
       "modifiedon": "Modified On",
       "modifiedonbehalfby": "Modified By (Delegate)",
-      "name": "Account Name (name)",
-      "numberofemployees": "Number of Employees",
+      "nickname": "Nickname",
+      "numberofchildren": "No. of Children",
       "onholdtime": "On Hold Time (Minutes)",
       "overriddencreatedon": "Record Created On",
-      "ownershipcode": "Ownership",
       "owningbusinessunit": "Owning Business Unit",
       "owningteam": "Owning Team",
       "owninguser": "Owning User",
-      "parentaccountid": "Parent Account",
+      "pager": "Pager",
       "participatesinworkflow": "Participates in Workflow",
       "paymenttermscode": "Payment Terms",
       "preferredappointmentdaycode": "Preferred Day",
       "preferredappointmenttimecode": "Preferred Time",
       "preferredcontactmethodcode": "Preferred Method of Contact",
       "preferredsystemuserid": "Preferred User",
-      "primarycontactid": "Primary Contact",
-      "primarysatoriid": "Primary Satori ID",
-      "primarytwitterid": "Primary Twitter ID",
       "processid": "Process",
-      "revenue": "Annual Revenue",
-      "revenue_base": "Annual Revenue (Base)",
-      "sharesoutstanding": "Shares Outstanding",
+      "salutation": "Salutation",
+      "sample_ContributorsId": "Contributors",
       "shippingmethodcode": "Shipping Method",
-      "sic": "SIC Code",
+      "spousesname": "Spouse/Partner Name",
       "stageid": "(Deprecated) Process Stage",
       "statecode": "Status",
       "statuscode": "Status Reason",
-      "stockexchange": "Stock Exchange",
-      "telephone1": "Main Phone",
-      "telephone2": "Other Phone",
+      "suffix": "Suffix",
+      "telephone1": "Business Phone",
+      "telephone2": "Home Phone",
       "telephone3": "Telephone 3",
-      "territorycode": "Territory Code",
-      "tickersymbol": "Ticker Symbol",
+      "territorycode": "Territory",
       "timespentbymeonemailandmeetings": "Time Spent by me",
       "timezoneruleversionnumber": "Time Zone Rule Version Number",
       "transactioncurrencyid": "Currency",
@@ -228,92 +219,60 @@
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number",
       "websiteurl": "Website",
-      "yominame": "Yomi Account Name"
+      "yomifirstname": "Yomi First Name",
+      "yomifullname": "Yomi Full Name",
+      "yomilastname": "Yomi Last Name",
+      "yomimiddlename": "Yomi Middle Name"
     },
-    "PreferredName": "Accounts",
+    "PreferredName": "Contacts",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "Accounts (Views)",
-    "Name": "_account_views",
-    "RelatedEntityName": "Accounts",
+    "DisplayName": "Contacts (Views)",
+    "Name": "_contact_views",
+    "RelatedEntityName": "Contacts",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "00000000-0000-0000-00aa-000000666000": "Account Advanced Find View",
-      "00000000-0000-0000-00aa-000010001001": "My Active Accounts",
-      "00000000-0000-0000-00aa-000010001002": "Active Accounts",
-      "00000000-0000-0000-00aa-000010001031": "Inactive Accounts",
-      "00000000-0000-0000-00aa-000010001200": "Account Associated View",
-      "15c63745-0a6e-4322-8416-a62c84d90279": "Accounts: Influenced Deals That We Won",
-      "49fb9771-09e1-4e70-b193-198752493577": "Accounts: Responded to Campaigns in Last 6 Months",
-      "65ffaf9a-e8c5-432d-860b-32f841b00d87": "All Accounts",
-      "a9af0ab8-861d-4cfa-92a5-c6281fed7fab": "Account Lookup View",
-      "cfbcd7af-aee5-4e45-8ecc-c040d4020581": "Accounts: No Campaign Activities in Last 3 Months",
-      "d234426e-1f37-4944-9255-50e19b541c4c": "My Connections"
+      "00000000-0000-0000-00aa-000000666400": "Contacts Advanced Find View",
+      "00000000-0000-0000-00aa-000010001003": "My Active Contacts",
+      "00000000-0000-0000-00aa-000010001004": "Active Contacts",
+      "00000000-0000-0000-00aa-000010001033": "Inactive Contacts",
+      "00000000-0000-0000-00aa-000010001210": "Contact Associated View",
+      "0a8fa653-4147-4282-bf6b-168cfa839803": "Contacts: Influenced Deals That We Won",
+      "0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105": "All Contacts",
+      "73bc2d9b-4e0e-424c-8839-ed59d6817e3a": "Active Contacts Subgrid View",
+      "927e6cd8-b3ed-4c20-a154-b8bd8a86d172": "Contacts: No Campaign Activities in Last 3 Months",
+      "9c241a33-ca0b-4e50-ae92-db780d5b2a12": "Contacts: Responded to Campaigns in Last 6 Months",
+      "a2d479c5-53e3-4c69-addd-802327e67a0d": "Contacts Lookup View",
+      "ab582fb0-a846-453e-ad88-77f75ce91264": "My Connections",
+      "eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8": "Entitlement Contacts"
     }
   },
   {
-    "DisplayName": "Category (Accounts)",
-    "Name": "account_accountcategorycode",
+    "DisplayName": "Role (Contacts)",
+    "Name": "contact_accountrolecode",
     "OptionSetInfoNameMapping": {
-      "1": "Preferred Customer",
-      "2": "Standard"
+      "1": "Decision Maker",
+      "2": "Employee",
+      "3": "Influencer"
     },
     "OptionSetIsBooleanValued": false,
     "OptionSetIsGlobal": false,
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "accountcategorycode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceColumnName": "accountrolecode",
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "accountcategorycode",
-    "RelatedEntityName": "Accounts",
+    "RelatedColumnInvariantName": "accountrolecode",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Classification (Accounts)",
-    "Name": "account_accountclassificationcode",
-    "OptionSetInfoNameMapping": {
-      "1": "Default Value"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "accountclassificationcode",
-        "OptionSetReferenceEntityName": "Accounts"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "accountclassificationcode",
-    "RelatedEntityName": "Accounts",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Account Rating (Accounts)",
-    "Name": "account_accountratingcode",
-    "OptionSetInfoNameMapping": {
-      "1": "Default Value"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "accountratingcode",
-        "OptionSetReferenceEntityName": "Accounts"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "accountratingcode",
-    "RelatedEntityName": "Accounts",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Address 1: Address Type (Accounts)",
-    "Name": "account_address1_addresstypecode",
+    "DisplayName": "Address 1: Address Type (Contacts)",
+    "Name": "contact_address1_addresstypecode",
     "OptionSetInfoNameMapping": {
       "1": "Bill To",
       "2": "Ship To",
@@ -325,17 +284,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "address1_addresstypecode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "address1_addresstypecode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Address 1: Freight Terms (Accounts)",
-    "Name": "account_address1_freighttermscode",
+    "DisplayName": "Address 1: Freight Terms (Contacts)",
+    "Name": "contact_address1_freighttermscode",
     "OptionSetInfoNameMapping": {
       "1": "FOB",
       "2": "No Charge"
@@ -345,17 +304,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "address1_freighttermscode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "address1_freighttermscode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Address 1: Shipping Method (Accounts)",
-    "Name": "account_address1_shippingmethodcode",
+    "DisplayName": "Address 1: Shipping Method (Contacts)",
+    "Name": "contact_address1_shippingmethodcode",
     "OptionSetInfoNameMapping": {
       "1": "Airborne",
       "2": "DHL",
@@ -370,17 +329,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "address1_shippingmethodcode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "address1_shippingmethodcode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Address 2: Address Type (Accounts)",
-    "Name": "account_address2_addresstypecode",
+    "DisplayName": "Address 2: Address Type (Contacts)",
+    "Name": "contact_address2_addresstypecode",
     "OptionSetInfoNameMapping": {
       "1": "Default Value"
     },
@@ -389,17 +348,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "address2_addresstypecode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "address2_addresstypecode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Address 2: Freight Terms (Accounts)",
-    "Name": "account_address2_freighttermscode",
+    "DisplayName": "Address 2: Freight Terms (Contacts)",
+    "Name": "contact_address2_freighttermscode",
     "OptionSetInfoNameMapping": {
       "1": "Default Value"
     },
@@ -408,17 +367,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "address2_freighttermscode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "address2_freighttermscode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Address 2: Shipping Method (Accounts)",
-    "Name": "account_address2_shippingmethodcode",
+    "DisplayName": "Address 2: Shipping Method (Contacts)",
+    "Name": "contact_address2_shippingmethodcode",
     "OptionSetInfoNameMapping": {
       "1": "Default Value"
     },
@@ -427,17 +386,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "address2_shippingmethodcode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "address2_shippingmethodcode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Business Type (Accounts)",
-    "Name": "account_businesstypecode",
+    "DisplayName": "Address 3: Address Type (Contacts)",
+    "Name": "contact_address3_addresstypecode",
     "OptionSetInfoNameMapping": {
       "1": "Default Value"
     },
@@ -445,18 +404,56 @@
     "OptionSetIsGlobal": false,
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "businesstypecode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceColumnName": "address3_addresstypecode",
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "businesstypecode",
-    "RelatedEntityName": "Accounts",
+    "RelatedColumnInvariantName": "address3_addresstypecode",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Credit Hold (Accounts)",
-    "Name": "account_creditonhold",
+    "DisplayName": "Address 3: Freight Terms (Contacts)",
+    "Name": "contact_address3_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_freighttermscode",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_freighttermscode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Address 3: Shipping Method (Contacts)",
+    "Name": "contact_address3_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_shippingmethodcode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Credit Hold (Contacts)",
+    "Name": "contact_creditonhold",
     "OptionSetInfoNameMapping": {
       "0": "No",
       "1": "Yes"
@@ -466,17 +463,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "creditonhold",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "creditonhold",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Customer Size (Accounts)",
-    "Name": "account_customersizecode",
+    "DisplayName": "Customer Size (Contacts)",
+    "Name": "contact_customersizecode",
     "OptionSetInfoNameMapping": {
       "1": "Default Value"
     },
@@ -485,47 +482,36 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "customersizecode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "customersizecode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Relationship Type (Accounts)",
-    "Name": "account_customertypecode",
+    "DisplayName": "Relationship Type (Contacts)",
+    "Name": "contact_customertypecode",
     "OptionSetInfoNameMapping": {
-      "1": "Competitor",
-      "10": "Supplier",
-      "11": "Vendor",
-      "12": "Other",
-      "2": "Consultant",
-      "3": "Customer",
-      "4": "Investor",
-      "5": "Partner",
-      "6": "Influencer",
-      "7": "Press",
-      "8": "Prospect",
-      "9": "Reseller"
+      "1": "Default Value"
     },
     "OptionSetIsBooleanValued": false,
     "OptionSetIsGlobal": false,
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "customertypecode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "customertypecode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Do not allow Bulk Emails (Accounts)",
-    "Name": "account_donotbulkemail",
+    "DisplayName": "Do not allow Bulk Emails (Contacts)",
+    "Name": "contact_donotbulkemail",
     "OptionSetInfoNameMapping": {
       "0": "Allow",
       "1": "Do Not Allow"
@@ -535,17 +521,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "donotbulkemail",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "donotbulkemail",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Do not allow Bulk Mails (Accounts)",
-    "Name": "account_donotbulkpostalmail",
+    "DisplayName": "Do not allow Bulk Mails (Contacts)",
+    "Name": "contact_donotbulkpostalmail",
     "OptionSetInfoNameMapping": {
       "0": "No",
       "1": "Yes"
@@ -555,17 +541,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "donotbulkpostalmail",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "donotbulkpostalmail",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Do not allow Emails (Accounts)",
-    "Name": "account_donotemail",
+    "DisplayName": "Do not allow Emails (Contacts)",
+    "Name": "contact_donotemail",
     "OptionSetInfoNameMapping": {
       "0": "Allow",
       "1": "Do Not Allow"
@@ -575,17 +561,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "donotemail",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "donotemail",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Do not allow Faxes (Accounts)",
-    "Name": "account_donotfax",
+    "DisplayName": "Do not allow Faxes (Contacts)",
+    "Name": "contact_donotfax",
     "OptionSetInfoNameMapping": {
       "0": "Allow",
       "1": "Do Not Allow"
@@ -595,17 +581,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "donotfax",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "donotfax",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Do not allow Phone Calls (Accounts)",
-    "Name": "account_donotphone",
+    "DisplayName": "Do not allow Phone Calls (Contacts)",
+    "Name": "contact_donotphone",
     "OptionSetInfoNameMapping": {
       "0": "Allow",
       "1": "Do Not Allow"
@@ -615,17 +601,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "donotphone",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "donotphone",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Do not allow Mails (Accounts)",
-    "Name": "account_donotpostalmail",
+    "DisplayName": "Do not allow Mails (Contacts)",
+    "Name": "contact_donotpostalmail",
     "OptionSetInfoNameMapping": {
       "0": "Allow",
       "1": "Do Not Allow"
@@ -635,17 +621,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "donotpostalmail",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "donotpostalmail",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Send Marketing Materials (Accounts)",
-    "Name": "account_donotsendmm",
+    "DisplayName": "Send Marketing Materials (Contacts)",
+    "Name": "contact_donotsendmm",
     "OptionSetInfoNameMapping": {
       "0": "Send",
       "1": "Do Not Send"
@@ -655,17 +641,58 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "donotsendmm",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "donotsendmm",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Follow Email Activity (Accounts)",
-    "Name": "account_followemail",
+    "DisplayName": "Education (Contacts)",
+    "Name": "contact_educationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "educationcode",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "educationcode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Marital Status (Contacts)",
+    "Name": "contact_familystatuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Single",
+      "2": "Married",
+      "3": "Divorced",
+      "4": "Widowed"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "familystatuscode",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "familystatuscode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Follow Email Activity (Contacts)",
+    "Name": "contact_followemail",
     "OptionSetInfoNameMapping": {
       "0": "Do Not Allow",
       "1": "Allow"
@@ -675,68 +702,96 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "followemail",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "followemail",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Industry (Accounts)",
-    "Name": "account_industrycode",
+    "DisplayName": "Gender (Contacts)",
+    "Name": "contact_gendercode",
     "OptionSetInfoNameMapping": {
-      "1": "Accounting",
-      "10": "Distributors, Dispatchers and Processors",
-      "11": "Doctor's Offices and Clinics",
-      "12": "Durable Manufacturing",
-      "13": "Eating and Drinking Places",
-      "14": "Entertainment Retail",
-      "15": "Equipment Rental and Leasing",
-      "16": "Financial",
-      "17": "Food and Tobacco Processing",
-      "18": "Inbound Capital Intensive Processing",
-      "19": "Inbound Repair and Services",
-      "2": "Agriculture and Non-petrol Natural Resource Extraction",
-      "20": "Insurance",
-      "21": "Legal Services",
-      "22": "Non-Durable Merchandise Retail",
-      "23": "Outbound Consumer Service",
-      "24": "Petrochemical Extraction and Distribution",
-      "25": "Service Retail",
-      "26": "SIG Affiliations",
-      "27": "Social Services",
-      "28": "Special Outbound Trade Contractors",
-      "29": "Specialty Realty",
-      "3": "Broadcasting Printing and Publishing",
-      "30": "Transportation",
-      "31": "Utility Creation and Distribution",
-      "32": "Vehicle Retail",
-      "33": "Wholesale",
-      "4": "Brokers",
-      "5": "Building Supply Retail",
-      "6": "Business Services",
-      "7": "Consulting",
-      "8": "Consumer Services",
-      "9": "Design, Direction and Creative Management"
+      "1": "Male",
+      "2": "Female"
     },
     "OptionSetIsBooleanValued": false,
     "OptionSetIsGlobal": false,
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "industrycode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceColumnName": "gendercode",
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "industrycode",
-    "RelatedEntityName": "Accounts",
+    "RelatedColumnInvariantName": "gendercode",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "IsPrivate (Accounts)",
-    "Name": "account_isprivate",
+    "DisplayName": "Has Children (Contacts)",
+    "Name": "contact_haschildrencode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "haschildrencode",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "haschildrencode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Auto-created (Contacts)",
+    "Name": "contact_isautocreate",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isautocreate",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isautocreate",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Back Office Customer (Contacts)",
+    "Name": "contact_isbackofficecustomer",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isbackofficecustomer",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isbackofficecustomer",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Contacts)",
+    "Name": "contact_isprivate",
     "OptionSetInfoNameMapping": {
       "0": "No",
       "1": "Yes"
@@ -746,17 +801,36 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "isprivate",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "isprivate",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Marketing Only (Accounts)",
-    "Name": "account_marketingonly",
+    "DisplayName": "Lead Source (Contacts)",
+    "Name": "contact_leadsourcecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "leadsourcecode",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "leadsourcecode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Marketing Only (Contacts)",
+    "Name": "contact_marketingonly",
     "OptionSetInfoNameMapping": {
       "0": "No",
       "1": "Yes"
@@ -766,17 +840,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "marketingonly",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "marketingonly",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Merged (Accounts)",
-    "Name": "account_merged",
+    "DisplayName": "Merged (Contacts)",
+    "Name": "contact_merged",
     "OptionSetInfoNameMapping": {
       "0": "No",
       "1": "Yes"
@@ -786,39 +860,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "merged",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "merged",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Ownership (Accounts)",
-    "Name": "account_ownershipcode",
-    "OptionSetInfoNameMapping": {
-      "1": "Public",
-      "2": "Private",
-      "3": "Subsidiary",
-      "4": "Other"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "ownershipcode",
-        "OptionSetReferenceEntityName": "Accounts"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "ownershipcode",
-    "RelatedEntityName": "Accounts",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Participates in Workflow (Accounts)",
-    "Name": "account_participatesinworkflow",
+    "DisplayName": "Participates in Workflow (Contacts)",
+    "Name": "contact_participatesinworkflow",
     "OptionSetInfoNameMapping": {
       "0": "No",
       "1": "Yes"
@@ -828,17 +880,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "participatesinworkflow",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "participatesinworkflow",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Payment Terms (Accounts)",
-    "Name": "account_paymenttermscode",
+    "DisplayName": "Payment Terms (Contacts)",
+    "Name": "contact_paymenttermscode",
     "OptionSetInfoNameMapping": {
       "1": "Net 30",
       "2": "2% 10, Net 30",
@@ -850,17 +902,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "paymenttermscode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "paymenttermscode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Preferred Day (Accounts)",
-    "Name": "account_preferredappointmentdaycode",
+    "DisplayName": "Preferred Day (Contacts)",
+    "Name": "contact_preferredappointmentdaycode",
     "OptionSetInfoNameMapping": {
       "0": "Sunday",
       "1": "Monday",
@@ -875,17 +927,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "preferredappointmentdaycode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "preferredappointmentdaycode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Preferred Time (Accounts)",
-    "Name": "account_preferredappointmenttimecode",
+    "DisplayName": "Preferred Time (Contacts)",
+    "Name": "contact_preferredappointmenttimecode",
     "OptionSetInfoNameMapping": {
       "1": "Morning",
       "2": "Afternoon",
@@ -896,17 +948,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "preferredappointmenttimecode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "preferredappointmenttimecode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Preferred Method of Contact (Accounts)",
-    "Name": "account_preferredcontactmethodcode",
+    "DisplayName": "Preferred Method of Contact (Contacts)",
+    "Name": "contact_preferredcontactmethodcode",
     "OptionSetInfoNameMapping": {
       "1": "Any",
       "2": "Email",
@@ -919,17 +971,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "preferredcontactmethodcode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "preferredcontactmethodcode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Shipping Method (Accounts)",
-    "Name": "account_shippingmethodcode",
+    "DisplayName": "Shipping Method (Contacts)",
+    "Name": "contact_shippingmethodcode",
     "OptionSetInfoNameMapping": {
       "1": "Default Value"
     },
@@ -938,17 +990,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "shippingmethodcode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "shippingmethodcode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status (Accounts)",
-    "Name": "account_statecode",
+    "DisplayName": "Status (Contacts)",
+    "Name": "contact_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
       "1": "Inactive"
@@ -958,17 +1010,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Accounts)",
-    "Name": "account_statuscode",
+    "DisplayName": "Status Reason (Contacts)",
+    "Name": "contact_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
@@ -978,17 +1030,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Territory Code (Accounts)",
-    "Name": "account_territorycode",
+    "DisplayName": "Territory (Contacts)",
+    "Name": "contact_territorycode",
     "OptionSetInfoNameMapping": {
       "1": "Default Value"
     },
@@ -997,57 +1049,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "territorycode",
-        "OptionSetReferenceEntityName": "Accounts"
+        "OptionSetReferenceEntityName": "Contacts"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "territorycode",
-    "RelatedEntityName": "Accounts",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Account Type (Accounts)",
-    "Name": "cr431_account_cr431_accounttype",
-    "OptionSetInfoNameMapping": {
-      "254460000": "Plumber",
-      "254460001": "Retailer",
-      "254460002": "Influencer",
-      "254460003": "Distributer",
-      "254460004": "Wholesaler",
-      "254460005": "Constructor",
-      "254460006": "Other"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_accounttype",
-        "OptionSetReferenceEntityName": "Accounts"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "cr431_accounttype",
-    "RelatedEntityName": "Accounts",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Active* (Accounts)",
-    "Name": "cr431_account_cr431_active",
-    "OptionSetInfoNameMapping": {
-      "0": "No",
-      "1": "Yes"
-    },
-    "OptionSetIsBooleanValued": true,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_active",
-        "OptionSetReferenceEntityName": "Accounts"
-      }
-    },
-    "OptionSetTypeKey": "BooleanType",
-    "RelatedColumnInvariantName": "cr431_active",
-    "RelatedEntityName": "Accounts",
+    "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   }
 ]
