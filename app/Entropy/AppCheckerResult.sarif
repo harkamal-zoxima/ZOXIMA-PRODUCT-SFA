@@ -6315,46 +6315,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3.Gallery7.Label19.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3.Gallery7.Label19.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3.Gallery7.Label19"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Bottom Navigation'.Gallery2_1.AccessibleLabel"
                 }
               ],

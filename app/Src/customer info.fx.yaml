@@ -2983,6 +2983,7 @@
                 Gallery7 As gallery.galleryVertical:
                     BorderColor: =RGBA(166, 166, 166, 1)
                     Height: =671
+                    Items: =InvoicesData
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
                     TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
