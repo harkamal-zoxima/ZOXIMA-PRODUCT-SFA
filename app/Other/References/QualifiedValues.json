@@ -92,6 +92,20 @@
         "Social Profiles": "7bb87dfd-ec3e-4ed9-8e3e-5725d3067295",
         "Update Contact": "26843818-6508-4afe-9342-5fae2ebf15ca"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_invoice_forms",
+      "Namespace": "Invoices (Forms)",
+      "Values": {
+        "Information": "6c6af38e-306b-43a0-aa77-e646398483d5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_invoiceline_forms",
+      "Namespace": "Invoice Line (Forms)",
+      "Values": {
+        "Information": "417b568b-1cfa-4fac-aa44-c84432e56daa"
+      }
     }
   ]
 }

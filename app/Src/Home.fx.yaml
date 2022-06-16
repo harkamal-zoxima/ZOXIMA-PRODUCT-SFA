@@ -811,7 +811,7 @@
 
                 HtmlText1_17 As htmlViewer:
                     BorderThickness: =1
-                    Height: =326
+                    Height: =343
                     HtmlText: |-
                         ="<div style='border-radius:10px; background-color:#FFF; width:500px; height:300px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                     PaddingBottom: =0
