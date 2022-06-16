@@ -2515,8 +2515,56 @@
 
             Container6_1 As groupContainer.manualLayoutContainer:
                 Height: =800
+                Visible: =If(customerinfo_1.Selected.Title = "Orders" ,true,false)
                 Width: =640
                 ZIndex: =2
+
+                customerinfo_3 As gallery.galleryHorizontal:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    Height: =65
+                    Items: =['Order Status (Sales Order)'.Open, 'Order Status (Sales Order)'.Accepted, 'Order Status (Sales Order)'.'Partially Shipped', 'Order Status (Sales Order)'.Shipped]
+                    OnSelect: =
+                    ShowScrollbar: =false
+                    TemplateSize: =165
+                    Width: =622
+                    X: =18
+                    Y: =13
+                    ZIndex: =1
+
+                    Button4_15 As button:
+                        BorderColor: =RGBA(53, 166, 57, 1)
+                        Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+                        FocusedBorderColor: =
+                        FocusedBorderThickness: =2
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =46
+                        HoverBorderColor: =RGBA(53, 166, 57, 1)
+                        HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+                        HoverFill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =
+                        PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+                        PressedFill: =
+                        Size: =14
+                        Text: =ThisItem.Value
+                        Width: =153
+                        Y: =6
+                        ZIndex: =1
+
+                Gallery1 As gallery.galleryVertical:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    Height: =607
+                    Items: =Filter('Order Line','Order Status (Sales Order)'= customerinfo_3.Selected.Value)
+                    Layout: =Layout.Vertical
+                    ShowScrollbar: =false
+                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                    Y: =78
+                    ZIndex: =2
 
     Label63_3 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
