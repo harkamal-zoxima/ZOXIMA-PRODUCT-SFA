@@ -357,41 +357,6 @@
                     Y: =194
                     ZIndex: =17
 
-                Circle4 As circle:
-                    BorderColor: =RGBA(166, 166, 166, 1)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    DisabledFill: =RGBA(73, 130, 5, 1)
-                    Fill: =RGBA(256*Rand(), 256*Rand(), 256*Rand(), 0.3)
-                    Height: =50
-                    HoverFill: =RGBA(256*Rand(), 256*Rand(), 256*Rand(), 1)
-                    OnSelect: =Select(Parent)
-                    PressedFill: =RGBA(73, 130, 5, 1)
-                    Width: =50
-                    X: =16
-                    Y: =10
-                    ZIndex: =18
-
-                Label36 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(128, 128, 128, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =29
-                    OnSelect: =Select(Parent)
-                    Size: =20
-                    Text: =Left(ThisItem.Customer.'Account Name (name)',1)
-                    Width: =39
-                    X: =21
-                    Y: =20
-                    ZIndex: =19
-
                 Group15_2 As group:
                     Height: =5
                     Width: =5
@@ -581,6 +546,48 @@
                         X: =345
                         Y: =216
                         ZIndex: =23
+
+                Group25 As group:
+                    Height: =5
+                    Width: =5
+                    X: =40
+                    Y: =40
+                    ZIndex: =24
+
+                    Circle4 As circle:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        DisabledFill: =RGBA(73, 130, 5, 1)
+                        Fill: =RGBA(256*Rand(), 256*Rand(), 256*Rand(), 0.3)
+                        Height: =50
+                        HoverFill: =RGBA(256*Rand(), 256*Rand(), 256*Rand(), 1)
+                        OnSelect: =Select(Parent)
+                        PressedFill: =RGBA(73, 130, 5, 1)
+                        Width: =50
+                        X: =16
+                        Y: =10
+                        ZIndex: =18
+
+                    Label36 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(128, 128, 128, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =29
+                        OnSelect: =Select(Parent)
+                        Size: =20
+                        Text: =Left(ThisItem.Customer.'Account Name (name)',1)
+                        Width: =39
+                        X: =21
+                        Y: =20
+                        ZIndex: =19
 
     "'Bottom Navigation_4' As 'Bottom Navigation'":
         NavItems: |-

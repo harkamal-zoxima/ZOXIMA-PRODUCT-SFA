@@ -2559,12 +2559,30 @@
                 Gallery1 As gallery.galleryVertical:
                     BorderColor: =RGBA(166, 166, 166, 1)
                     Height: =607
-                    Items: =Filter('Order Line','Order Status (Sales Order)'= customerinfo_3.Selected.Value)
+                    Items: =Filter('Sales Order','Order Status'=customerinfo_3.Selected.Value && 'Order From'.Account = data2.Account )
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
-                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                    TemplateSize: =120
                     Y: =78
                     ZIndex: =2
+
+                    Label15 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        Height: =70
+                        OnSelect: =Select(Parent)
+                        Size: =21
+                        Text: =ThisItem.'Bill Amoount'
+                        Width: =187
+                        X: =22
+                        Y: =16
+                        ZIndex: =1
 
     Label63_3 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
