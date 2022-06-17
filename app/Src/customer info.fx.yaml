@@ -3161,8 +3161,8 @@
                         Size: =13
                         Text: =ThisItem.'Order Number'.'Order ID'
                         Width: =90
-                        X: =265
-                        Y: =62
+                        X: =281
+                        Y: =60
                         ZIndex: =10
 
                     Label16_8 As label:
@@ -3182,6 +3182,171 @@
                         X: =462
                         Y: =62
                         ZIndex: =11
+
+                    Group27_9 As group:
+                        Height: =5
+                        Width: =5
+                        X: =46
+                        Y: =59
+                        ZIndex: =14
+
+                        Label2_118 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(53, 166, 57, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =23
+                            Size: =12
+                            Text: ="Bill To Party"
+                            Width: =116
+                            X: =46
+                            Y: =138
+                            ZIndex: =12
+
+                        HtmlText1_113 As htmlViewer:
+                            Color: =RGBA(242, 242, 242, 1)
+                            Height: =52
+                            HtmlText: |-
+                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
+                            OnSelect: =Select(Parent)
+                            Width: =164
+                            X: =40
+                            Y: =132
+                            ZIndex: =13
+
+                    Group27_10 As group:
+                        Height: =5
+                        Width: =5
+                        X: =40
+                        Y: =-52
+                        ZIndex: =16
+
+                        Label2_119 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(53, 166, 57, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =23
+                            Size: =12
+                            Text: ="Ship To Party"
+                            Width: =116
+                            X: =250
+                            Y: =138
+                            ZIndex: =14
+
+                        HtmlText1_114 As htmlViewer:
+                            Color: =RGBA(242, 242, 242, 1)
+                            Height: =52
+                            HtmlText: |-
+                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
+                            OnSelect: =Select(Parent)
+                            Width: =164
+                            X: =244
+                            Y: =132
+                            ZIndex: =15
+
+                    Label16_9 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        Height: =31
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.'Bill To Party'
+                        Width: =90
+                        X: =60
+                        Y: =181
+                        ZIndex: =18
+
+                    Group27_11 As group:
+                        Height: =5
+                        Width: =5
+                        X: =-164
+                        Y: =-52
+                        ZIndex: =18
+
+                        Label2_120 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(53, 166, 57, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =23
+                            Size: =12
+                            Text: ="Total Amount"
+                            Width: =116
+                            X: =436
+                            Y: =135
+                            ZIndex: =16
+
+                        HtmlText1_115 As htmlViewer:
+                            Color: =RGBA(242, 242, 242, 1)
+                            Height: =52
+                            HtmlText: |-
+                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
+                            OnSelect: =Select(Parent)
+                            Width: =164
+                            X: =430
+                            Y: =129
+                            ZIndex: =17
+
+                    Label16_10 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        Height: =31
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.'Bill To Party'
+                        Width: =90
+                        X: =278
+                        Y: =181
+                        ZIndex: =19
+
+                    Label16_11 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        Height: =31
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.'Bill Amoount'
+                        Width: =90
+                        X: =449
+                        Y: =181
+                        ZIndex: =20
 
     Label63_2 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
