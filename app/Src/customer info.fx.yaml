@@ -3177,7 +3177,7 @@
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
-                        Text: =ThisItem.TCS
+                        Text: =ThisItem.'Invoice Date'
                         Width: =90
                         X: =462
                         Y: =62
