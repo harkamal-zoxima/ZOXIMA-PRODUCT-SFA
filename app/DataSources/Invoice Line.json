@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_invoiceline",
+    "MaxGetRowsCount": 500,
     "Name": "Invoice Line",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

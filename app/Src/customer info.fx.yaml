@@ -2550,6 +2550,17 @@
                     Y: =65
                     ZIndex: =2
 
+                    HtmlText1_108 As htmlViewer:
+                        Color: =RGBA(242, 242, 242, 1)
+                        DisplayMode: =DisplayMode.View
+                        Height: =290
+                        HtmlText: |-
+                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
+                        OnSelect: =Select(Parent)
+                        Width: =594
+                        X: =15
+                        ZIndex: =1
+
                     Group25_1 As group:
                         Height: =5
                         Width: =5
@@ -2570,7 +2581,7 @@
                             Width: =50
                             X: =27
                             Y: =27
-                            ZIndex: =1
+                            ZIndex: =2
 
                         Label36_1 As label:
                             Align: =Align.Center
@@ -2591,7 +2602,7 @@
                             Width: =39
                             X: =32
                             Y: =37
-                            ZIndex: =2
+                            ZIndex: =3
 
                     Group27 As group:
                         Height: =5
@@ -2617,7 +2628,7 @@
                             Width: =116
                             X: =105
                             Y: =40
-                            ZIndex: =3
+                            ZIndex: =4
 
                         HtmlText1_29 As htmlViewer:
                             Color: =RGBA(242, 242, 242, 1)
@@ -2628,7 +2639,7 @@
                             Width: =164
                             X: =99
                             Y: =34
-                            ZIndex: =4
+                            ZIndex: =5
 
                     Group27_1 As group:
                         Height: =5
@@ -2654,7 +2665,7 @@
                             Width: =116
                             X: =287
                             Y: =40
-                            ZIndex: =5
+                            ZIndex: =6
 
                         HtmlText1_30 As htmlViewer:
                             Color: =RGBA(242, 242, 242, 1)
@@ -2665,7 +2676,7 @@
                             Width: =164
                             X: =281
                             Y: =34
-                            ZIndex: =6
+                            ZIndex: =7
 
                     Group27_2 As group:
                         Height: =5
@@ -2691,7 +2702,7 @@
                             Width: =116
                             X: =451
                             Y: =40
-                            ZIndex: =7
+                            ZIndex: =8
 
                         HtmlText1_31 As htmlViewer:
                             Color: =RGBA(242, 242, 242, 1)
@@ -2702,7 +2713,7 @@
                             Width: =164
                             X: =445
                             Y: =34
-                            ZIndex: =8
+                            ZIndex: =9
 
                     Group27_3 As group:
                         Height: =5
@@ -2728,7 +2739,7 @@
                             Width: =116
                             X: =100
                             Y: =151
-                            ZIndex: =9
+                            ZIndex: =10
 
                         HtmlText1_32 As htmlViewer:
                             Color: =RGBA(242, 242, 242, 1)
@@ -2739,7 +2750,7 @@
                             Width: =164
                             X: =94
                             Y: =145
-                            ZIndex: =10
+                            ZIndex: =11
 
                     Group27_4 As group:
                         Height: =5
@@ -2765,7 +2776,7 @@
                             Width: =116
                             X: =287
                             Y: =151
-                            ZIndex: =11
+                            ZIndex: =12
 
                         HtmlText1_33 As htmlViewer:
                             Color: =RGBA(242, 242, 242, 1)
@@ -2776,18 +2787,7 @@
                             Width: =164
                             X: =281
                             Y: =145
-                            ZIndex: =12
-
-                    HtmlText1_108 As htmlViewer:
-                        Color: =RGBA(242, 242, 242, 1)
-                        DisplayMode: =DisplayMode.View
-                        Height: =290
-                        HtmlText: |-
-                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
-                        OnSelect: =Select(Parent)
-                        Width: =594
-                        X: =15
-                        ZIndex: =15
+                            ZIndex: =13
 
                     Group27_5 As group:
                         Height: =5
@@ -2813,7 +2813,7 @@
                             Width: =116
                             X: =451
                             Y: =151
-                            ZIndex: =13
+                            ZIndex: =14
 
                         HtmlText1_56 As htmlViewer:
                             Color: =RGBA(242, 242, 242, 1)
@@ -2824,7 +2824,7 @@
                             Width: =164
                             X: =445
                             Y: =145
-                            ZIndex: =14
+                            ZIndex: =15
 
                     Label16 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
@@ -2982,13 +2982,23 @@
 
                 Gallery7 As gallery.galleryVertical:
                     BorderColor: =RGBA(166, 166, 166, 1)
-                    Height: =671
+                    Height: =763
                     Items: =InvoicesData
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
-                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
-                    Y: =12
+                    TemplateSize: =289
                     ZIndex: =1
+
+                    HtmlText1_109 As htmlViewer:
+                        Color: =RGBA(242, 242, 242, 1)
+                        DisplayMode: =DisplayMode.View
+                        Height: =293
+                        HtmlText: |-
+                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
+                        OnSelect: =Select(Parent)
+                        Width: =594
+                        X: =13
+                        ZIndex: =1
 
                     Label17 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
@@ -3006,9 +3016,83 @@
                         Width: =221
                         X: =40
                         Y: =40
-                        ZIndex: =1
+                        ZIndex: =2
 
-                    Label19 As label:
+                    Group27_6 As group:
+                        Height: =5
+                        Width: =5
+                        X: =-39
+                        Y: =26
+                        ZIndex: =5
+
+                        Label2_109 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(53, 166, 57, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =23
+                            Size: =12
+                            Text: ="Invoice ID"
+                            Width: =116
+                            X: =40
+                            Y: =27
+                            ZIndex: =3
+
+                        HtmlText1_110 As htmlViewer:
+                            Color: =RGBA(242, 242, 242, 1)
+                            Height: =52
+                            HtmlText: |-
+                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
+                            OnSelect: =Select(Parent)
+                            Width: =164
+                            X: =34
+                            Y: =21
+                            ZIndex: =4
+
+                    Group27_7 As group:
+                        Height: =5
+                        Width: =5
+                        X: =26
+                        Y: =39
+                        ZIndex: =7
+
+                        Label2_110 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(53, 166, 57, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =23
+                            Size: =12
+                            Text: ="Order No"
+                            Width: =116
+                            X: =239
+                            Y: =27
+                            ZIndex: =5
+
+                        HtmlText1_111 As htmlViewer:
+                            Color: =RGBA(242, 242, 242, 1)
+                            Height: =52
+                            HtmlText: |-
+                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
+                            OnSelect: =Select(Parent)
+                            Width: =164
+                            X: =233
+                            Y: =21
+                            ZIndex: =6
+
+                    Label16_6 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
@@ -3016,15 +3100,88 @@
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.'Segoe UI'
-                        Height: =70
+                        Font: =Font.Lato
+                        Height: =31
                         OnSelect: =Select(Parent)
-                        Size: =21
+                        Size: =13
                         Text: =ThisItem.Name
-                        Width: =560
+                        Width: =90
                         X: =60
                         Y: =60
-                        ZIndex: =2
+                        ZIndex: =9
+
+                    Group27_8 As group:
+                        Height: =5
+                        Width: =5
+                        X: =-146
+                        Y: =39
+                        ZIndex: =9
+
+                        Label2_117 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(53, 166, 57, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =23
+                            Size: =12
+                            Text: ="Invoice Date"
+                            Width: =116
+                            X: =436
+                            Y: =27
+                            ZIndex: =7
+
+                        HtmlText1_112 As htmlViewer:
+                            Color: =RGBA(242, 242, 242, 1)
+                            Height: =52
+                            HtmlText: |-
+                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
+                            OnSelect: =Select(Parent)
+                            Width: =164
+                            X: =430
+                            Y: =21
+                            ZIndex: =8
+
+                    Label16_7 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        Height: =31
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.'Order Number'.'Order ID'
+                        Width: =90
+                        X: =265
+                        Y: =62
+                        ZIndex: =10
+
+                    Label16_8 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        Height: =31
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.'Invoice Date'
+                        Width: =90
+                        X: =467
+                        Y: =60
+                        ZIndex: =11
 
     Label63_2 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
