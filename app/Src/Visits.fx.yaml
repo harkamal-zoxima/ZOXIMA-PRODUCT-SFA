@@ -52,20 +52,20 @@
                             IsBlank(SelectedVisitDate),
                             Filter(
                                 Visits_1,
-                                createdby.systemuserid = LookUp(
+                                'Created By'.User = LookUp(
                                     Users,
-                                    internalemailaddress = User().Email
-                                ).systemuserid && IsToday(cr431_visitdate)
+                                    'Primary Email' = User().Email
+                                ).User && IsToday('Visit Date')
                             ),
                             Filter(
                                 Visits_1,
-                                cr431_visitdate = SelectedVisitDate && createdby.systemuserid = LookUp(
+                                'Visit Date' = SelectedVisitDate && 'Created By'.User = LookUp(
                                     Users,
-                                    internalemailaddress = User().Email
-                                ).systemuserid
+                                    'Primary Email' = User().Email
+                                ).User
                             )
                         ),
-                       'Visit Search'.Text in cr431_customer.'Account Name (name)' 
+                       'Visit Search'.Text in Customer.'Account Name (name)' 
                     )
                 Layout: =Layout.Vertical
                 ShowScrollbar: =false
@@ -98,7 +98,7 @@
                     Height: =54
                     OnSelect: =Select(Parent)
                     Size: =19
-                    Text: = ThisItem.cr431_customer.'Account Name (name)'
+                    Text: = ThisItem.Customer.'Account Name (name)'
                     Width: =309
                     X: =76
                     ZIndex: =2
@@ -115,7 +115,7 @@
                     Height: =38
                     OnSelect: =Select(Parent)
                     Text: |-
-                        =ThisItem.cr431_customer.'Address 1: Street 1'
+                        =ThisItem.Customer.'Address 1: Street 1'
                     Width: =311
                     X: =78
                     Y: =42
@@ -583,7 +583,7 @@
                         Height: =29
                         OnSelect: =Select(Parent)
                         Size: =20
-                        Text: =Left(ThisItem.cr431_customer.'Account Name (name)',1)
+                        Text: =Left(ThisItem.Customer.'Account Name (name)',1)
                         Width: =39
                         X: =21
                         Y: =20
@@ -1101,7 +1101,20 @@
                     )
                 );
             Size: =21
-            Text: =If(ClickedVisit.status = 'status (Visits_1)'.Open, Concatenate("Do you want to start the visit for ", ClickedVisit.Customer.'Account Name', " ?") , Concatenate("Do you want to resume the visit for ", ClickedVisit.Customer.'Account Name', " ?") )
+            Text: |-
+                =If(
+                    ClickedVisit.status = 'status (Visits_1)'.Open,
+                    Concatenate(
+                        "Do you want to start the visit for ",
+                        ClickedVisit.Customer.'Account Name (name)',
+                        " ?"
+                    ),
+                    Concatenate(
+                        "Do you want to resume the visit for ",
+                        ClickedVisit.Customer.'Account Name (name)',
+                        " ?"
+                    )
+                )
             Visible: =VarDialogOpen
             Width: =488
             X: =75
