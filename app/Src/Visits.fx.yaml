@@ -52,17 +52,17 @@
                             IsBlank(SelectedVisitDate),
                             Filter(
                                 Visits_1,
-                                'Created By'.systemuserid = LookUp(
+                                'Created By'.User = LookUp(
                                     Users,
-                                    internalemailaddress = User().Email
-                                ).systemuserid && IsToday('Visit Date')
+                                    'Primary Email' = User().Email
+                                ).User && IsToday('Visit Date')
                             ),
                             Filter(
                                 Visits_1,
-                                'Visit Date' = SelectedVisitDate && 'Created By'.systemuserid = LookUp(
+                                'Visit Date' = SelectedVisitDate && 'Created By'.User = LookUp(
                                     Users,
-                                    internalemailaddress = User().Email
-                                ).systemuserid
+                                    'Primary Email' = User().Email
+                                ).User
                             )
                         ),
                        'Visit Search'.Text in Customer.'Account Name (name)' 

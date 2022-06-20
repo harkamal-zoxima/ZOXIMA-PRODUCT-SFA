@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_complaints",
+    "MaxGetRowsCount": 500,
     "Name": "Complaints_1",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

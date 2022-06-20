@@ -18,7 +18,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Created By'.internalemailaddress = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
                     'Order Date' > Today() - 30
                 ),
@@ -26,7 +26,7 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Created By'.internalemailaddress = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
                     'Order Date' > Today() - 7
                 ),
@@ -34,11 +34,11 @@
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Created By'.internalemailaddress = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
                     ),
                     IsToday('Order Date')
                 )
-            ), 'Order ID', Descending)
+            ), 'Dealer ', Descending)
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =192
@@ -158,7 +158,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: =ThisItem.'Order ID'
+            Text: =ThisItem.'Dealer '
             Width: =116
             X: =60
             Y: =103

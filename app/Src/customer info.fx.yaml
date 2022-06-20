@@ -20,7 +20,7 @@
         Clear(InvoicesData);
         ForAll(allsalesorderIDs,
         //Collect(InvoicesData,Filter(Invoices, 'Order Number'.'Order ID' = LookUp('Sales Order','Sales Order' = ID).'Order ID'))
-        Collect(InvoicesData,Filter(Invoices, 'Order Number'.'Order ID' = ID))
+        Collect(InvoicesData,Filter(Invoices, 'Order Number'.Order ID' = ID))
         )
 
     Canvas3 As fluidGrid.fluidGridWithBlankCard:
@@ -2838,7 +2838,7 @@
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
-                        Text: =Concatenate("OR-",ThisItem.'Order ID')
+                        Text: =Concatenate("OR-",ThisItem.'Sales Order I_D')
                         Width: =90
                         X: =131
                         Y: =79
@@ -3159,7 +3159,7 @@
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
-                        Text: =ThisItem.'Order Number'.'Order ID'
+                        Text: =ThisItem.'Order Number'.'Dealer '
                         Width: =90
                         X: =281
                         Y: =60
@@ -3714,7 +3714,6 @@
 
                 Gallery6 As gallery.galleryVertical:
                     BorderColor: =RGBA(166, 166, 166, 1)
-                    Items: =Filter(
                     Layout: =Layout.Vertical
                     TemplateSize: =570
                     Y: =60
@@ -3771,7 +3770,7 @@
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             Height: =36
-                            Text: =ThisItem.Name
+                            Text: =
                             Width: =126
                             X: =330
                             Y: =75
@@ -3815,7 +3814,7 @@
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             Height: =36
-                            Text: =this
+                            Text: =
                             Width: =126
                             X: =330
                             Y: =114

@@ -73,7 +73,7 @@
                         IsToday('Order Date')
                     )
                 ),
-                'Order ID',
+                'Dealer ',
                 Descending
             )
         Layout: =Layout.Vertical
@@ -195,7 +195,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: =ThisItem.'Order ID'
+            Text: =ThisItem.'Dealer '
             Width: =116
             X: =60
             Y: =103
