@@ -331,7 +331,6 @@
                             Defaults('Order Line'),
                             {
                                 Quantity: Value(ThisRecord.qty),
-                                Name: ThisRecord.name,
                                 'Bill Amoount': ThisRecord.price,
                                 'Order No': LookUp(
                                     'Sales Order',
