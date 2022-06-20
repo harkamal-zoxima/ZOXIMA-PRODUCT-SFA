@@ -51,7 +51,7 @@
                     "Last Month",
                     Filter(
                         Filter(
-                            'Sales Order',
+                            'Sales Orders',
                             'Order Type' = [@'Order Type1'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
                         ),
                         'Order Date' > Today() - 30
@@ -59,7 +59,7 @@
                     "Last 7 Days",
                     Filter(
                         Filter(
-                            'Sales Order',
+                          'Sales Orders',
                             'Order Type' = [@'Order Type1'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
                         ),
                         'Order Date' > Today() - 7
@@ -67,14 +67,14 @@
                     "Today's Orders",
                     Filter(
                         Filter(
-                            'Sales Order',
+                            'Sales Orders',
                             'Order Type' = [@'Order Type1'].'Secondary Order' && 'Order Status' = filter_3.Selected.Value
                         ),
                         IsToday('Order Date')
                     )
                 ),
-                'Dealer ',
-                Descending
+                Dealer,Descending
+            
             )
         Layout: =Layout.Vertical
         TemplateSize: =226
@@ -195,7 +195,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: =ThisItem.'Dealer '
+            Text: =ThisItem.Dealer
             Width: =116
             X: =60
             Y: =103
@@ -244,13 +244,13 @@
             Height: =52
             HtmlText: |-
                 ="<div style='border-radius:10px 10px 10px 10px; background-color:" & If(
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Open,
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.Open,
                     "#F28DB4",
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Accepted,
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.Accepted,
                     "#95D4E0",
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Shipped,
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.Shipped,
                     "#1A9FE4",
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.'Partially Shipped',
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.'Partially Shipped',
                     "#EBCD43"
                 
                 ) & "; opacity:0.3; border:2px solid #D3D4D6; width:150px; height:40px'></div>"
@@ -267,13 +267,13 @@
             BorderThickness: =2
             Color: |-
                 =If(
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Open,
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.Open,
                     RGBA(219, 118, 157,1),
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Accepted,
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.Accepted,
                    RGBA(107,179,194,1),
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Shipped,
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.Shipped,
                     RGBA(26,159,228,1),
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.'Partially Shipped',
+                    ThisItem.'Order Status' = 'Order Status (Sales Orders)'.'Partially Shipped',
                     RGBA(209,180,50,1)
                 
                 )
@@ -752,7 +752,7 @@
     filter_3 As gallery.galleryHorizontal:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =64
-        Items: =['Order Status (Sales Order)'.Open, 'Order Status (Sales Order)'.Accepted, 'Order Status (Sales Order)'.'Partially Shipped', 'Order Status (Sales Order)'.Shipped]
+        Items: =['Order Status (Sales Orders)'.Open, 'Order Status (Sales Orders)'.Accepted, 'Order Status (Sales Orders)'.'Partially Shipped', 'Order Status (Sales Orders)'.Shipped]
         OnSelect: =
         ShowScrollbar: =false
         TemplateSize: =143

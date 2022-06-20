@@ -17,28 +17,28 @@
                 "Last Month",
                 Filter(
                     Filter(
-                        'Sales Order',
-                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Sales Orders',
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'Primary Order' && 'Order Status'= filter.Selected.Value
                     ),
                     'Order Date' > Today() - 30
                 ),
                 "Last 7 Days",
                 Filter(
                     Filter(
-                        'Sales Order',
-                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                        'Sales Orders',
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'Primary Order' && 'Order Status'= filter.Selected.Value
                     ),
-                    'Order Date' > Today() - 7
+                   'Order Date' > Today() - 7
                 ),
                 "Today's Orders",
                 Filter(
                     Filter(
                         'Sales Order',
-                        'Created By'.'Primary Email' = User().Email && 'Order Type' = [@'Order Type1'].'Primary Order' && 'Order Status' = filter.Selected.Value
+                       'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'Primary Order' && 'Order Status'= filter.Selected.Value
                     ),
-                    IsToday('Order Date')
+                    IsToday('Order Date' )
                 )
-            ), 'Dealer ', Descending)
+            ), cr431_dealer, Descending)
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =192
@@ -158,7 +158,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: =ThisItem.'Dealer '
+            Text: =ThisItem.cr431_dealer
             Width: =116
             X: =60
             Y: =103
@@ -177,7 +177,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: =ThisItem.'Order Type'
+            Text: =ThisItem.cr431_ordertype
             Width: =151
             X: =223
             Y: =103
@@ -230,7 +230,7 @@
             BorderThickness: =2
             Color: |-
                 =If(
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Open,
+                    ThisItem. = 'Order Status (Sales Orders)'.Open
                     RGBA(219, 118, 157,1),
                     ThisItem.'Order Status' = 'Order Status (Sales Order)'.Accepted,
                    RGBA(107,179,194,1),
@@ -239,7 +239,8 @@
                     ThisItem.'Order Status' = 'Order Status (Sales Order)'.'Partially Shipped',
                     RGBA(209,180,50,1)
                 
-                )
+                )'Order Status (Sales Order)'.Open,
+                    RGBA(219, 118, 157,1),
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -279,7 +280,7 @@
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =18
-            Text: =Concatenate("OR",ThisItem.'Order ID')
+            Text: =Concatenate("OR",ThisItem.cr431_name)
             Width: =229
             X: =56
             Y: =11
@@ -335,7 +336,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =44
                 Size: =13
-                Text: =ThisItem.'Order To'.'Account Name (name)'
+                Text: =ThisItem.cr431_OrderTo.'Account Name (name)'
                 Width: =155
                 X: =42
                 Y: =176
@@ -447,7 +448,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: =Concatenate("₹", ThisItem.'Bill Amoount')
+                Text: =Concatenate("₹", ThisItem.cr431_billamoount)
                 Width: =118
                 X: =416
                 Y: =183
@@ -866,8 +867,7 @@
         Text: ="No Orders Found"
         Visible: =If(CountRows(Orders.AllItems)>0, false, true)
         Width: =560
-        X: =45
-        Y: =422
+        Y: =470
         ZIndex: =23
 
     "'Side Bar_16' As 'Side Bar'":

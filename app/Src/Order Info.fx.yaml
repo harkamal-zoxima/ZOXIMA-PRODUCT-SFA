@@ -82,7 +82,7 @@
     Gallery5_4 As gallery.galleryVertical:
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =859
-        Items: =Filter('Order Line', 'Order No'.'Dealer '= order.'Dealer ')
+        Items: =Filter('Order Line', 'Order No'.Dealer= order.cr431_dealer)
         Layout: =Layout.Vertical
         TemplateSize: =204
         Visible: ='Dashboard Toptab_1'.Selected.Title = "Order Lines"
@@ -286,7 +286,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'Dealer '
+            Default: =order.cr431_dealer
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -353,7 +353,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'Order Type'
+            Default: =order.cr431_ordertype
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -382,7 +382,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'Order Date'
+            Default: =order.cr431_orderdate
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -449,7 +449,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'Order Status'
+            Default: =order.cr431_orderstatus
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -478,7 +478,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'Order From'.'Account Name (name)'
+            Default: =order.cr431_OrderFrom.'Account Name (name)'
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -545,7 +545,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'Order To'.'Account Name (name)'
+            Default: =order.cr431_OrderTo.'Account Name (name)'
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -574,7 +574,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'Bill Amoount'
+            Default: =order.cr431_billamoount
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -641,7 +641,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'CGST Amount'
+            Default: =order.cr431_cgstamount
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -670,7 +670,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'SGST Amount'
+            Default: =order.cr431_sgstamount
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -737,7 +737,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.'IGST Amount'
+            Default: =order.cr431_igstamount
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -833,7 +833,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.LOB.'Category Name'
+            Default: =order.LOB.cr431_categoryname
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -862,7 +862,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =order.Division.'Category Name'
+            Default: =order.Division.cr431_categoryname
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)

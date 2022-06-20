@@ -44,6 +44,7 @@
       "cr431_name": "Name",
       "cr431_OrderNumber": "Order Number",
       "cr431_retailer": "Retailer",
+      "cr431_SalesOrderNumber": "Sales Order Number",
       "cr431_sgst": "SGST %",
       "cr431_sgstamount": "SGST Amount",
       "cr431_sgstamount_base": "SGST Amount (Base)",

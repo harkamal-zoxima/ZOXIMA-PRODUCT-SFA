@@ -37,6 +37,7 @@
       "cr431_pg4": "PG4",
       "cr431_ProductItem": "Product-Item",
       "cr431_quantity": "Quantity",
+      "cr431_SalesOrderNo": "Sales Order No",
       "cr431_sgst": "SGST %",
       "cr431_sgstamount": "SGST Amount",
       "cr431_sgstamount_base": "SGST Amount (Base)",
