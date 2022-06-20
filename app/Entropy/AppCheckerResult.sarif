@@ -5571,7 +5571,7 @@
                 },
                 "region": {
                   "charLength": 11,
-                  "charOffset": 1518,
+                  "charOffset": 1562,
                   "snippet": {
                     "text": ".'Order ID'"
                   }
@@ -5611,7 +5611,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1492,
+                  "charOffset": 1536,
                   "snippet": {
                     "text": "="
                   }
@@ -5635,6 +5635,87 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Primary Cart'.Button3_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Primary Cart'.Button3_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 462,
+                  "charOffset": 1168,
+                  "snippet": {
+                    "text": "Patch(\r\n                'Order Line',\r\n                Defaults('Order Line'),\r\n                {\r\n                    Quantity: Value(ThisRecord.qty),\r\n                    Name: ThisRecord.name,\r\n                    'Bill Amoount': ThisRecord.price,\r\n                    'Order No': LookUp(\r\n                        'Sales Order',\r\n                        'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )\r\n                }\r\n            )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Primary Cart",
+                "type": "'Primary Cart'.Button3_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Primary Cart'.Button3_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Primary Cart'.Button3_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 351,
+                  "charOffset": 1264,
+                  "snippet": {
+                    "text": "{\r\n                    Quantity: Value(ThisRecord.qty),\r\n                    Name: ThisRecord.name,\r\n                    'Bill Amoount': ThisRecord.price,\r\n                    'Order No': LookUp(\r\n                        'Sales Order',\r\n                        'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )\r\n                }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Primary Cart",
+                "type": "'Primary Cart'.Button3_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Name",
+              "UOM"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
+          "ruleIndex": 9
         },
         {
           "locations": [
