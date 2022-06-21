@@ -73,7 +73,8 @@
                 ZIndex: =1
 
                 Rectangle4 As rectangle:
-                    BorderColor: =If(ThisItem.status= 'status (Visits_1)'.Started && IsToday(ThisItem.'Visit Date'), RGBA(103,204,107,1), RGBA(230, 230, 230, 1))
+                    BorderColor: |-
+                        =If(ThisItem.status= 'status (Visits_1)'.Started && IsToday(ThisItem.'Visit Date'), ColorValue("#A00002"), RGBA(230, 230, 230, 1))
                     BorderThickness: =If(ThisItem.status= 'status (Visits_1)'.Started && IsToday(ThisItem.'Visit Date'), 1, 1)
                     DisabledFill: =RGBA(166, 166, 166, 1)
                     Fill: =RGBA(88, 103, 130, 1)
