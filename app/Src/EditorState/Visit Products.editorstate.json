@@ -515,14 +515,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "HoverColor",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "HoverColor",
         "DisplayMode",
         {
           "AFDDataSourceName": "",
@@ -1864,14 +1857,7 @@
         },
         "DisabledColor",
         "PressedColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "HoverColor",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "HoverColor",
         "Fill",
         "DisabledFill",
         "PressedFill",
