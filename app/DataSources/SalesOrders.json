@@ -35,7 +35,6 @@
       "cr431_orderstatus": "Order Status",
       "cr431_OrderTo": "Order To",
       "cr431_ordertype": "Order Type",
-      "cr431_remarks": "Remarks",
       "cr431_sales_order_AsyncOperations": "System Jobs",
       "cr431_sales_order_BulkDeleteFailures": "Bulk Delete Failures",
       "cr431_sales_order_DuplicateBaseRecord": "Duplicate Records (cr431_sales_order_DuplicateBaseRecord)",
