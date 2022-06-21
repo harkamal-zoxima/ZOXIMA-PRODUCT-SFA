@@ -489,8 +489,8 @@ Complaints As screen:
                 =If(VarDialogOpen, Patch(
                     Visits_1,
                     Defaults(Visits_1),
-                    {'Visit Type':'Visit Type (Visits_1)'.Unplanned,
-                    Customer: LookUp(Accounts, )}
+                    {cr431_visittype:'Visit Type (Visits_1)'.'254460001',
+                    cr431_customer: LookUp(Accounts, )}
                 );
                 )
             PressedFill: =RGBA(237, 237, 237, 1)
