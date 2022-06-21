@@ -87,7 +87,7 @@
     Gallery5_4 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =859
-        Items: =Filter('Order Line', 'Order No'.Dealer= order.Dealer)
+        Items: =Filter('Order Line', cr431_OrderNo.cr431_dealer= order.cr431_dealer)
         Layout: =Layout.Vertical
         TemplateSize: =204
         Visible: ='Dashboard Toptab_1'.Selected.Title = "Order Lines"
@@ -120,7 +120,7 @@
             Height: =70
             OnSelect: =Select(Parent)
             Size: =19
-            Text: =ThisItem.'Order Line ID'
+            Text: =ThisItem.cr431_name
             Width: =377
             X: =23
             ZIndex: =2
@@ -157,7 +157,7 @@
             Height: =25
             OnSelect: =Select(Parent)
             Size: =15
-            Text: =ThisItem.Quantity
+            Text: =ThisItem.cr431_quantity
             Width: =72
             X: =233
             Y: =100
@@ -195,7 +195,7 @@
             Height: =25
             OnSelect: =Select(Parent)
             Size: =15
-            Text: =Concatenate("₹", ThisItem.'Bill Amoount')
+            Text: =Concatenate("₹", ThisItem.cr431_billamoount)
             Width: =100
             X: =400
             Y: =100
@@ -487,7 +487,7 @@
             BorderColor: =RGBA(109, 109, 109, 1)
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
-            Default: =order.'Order From'.'Account Name (name)'
+            Default: =order.cr431_OrderFrom.'Account Name (name)'
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -555,7 +555,7 @@
             BorderColor: =RGBA(109, 109, 109, 1)
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
-            Default: =order.'Order To'.'Account Name (name)'
+            Default: =order.cr431_OrderTo.'Account Name (name)'
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -781,7 +781,7 @@
             BorderColor: =RGBA(109, 109, 109, 1)
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
-            Default: =order.Remarks
+            Default: =order.cr431_remarks
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -849,7 +849,7 @@
             BorderColor: =RGBA(109, 109, 109, 1)
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
-            Default: =order.LOB.cr431_categoryname
+            Default: =order.cr431_LOB.cr431_categoryname
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -879,7 +879,7 @@
             BorderColor: =RGBA(109, 109, 109, 1)
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
-            Default: =order.Division.cr431_categoryname
+            Default: =order.cr431_Division.cr431_categoryname
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(128, 128, 128, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
