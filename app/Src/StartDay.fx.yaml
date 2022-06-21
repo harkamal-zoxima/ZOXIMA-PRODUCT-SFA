@@ -1,12 +1,13 @@
 StartDay As screen:
-    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
     HtmlText1_45 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
-        Height: =345
+        Height: =354
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+            ="<div style='border-radius:0; background-color:#414C60; width:640px; height:330px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
@@ -87,7 +88,7 @@ StartDay As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(65, 76, 96, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -144,6 +145,7 @@ StartDay As screen:
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(65, 76, 96, 1)
         FocusedBorderThickness: =4
         Height: =570
         HoverBorderColor: =RGBA(0, 0, 0, 0)
@@ -157,7 +159,7 @@ StartDay As screen:
         ZIndex: =8
 
     Icon2_4 As icon.Bell:
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
@@ -165,11 +167,11 @@ StartDay As screen:
         FocusedBorderThickness: =4
         Height: =35
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.Bell
         PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =33
         X: =592
@@ -230,7 +232,7 @@ StartDay As screen:
                 Navigate('Select Day Type', ScreenTransition.Fade)
             Width: =378
             X: =131
-            Y: =471
+            Y: =497
             ZIndex: =9
 
         Label3_14 As label:
@@ -261,7 +263,7 @@ StartDay As screen:
             Text: ="START"
             Width: =289
             X: =173
-            Y: =487
+            Y: =513
             ZIndex: =11
 
     Group3_4 As group:
@@ -278,7 +280,7 @@ StartDay As screen:
             Size: =25
             Width: =378
             X: =131
-            Y: =602
+            Y: =628
             ZIndex: =10
 
         Label3_15 As label:
@@ -297,6 +299,6 @@ StartDay As screen:
             Text: ="LEAVE"
             Width: =289
             X: =172
-            Y: =620
+            Y: =646
             ZIndex: =12
 

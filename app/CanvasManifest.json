@@ -20,6 +20,7 @@
       "componentauthoring": true,
       "copyandmerge": true,
       "datatablev2control": true,
+      "dataverseactionsenabled": false,
       "delaycontrolrendering": false,
       "delayloadscreens": true,
       "disablecdsfileandlargeimage": false,
@@ -82,7 +83,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "f3810ac6-a259-4739-953a-900ecde5af73",
-    "Id": "f3810ac6-a259-4739-953a-900ecde5af73",
+    "Id": "bda9ea26-b213-48c6-8bc6-1c9194301175",
     "InstrumentationKey": "",
     "Name": "Zoxima Product SFA",
     "OriginatingVersion": "1.324"
@@ -100,7 +101,12 @@
   },
   "ScreenOrder": [
     "Home",
-    "Products",
+    "Primary Products",
+    "Secondary Cart",
+    "Secondary Products",
+    "Primary Cart",
+    "Primary Order Success",
+    "Secondary Order Success",
     "Visit Products",
     "Filter",
     "StartDay",
@@ -113,14 +119,17 @@
     "Visit History",
     "Start visit",
     "Comp Info",
-    "Home Targets",
     "All Orders",
-    "All Orders_1",
+    "Secondary Orders",
     "Customer (Dist)",
+    "Customer (Dist)_1",
     "Complaints",
     "Customer (Dist) Plan Visit",
-    "Order_info",
-    "Home My Details",
-    "Start Screen"
+    "Order Info",
+    "Start Screen",
+    "Profile",
+    "customer info",
+    "customer info_1",
+    "KycForm"
   ]
 }

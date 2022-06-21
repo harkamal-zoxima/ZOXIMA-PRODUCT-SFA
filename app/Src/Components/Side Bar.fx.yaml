@@ -1,6 +1,21 @@
 "'Side Bar' As CanvasComponent":
     Fill: =If(varOpen, RGBA(255, 255 ,255, 1), Transparent)
     Height: =If(varOpen, App.Height, 70)
+    NavItems: |-
+        =[
+            {
+                title: "Profile",
+                screen: Profile
+            },
+            {
+                title: "Primary Orders",
+                screen: 'All Orders'
+            },
+            {
+                title: "Secondary Orders",
+                screen: 'Secondary Orders'
+            }
+        ]
     Width: =If(varOpen, 320, 70)
     X: =0
     Y: =0
@@ -30,7 +45,7 @@
     Gallery1_1 As gallery.galleryVertical:
         BorderColor: =RGBA(0, 18, 107, 1)
         Height: =982
-        Items: =["Profile", "Distributor KYC", "Ledger Report", "Payments", "Primary Orders","Secondary Orders","Schemes", "Events" ]
+        Items: ='Side Bar'.NavItems
         Layout: =Layout.Vertical
         TemplateSize: =61
         Visible: =varOpen
@@ -41,14 +56,16 @@
         Label5 As label:
             BorderColor: =RGBA(0, 18, 107, 1)
             Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(237, 237, 237, 1)
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =57
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate(ThisItem.Value.screen, ScreenTransition.Fade)
             PaddingLeft: =20
+            PressedBorderColor: =Black
+            PressedFill: =RGBA(237,237,237,1)
             Size: =18
-            Text: =ThisItem.Value
+            Text: =ThisItem.Value.title
             Width: =310
             ZIndex: =1
 

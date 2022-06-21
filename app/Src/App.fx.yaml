@@ -100,5 +100,33 @@ App As appinfo:
             OfflineProducts,
             "My Offline Products"
         );
+        
+        
+        //For Local Price List****************************************************************************************************
+        If(
+            Connection.Connected,
+            ClearCollect(
+                OfflinePriceList,
+                'Product Price List'
+            ),
+            LoadData(
+                OfflinePriceList,
+                "My Offline Price List",
+                false
+            )
+        );
+        SaveData(
+            OfflinePriceList,
+            "My Offline Price List"
+        );
+        
+        
+        //To get Sales Order Schema in "OfflineSalesHeader" collection
+        ClearCollect(OfflineSalesHeader, First('Sales Order'));
+        Clear(OfflineSalesHeader);
+        
+        //To get Sales Orderline Schema in "OfflineSalesOrderLines" collection
+        ClearCollect(OfflineSalesOrderLines, First('Order Line'));
+        Clear(OfflineSalesOrderLines);
     StartScreen: ='Start Screen'
 
