@@ -1,9 +1,10 @@
 "'Secondary Products' As screen":
-    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
     "'Product Gallery_1' As gallery.galleryVertical":
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(109, 109, 109, 1)
         Height: =888
         Items: |-
             =Filter(
@@ -175,15 +176,16 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(31, 31, 31, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             Format: =TextFormat.Number
             Height: =34
             HintText: ="0"
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(255, 255, 255, 1)
+            HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(31, 31, 31, 1)
             OnChange: |-
                 =If(
                     !IsBlank(
@@ -234,9 +236,9 @@
                 );
             OnSelect: =Select(Parent)
             PaddingLeft: =10
-            PressedBorderColor: =RGBA(73, 130, 5, 1)
-            PressedColor: =RGBA(51, 51, 51, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
+            PressedBorderColor: =RGBA(255, 200, 61, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =RGBA(31, 31, 31, 1)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
@@ -313,17 +315,17 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(31, 31, 31, 1)
+        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
         OnSelect: =Navigate(Filter, ScreenTransition.Fade)
         PaddingLeft: =30
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+        PressedColor: =RGBA(31, 31, 31, 1)
+        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         Size: =18
         Text: ="Filter"
         Width: =130
@@ -332,7 +334,7 @@
         ZIndex: =4
 
     Icon2_2 As icon.Filter:
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(103, 204, 107, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
@@ -340,11 +342,11 @@
         FocusedBorderThickness: =4
         Height: =23
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.Filter
         PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =31
         X: =454
@@ -374,7 +376,7 @@
         ZIndex: =8
 
     CategoryFilter_1 As gallery.galleryHorizontal:
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(109, 109, 109, 1)
         Height: =65
         Items: =Filter(Categories, Level = 1)
         OnSelect: =
@@ -398,11 +400,11 @@
             FontWeight: =FontWeight.Semibold
             Height: =46
             HoverBorderColor: =RGBA(53, 166, 57, 1)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+            HoverColor: =RGBA(31, 31, 31, 1)
+            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
             OnSelect: =Select(Parent)
             PressedBorderColor: =
-            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(31, 31, 31, 1)
             PressedFill: =
             Size: =14
             Text: =ThisItem.'Category Name'
@@ -411,7 +413,7 @@
             ZIndex: =1
 
     Icon3_1 As icon.BackArrow:
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(53, 166, 57, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
@@ -419,12 +421,12 @@
         FocusedBorderThickness: =4
         Height: =40
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.BackArrow
         OnSelect: =Back()
         PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =54
         X: =8
@@ -459,17 +461,17 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(31, 31, 31, 1)
+        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
         OnSelect: =Navigate('Secondary Cart', ScreenTransition.Fade)
         PaddingLeft: =20
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+        PressedColor: =RGBA(31, 31, 31, 1)
+        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         Size: =18
         Text: ="Cart"
         Width: =110
@@ -478,7 +480,7 @@
         ZIndex: =12
 
     Icon6_1 As icon.ShoppingCart:
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(103, 204, 107, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
@@ -486,12 +488,12 @@
         FocusedBorderThickness: =4
         Height: =23
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.ShoppingCart
         OnSelect: =Navigate('Primary Cart', ScreenTransition.Fade)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =31
         X: =579
@@ -507,17 +509,17 @@
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
         Height: =26
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(31, 31, 31, 1)
+        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
         OnSelect: =Navigate('Primary Cart', ScreenTransition.Fade)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+        PressedColor: =RGBA(31, 31, 31, 1)
+        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         RadiusBottomLeft: =50
         RadiusBottomRight: =50
         RadiusTopLeft: =50

@@ -1,5 +1,6 @@
 "'Start visit' As screen":
-    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
     VisitsInfoTopTab_1 As VisitsInfoTopTab:
@@ -101,23 +102,23 @@
                     ChevronFill: =RGBA(103, 204, 107, 1)
                     ChevronHoverBackground: =Self.ChevronBackground
                     ChevronHoverFill: =RGBA(103, 204, 107, 1)
-                    Color: =RGBA(51, 51, 51, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
                     DisplayFields: =["Value"]
                     Font: =Font.Lato
                     Height: =60
-                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(212, 212, 212, 1)
+                    HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(79, 79, 79, 1)
                     InputTextPlaceholder: ="Search"
                     Items: =["None","Low","Medium", "High"]
                     LayoutMinHeight: =70
                     LayoutMinWidth: =575
                     PaddingBottom: =10
                     PressedBorderColor: =RGBA(103, 204, 107, 1)
-                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedColor: =RGBA(31, 31, 31, 1)
                     PressedFill: =RGBA(179, 179, 179, 1)
                     SearchFields: =["Value"]
                     SearchItems: =Search(["None","Low","Medium", "High"],Distributor_2.SearchText,"Value")
@@ -154,7 +155,7 @@
                 TextInput7 As text:
                     AlignInContainer: =AlignInContainer.Center
                     BorderColor: =RGBA(103, 204, 107, 1)
-                    Color: =RGBA(51, 51, 51, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =""
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -164,13 +165,13 @@
                     Height: =60
                     HintText: ="Enter Price"
                     HoverBorderColor: =RGBA(103, 204, 107, 1)
-                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =RGBA(255, 255, 255, 1)
                     LayoutMinHeight: =70
                     LayoutMinWidth: =560
-                    PressedBorderColor: =RGBA(73, 130, 5, 1)
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(255, 255, 255, 1)
+                    PressedBorderColor: =RGBA(255, 200, 61, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(31, 31, 31, 1)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
@@ -212,24 +213,24 @@
                     ChevronDisabledFill: =RGBA(166, 166, 166, 1)
                     ChevronFill: =RGBA(103, 204, 107, 1)
                     ChevronHoverBackground: =Self.ChevronBackground
-                    ChevronHoverFill: =RGBA(33, 33, 33, 1)
-                    Color: =RGBA(51, 51, 51, 1)
+                    ChevronHoverFill: =RGBA(218, 218, 218, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
                     DisplayFields: =["Value"]
                     Font: =Font.Lato
                     Height: =60
-                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(212, 212, 212, 1)
+                    HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(79, 79, 79, 1)
                     InputTextPlaceholder: ="Search"
                     Items: =["Roshan Pipes","Himalaya Pipes","Ashirwad Pipes", "Pooja Pipes"]
                     LayoutMinHeight: =70
                     LayoutMinWidth: =575
                     PaddingBottom: =10
-                    PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    PressedColor: =RGBA(31, 31, 31, 1)
                     PressedFill: =RGBA(179, 179, 179, 1)
                     SearchFields: =["Value"]
                     SearchItems: =Search(["Roshan Pipes","Himalaya Pipes","Ashirwad Pipes", "Pooja Pipes"],Distributor_3.SearchText,"Value")
@@ -278,20 +279,21 @@
                         Button18_1 As button:
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderThickness: =0
+                            Color: =RGBA(31, 31, 31, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             DisabledFill: =RGBA(244, 244, 244, 1)
                             Fill: =RGBA(103, 204, 107, 1)
-                            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
                             HoverBorderColor: =RGBA(0, 0, 0, 0)
-                            HoverColor: =RGBA(255, 255, 255, 1)
+                            HoverColor: =RGBA(31, 31, 31, 1)
                             HoverFill: =Self.Fill
                             OnSelect: =Navigate('Comp Info', ScreenTransition.Fade)
-                            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-                            PressedColor: =RGBA(255, 255, 255, 1)
-                            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                            PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                            PressedColor: =RGBA(31, 31, 31, 1)
+                            PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                             RadiusBottomLeft: =50
                             RadiusBottomRight: =50
                             RadiusTopLeft: =50
@@ -304,7 +306,7 @@
                             ZIndex: =2
 
                         Icon22_1 As icon.Add:
-                            BorderColor: =RGBA(166, 166, 166, 1)
+                            BorderColor: =RGBA(109, 109, 109, 1)
                             Color: =RGBA(255, 255, 255, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(220, 220, 220, 1)
@@ -312,12 +314,12 @@
                             FocusedBorderThickness: =4
                             Height: =30
                             HoverBorderColor: =RGBA(0, 0, 0, 0)
-                            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                            HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                             HoverFill: =RGBA(0, 0, 0, 0)
                             Icon: =Icon.Add
                             OnSelect: =Navigate('Comp Info', ScreenTransition.Fade)
                             PressedBorderColor: =RGBA(0, 0, 0, 0)
-                            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                            PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                             PressedFill: =RGBA(0, 0, 0, 0)
                             Width: =30
                             X: =289
@@ -350,7 +352,7 @@
                     AlignInContainer: =AlignInContainer.Center
                     BorderColor: =RGBA(103, 204, 107, 1)
                     BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =""
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -360,15 +362,15 @@
                     Height: =200
                     HintText: ="Enter Remarks"
                     HoverBorderColor: =RGBA(103, 204, 107, 1)
-                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =RGBA(255, 255, 255, 1)
                     LayoutMinHeight: =70
                     LayoutMinWidth: =560
                     Mode: =TextMode.MultiLine
                     PaddingTop: =15
-                    PressedBorderColor: =RGBA(73, 130, 5, 1)
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(255, 255, 255, 1)
+                    PressedBorderColor: =RGBA(255, 200, 61, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(31, 31, 31, 1)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
@@ -416,6 +418,7 @@
 
                         UploadedImage1 As image:
                             BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
                             BorderThickness: =2
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledFill: =RGBA(0, 0, 0, 0)
@@ -436,6 +439,7 @@
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
+                            Color: =RGBA(31, 31, 31, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -444,11 +448,11 @@
                             Font: =Font.Lato
                             Height: =248
                             HoverBorderColor: =RGBA(0, 0, 0, 0)
-                            HoverColor: =RGBA(255, 255, 255, 1)
-                            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-                            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-                            PressedColor: =RGBA(255, 255, 255, 1)
-                            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                            HoverColor: =RGBA(31, 31, 31, 1)
+                            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                            PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                            PressedColor: =RGBA(31, 31, 31, 1)
+                            PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                             Size: =18
                             Text: ="Click to add image"
                             Width: =357
@@ -468,21 +472,22 @@
                     Button3_15 As button:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderThickness: =0
+                        Color: =RGBA(31, 31, 31, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
                         Fill: =RGBA(103, 204, 107, 1)
-                        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                         Font: =Font.'Segoe UI'
                         FontWeight: =FontWeight.Semibold
                         Height: =65
                         HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverColor: =RGBA(31, 31, 31, 1)
                         HoverFill: =
                         OnSelect: =Navigate(Visits)
-                        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-                        PressedColor: =RGBA(255, 255, 255, 1)
-                        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(31, 31, 31, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
                         RadiusTopLeft: =15
@@ -510,10 +515,10 @@
     Toggle1 As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        Color: =RGBA(51, 51, 51, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         FalseFill: =RGBA(227, 100, 41, 1)
-        FalseHoverFill: =RGBA(33, 33, 33, 1)
+        FalseHoverFill: =RGBA(218, 218, 218, 1)
         FalseText: ="Front"
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
@@ -525,7 +530,7 @@
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         Size: =21
         TrueFill: =RGBA(227, 100, 41, 1)
-        TrueHoverFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        TrueHoverFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         TrueText: ="Back"
         Visible: =If(varCam, true)
         Width: =182
@@ -534,7 +539,7 @@
         ZIndex: =19
 
     Icon14 As icon.BackArrow:
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
@@ -542,12 +547,12 @@
         FocusedBorderThickness: =4
         Height: =43
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.BackArrow
         OnSelect: =Back()
         PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =43
         X: =18

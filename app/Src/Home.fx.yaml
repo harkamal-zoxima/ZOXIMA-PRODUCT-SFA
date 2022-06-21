@@ -1,5 +1,6 @@
 "Home As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: |-
         =Set(
             varOpen,
@@ -133,7 +134,7 @@
                 ZIndex: =7
 
             Icon2_1 As icon.Bell:
-                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(109, 109, 109, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(220, 220, 220, 1)
@@ -141,11 +142,11 @@
                 FocusedBorderThickness: =4
                 Height: =35
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverFill: =RGBA(0, 0, 0, 0)
                 Icon: =Icon.Bell
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
-                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
                 Width: =33
                 X: =586
@@ -392,7 +393,7 @@
                     ZIndex: =19
 
                 PowerBI3 As powerbi:
-                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =0
                     DashboardId: ="ca49dd05-569e-416d-922a-3be48ca09ded"
                     Height: =353
@@ -886,7 +887,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -902,7 +903,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -956,7 +957,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -1013,7 +1014,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -1145,7 +1146,7 @@
                 ZIndex: =53
 
                 PowerBI3_2 As powerbi:
-                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =0
                     DashboardId: ="bd1c9d9b-b8fb-4677-bde5-33da4b1af069"
                     Height: =387
@@ -1156,7 +1157,7 @@
                     ZIndex: =1
 
                 PowerBI1_2 As powerbi:
-                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =0
                     DashboardId: ="987c3cd0-0395-498f-bec3-262a13366bb2"
                     Height: =976
@@ -1168,7 +1169,7 @@
                     ZIndex: =2
 
             "'Dashboard Toptab' As gallery.galleryHorizontal":
-                BorderColor: =RGBA(0, 18, 107, 1)
+                BorderColor: =RGBA(109, 109, 109, 1)
                 Height: =56
                 Items: |-
                     =Table(
@@ -1205,9 +1206,13 @@
 
                 Label2_48 As label:
                     Align: =Align.Center
-                    BorderColor: =RGBA(0, 18, 107, 1)
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
                     Color: =If(ThisItem.IsSelected, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Semibold
                     Height: =46
