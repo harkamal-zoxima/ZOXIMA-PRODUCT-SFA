@@ -5,7 +5,7 @@ StartDay As screen:
 
     HtmlText1_45 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
-        Height: =345
+        Height: =354
         HtmlText: |-
             ="<div style='border-radius:0; background-color:#414C60; width:640px; height:330px'></div>"
         PaddingBottom: =0
@@ -232,7 +232,7 @@ StartDay As screen:
                 Navigate('Select Day Type', ScreenTransition.Fade)
             Width: =378
             X: =131
-            Y: =471
+            Y: =497
             ZIndex: =9
 
         Label3_14 As label:
@@ -263,7 +263,7 @@ StartDay As screen:
             Text: ="START"
             Width: =289
             X: =173
-            Y: =487
+            Y: =513
             ZIndex: =11
 
     Group3_4 As group:
@@ -280,7 +280,7 @@ StartDay As screen:
             Size: =25
             Width: =378
             X: =131
-            Y: =602
+            Y: =628
             ZIndex: =10
 
         Label3_15 As label:
@@ -299,6 +299,6 @@ StartDay As screen:
             Text: ="LEAVE"
             Width: =289
             X: =172
-            Y: =620
+            Y: =646
             ZIndex: =12
 
