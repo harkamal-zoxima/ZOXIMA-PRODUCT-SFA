@@ -231,7 +231,7 @@
             BorderThickness: =2
             Color: |-
                 =If(
-                    ThisItem. = 'Order Status (Sales Orders)'.Open
+                    ThisItem. = 'Order Status (Sales Orders)'.'254460000'
                     RGBA(219, 118, 157,1),
                     ThisItem.'Order Status' = 'Order Status (Sales Order)'.Accepted,
                    RGBA(107,179,194,1),

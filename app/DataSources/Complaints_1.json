@@ -73,7 +73,8 @@
       "254460003": "Wholesaler",
       "254460004": "Influencer",
       "254460005": "Constructor",
-      "254460006": "Others"
+      "254460006": "Others",
+      "254460007": "Sites"
     },
     "OptionSetIsBooleanValued": false,
     "OptionSetIsGlobal": true,

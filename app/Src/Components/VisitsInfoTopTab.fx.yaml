@@ -62,7 +62,8 @@ VisitsInfoTopTab As CanvasComponent:
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
             DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =If(ThisItem.Active, ColorValue("414C60"), RGBA(103, 204, 107, 0.1))
+            Fill: |-
+                =If(ThisItem.Active, ColorValue("#A00002"), RGBA(103, 204, 107, 0.1))
             FocusedBorderThickness: =4
             Height: =51
             HoverFill: =RGBA(73, 130, 5, 1)
