@@ -5,7 +5,7 @@
         =ClearCollect(
             allsalesorders,
             Filter(
-                'Sales Orders',
+                SalesOrders,
                 'Order From'.Account = data2.Account
             )
         );
