@@ -3,10 +3,6 @@
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
-    VisitsInfoTopTab_1 As VisitsInfoTopTab:
-        Y: =73
-        ZIndex: =3
-
     "'Bottom Navigation_10' As 'Bottom Navigation'":
         NavItems: |-
             =Table( {
@@ -37,19 +33,18 @@
                 }
                 )
         Y: =1056
-        ZIndex: =15
 
     "'Header Component_12' As 'Header Component_11'":
         Height: =108
         ScreenName: ="Start Visit"
-        ZIndex: =16
+        ZIndex: =2
 
     Canvas2_1 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
         Height: =904
         Width: =Parent.Width
         Y: =140
-        ZIndex: =17
+        ZIndex: =3
 
         DataCard2_1 As dataCard:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -510,7 +505,7 @@
         Width: =560
         X: =80
         Y: =317
-        ZIndex: =18
+        ZIndex: =4
 
     Toggle1 As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -536,7 +531,7 @@
         Width: =182
         X: =430
         Y: =215
-        ZIndex: =19
+        ZIndex: =5
 
     Icon14 As icon.BackArrow:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -557,5 +552,9 @@
         Width: =43
         X: =18
         Y: =15
-        ZIndex: =20
+        ZIndex: =6
+
+    VisitsInfoTopTab_1 As VisitsInfoTopTab:
+        Y: =73
+        ZIndex: =7
 

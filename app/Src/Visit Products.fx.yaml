@@ -335,9 +335,9 @@
 
     Button1_1 As button:
         Align: =Align.Left
-        BorderColor: =RGBA(103, 204, 107, 1)
+        BorderColor: =RGBA(160, 0, 2, 1)
         BorderThickness: =1
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(160, 0, 2, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -346,7 +346,7 @@
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         HoverBorderColor: =RGBA(103, 204, 107, 1)
-        HoverColor: =RGBA(103, 204, 107, 1)
+        HoverColor: =
         HoverFill: =
         OnSelect: =Navigate(Filter, ScreenTransition.Fade)
         PaddingLeft: =30
@@ -362,14 +362,14 @@
 
     Icon2_5 As icon.Filter:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(160, 0, 2, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
         Height: =23
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(152, 208, 70, 1)
+        HoverColor: =
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.Filter
         OnSelect: =Navigate(Filter, ScreenTransition.Fade)
