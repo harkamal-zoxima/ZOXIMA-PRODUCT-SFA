@@ -1,5 +1,5 @@
 "'Start visit' As screen":
-    Fill: =RGBA(31, 31, 31, 1)
+    Fill: =RGBA(65, 76, 96, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
@@ -75,7 +75,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(103, 204, 107, 1)
+                    Color: =RGBA(237, 237, 237, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -94,15 +94,15 @@
 
                 Distributor_2 As combobox:
                     AlignInContainer: =AlignInContainer.Center
-                    BorderColor: =RGBA(103, 204, 107, 1)
+                    BorderColor: =RGBA(65, 76, 96, 1)
                     BorderThickness: =1
                     ChevronBackground: =RGBA(255, 255, 255, 1)
                     ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
                     ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-                    ChevronFill: =RGBA(103, 204, 107, 1)
+                    ChevronFill: =RGBA(65, 76, 96, 1)
                     ChevronHoverBackground: =Self.ChevronBackground
                     ChevronHoverFill: =RGBA(103, 204, 107, 1)
-                    Color: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(9, 33, 98, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -122,6 +122,7 @@
                     PressedFill: =RGBA(179, 179, 179, 1)
                     SearchFields: =["Value"]
                     SearchItems: =Search(["None","Low","Medium", "High"],Distributor_2.SearchText,"Value")
+                    SelectionColor: =RGBA(9, 33, 98, 1)
                     SelectionFill: =RGBA(103, 204, 107, 1)
                     SelectMultiple: =false
                     Size: =18
@@ -134,7 +135,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(103, 204, 107, 1)
+                    Color: =RGBA(237, 237, 237, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -154,7 +155,7 @@
 
                 TextInput7 As text:
                     AlignInContainer: =AlignInContainer.Center
-                    BorderColor: =RGBA(103, 204, 107, 1)
+                    BorderColor: =RGBA(9, 33, 98, 1)
                     Color: =RGBA(255, 255, 255, 1)
                     Default: =""
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -186,7 +187,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(103, 204, 107, 1)
+                    Color: =RGBA(237, 237, 237, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -206,15 +207,15 @@
 
                 Distributor_3 As combobox:
                     AlignInContainer: =AlignInContainer.Center
-                    BorderColor: =RGBA(103, 204, 107, 1)
+                    BorderColor: =RGBA(65, 76, 96, 1)
                     BorderThickness: =1
                     ChevronBackground: =RGBA(255, 255, 255, 1)
                     ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
                     ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-                    ChevronFill: =RGBA(103, 204, 107, 1)
+                    ChevronFill: =RGBA(65, 76, 96, 1)
                     ChevronHoverBackground: =Self.ChevronBackground
                     ChevronHoverFill: =RGBA(218, 218, 218, 1)
-                    Color: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(9, 33, 98, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -255,7 +256,7 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(103, 204, 107, 1)
+                        Color: =RGBA(237, 237, 237, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -283,7 +284,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             DisabledFill: =RGBA(244, 244, 244, 1)
-                            Fill: =RGBA(103, 204, 107, 1)
+                            Fill: =RGBA(237, 237, 237, 1)
                             FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
@@ -307,14 +308,14 @@
 
                         Icon22_1 As icon.Add:
                             BorderColor: =RGBA(109, 109, 109, 1)
-                            Color: =RGBA(255, 255, 255, 1)
+                            Color: =RGBA(9, 33, 98, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(220, 220, 220, 1)
                             DisabledFill: =RGBA(0, 0, 0, 0)
                             FocusedBorderThickness: =4
                             Height: =30
                             HoverBorderColor: =RGBA(0, 0, 0, 0)
-                            HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                            HoverColor: =
                             HoverFill: =RGBA(0, 0, 0, 0)
                             Icon: =Icon.Add
                             OnSelect: =Navigate('Comp Info', ScreenTransition.Fade)
@@ -330,7 +331,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(103, 204, 107, 1)
+                    Color: =RGBA(237, 237, 237, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -350,7 +351,7 @@
 
                 TextInput7_3 As text:
                     AlignInContainer: =AlignInContainer.Center
-                    BorderColor: =RGBA(103, 204, 107, 1)
+                    BorderColor: =RGBA(9, 33, 98, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
                     Default: =""
@@ -385,7 +386,7 @@
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    Color: =RGBA(103, 204, 107, 1)
+                    Color: =RGBA(237, 237, 237, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
@@ -443,7 +444,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             DisabledFill: =RGBA(244, 244, 244, 1)
-                            Fill: =RGBA(103, 204, 107, 1)
+                            Fill: =RGBA(237, 237, 237, 1)
                             FocusedBorderThickness: =4
                             Font: =Font.Lato
                             Height: =248
@@ -476,7 +477,7 @@
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
-                        Fill: =RGBA(103, 204, 107, 1)
+                        Fill: =RGBA(255, 191, 0, 1)
                         FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                         Font: =Font.'Segoe UI'
                         FontWeight: =FontWeight.Semibold

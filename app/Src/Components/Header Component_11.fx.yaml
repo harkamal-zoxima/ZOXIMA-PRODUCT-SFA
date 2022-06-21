@@ -27,3 +27,17 @@
         Y: =4
         ZIndex: =2
 
+    Rectangle8 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(31, 31, 31, 1)
+        FocusedBorderThickness: =4
+        Height: =2
+        HoverFill: =RGBA(255, 200, 61, 1)
+        PressedFill: =RGBA(255, 200, 61, 1)
+        Width: =640
+        Y: =70
+        ZIndex: =3
+

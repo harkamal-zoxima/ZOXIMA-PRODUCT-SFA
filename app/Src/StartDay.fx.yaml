@@ -7,7 +7,7 @@ StartDay As screen:
         Color: =RGBA(103, 204, 107, 1)
         Height: =345
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+            ="<div style='border-radius:0; background-color:#414C60; width:640px; height:330px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
@@ -88,7 +88,7 @@ StartDay As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(65, 76, 96, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -145,6 +145,7 @@ StartDay As screen:
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(65, 76, 96, 1)
         FocusedBorderThickness: =4
         Height: =570
         HoverBorderColor: =RGBA(0, 0, 0, 0)
