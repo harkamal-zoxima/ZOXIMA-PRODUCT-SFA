@@ -40,7 +40,7 @@ VisitsInfoTopTab As CanvasComponent:
             },
             {
                 Title: "Retailer Info",
-                Screen: App.ActiveScreen,
+                Screen: 'customer info',
                 Active: false
             }
         )

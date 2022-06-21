@@ -113,6 +113,7 @@
         Height: =897
         Items: =Filter(Visits_1, Customer.Account = ClickedVisit.Customer.Account)
         Layout: =Layout.Vertical
+        ShowScrollbar: =false
         TemplateSize: =160
         Y: =150
         ZIndex: =29
