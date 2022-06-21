@@ -11,8 +11,6 @@
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "cr431_Area": "Area (cr431_Area)",
-      "cr431_budget": "Budget:",
-      "cr431_budget_base": "Budget: (Base)",
       "cr431_event_AsyncOperations": "System Jobs",
       "cr431_event_BulkDeleteFailures": "Bulk Delete Failures",
       "cr431_event_DuplicateBaseRecord": "Duplicate Records (cr431_event_DuplicateBaseRecord)",
@@ -37,13 +35,13 @@
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
-      "exchangerate": "Exchange Rate",
       "importsequencenumber": "Import Sequence Number",
       "modifiedby": "Modified By",
       "modifiedon": "Modified On",
       "modifiedonbehalfby": "Modified By (Delegate)",
       "new_actualexpense": "Actual Expense:",
       "new_Area": "Area (new_Area)",
+      "new_budget": "Budget:",
       "new_expectedparticipation": "Expected Participation:",
       "overriddencreatedon": "Record Created On",
       "owningbusinessunit": "Owning Business Unit",
@@ -52,7 +50,6 @@
       "statecode": "Status",
       "statuscode": "Status Reason",
       "timezoneruleversionnumber": "Time Zone Rule Version Number",
-      "transactioncurrencyid": "Currency",
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number"
     },
@@ -77,12 +74,7 @@
     "DisplayName": "Select meet type: (Events)",
     "Name": "cr431_event_cr431_selectmeettype",
     "OptionSetInfoNameMapping": {
-      "254460000": "nukkad met",
-      "254460001": "electrician meet",
-      "254460002": "retailer meet",
-      "254460003": "commando acitvity",
-      "254460004": "roadshow",
-      "254460005": "umbrella activity"
+      "254460000": "google meet"
     },
     "OptionSetIsBooleanValued": false,
     "OptionSetIsGlobal": false,
