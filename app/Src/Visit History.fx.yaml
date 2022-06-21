@@ -122,7 +122,7 @@
             DisplayMode: =DisplayMode.View
             Height: =165
             HtmlText: |-
-                ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:620px; height:150px'></div>"
+                ="<div style='border-radius:15px 15px 15px 15px; background-color:#586782; border:2px solid #D3D4D6; width:620px; height:150px'></div>"
             OnSelect: =Select(Parent)
             Width: =630
             ZIndex: =1
@@ -131,7 +131,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -168,7 +168,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(237, 237, 237, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -178,7 +178,7 @@
                 Text: ="Visit ID"
                 Width: =116
                 X: =58
-                Y: =77
+                Y: =80
                 ZIndex: =5
 
             Label2_42 As label:
@@ -186,7 +186,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -223,7 +223,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(237, 237, 237, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -233,7 +233,7 @@
                 Text: ="Type"
                 Width: =116
                 X: =249
-                Y: =77
+                Y: =80
                 ZIndex: =7
 
             Label2_43 As label:
@@ -241,7 +241,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -278,7 +278,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(237, 237, 237, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -296,7 +296,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
