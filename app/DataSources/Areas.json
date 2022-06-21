@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_area",
+    "MaxGetRowsCount": 500,
     "Name": "Areas",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

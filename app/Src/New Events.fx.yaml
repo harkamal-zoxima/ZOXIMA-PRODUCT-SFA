@@ -5,9 +5,10 @@
     Form1 As form:
         BorderColor: =RGBA(109, 109, 109, 1)
         DataSource: =Events
-        Height: =1096
+        DefaultMode: =FormMode.New
+        Height: =970
         Width: =640
-        Y: =40
+        Y: =165
         ZIndex: =1
 
         "'Event Date_DataCard1' As typedDataCard.dateTimeEditCard":
@@ -23,7 +24,7 @@
             Update: =DateValue1.SelectedDate + Time(Value(HourValue1.Selected.Value), Value(MinuteValue1.Selected.Value), 0)
             Width: =640
             X: =0
-            Y: =1
+            Y: =0
             ZIndex: =1
 
             DataCardKey4 As label:
@@ -35,11 +36,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -67,7 +67,7 @@
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SelectedDateFill: =RGBA(255, 200, 61, 1)
-                Size: =21
+                Size: =15
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) / 2
@@ -235,7 +235,7 @@
             Update: =DataCardValue4.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =1
             ZIndex: =1
 
             DataCardKey5 As label:
@@ -247,11 +247,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -272,7 +271,7 @@
                 Fill: =RGBA(31, 31, 31, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(31, 31, 31, 1)
@@ -285,7 +284,7 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
+                Size: =15
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -352,7 +351,7 @@
             Update: =DataCardValue3.Text
             Width: =640
             X: =0
-            Y: =0
+            Y: =2
             ZIndex: =1
 
             DataCardKey3 As label:
@@ -364,11 +363,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -389,7 +387,7 @@
                 Fill: =RGBA(31, 31, 31, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(31, 31, 31, 1)
@@ -402,7 +400,6 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -470,7 +467,7 @@
             Update: =DataCardValue5.Text
             Width: =640
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =1
 
             DataCardKey6 As label:
@@ -482,11 +479,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -507,7 +503,7 @@
                 Fill: =RGBA(31, 31, 31, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(31, 31, 31, 1)
@@ -520,7 +516,7 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
+                Size: =15
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -573,7 +569,7 @@
                 Y: =DataCardKey6.Y
                 ZIndex: =4
 
-        "'Select meet type:_DataCard2' As typedDataCard.comboBoxOptionSetSingleEditCard":
+        "'Select meet type:_DataCard1' As typedDataCard.comboBoxOptionSetSingleEditCard":
             BorderColor: =RGBA(109, 109, 109, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr431_selectmeettype"
@@ -584,13 +580,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue7.Selected.Value
+            Update: =DataCardValue1.Selected.Value
             Width: =640
             X: =0
-            Y: =5
+            Y: =4
             ZIndex: =1
 
-            DataCardKey8 As label:
+            DataCardKey1 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -599,11 +595,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -611,7 +606,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7 As combobox:
+            DataCardValue1 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(31, 31, 31, 1)
                 ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -628,12 +623,13 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(31, 31, 31, 1)
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(79, 79, 79, 1)
                 IsSearchable: =false
-                Items: =Choices('Met/ Call With')
+                Items: |-
+                    =Choices('Select meet type: (Events)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 PressedColor: =RGBA(31, 31, 31, 1)
@@ -643,14 +639,14 @@
                 SelectionColor: =RGBA(31, 31, 31, 1)
                 SelectionFill: =RGBA(255, 200, 61, 1)
                 SelectMultiple: =false
-                Size: =21
+                Size: =15
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage7 As label:
+            ErrorMessage1 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -672,10 +668,10 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue7.Y + DataCardValue7.Height
+                Y: =DataCardValue1.Y + DataCardValue1.Height
                 ZIndex: =3
 
-            StarVisible7 As label:
+            StarVisible1 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -686,14 +682,14 @@
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey8.Height
+                Height: =DataCardKey1.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey8.Y
+                Y: =DataCardKey1.Y
                 ZIndex: =4
 
         "'Expected Participation:_DataCard1' As typedDataCard.textualEditCard":
@@ -711,7 +707,7 @@
             Update: =DataCardValue8.Text
             Width: =640
             X: =0
-            Y: =6
+            Y: =5
             ZIndex: =1
 
             DataCardKey9 As label:
@@ -723,11 +719,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -748,7 +743,7 @@
                 Fill: =RGBA(31, 31, 31, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(31, 31, 31, 1)
@@ -761,7 +756,7 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
+                Size: =15
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -828,7 +823,7 @@
             Update: =DataCardValue9.Selected.Value
             Width: =640
             X: =0
-            Y: =7
+            Y: =6
             ZIndex: =1
 
             DataCardKey10 As label:
@@ -840,11 +835,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -869,7 +863,7 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(31, 31, 31, 1)
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(79, 79, 79, 1)
@@ -885,7 +879,7 @@
                 SelectionColor: =RGBA(31, 31, 31, 1)
                 SelectionFill: =RGBA(255, 200, 61, 1)
                 SelectMultiple: =false
-                Size: =21
+                Size: =15
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -952,7 +946,7 @@
             Update: =DataCardValue10.Selected.Value
             Width: =640
             X: =0
-            Y: =8
+            Y: =7
             ZIndex: =1
 
             DataCardKey11 As label:
@@ -964,11 +958,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -993,7 +986,7 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(31, 31, 31, 1)
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(79, 79, 79, 1)
@@ -1009,7 +1002,7 @@
                 SelectionColor: =RGBA(31, 31, 31, 1)
                 SelectionFill: =RGBA(255, 200, 61, 1)
                 SelectMultiple: =false
-                Size: =21
+                Size: =15
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -1076,7 +1069,7 @@
             Update: =DataCardValue11.Attachments
             Width: =640
             X: =0
-            Y: =9
+            Y: =8
             ZIndex: =1
 
             DataCardKey12 As label:
@@ -1088,11 +1081,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -1133,7 +1125,7 @@
                 PaddingTop: =5
                 PressedColor: =RGBA(31, 31, 31, 1)
                 PressedFill: =RGBA(255, 200, 61, 1)
-                Size: =21
+                Size: =15
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -1190,7 +1182,7 @@
             BorderColor: =RGBA(109, 109, 109, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="new_Area"
-            Default: =ThisItem.Area
+            Default: =ThisItem.'Area (new_Area)'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Events],DataSourceInfo.DisplayName,"new_Area")
             Fill: =RGBA(0, 0, 0, 0)
@@ -1199,7 +1191,7 @@
             Update: =DataCardValue12.Selected
             Width: =640
             X: =0
-            Y: =2
+            Y: =9
             ZIndex: =1
 
             DataCardKey13 As label:
@@ -1211,11 +1203,10 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 PaddingLeft: =0
-                Size: =21
+                Size: =18
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -1240,17 +1231,17 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(31, 31, 31, 1)
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =50
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(79, 79, 79, 1)
-                Items: =Choices([@Events].new_Area)
+                Items: =Choices([@Events].'Area (new_Area)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 PressedColor: =RGBA(31, 31, 31, 1)
                 PressedFill: =RGBA(255, 200, 61, 1)
                 SearchFields: =["cr431_name"]
-                SearchItems: =Search(Choices([@Events].new_Area),DataCardValue12.SearchText,"cr431_name")
+                SearchItems: =Search(Choices([@Events].'Area (new_Area)'),DataCardValue12.SearchText,"cr431_name")
                 SelectionColor: =RGBA(31, 31, 31, 1)
                 SelectionFill: =RGBA(255, 200, 61, 1)
                 SelectMultiple: =false
@@ -1306,4 +1297,22 @@
                 Wrap: =false
                 Y: =DataCardKey13.Y
                 ZIndex: =4
+
+    Label18 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =24
+        Text: ="New Event"
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =2
 
