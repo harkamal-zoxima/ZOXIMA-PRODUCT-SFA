@@ -1,5 +1,5 @@
 "'Start Screen' As screen":
-    Fill: =RGBA(103, 204, 107, 1)
+    Fill: =RGBA(65, 76, 96, 1)
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
     Label2_38 As label:
@@ -104,6 +104,7 @@
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(255, 255, 255, 1)
         FocusedBorderThickness: =4
         Height: =179
         HoverBorderColor: =RGBA(0, 0, 0, 0)
@@ -111,6 +112,10 @@
         Image: ='ZOXIMALOGO-removebg-preview'
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
         Width: =205
         X: =218
         Y: =95
