@@ -98,7 +98,7 @@
     },
     {
       "Kind": "default.cds_cr431_sales_order_forms",
-      "Namespace": "SalesOrders (Forms)",
+      "Namespace": "Sales Orders (Forms)",
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
@@ -123,23 +123,9 @@
     },
     {
       "Kind": "default.cds_cr431_sales_order_forms",
-      "Namespace": "Sales Orders (Forms)",
+      "Namespace": "SalesOrders (Forms)",
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_event_forms",
-      "Namespace": "Events (Forms)",
-      "Values": {
-        "Information": "cd6868f0-7f8f-49bd-bd4f-fd5244f99c43"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_area_forms",
-      "Namespace": "Areas (Forms)",
-      "Values": {
-        "Information": "a5c4fa1d-61f3-457a-a770-c4f568b15ef9"
       }
     }
   ]
