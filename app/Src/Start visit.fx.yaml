@@ -4,7 +4,7 @@
     OnVisible: =Set(varOpen, false)
 
     VisitsInfoTopTab_1 As VisitsInfoTopTab:
-        Y: =72
+        Y: =73
         ZIndex: =3
 
     "'Bottom Navigation_10' As 'Bottom Navigation'":

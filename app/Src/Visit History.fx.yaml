@@ -1,5 +1,5 @@
 "'Visit History' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    Fill: =
+    Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
@@ -47,7 +47,7 @@
                     Active: false
                 }
             )
-        Y: =79
+        Y: =73
         ZIndex: =22
 
     "'Header Component_16' As 'Header Component_11'":

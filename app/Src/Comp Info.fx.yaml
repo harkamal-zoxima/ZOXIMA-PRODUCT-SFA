@@ -1,12 +1,12 @@
 "'Comp Info' As screen":
-    Fill: =RGBA(65, 76, 96, 1)
+    Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: |-
         =Set(CompInfoCounter, 1);
         Set(varOpen, false);
 
     VisitsInfoTopTab_2 As VisitsInfoTopTab:
-        Y: =108
+        Y: =73
         ZIndex: =3
 
     "'Bottom Navigation_26' As 'Bottom Navigation'":
