@@ -1089,7 +1089,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637914123437744336",
+    "LastModifiedTimestamp": "637914110408067873",
     "Name": "Bottom Navigation",
     "Rules": [
       {
@@ -1164,7 +1164,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637914123437744336",
+  "LastModifiedTimestamp": "637914110408067873",
   "Name": "b84e901362bb426a9025d47db36cd790",
   "OverridableProperties": {},
   "TemplateOriginalName": "da04feebfbed4b46acd4ea1f4394af0f",
