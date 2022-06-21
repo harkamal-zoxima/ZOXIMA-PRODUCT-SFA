@@ -287,34 +287,34 @@
                     'Sales Order',
                     Defaults('Sales Order'),
                     {
-                        'Order Date': Today(),
-                        'Order Status': 'Order Status (Sales Order)'.Open,
-                        'Order Type': 'Order Type1'.'Secondary Order',
-                        'Before Tax Amount': Sum(
+                        cr431_orderdate: Today(),
+                        cr431_orderstatus: 'Order Status (Sales Order)'.'254460000',
+                        cr431_ordertype: 'Order Type1'.'254460001',
+                        cr431_beforetaxamount: Sum(
                             SecondaryCart,
                             price
                         ),
-                        'CGST Amount': Sum(
+                        cr431_cgstamount: Sum(
                             SecondaryCart,
                             price
                         ) * 0.09,
-                        'SGST Amount': Sum(
+                        cr431_sgstamount: Sum(
                             SecondaryCart,
                             price
                         ) * 0.09,
-                        'CGST %': 9,
-                        'SGST %': 9,
-                        'Bill Amoount': Sum(
+                        cr431_cgst: 9,
+                        cr431_sgst: 9,
+                        cr431_billamoount: Sum(
                             SecondaryCart,
                             price
                         ),
-                        'Order To': LookUp(
+                        cr431_OrderTo: LookUp(
                             Accounts,
-                            Account = First(SelectedDistributorForSecOrder).Account
+                            accountid = First(SelectedDistributorForSecOrder).accountid
                         ),
-                        'Order From': LookUp(
+                        cr431_OrderFrom: LookUp(
                             Accounts,
-                            Account = First(SelectedRetailerForSecOrder).Account
+                            accountid = First(SelectedRetailerForSecOrder).accountid
                         )
                     }
                 )
@@ -329,12 +329,12 @@
                             'Order Line',
                             Defaults('Order Line'),
                             {
-                                Quantity: Value(ThisRecord.qty),
+                                cr431_quantity: Value(ThisRecord.qty),
                                 Name: ThisRecord.name,
-                                'Bill Amoount': ThisRecord.price,
-                                'Order No': LookUp(
+                                cr431_billamoount: ThisRecord.price,
+                                cr431_OrderNo: LookUp(
                                     'Sales Order',
-                                    'Order ID' = First(CreateOrderRecord).'Order ID'
+                                    cr431_name = First(CreateOrderRecord).cr431_name
                                 )
                             }
                         )
