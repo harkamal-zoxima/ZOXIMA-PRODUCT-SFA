@@ -18244,19 +18244,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard1'.DateValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'New Events'.Form1.'Actual Expense:_DataCard1'.DataCardValue13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard1'.DateValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'New Events'.Form1.'Actual Expense:_DataCard1'.DataCardValue13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Events",
-                "type": "'New Events'.Form1.'Event Date_DataCard1'.DateValue1"
+                "type": "'New Events'.Form1.'Actual Expense:_DataCard1'.DataCardValue13"
               }
             }
           ],
@@ -18274,19 +18274,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard1'.HourValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard2'.MinuteValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard1'.HourValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard2'.MinuteValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Events",
-                "type": "'New Events'.Form1.'Event Date_DataCard1'.HourValue1"
+                "type": "'New Events'.Form1.'Event Date_DataCard2'.MinuteValue2"
               }
             }
           ],
@@ -18304,19 +18304,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard1'.MinuteValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard2'.HourValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard1'.MinuteValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard2'.HourValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Events",
-                "type": "'New Events'.Form1.'Event Date_DataCard1'.MinuteValue1"
+                "type": "'New Events'.Form1.'Event Date_DataCard2'.HourValue2"
               }
             }
           ],
@@ -18334,19 +18334,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Events'.Form1.'Actual Expense:_DataCard1'.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard2'.DateValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Events'.Form1.'Actual Expense:_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Date_DataCard2'.DateValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Events",
-                "type": "'New Events'.Form1.'Actual Expense:_DataCard1'.DataCardValue4"
+                "type": "'New Events'.Form1.'Event Date_DataCard2'.DateValue2"
               }
             }
           ],
@@ -18364,19 +18364,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Name_DataCard1'.DataCardValue3.AccessibleLabel"
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Name_DataCard2'.DataCardValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Events'.Form1.'Event Name_DataCard1'.DataCardValue3.AccessibleLabel",
+                  "fullyQualifiedName": "'New Events'.Form1.'Event Name_DataCard2'.DataCardValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Events",
-                "type": "'New Events'.Form1.'Event Name_DataCard1'.DataCardValue3"
+                "type": "'New Events'.Form1.'Event Name_DataCard2'.DataCardValue6"
               }
             }
           ],
@@ -18394,49 +18394,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Events'.Form1.'Budget:_DataCard1'.DataCardValue5.AccessibleLabel"
+                  "fullyQualifiedName": "'New Events'.Form1.'Budget:_DataCard1'.DataCardValue14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Events'.Form1.'Budget:_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "fullyQualifiedName": "'New Events'.Form1.'Budget:_DataCard1'.DataCardValue14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Events",
-                "type": "'New Events'.Form1.'Budget:_DataCard1'.DataCardValue5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 13
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Events'.Form1.'Select meet type:_DataCard1'.DataCardValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Events'.Form1.'Select meet type:_DataCard1'.DataCardValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Events",
-                "type": "'New Events'.Form1.'Select meet type:_DataCard1'.DataCardValue1"
+                "type": "'New Events'.Form1.'Budget:_DataCard1'.DataCardValue14"
               }
             }
           ],
