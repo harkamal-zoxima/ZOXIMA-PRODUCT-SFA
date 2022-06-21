@@ -362,6 +362,64 @@ DistributorOnboarding As screen:
             Y: =396
             ZIndex: =20
 
+    Circle5 As circle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(238, 49, 55, 1)
+        Height: =86
+        OnSelect: =
+        Width: =82
+        X: =519
+        Y: =884
+        ZIndex: =3
+
+    Icon12_2 As icon.ArrowLeft:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =52
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(Menu)
+        X: =18
+        Y: =12
+        ZIndex: =6
+
+    TextInput4 As text:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Height: =56
+        HintText: ="Search.."
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PaddingLeft: =90
+        Size: =19
+        Width: =490
+        X: =78
+        Y: =122
+        ZIndex: =7
+
+    Icon16_1 As icon.Search:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(164, 164, 164, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =39
+        Icon: =Icon.Search
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Width: =48
+        X: =89
+        Y: =128
+        ZIndex: =8
+
     Group10_1 As group:
         Height: =5
         Width: =5
@@ -399,54 +457,6 @@ DistributorOnboarding As screen:
             Width: =560
             X: =30
             ZIndex: =5
-
-        Icon12_2 As icon.ArrowLeft:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =52
-            Icon: =Icon.ArrowLeft
-            OnSelect: =Navigate(Menu)
-            X: =18
-            Y: =12
-            ZIndex: =6
-
-        TextInput4 As text:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            Default: =""
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            FocusedBorderThickness: =4
-            Height: =56
-            HintText: ="Search.."
-            HoverBorderColor: =RGBA(89, 0, 0, 1)
-            HoverColor: =RGBA(0, 0, 0, 1)
-            HoverFill: =RGBA(255, 255, 255, 1)
-            PaddingLeft: =90
-            Size: =19
-            Width: =490
-            X: =78
-            Y: =122
-            ZIndex: =7
-
-        Icon16_1 As icon.Search:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(164, 164, 164, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =39
-            Icon: =Icon.Search
-            PaddingLeft: =5
-            PaddingRight: =5
-            PaddingTop: =5
-            Width: =48
-            X: =89
-            Y: =128
-            ZIndex: =8
 
     Gallery14 As gallery.galleryHorizontal:
         BorderColor: =RGBA(89, 0, 0, 1)
@@ -498,35 +508,25 @@ DistributorOnboarding As screen:
             Y: =55
             ZIndex: =2
 
+    Icon17_1 As icon.Add:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =55
+        Icon: =Icon.Add
+        OnSelect: |-
+            =Navigate(OnboardingKycForm, Fade, {datadis: {}});
+            Set(Create,true)
+        Width: =55
+        X: =535
+        Y: =899
+        ZIndex: =11
+
     Group11_3 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =12
-
-        Circle5 As circle:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Fill: =RGBA(238, 49, 55, 1)
-            Height: =86
-            OnSelect: =
-            Width: =82
-            X: =519
-            Y: =884
-            ZIndex: =3
-
-        Icon17_1 As icon.Add:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =55
-            Icon: =Icon.Add
-            OnSelect: |-
-                =Navigate(OnboardingKycForm, Fade, {datadis: {}});
-                Set(Create,true)
-            Width: =55
-            X: =535
-            Y: =899
-            ZIndex: =11
 
