@@ -1128,26 +1128,6 @@
                     Y: =221
                     ZIndex: =47
 
-                HtmlText1_25 As htmlViewer:
-                    DisplayMode: =DisplayMode.View
-                    Height: =61
-                    HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:120px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
-                    Width: =142
-                    X: =117
-                    Y: =302
-                    ZIndex: =48
-
-                HtmlText1_26 As htmlViewer:
-                    DisplayMode: =DisplayMode.View
-                    Height: =61
-                    HtmlText: |-
-                        ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:120px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
-                    Width: =142
-                    X: =369
-                    Y: =301
-                    ZIndex: =49
-
             "'My Details' As groupContainer.manualLayoutContainer":
                 Height: =1114
                 Visible: =If('Dashboard Toptab'.Selected.Title = "My Details", true, false)
