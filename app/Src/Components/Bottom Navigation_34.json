@@ -5,8 +5,8 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Bottom Navigation_33",
-    "TemplateGuid": "1c69720cf6d549749e092e0477b71ebe"
+    "Name": "Bottom Navigation_34",
+    "TemplateGuid": "306924c0c12f4015982ff6e66f12afc9"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -29,8 +29,8 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637914110408079914",
-  "Name": "1c69720cf6d549749e092e0477b71ebe",
+  "LastModifiedTimestamp": "637913826089506874",
+  "Name": "306924c0c12f4015982ff6e66f12afc9",
   "OverridableProperties": {},
   "TemplateOriginalName": "c5a3b419cd9e45d6b0e07816c75bfedb",
   "Version": "637708494958008520"
