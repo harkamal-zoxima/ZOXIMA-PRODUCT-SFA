@@ -98,7 +98,7 @@
     },
     {
       "Kind": "default.cds_cr431_sales_order_forms",
-      "Namespace": "Sales Orders (Forms)",
+      "Namespace": "SalesOrders (Forms)",
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
@@ -123,7 +123,7 @@
     },
     {
       "Kind": "default.cds_cr431_sales_order_forms",
-      "Namespace": "SalesOrders (Forms)",
+      "Namespace": "Sales Orders (Forms)",
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
