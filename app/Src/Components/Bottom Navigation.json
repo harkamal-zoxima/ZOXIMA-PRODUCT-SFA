@@ -34,7 +34,7 @@
             "Name": "galleryTemplate2_1",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1257,
+            "PublishOrderIndex": 1256,
             "Rules": [
               {
                 "Category": "Design",
@@ -127,11 +127,11 @@
             "Name": "Rectangle3",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1258,
+            "PublishOrderIndex": 1257,
             "Rules": [
               {
                 "Category": "Design",
-                "InvariantScript": "If(ThisItem.Active, RGBA(103, 204, 107, 0.26), Transparent)",
+                "InvariantScript": "If(ThisItem.Active, RGBA(0,0,0,0.6), Transparent)",
                 "Property": "Fill",
                 "RuleProviderType": "Unknown"
               },
@@ -312,7 +312,7 @@
             "Name": "Icon1_2",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1259,
+            "PublishOrderIndex": 1258,
             "Rules": [
               {
                 "Category": "Design",
@@ -322,7 +322,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "If(ThisItem.Active, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))",
+                "InvariantScript": "If(ThisItem.Active, White, RGBA(154, 154, 154, 1))",
                 "Property": "Color",
                 "RuleProviderType": "Unknown"
               },
@@ -575,7 +575,7 @@
             "Name": "Label2_30",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1260,
+            "PublishOrderIndex": 1259,
             "Rules": [
               {
                 "Category": "Data",
@@ -603,7 +603,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "If(ThisItem.Active, RGBA(103, 204, 107, 100), RGBA(154, 154, 154, 1))",
+                "InvariantScript": "If(ThisItem.Active, White, RGBA(154, 154, 154, 1))",
                 "Property": "Color",
                 "RuleProviderType": "Unknown"
               },
@@ -896,7 +896,7 @@
         "Name": "Gallery2_1",
         "Parent": "Bottom Navigation",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1256,
+        "PublishOrderIndex": 1255,
         "Rules": [
           {
             "Category": "Data",
@@ -1089,7 +1089,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637913847050899129",
+    "LastModifiedTimestamp": "637913891228857543",
     "Name": "Bottom Navigation",
     "Rules": [
       {
@@ -1164,7 +1164,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637913847050899129",
+  "LastModifiedTimestamp": "637913891228857543",
   "Name": "b84e901362bb426a9025d47db36cd790",
   "OverridableProperties": {},
   "TemplateOriginalName": "da04feebfbed4b46acd4ea1f4394af0f",

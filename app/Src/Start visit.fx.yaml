@@ -1,10 +1,10 @@
 "'Start visit' As screen":
-    Fill: =RGBA(65, 76, 96, 1)
+    Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
     VisitsInfoTopTab_1 As VisitsInfoTopTab:
-        Y: =79
+        Y: =72
         ZIndex: =3
 
     "'Bottom Navigation_10' As 'Bottom Navigation'":
@@ -284,7 +284,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             DisabledFill: =RGBA(244, 244, 244, 1)
-                            Fill: =RGBA(237, 237, 237, 1)
+                            Fill: =RGBA(255, 191, 0, 1)
                             FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
@@ -308,7 +308,7 @@
 
                         Icon22_1 As icon.Add:
                             BorderColor: =RGBA(109, 109, 109, 1)
-                            Color: =RGBA(9, 33, 98, 1)
+                            Color: =RGBA(31, 31, 31, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(220, 220, 220, 1)
                             DisabledFill: =RGBA(0, 0, 0, 0)
