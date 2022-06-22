@@ -466,7 +466,7 @@ Distributorkycform As screen:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
                     Default: |-
-                        =datadis.'Billing Post Code'
+                        =datadis.'Post Code'
                         //Filter('Sales Territory', Pare
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)

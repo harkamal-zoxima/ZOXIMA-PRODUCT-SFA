@@ -5091,46 +5091,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 20,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".'Billing Post Code'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Billing Post Code"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
                 }
               ],
@@ -8263,86 +8223,6 @@
           "message": {
             "arguments": [
               "Menu"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DistributorOnboarding.Gallery2_5.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DistributorOnboarding.Gallery2_5.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 575,
-                  "snippet": {
-                    "text": "'Name of the firm'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "DistributorOnboarding",
-                "type": "DistributorOnboarding.Gallery2_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name of the firm"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DistributorOnboarding.Gallery2_5.Label45.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DistributorOnboarding.Gallery2_5.Label45.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Name of the Firm'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "DistributorOnboarding",
-                "type": "DistributorOnboarding.Gallery2_5.Label45"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name of the Firm"
             ],
             "id": "issue"
           },
