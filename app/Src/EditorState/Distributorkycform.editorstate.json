@@ -809,7 +809,14 @@
         "FocusedBorderColor",
         "PressedBorderColor",
         "HoverBorderColor",
-        "Color",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledColor",
         "Fill",
         "DisabledFill",

@@ -369,7 +369,7 @@ Distributorkycform As screen:
 
                 Label52_50 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(238, 49, 55, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =56
@@ -607,10 +607,8 @@ Distributorkycform As screen:
 
                 Checkbox2_1 As checkbox:
                     BorderColor: =RGBA(89, 0, 0, 1)
-                    CheckboxBorderColor: =RGBA(238, 49, 55, 1)
                     CheckboxSize: =40
-                    CheckmarkFill: =RGBA(238, 49, 55, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Height: =74
                     HoverColor: =RGBA(89, 0, 0, 1)
                     OnCheck: |-
@@ -639,7 +637,7 @@ Distributorkycform As screen:
 
                 Label52_60 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(238, 49, 55, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =56
@@ -1245,7 +1243,7 @@ Distributorkycform As screen:
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMode: =LayoutMode.Auto
                     Width: =572
-                    Y: =598
+                    Y: =452
                     ZIndex: =112
 
                     Container13 As groupContainer.manualLayoutContainer:
