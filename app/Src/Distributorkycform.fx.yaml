@@ -677,7 +677,7 @@ Distributorkycform As screen:
                 TextInput3_66 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =If(Checkbox2_1.Value, datadis.'Billing Address 2' )
+                    Default: =If(Checkbox2_1.Value, datadis.'Address 2' )
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -807,7 +807,7 @@ Distributorkycform As screen:
                 TextInput3_4 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =If(Checkbox2_1.Value, datadis.'Billing Address 1' )
+                    Default: =If(Checkbox2_1.Value, datadis.'Address 1' )
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
