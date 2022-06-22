@@ -5,7 +5,7 @@ Distributorkycform As screen:
     Button21 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(237, 27, 36, 1)
+        DisabledFill: =RGBA(88, 103, 130, 1)
         DisplayMode: =DisplayMode.Disabled
         Fill: =RGBA(164, 38, 44, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
@@ -37,9 +37,9 @@ Distributorkycform As screen:
 
     Canvas7 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =888
+        Height: =858
         Width: =Parent.Width
-        Y: =209
+        Y: =239
         ZIndex: =3
 
         DataCard5 As dataCard:
@@ -1216,7 +1216,7 @@ Distributorkycform As screen:
                     Text: ="Remarks"
                     Width: =515
                     X: =18
-                    Y: =431
+                    Y: =327
                     ZIndex: =5
 
                 TextInput3_33 As text:
@@ -1237,42 +1237,11 @@ Distributorkycform As screen:
                     Size: =18
                     Width: =515
                     X: =18
-                    Y: =506
+                    Y: =402
                     ZIndex: =6
 
-                Label52_22 As label:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(255, 255, 255, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FontWeight: =FontWeight.Semibold
-                    Height: =50
-                    Size: =19
-                    Text: ="Dealing with PVC"
-                    Width: =515
-                    X: =18
-                    Y: =317
-                    ZIndex: =8
-
-                Radio1_4 As radio:
-                    Color: =RGBA(164, 164, 164, 1)
-                    Default: =datadis.'Dealing with PVC'
-                    Height: =65
-                    HoverColor: =RGBA(0, 18, 107, 1)
-                    Items: =['Dealing with PVC (Distributor Onboarding)'.Yes, 'Dealing with PVC (Distributor Onboarding)'.No]
-                    Layout: =Layout.Horizontal
-                    OnSelect: =Set(ClearFieldsForDO, false)
-                    RadioBorderColor: =RGBA(238, 49, 55, 1)
-                    RadioSelectionFill: =RGBA(238, 49, 55, 1)
-                    RadioSize: =40
-                    Reset: =ClearFieldsForDO
-                    Size: =18
-                    Width: =515
-                    X: =18
-                    Y: =379
-                    ZIndex: =9
-
                 Container6_2 As groupContainer.verticalAutoLayoutContainer:
-                    Height: =(165+(If(CountRows(totalsalerenders)>0, 115*CountRows(totalsalerenders))))  + (68+(If(CountRows(DetailsCustomer)>0, 270*CountRows(DetailsCustomer)))) + (450 + If(CountRows(SalesFirm)>0,430+(372*(CountRows(SalesFirm))),0))
+                    Height: =(165+(If(CountRows(totalsalerenders)>0, 115*CountRows(totalsalerenders))))  
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMode: =LayoutMode.Auto
                     Width: =572
@@ -1305,7 +1274,7 @@ Distributorkycform As screen:
 
                                 Label47_5 As label:
                                     BorderColor: =RGBA(89, 0, 0, 1)
-                                    Color: =RGBA(242, 75, 75, 1)
+                                    Color: =RGBA(255, 255, 255, 1)
                                     DisabledColor: =RGBA(166, 166, 166, 1)
                                     FontWeight: =FontWeight.Semibold
                                     Height: =50
@@ -1317,7 +1286,7 @@ Distributorkycform As screen:
 
                                 Circle2_15 As circle:
                                     BorderColor: =RGBA(0, 18, 107, 1)
-                                    Fill: =RGBA(237, 57, 57, 1)
+                                    Fill: =RGBA(255, 216, 119, 1)
                                     Height: =50
                                     OnSelect: =
                                     Width: =50
@@ -1327,7 +1296,6 @@ Distributorkycform As screen:
 
                                 Icon13_14 As icon.Add:
                                     BorderColor: =RGBA(0, 18, 107, 1)
-                                    Color: =RGBA(255, 255, 255, 1)
                                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                                     DisabledColor: =RGBA(244, 244, 244, 1)
                                     Height: =31
@@ -1335,8 +1303,8 @@ Distributorkycform As screen:
                                     OnSelect: |-
                                         =UpdateContext({Addvar: Addvar+1});
                                         Collect(totalsalerenders, {})
-                                    Width: =26
-                                    X: =506
+                                    Width: =31
+                                    X: =504
                                     Y: =20
                                     ZIndex: =3
 
@@ -1352,7 +1320,7 @@ Distributorkycform As screen:
                                     BorderColor: =RGBA(89, 0, 0, 1)
                                     Color: =RGBA(255, 255, 255, 1)
                                     DisabledColor: =RGBA(166, 166, 166, 1)
-                                    Fill: =RGBA(237, 57, 57, 1)
+                                    Fill: =RGBA(88, 103, 130, 1)
                                     Height: =72
                                     Size: =17
                                     Text: ="Category"
@@ -1363,7 +1331,7 @@ Distributorkycform As screen:
 
                                 Rectangle21_1 As rectangle:
                                     BorderColor: =RGBA(89, 0, 0, 1)
-                                    Fill: =RGBA(237, 57, 57, 1)
+                                    Fill: =RGBA(88, 103, 130, 1)
                                     Height: =72
                                     Width: =342
                                     X: =202
@@ -1436,7 +1404,7 @@ Distributorkycform As screen:
 
                             Icon22_27 As icon.Trash:
                                 BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(230, 76, 76, 1)
+                                Color: =RGBA(255, 255, 255, 1)
                                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                                 DisabledColor: =RGBA(244, 244, 244, 1)
                                 Height: =30
@@ -1552,460 +1520,6 @@ Distributorkycform As screen:
                                     Y: =48
                                     ZIndex: =5
 
-                    Container10 As groupContainer.manualLayoutContainer:
-                        FillPortions: =0
-                        Height: =68+(If(CountRows(DetailsCustomer)>0, 270*CountRows(DetailsCustomer))) 
-                        LayoutMinHeight: =1000
-                        LayoutMinWidth: =250
-                        Width: =555
-                        X: =12
-                        Y: =1245
-                        ZIndex: =2
-
-                        Gallery19 As gallery.variableTemplateHeightGallery:
-                            BorderColor: =RGBA(89, 0, 0, 1)
-                            Height: =If(CountRows(DetailsCustomer)>0,330+(270*(CountRows(DetailsCustomer))),0)
-                            Items: =DetailsCustomer
-                            Layout: =Layout.Vertical
-                            ShowScrollbar: =false
-                            TemplateSize: =280
-                            Width: =572
-                            Y: =60
-                            ZIndex: =19
-
-                            Label51_2 As label:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(0, 0, 0, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                Height: =62
-                                Size: =18
-                                Text: ="Category Sold(Rs. In Lakhs)"
-                                Width: =365
-                                X: =82
-                                Y: =136
-                                ZIndex: =4
-
-                            Group15_2 As group:
-                                Height: =5
-                                Width: =5
-                                X: =7
-                                Y: =26
-                                ZIndex: =5
-
-                                Rectangle23_2 As rectangle:
-                                    BorderColor: =RGBA(89, 0, 0, 1)
-                                    Fill: =RGBA(237, 57, 57, 1)
-                                    Width: =555
-                                    X: =7
-                                    Y: =36
-                                    ZIndex: =1
-
-                                Label50_2 As label:
-                                    BorderColor: =RGBA(89, 0, 0, 1)
-                                    Color: =RGBA(255, 255, 255, 1)
-                                    DisabledColor: =RGBA(166, 166, 166, 1)
-                                    Height: =48
-                                    Size: =18
-                                    Text: =" Name of customer"
-                                    Width: =229
-                                    X: =13
-                                    Y: =62
-                                    ZIndex: =2
-
-                                TextInput9_4 As text:
-                                    BorderColor: =RGBA(89, 0, 0, 1)
-                                    BorderThickness: =0
-                                    Color: =RGBA(164, 164, 164, 1)
-                                    Default: =""
-                                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                    DisabledColor: =RGBA(166, 166, 166, 1)
-                                    DisabledFill: =RGBA(244, 244, 244, 1)
-                                    FocusedBorderThickness: =4
-                                    Height: =56
-                                    HoverBorderColor: =RGBA(89, 0, 0, 1)
-                                    HoverColor: =RGBA(0, 0, 0, 1)
-                                    HoverFill: =RGBA(222, 179, 184, 1)
-                                    Size: =17
-                                    Width: =297
-                                    X: =252
-                                    Y: =62
-                                    ZIndex: =3
-
-                            Icon22_19 As icon.Trash:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(230, 76, 76, 1)
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(244, 244, 244, 1)
-                                Height: =30
-                                Icon: =Icon.Trash
-                                OnSelect: |+
-                                    =UpdateContext({Addvar1: Addvar1-1});
-                                    Remove(DetailsCustomer, ThisItem)
-                                    
-                                Width: =40
-                                X: =431
-                                Y: =152
-                                ZIndex: =6
-
-                            Rectangle24_2 As rectangle:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Fill: =RGBA(204, 240, 235, 1)
-                                Height: =82
-                                Width: =549
-                                X: =13
-                                Y: =188
-                                ZIndex: =7
-
-                            ComboBox4_16 As combobox:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                ChevronBackground: =RGBA(164, 164, 164, 1)
-                                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                                ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-                                ChevronHoverFill: =RGBA(255, 255, 255, 1)
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
-                                DisplayFields: =["zx_categorycode"]
-                                Height: =51
-                                HoverColor: =RGBA(0, 0, 0, 1)
-                                HoverFill: =RGBA(222, 179, 184, 1)
-                                IsSearchable: =false
-                                Items: |-
-                                    =//["Agri Fittings", "Agri Pipes", "Borewell Systems", "Compact Ball Vavles", "Cablefit Ball Vavles", "Burafit Manhole Covers"]
-                                    
-                                    'Item Subcategory'.'Category Code'
-                                PressedColor: =RGBA(255, 255, 255, 1)
-                                PressedFill: =RGBA(89, 0, 0, 1)
-                                SearchFields: =["zx_categorycode"]
-                                SearchItems: =[]
-                                SelectionFill: =RGBA(164, 38, 44, 1)
-                                Size: =16
-                                Width: =181
-                                X: =37
-                                Y: =203
-                                ZIndex: =8
-
-                            TextInput9_5 As text:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                BorderThickness: =0
-                                Color: =RGBA(164, 164, 164, 1)
-                                Default: =""
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
-                                FocusedBorderThickness: =4
-                                Height: =56
-                                HoverBorderColor: =RGBA(89, 0, 0, 1)
-                                HoverColor: =RGBA(0, 0, 0, 1)
-                                HoverFill: =RGBA(222, 179, 184, 1)
-                                Size: =17
-                                Width: =297
-                                X: =242
-                                Y: =198
-                                ZIndex: =9
-
-                        Group16_2 As group:
-                            Height: =5
-                            Width: =5
-                            X: =17
-                            Y: =30
-                            ZIndex: =19
-
-                            Label47_9 As label:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(242, 75, 75, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                FontWeight: =FontWeight.Semibold
-                                Height: =50
-                                Size: =18
-                                Text: ="Details of the best customer of the firm"
-                                Width: =555
-                                X: =7
-                                Y: =10
-                                ZIndex: =16
-
-                            Circle2_17 As circle:
-                                BorderColor: =RGBA(0, 18, 107, 1)
-                                Fill: =RGBA(237, 57, 57, 1)
-                                Height: =50
-                                Width: =50
-                                X: =501
-                                Y: =10
-                                ZIndex: =17
-
-                            Icon13_16 As icon.Add:
-                                BorderColor: =RGBA(0, 18, 107, 1)
-                                Color: =RGBA(255, 255, 255, 1)
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(244, 244, 244, 1)
-                                Height: =31
-                                Icon: =Icon.Add
-                                OnSelect: |-
-                                    =UpdateContext({Addvar1: Addvar1+1});
-                                    Collect(DetailsCustomer, {});
-                                Width: =26
-                                X: =513
-                                Y: =20
-                                ZIndex: =18
-
-                    Container11 As groupContainer.manualLayoutContainer:
-                        Height: |
-                            =450 + If(CountRows(SalesFirm)>0,430+(372*(CountRows(SalesFirm))),0)
-                        LayoutMinHeight: =112
-                        LayoutMinWidth: =250
-                        Width: =556
-                        X: =11
-                        Y: =2248
-                        ZIndex: =3
-
-                        Group18_1 As group:
-                            Height: =5
-                            Width: =5
-                            X: =-11
-                            Y: =-2338
-                            ZIndex: =14
-
-                            Label47_8 As label:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(242, 75, 75, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                FontWeight: =FontWeight.Semibold
-                                Height: =50
-                                Size: =18
-                                Text: ="Sales assured by firm to proposed/MOU"
-                                Width: =556
-                                Y: =20
-                                ZIndex: =11
-
-                            Circle2_16 As circle:
-                                BorderColor: =RGBA(0, 18, 107, 1)
-                                Fill: =RGBA(237, 57, 57, 1)
-                                Height: =50
-                                Width: =50
-                                X: =495
-                                Y: =20
-                                ZIndex: =12
-
-                            Icon13_15 As icon.Add:
-                                BorderColor: =RGBA(0, 18, 107, 1)
-                                Color: =RGBA(255, 255, 255, 1)
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(244, 244, 244, 1)
-                                Height: =31
-                                Icon: =Icon.Add
-                                OnSelect: |-
-                                    =UpdateContext({Addvar2: Addvar2+1});
-                                    Collect(SalesFirm, {});
-                                Width: =26
-                                X: =507
-                                Y: =30
-                                ZIndex: =13
-
-                        Gallery20 As gallery.variableTemplateHeightGallery:
-                            BorderColor: =RGBA(89, 0, 0, 1)
-                            Height: =If(CountRows(SalesFirm)>0,430+(372*(CountRows(SalesFirm))),0)
-                            Items: =SalesFirm
-                            Layout: =Layout.Vertical
-                            OnSelect: |
-                                =UpdateContext(Addvar2: Addvar2-1);
-                            ShowScrollbar: =false
-                            TemplateSize: =380
-                            Width: =572
-                            Y: =71
-                            ZIndex: =16
-
-                            Label50_11 As label:
-                                Align: =Align.Center
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(255, 255, 255, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                Height: =91
-                                Size: =18
-                                Text: ="Town"
-                                Width: =191
-                                X: =12
-                                Y: =91
-                                ZIndex: =3
-
-                            ComboBox3_30 As combobox:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(164, 164, 164, 1)
-                                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                                ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-                                ChevronHoverFill: =RGBA(255, 255, 255, 1)
-                                Color: =RGBA(164, 164, 164, 1)
-                                Default: =datadis.District
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
-                                DisplayFields: =["Value"]
-                                Height: =50
-                                HoverColor: =RGBA(0, 0, 0, 1)
-                                HoverFill: =RGBA(222, 179, 184, 1)
-                                IsSearchable: =false
-                                Items: =["Punjab"]
-                                PressedColor: =RGBA(255, 255, 255, 1)
-                                PressedFill: =RGBA(89, 0, 0, 1)
-                                SearchFields: =["Value"]
-                                SearchItems: =[]
-                                SelectionFill: =RGBA(164, 38, 44, 1)
-                                Size: =18
-                                Width: =250
-                                X: =244
-                                Y: =20
-                                ZIndex: =4
-
-                            Group15_10 As group:
-                                Height: =5
-                                Width: =5
-                                X: =-10
-                                Y: =-40
-                                ZIndex: =5
-
-                                Rectangle23_4 As rectangle:
-                                    BorderColor: =RGBA(89, 0, 0, 1)
-                                    Fill: =RGBA(237, 57, 57, 1)
-                                    Height: =192
-                                    Visible: |-
-                                        =//If(Addvar2 >=1, true)
-                                        true
-                                    Width: =550
-                                    ZIndex: =1
-
-                                Label50_10 As label:
-                                    Align: =Align.Center
-                                    BorderColor: =RGBA(89, 0, 0, 1)
-                                    Color: =RGBA(255, 255, 255, 1)
-                                    DisabledColor: =RGBA(166, 166, 166, 1)
-                                    Height: =91
-                                    Size: =18
-                                    Text: ="District"
-                                    Visible: |-
-                                        =//If(Addvar2 >=1, true)
-                                        true
-                                    Width: =207
-                                    X: =12
-                                    ZIndex: =2
-
-                            ComboBox3_31 As combobox:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(164, 164, 164, 1)
-                                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                                ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-                                ChevronHoverFill: =RGBA(255, 255, 255, 1)
-                                Color: =RGBA(164, 164, 164, 1)
-                                Default: =datadis.District
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
-                                DisplayFields: =["Value"]
-                                Height: =50
-                                HoverColor: =RGBA(0, 0, 0, 1)
-                                HoverFill: =RGBA(222, 179, 184, 1)
-                                IsSearchable: =false
-                                Items: =["Patiala"]
-                                PressedColor: =RGBA(255, 255, 255, 1)
-                                PressedFill: =RGBA(89, 0, 0, 1)
-                                SearchFields: =["Value"]
-                                SearchItems: =[]
-                                SelectionFill: =RGBA(164, 38, 44, 1)
-                                Size: =18
-                                Width: =250
-                                X: =244
-                                Y: =111
-                                ZIndex: =6
-
-                            Label51_4 As label:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(0, 0, 0, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                FontWeight: =FontWeight.Semibold
-                                Size: =18
-                                Text: ="Estimated business in 1st year(Rs. In lakhs)"
-                                Width: =516
-                                X: =13
-                                Y: =204
-                                ZIndex: =7
-
-                            Rectangle24_4 As rectangle:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Fill: =RGBA(204, 240, 235, 1)
-                                Height: =104
-                                Width: =549
-                                X: =13
-                                Y: =268
-                                ZIndex: =9
-
-                            ComboBox4_18 As combobox:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                ChevronBackground: =RGBA(164, 164, 164, 1)
-                                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                                ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-                                ChevronHoverFill: =RGBA(255, 255, 255, 1)
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
-                                DisplayFields: =["zx_categorycode"]
-                                Height: =51
-                                HoverColor: =RGBA(0, 0, 0, 1)
-                                HoverFill: =RGBA(222, 179, 184, 1)
-                                IsSearchable: =false
-                                Items: |-
-                                    =//["Agri Fittings", "Agri Pipes", "Borewell Systems", "Compact Ball Vavles", "Cablefit Ball Vavles", "Burafit Manhole Covers"]
-                                    
-                                    'Item Subcategory'.'Category Code'
-                                PressedColor: =RGBA(255, 255, 255, 1)
-                                PressedFill: =RGBA(89, 0, 0, 1)
-                                SearchFields: =["zx_categorycode"]
-                                SearchItems: =[]
-                                SelectionFill: =RGBA(164, 38, 44, 1)
-                                Size: =16
-                                Width: =181
-                                X: =43
-                                Y: =299
-                                ZIndex: =10
-
-                            TextInput9_8 As text:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                BorderThickness: =0
-                                Color: =RGBA(164, 164, 164, 1)
-                                Default: =""
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
-                                FocusedBorderThickness: =4
-                                Height: =56
-                                HoverBorderColor: =RGBA(89, 0, 0, 1)
-                                HoverColor: =RGBA(0, 0, 0, 1)
-                                HoverFill: =RGBA(222, 179, 184, 1)
-                                Size: =17
-                                Width: =297
-                                X: =248
-                                Y: =294
-                                ZIndex: =11
-
-                            Icon22_20 As icon.Trash:
-                                BorderColor: =RGBA(89, 0, 0, 1)
-                                Color: =RGBA(230, 76, 76, 1)
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledColor: =RGBA(244, 244, 244, 1)
-                                Height: =30
-                                Icon: =Icon.Trash
-                                OnSelect: |+
-                                    =UpdateContext({Addvar2: Addvar2-1});
-                                    Remove(SalesFirm, ThisItem)
-                                    
-                                Width: =40
-                                X: =505
-                                Y: =209
-                                ZIndex: =12
-
             "'Tax/GSTContainer' As groupContainer.manualLayoutContainer":
                 Height: =807
                 Visible: =If(Gallery15.Selected.Title = "Tax/GST", true, false)
@@ -2016,7 +1530,7 @@ Distributorkycform As screen:
 
                 Label52_23 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2050,7 +1564,7 @@ Distributorkycform As screen:
 
                 Label52_24 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2084,7 +1598,7 @@ Distributorkycform As screen:
 
                 Label52_30 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2118,7 +1632,7 @@ Distributorkycform As screen:
 
                 Label52_31 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2132,9 +1646,10 @@ Distributorkycform As screen:
                 Dropdown2 As dropdown:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     BorderThickness: =1
-                    ChevronBackground: =RGBA(238, 49, 55, 1)
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
                     ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
                     ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                    ChevronFill: =RGBA(88, 103, 130, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(56, 96, 178, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'GST Reg Type'
@@ -2166,7 +1681,7 @@ Distributorkycform As screen:
 
                 Label52_25 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2200,7 +1715,7 @@ Distributorkycform As screen:
 
                 Label52_27 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2234,7 +1749,7 @@ Distributorkycform As screen:
 
                 Label52_28 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2268,7 +1783,7 @@ Distributorkycform As screen:
 
                 Label52_29 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2302,7 +1817,7 @@ Distributorkycform As screen:
 
                 Label52_34 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2369,7 +1884,7 @@ Distributorkycform As screen:
 
                 Label52_39 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2403,7 +1918,7 @@ Distributorkycform As screen:
 
                 Label52_40 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2437,7 +1952,7 @@ Distributorkycform As screen:
 
                 Label52_45 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2472,7 +1987,7 @@ Distributorkycform As screen:
 
                 Label52_46 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =56
@@ -2485,9 +2000,10 @@ Distributorkycform As screen:
                 ComboBox2 As combobox:
                     BorderColor: =RGBA(89, 0, 0, 1)
                     BorderThickness: =1
-                    ChevronBackground: =RGBA(238, 49, 55, 1)
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
                     ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
                     ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                    ChevronFill: =RGBA(88, 103, 130, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
                     Default: =datadis
@@ -2517,7 +2033,7 @@ Distributorkycform As screen:
 
                 Label52_47 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -2610,7 +2126,7 @@ Distributorkycform As screen:
 
         Rectangle20 As rectangle:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Fill: =RGBA(237, 27, 36, 1)
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =4
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
