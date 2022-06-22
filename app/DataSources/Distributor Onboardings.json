@@ -48,7 +48,7 @@
       "cr431_postcode": "Post Code",
       "cr431_recordid": " Record Id",
       "cr431_remarks": "Remarks",
-      "cr431_statusdo": "Status (cr431_statusdo)",
+      "cr431_statusmain": "statusmain",
       "cr431_telephoneno": "Telephone No.",
       "cr431_yearofestablishment": "Year of Establishment",
       "createdby": "Created By",
@@ -62,7 +62,7 @@
       "owningbusinessunit": "Owning Business Unit",
       "owningteam": "Owning Team",
       "owninguser": "Owning User",
-      "statecode": "Status (statecode)",
+      "statecode": "Status",
       "statuscode": "Status Reason",
       "timezoneruleversionnumber": "Time Zone Rule Version Number",
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
@@ -195,28 +195,29 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status (Distributor Onboardings)",
-    "Name": "cr431_distributoronboarding_cr431_statusdo",
+    "DisplayName": "statusmain (Distributor Onboardings)",
+    "Name": "cr431_distributoronboarding_cr431_statusmain",
     "OptionSetInfoNameMapping": {
       "254460000": "Draft",
       "254460001": "Pending",
-      "254460002": "Approved"
+      "254460002": "Approved",
+      "254460003": "Rejected"
     },
     "OptionSetIsBooleanValued": false,
     "OptionSetIsGlobal": false,
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_statusdo",
+        "OptionSetReferenceColumnName": "cr431_statusmain",
         "OptionSetReferenceEntityName": "Distributor Onboardings"
       }
     },
     "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "cr431_statusdo",
+    "RelatedColumnInvariantName": "cr431_statusmain",
     "RelatedEntityName": "Distributor Onboardings",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status (Distributor Onboardings)_1",
+    "DisplayName": "Status (Distributor Onboardings)",
     "Name": "cr431_distributoronboarding_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
