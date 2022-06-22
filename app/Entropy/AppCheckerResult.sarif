@@ -7208,46 +7208,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 28,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".'Gross Turnover(Per Annum)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Gross Turnover(Per Annum)"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.ComboBox4_24.Items"
                 }
               ],
@@ -7274,46 +7234,6 @@
           "message": {
             "arguments": [
               "Item Subcategory"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".'Aadhar No.'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Aadhar No."
             ],
             "id": "issue"
           },

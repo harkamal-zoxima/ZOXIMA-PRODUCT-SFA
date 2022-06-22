@@ -1154,7 +1154,7 @@ Distributorkycform As screen:
 
                 Radio1_3 As radio:
                     Color: =RGBA(164, 164, 164, 1)
-                    Default: =datadis.'Gross Turnover(Per Annum)'
+                    Default: =datadis.'Gross Turnover (Per Annum)'
                     Height: =106
                     HoverColor: =RGBA(0, 18, 107, 1)
                     Items: =['Gross Turnover (Per Annum) (Distributor Onboardings)'.'<2 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'2-3 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'3-5 CR','Gross Turnover (Per Annum) (Distributor Onboardings)'.'5-8 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'>8 CR']
@@ -1576,7 +1576,7 @@ Distributorkycform As screen:
                 TextInput3_50 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =datadis.'Aadhar No.'
+                    Default: =datadis.'AADHAR No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
