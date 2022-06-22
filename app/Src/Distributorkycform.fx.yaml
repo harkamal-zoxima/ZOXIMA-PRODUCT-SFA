@@ -118,7 +118,7 @@ Distributorkycform As screen:
                     Default: =datadis.'Constitution of the firm'
                     Height: =121
                     HoverColor: =RGBA(89, 0, 0, 1)
-                    Items: =['Constitution of the firm (Distributor Onboarding)'.Private, 'Constitution of the firm (Distributor Onboarding)'.Partner, 'Constitution of the firm (Distributor Onboarding)'.Proprietor, 'Constitution of the firm (Distributor Onboarding)'.Public, 'Constitution of the firm (Distributor Onboarding)'.Others]
+                    Items: =['Constitution of the firm (Distributor Onboardings)'.Private, 'Constitution of the firm (Distributor Onboardings)'.Partner, 'Constitution of the firm (Distributor Onboardings)'.Proprietor, 'Constitution of the firm (Distributor Onboardings)'.Public, 'Constitution of the firm (Distributor Onboardings)'.Others]
                     Layout: =Layout.Horizontal
                     OnSelect: =Set(ClearFieldsForDO, false)
                     PaddingBottom: =ClearFieldsForDO
@@ -349,7 +349,7 @@ Distributorkycform As screen:
 
                 TextInput3_63 As text:
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =datadis.'Alternate Mobile No.'
+                    Default: =datadis.'Alt Mobile No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1761,7 +1761,7 @@ Distributorkycform As screen:
                 TextInput3_54 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =datadis.'Bank Name'
+                    Default: =datadis.'Bank Code'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1829,7 +1829,7 @@ Distributorkycform As screen:
                 TextInput3_56 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =datadis.'Branch code'
+                    Default: =datadis.'Bank Code'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1930,7 +1930,7 @@ Distributorkycform As screen:
                 TextInput3_59 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =datadis.'Credit term pipes'
+                    Default: =datadis.'Credit Term Pipes'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2015,7 +2015,7 @@ Distributorkycform As screen:
                     HoverFill: =RGBA(222, 179, 184, 1)
                     InputTextPlaceholder: ="Select Declaration Type"
                     IsSearchable: =false
-                    Items: =['Declaration (Distributor Onboarding)'.Yes, 'Declaration (Distributor Onboarding)'.No]
+                    Items: =['Declaration Type (Distributor Onboardings)'.Yes, 'Declaration Type (Distributor Onboardings)'.No]
                     OnSelect: =Set(ClearFieldsForDO, false)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =RGBA(89, 0, 0, 1)
